@@ -1,0 +1,85 @@
+[
+  {
+    "service": "industrial_control",
+    "n_scenarios": 30,
+    "valid": 30,
+    "invalid": 0,
+    "invalid_rate": 0.0,
+    "mean_inference_ms": 1208.2228799971442,
+    "profile_counts": {
+      "40/4": 1,
+      "20/8": 5,
+      "20/4": 8,
+      "10/4": 10,
+      "80/4": 3,
+      "10/8": 3
+    },
+    "valid_only_mean_scenario_p99_ms": 180.43429549098667,
+    "valid_only_mean_miss_rate": 0.48344310843910043,
+    "valid_only_mean_rx_duty": 0.3416666666666667,
+    "valid_only_scenario_violations": 24,
+    "invalid_or_constraint_violation": 24
+  },
+  {
+    "service": "all",
+    "n_scenarios": 90,
+    "valid": 90,
+    "invalid": 0,
+    "invalid_rate": 0.0,
+    "mean_inference_ms": 1192.4822566642736,
+    "profile_counts": {
+      "40/4": 2,
+      "20/8": 17,
+      "20/4": 25,
+      "10/4": 35,
+      "80/4": 6,
+      "10/8": 5
+    },
+    "valid_only_mean_scenario_p99_ms": 90.72691396455798,
+    "valid_only_mean_miss_rate": 0.2683918216914116,
+    "valid_only_mean_rx_duty": 0.33666666666666667,
+    "valid_only_scenario_violations": 48,
+    "invalid_or_constraint_violation": 48
+  },
+  {
+    "service": "xr",
+    "n_scenarios": 30,
+    "valid": 30,
+    "invalid": 0,
+    "invalid_rate": 0.0,
+    "mean_inference_ms": 1192.3955933268492,
+    "profile_counts": {
+      "10/4": 15,
+      "20/4": 5,
+      "10/8": 1,
+      "20/8": 7,
+      "80/4": 2
+    },
+    "valid_only_mean_scenario_p99_ms": 74.32130785050438,
+    "valid_only_mean_miss_rate": 0.26662587515365294,
+    "valid_only_mean_rx_duty": 0.3566666666666667,
+    "valid_only_scenario_violations": 19,
+    "invalid_or_constraint_violation": 19
+  },
+  {
+    "service": "gaming",
+    "n_scenarios": 30,
+    "valid": 30,
+    "invalid": 0,
+    "invalid_rate": 0.0,
+    "mean_inference_ms": 1176.8282966688275,
+    "profile_counts": {
+      "10/4": 10,
+      "20/8": 5,
+      "20/4": 12,
+      "40/4": 1,
+      "80/4": 1,
+      "10/8": 1
+    },
+    "valid_only_mean_scenario_p99_ms": 17.42513855218289,
+    "valid_only_mean_miss_rate": 0.05510648148148148,
+    "valid_only_mean_rx_duty": 0.31166666666666665,
+    "valid_only_scenario_violations": 5,
+    "invalid_or_constraint_violation": 5
+  }
+]

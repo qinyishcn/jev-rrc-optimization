@@ -1,0 +1,13 @@
+{
+  "state": "complete",
+  "seed": 26093013,
+  "n_scenarios": 90,
+  "adapter_sha256": "9b82de92e67d5fc20ede0c60d4844867b00b0533ca7071d30d93a3e962927c84",
+  "base_decisions_sha256": "d12f6059b09d5d3d732c71bfc7b96af391cabc0a60e311774b660fc577f41490",
+  "adapter_decisions_sha256": "ae64b6e1173253363eaa86d53b81e5c18cbabe820d8c0bd21f9eb94fe2b820fa",
+  "rows_sha256": "22c751dad63a8a67e028686cf92d5c6b57e80c5682f2b232b2f0f78a5061fd09",
+  "summary_sha256": "4076bba6e0e3b0cfd45cfa116018d2f3a8662b5fb25503fda2cdb96d0dbe82ca",
+  "comparisons_sha256": "9e8bddbe15b441008202da277d4865cb9f0becad1d3fb348ae176e0069aa321b",
+  "simulation_source_sha256": "97bab959be0e88614ea041d725ce962f918388e6ab7b6a90e105eb1d93c4c307",
+  "screen_source_sha256": "19c6160c8185fe79a6c6bdc95c2d35b4e3ccc7a5b755196efd6827ad90a46331"
+}

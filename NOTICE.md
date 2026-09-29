@@ -23,6 +23,11 @@ proprietary Jev model, and does not assert affiliation with or endorsement by
 TypeSafe AI, Mapika, Qwen or the upstream authors. Model probabilities are not
 assumed calibrated for the synthetic RRC task.
 
+The expanded comparison also evaluates the unmodified
+[Qwen/Qwen3.5-2B-Base](https://huggingface.co/Qwen/Qwen3.5-2B-Base/tree/b1485b2fa6dfa1287294f269f5fb618e03d52d7c)
+at revision `b1485b2fa6dfa1287294f269f5fb618e03d52d7c` under its stated
+Apache-2.0 license. Its weights are fetched locally and are not redistributed.
+
 ## RRC sources
 
 - Dataset: [EEzim/RRC](https://huggingface.co/datasets/EEzim/RRC/tree/e473ea8b9891f608afb7d9ad89c412e2dda27e18), by Ziming Liu,

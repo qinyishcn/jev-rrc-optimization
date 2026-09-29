@@ -1,0 +1,1167 @@
+{
+  "base_temperature": 1.164,
+  "temperature_grid": [
+    {
+      "temperature": 0.5,
+      "calibration_oracle_nll": 2.4814210970224826,
+      "calibration_raw": {
+        "n": 90,
+        "scenario_violations": 47,
+        "mean_miss_rate": 0.24258052960243986,
+        "mean_p99_ms": 27.168481797076325,
+        "mean_rx_duty": 0.43444444444444447
+      },
+      "test_raw": {
+        "n": 90,
+        "scenario_violations": 36,
+        "mean_miss_rate": 0.19198115743003297,
+        "mean_p99_ms": 14.363308620889253,
+        "mean_rx_duty": 0.46555555555555556
+      }
+    },
+    {
+      "temperature": 0.75,
+      "calibration_oracle_nll": 2.1784027843496134,
+      "calibration_raw": {
+        "n": 90,
+        "scenario_violations": 47,
+        "mean_miss_rate": 0.24258052960243986,
+        "mean_p99_ms": 27.168481797076325,
+        "mean_rx_duty": 0.43444444444444447
+      },
+      "test_raw": {
+        "n": 90,
+        "scenario_violations": 36,
+        "mean_miss_rate": 0.19198115743003297,
+        "mean_p99_ms": 14.363308620889253,
+        "mean_rx_duty": 0.46555555555555556
+      }
+    },
+    {
+      "temperature": 1.0,
+      "calibration_oracle_nll": 2.0797680292692853,
+      "calibration_raw": {
+        "n": 90,
+        "scenario_violations": 47,
+        "mean_miss_rate": 0.24258052960243986,
+        "mean_p99_ms": 27.168481797076325,
+        "mean_rx_duty": 0.43444444444444447
+      },
+      "test_raw": {
+        "n": 90,
+        "scenario_violations": 36,
+        "mean_miss_rate": 0.19198115743003297,
+        "mean_p99_ms": 14.363308620889253,
+        "mean_rx_duty": 0.46555555555555556
+      }
+    },
+    {
+      "temperature": 1.164,
+      "calibration_oracle_nll": 2.0532278863834845,
+      "calibration_raw": {
+        "n": 90,
+        "scenario_violations": 47,
+        "mean_miss_rate": 0.24258052960243986,
+        "mean_p99_ms": 27.168481797076325,
+        "mean_rx_duty": 0.43444444444444447
+      },
+      "test_raw": {
+        "n": 90,
+        "scenario_violations": 36,
+        "mean_miss_rate": 0.19198115743003297,
+        "mean_p99_ms": 14.363308620889253,
+        "mean_rx_duty": 0.46555555555555556
+      }
+    },
+    {
+      "temperature": 1.5,
+      "calibration_oracle_nll": 2.0351469252665297,
+      "calibration_raw": {
+        "n": 90,
+        "scenario_violations": 47,
+        "mean_miss_rate": 0.24258052960243986,
+        "mean_p99_ms": 27.168481797076325,
+        "mean_rx_duty": 0.43444444444444447
+      },
+      "test_raw": {
+        "n": 90,
+        "scenario_violations": 36,
+        "mean_miss_rate": 0.19198115743003297,
+        "mean_p99_ms": 14.363308620889253,
+        "mean_rx_duty": 0.46555555555555556
+      }
+    },
+    {
+      "temperature": 2.0,
+      "calibration_oracle_nll": 2.0394983985811583,
+      "calibration_raw": {
+        "n": 90,
+        "scenario_violations": 47,
+        "mean_miss_rate": 0.24258052960243986,
+        "mean_p99_ms": 27.168481797076325,
+        "mean_rx_duty": 0.43444444444444447
+      },
+      "test_raw": {
+        "n": 90,
+        "scenario_violations": 36,
+        "mean_miss_rate": 0.19198115743003297,
+        "mean_p99_ms": 14.363308620889253,
+        "mean_rx_duty": 0.46555555555555556
+      }
+    },
+    {
+      "temperature": 3.0,
+      "calibration_oracle_nll": 2.0657532604464226,
+      "calibration_raw": {
+        "n": 90,
+        "scenario_violations": 47,
+        "mean_miss_rate": 0.24258052960243986,
+        "mean_p99_ms": 27.168481797076325,
+        "mean_rx_duty": 0.43444444444444447
+      },
+      "test_raw": {
+        "n": 90,
+        "scenario_violations": 36,
+        "mean_miss_rate": 0.19198115743003297,
+        "mean_p99_ms": 14.363308620889253,
+        "mean_rx_duty": 0.46555555555555556
+      }
+    },
+    {
+      "temperature": 4.0,
+      "calibration_oracle_nll": 2.088139112262758,
+      "calibration_raw": {
+        "n": 90,
+        "scenario_violations": 47,
+        "mean_miss_rate": 0.24258052960243986,
+        "mean_p99_ms": 27.168481797076325,
+        "mean_rx_duty": 0.43444444444444447
+      },
+      "test_raw": {
+        "n": 90,
+        "scenario_violations": 36,
+        "mean_miss_rate": 0.19198115743003297,
+        "mean_p99_ms": 14.363308620889253,
+        "mean_rx_duty": 0.46555555555555556
+      }
+    }
+  ],
+  "selected_temperature": 1.5,
+  "threshold_grid": [
+    {
+      "threshold": 0.0,
+      "n": 90,
+      "scenario_violations": 0,
+      "mean_miss_rate": 0.0,
+      "mean_p99_ms": 6.972833549069917,
+      "mean_rx_duty": 0.6733333333333333
+    },
+    {
+      "threshold": 0.2,
+      "n": 90,
+      "scenario_violations": 0,
+      "mean_miss_rate": 0.0,
+      "mean_p99_ms": 6.9945761432203275,
+      "mean_rx_duty": 0.6688888888888889
+    },
+    {
+      "threshold": 0.25,
+      "n": 90,
+      "scenario_violations": 0,
+      "mean_miss_rate": 0.0,
+      "mean_p99_ms": 7.18182036649738,
+      "mean_rx_duty": 0.6022222222222222
+    },
+    {
+      "threshold": 0.3,
+      "n": 90,
+      "scenario_violations": 0,
+      "mean_miss_rate": 0.0,
+      "mean_p99_ms": 7.309298436174116,
+      "mean_rx_duty": 0.5800000000000001
+    },
+    {
+      "threshold": 0.35,
+      "n": 90,
+      "scenario_violations": 0,
+      "mean_miss_rate": 0.0,
+      "mean_p99_ms": 7.405182250931619,
+      "mean_rx_duty": 0.5711111111111111
+    },
+    {
+      "threshold": 0.4,
+      "n": 90,
+      "scenario_violations": 0,
+      "mean_miss_rate": 0.0,
+      "mean_p99_ms": 7.405182250931619,
+      "mean_rx_duty": 0.5711111111111111
+    },
+    {
+      "threshold": 0.45,
+      "n": 90,
+      "scenario_violations": 0,
+      "mean_miss_rate": 0.0,
+      "mean_p99_ms": 7.405182250931619,
+      "mean_rx_duty": 0.5711111111111111
+    },
+    {
+      "threshold": 0.5,
+      "n": 90,
+      "scenario_violations": 0,
+      "mean_miss_rate": 0.0,
+      "mean_p99_ms": 7.405182250931619,
+      "mean_rx_duty": 0.5711111111111111
+    },
+    {
+      "threshold": 0.6,
+      "n": 90,
+      "scenario_violations": 0,
+      "mean_miss_rate": 0.0,
+      "mean_p99_ms": 7.405182250931619,
+      "mean_rx_duty": 0.5711111111111111
+    },
+    {
+      "threshold": 0.7,
+      "n": 90,
+      "scenario_violations": 0,
+      "mean_miss_rate": 0.0,
+      "mean_p99_ms": 7.405182250931619,
+      "mean_rx_duty": 0.5711111111111111
+    },
+    {
+      "threshold": 0.8,
+      "n": 90,
+      "scenario_violations": 0,
+      "mean_miss_rate": 0.0,
+      "mean_p99_ms": 7.405182250931619,
+      "mean_rx_duty": 0.5711111111111111
+    },
+    {
+      "threshold": 0.9,
+      "n": 90,
+      "scenario_violations": 0,
+      "mean_miss_rate": 0.0,
+      "mean_p99_ms": 7.405182250931619,
+      "mean_rx_duty": 0.5711111111111111
+    },
+    {
+      "threshold": 1.0,
+      "n": 90,
+      "scenario_violations": 0,
+      "mean_miss_rate": 0.0,
+      "mean_p99_ms": 7.405182250931619,
+      "mean_rx_duty": 0.5711111111111111
+    }
+  ],
+  "selected_threshold": 0.35,
+  "test_gated": {
+    "n": 90,
+    "scenario_violations": 0,
+    "mean_miss_rate": 0.0,
+    "mean_p99_ms": 7.772553771017913,
+    "mean_rx_duty": 0.5466666666666667
+  },
+  "test_gated_records": [
+    {
+      "uid": "26092902-industrial_control-0000",
+      "service": "industrial_control",
+      "choice": "off",
+      "confidence": 0.03709791335911635,
+      "miss_rate": 0.0,
+      "p99_ms": 3.60586098761985,
+      "rx_duty": 1.0,
+      "violates": false
+    },
+    {
+      "uid": "26092902-industrial_control-0001",
+      "service": "industrial_control",
+      "choice": "10/8",
+      "confidence": 0.19982299257273012,
+      "miss_rate": 0.0,
+      "p99_ms": 3.6299535337761206,
+      "rx_duty": 0.8,
+      "violates": false
+    },
+    {
+      "uid": "26092902-industrial_control-0002",
+      "service": "industrial_control",
+      "choice": "off",
+      "confidence": 0.027564907468552162,
+      "miss_rate": 0.0,
+      "p99_ms": 3.5584104564227106,
+      "rx_duty": 1.0,
+      "violates": false
+    },
+    {
+      "uid": "26092902-industrial_control-0003",
+      "service": "industrial_control",
+      "choice": "10/8",
+      "confidence": 0.1043875763118406,
+      "miss_rate": 0.0,
+      "p99_ms": 1.6835711924953705,
+      "rx_duty": 0.8,
+      "violates": false
+    },
+    {
+      "uid": "26092902-industrial_control-0004",
+      "service": "industrial_control",
+      "choice": "10/8",
+      "confidence": 0.21437896197383913,
+      "miss_rate": 0.0,
+      "p99_ms": 3.2023846965817833,
+      "rx_duty": 0.8,
+      "violates": false
+    },
+    {
+      "uid": "26092902-industrial_control-0005",
+      "service": "industrial_control",
+      "choice": "off",
+      "confidence": 0.02628198980474341,
+      "miss_rate": 0.0,
+      "p99_ms": 3.352311281048123,
+      "rx_duty": 1.0,
+      "violates": false
+    },
+    {
+      "uid": "26092902-industrial_control-0006",
+      "service": "industrial_control",
+      "choice": "10/8",
+      "confidence": 0.2398483377181701,
+      "miss_rate": 0.0,
+      "p99_ms": 2.7253009436494695,
+      "rx_duty": 0.8,
+      "violates": false
+    },
+    {
+      "uid": "26092902-industrial_control-0007",
+      "service": "industrial_control",
+      "choice": "10/8",
+      "confidence": 0.14700572889489508,
+      "miss_rate": 0.0,
+      "p99_ms": 1.3051380964460426,
+      "rx_duty": 0.8,
+      "violates": false
+    },
+    {
+      "uid": "26092902-industrial_control-0008",
+      "service": "industrial_control",
+      "choice": "10/8",
+      "confidence": 0.17414050110939527,
+      "miss_rate": 0.0,
+      "p99_ms": 3.3663528540709047,
+      "rx_duty": 0.8,
+      "violates": false
+    },
+    {
+      "uid": "26092902-industrial_control-0009",
+      "service": "industrial_control",
+      "choice": "10/8",
+      "confidence": 0.1676181503150865,
+      "miss_rate": 0.0,
+      "p99_ms": 3.3234784909700883,
+      "rx_duty": 0.8,
+      "violates": false
+    },
+    {
+      "uid": "26092902-industrial_control-0010",
+      "service": "industrial_control",
+      "choice": "10/8",
+      "confidence": 0.16233382463208787,
+      "miss_rate": 0.0,
+      "p99_ms": 2.884392259900399,
+      "rx_duty": 0.8,
+      "violates": false
+    },
+    {
+      "uid": "26092902-industrial_control-0011",
+      "service": "industrial_control",
+      "choice": "10/8",
+      "confidence": 0.18358826536385855,
+      "miss_rate": 0.0,
+      "p99_ms": 4.793187260279019,
+      "rx_duty": 0.8,
+      "violates": false
+    },
+    {
+      "uid": "26092902-industrial_control-0012",
+      "service": "industrial_control",
+      "choice": "10/8",
+      "confidence": 0.14226309324531328,
+      "miss_rate": 0.0,
+      "p99_ms": 2.859817792196134,
+      "rx_duty": 0.8,
+      "violates": false
+    },
+    {
+      "uid": "26092902-industrial_control-0013",
+      "service": "industrial_control",
+      "choice": "10/8",
+      "confidence": 0.1665102573932946,
+      "miss_rate": 0.0,
+      "p99_ms": 3.0347997294320708,
+      "rx_duty": 0.8,
+      "violates": false
+    },
+    {
+      "uid": "26092902-industrial_control-0014",
+      "service": "industrial_control",
+      "choice": "off",
+      "confidence": 0.04085776455747888,
+      "miss_rate": 0.0,
+      "p99_ms": 3.241901649608656,
+      "rx_duty": 1.0,
+      "violates": false
+    },
+    {
+      "uid": "26092902-industrial_control-0015",
+      "service": "industrial_control",
+      "choice": "10/8",
+      "confidence": 0.24330733403005042,
+      "miss_rate": 0.0,
+      "p99_ms": 3.7133391919324326,
+      "rx_duty": 0.8,
+      "violates": false
+    },
+    {
+      "uid": "26092902-industrial_control-0016",
+      "service": "industrial_control",
+      "choice": "10/8",
+      "confidence": 0.14605691629501846,
+      "miss_rate": 0.0,
+      "p99_ms": 1.786524314953419,
+      "rx_duty": 0.8,
+      "violates": false
+    },
+    {
+      "uid": "26092902-industrial_control-0017",
+      "service": "industrial_control",
+      "choice": "10/8",
+      "confidence": 0.12058635970041409,
+      "miss_rate": 0.0,
+      "p99_ms": 2.664946406583405,
+      "rx_duty": 0.8,
+      "violates": false
+    },
+    {
+      "uid": "26092902-industrial_control-0018",
+      "service": "industrial_control",
+      "choice": "off",
+      "confidence": 0.034755004976316936,
+      "miss_rate": 0.0,
+      "p99_ms": 3.672652389536415,
+      "rx_duty": 1.0,
+      "violates": false
+    },
+    {
+      "uid": "26092902-industrial_control-0019",
+      "service": "industrial_control",
+      "choice": "10/8",
+      "confidence": 0.22187287737619868,
+      "miss_rate": 0.0,
+      "p99_ms": 2.843155273563621,
+      "rx_duty": 0.8,
+      "violates": false
+    },
+    {
+      "uid": "26092902-industrial_control-0020",
+      "service": "industrial_control",
+      "choice": "off",
+      "confidence": 0.0463953626323824,
+      "miss_rate": 0.0,
+      "p99_ms": 3.6455796300350656,
+      "rx_duty": 1.0,
+      "violates": false
+    },
+    {
+      "uid": "26092902-industrial_control-0021",
+      "service": "industrial_control",
+      "choice": "off",
+      "confidence": 0.05166091910101952,
+      "miss_rate": 0.0,
+      "p99_ms": 3.3271073606367896,
+      "rx_duty": 1.0,
+      "violates": false
+    },
+    {
+      "uid": "26092902-industrial_control-0022",
+      "service": "industrial_control",
+      "choice": "10/8",
+      "confidence": 0.15456346453987335,
+      "miss_rate": 0.0,
+      "p99_ms": 4.210791564523744,
+      "rx_duty": 0.8,
+      "violates": false
+    },
+    {
+      "uid": "26092902-industrial_control-0023",
+      "service": "industrial_control",
+      "choice": "off",
+      "confidence": 0.030698794536386364,
+      "miss_rate": 0.0,
+      "p99_ms": 2.8561808639950947,
+      "rx_duty": 1.0,
+      "violates": false
+    },
+    {
+      "uid": "26092902-industrial_control-0024",
+      "service": "industrial_control",
+      "choice": "off",
+      "confidence": 0.06851321668076331,
+      "miss_rate": 0.0,
+      "p99_ms": 3.271891002506134,
+      "rx_duty": 1.0,
+      "violates": false
+    },
+    {
+      "uid": "26092902-industrial_control-0025",
+      "service": "industrial_control",
+      "choice": "10/8",
+      "confidence": 0.13126724998423758,
+      "miss_rate": 0.0,
+      "p99_ms": 3.484520175487737,
+      "rx_duty": 0.8,
+      "violates": false
+    },
+    {
+      "uid": "26092902-industrial_control-0026",
+      "service": "industrial_control",
+      "choice": "10/8",
+      "confidence": 0.1710692377878924,
+      "miss_rate": 0.0,
+      "p99_ms": 2.5681952934450285,
+      "rx_duty": 0.8,
+      "violates": false
+    },
+    {
+      "uid": "26092902-industrial_control-0027",
+      "service": "industrial_control",
+      "choice": "off",
+      "confidence": 0.043721607712593556,
+      "miss_rate": 0.0,
+      "p99_ms": 3.672335172263574,
+      "rx_duty": 1.0,
+      "violates": false
+    },
+    {
+      "uid": "26092902-industrial_control-0028",
+      "service": "industrial_control",
+      "choice": "10/8",
+      "confidence": 0.18101311863420702,
+      "miss_rate": 0.0,
+      "p99_ms": 2.353457799312122,
+      "rx_duty": 0.8,
+      "violates": false
+    },
+    {
+      "uid": "26092902-industrial_control-0029",
+      "service": "industrial_control",
+      "choice": "10/8",
+      "confidence": 0.1828030888346388,
+      "miss_rate": 0.0,
+      "p99_ms": 3.398243443294598,
+      "rx_duty": 0.8,
+      "violates": false
+    },
+    {
+      "uid": "26092902-xr-0000",
+      "service": "xr",
+      "choice": "10/8",
+      "confidence": 0.1662220096889648,
+      "miss_rate": 0.0,
+      "p99_ms": 4.288693445051441,
+      "rx_duty": 0.8,
+      "violates": false
+    },
+    {
+      "uid": "26092902-xr-0001",
+      "service": "xr",
+      "choice": "10/4",
+      "confidence": 0.13566639894056984,
+      "miss_rate": 0.0,
+      "p99_ms": 9.185922178966358,
+      "rx_duty": 0.4,
+      "violates": false
+    },
+    {
+      "uid": "26092902-xr-0002",
+      "service": "xr",
+      "choice": "10/4",
+      "confidence": 0.2118024528708547,
+      "miss_rate": 0.0,
+      "p99_ms": 8.939223134187765,
+      "rx_duty": 0.4,
+      "violates": false
+    },
+    {
+      "uid": "26092902-xr-0003",
+      "service": "xr",
+      "choice": "10/8",
+      "confidence": 0.2861771470259072,
+      "miss_rate": 0.0,
+      "p99_ms": 6.3537671028777485,
+      "rx_duty": 0.8,
+      "violates": false
+    },
+    {
+      "uid": "26092902-xr-0004",
+      "service": "xr",
+      "choice": "10/8",
+      "confidence": 0.13354128852785638,
+      "miss_rate": 0.0,
+      "p99_ms": 8.26173208961908,
+      "rx_duty": 0.8,
+      "violates": false
+    },
+    {
+      "uid": "26092902-xr-0005",
+      "service": "xr",
+      "choice": "10/8",
+      "confidence": 0.24688800292299948,
+      "miss_rate": 0.0,
+      "p99_ms": 6.466838821427072,
+      "rx_duty": 0.8,
+      "violates": false
+    },
+    {
+      "uid": "26092902-xr-0006",
+      "service": "xr",
+      "choice": "10/8",
+      "confidence": 0.13697203230830418,
+      "miss_rate": 0.0,
+      "p99_ms": 6.9331173549228735,
+      "rx_duty": 0.8,
+      "violates": false
+    },
+    {
+      "uid": "26092902-xr-0007",
+      "service": "xr",
+      "choice": "10/4",
+      "confidence": 0.13861090654267477,
+      "miss_rate": 0.0,
+      "p99_ms": 8.231958416746208,
+      "rx_duty": 0.4,
+      "violates": false
+    },
+    {
+      "uid": "26092902-xr-0008",
+      "service": "xr",
+      "choice": "10/2",
+      "confidence": 0.1031005239535759,
+      "miss_rate": 0.0,
+      "p99_ms": 9.78218874788544,
+      "rx_duty": 0.2,
+      "violates": false
+    },
+    {
+      "uid": "26092902-xr-0009",
+      "service": "xr",
+      "choice": "10/8",
+      "confidence": 0.14309702991714052,
+      "miss_rate": 0.0,
+      "p99_ms": 6.079787307151305,
+      "rx_duty": 0.8,
+      "violates": false
+    },
+    {
+      "uid": "26092902-xr-0010",
+      "service": "xr",
+      "choice": "10/8",
+      "confidence": 0.14326721043540702,
+      "miss_rate": 0.0,
+      "p99_ms": 8.179813183099462,
+      "rx_duty": 0.8,
+      "violates": false
+    },
+    {
+      "uid": "26092902-xr-0011",
+      "service": "xr",
+      "choice": "10/8",
+      "confidence": 0.18460724546011203,
+      "miss_rate": 0.0,
+      "p99_ms": 7.710473641519846,
+      "rx_duty": 0.8,
+      "violates": false
+    },
+    {
+      "uid": "26092902-xr-0012",
+      "service": "xr",
+      "choice": "10/4",
+      "confidence": 0.17006911760067403,
+      "miss_rate": 0.0,
+      "p99_ms": 9.333533992240312,
+      "rx_duty": 0.4,
+      "violates": false
+    },
+    {
+      "uid": "26092902-xr-0013",
+      "service": "xr",
+      "choice": "10/8",
+      "confidence": 0.13318753955582793,
+      "miss_rate": 0.0,
+      "p99_ms": 7.833156377753812,
+      "rx_duty": 0.8,
+      "violates": false
+    },
+    {
+      "uid": "26092902-xr-0014",
+      "service": "xr",
+      "choice": "10/4",
+      "confidence": 0.17524018477687006,
+      "miss_rate": 0.0,
+      "p99_ms": 8.228643296824941,
+      "rx_duty": 0.4,
+      "violates": false
+    },
+    {
+      "uid": "26092902-xr-0015",
+      "service": "xr",
+      "choice": "10/8",
+      "confidence": 0.09166627416364553,
+      "miss_rate": 0.0,
+      "p99_ms": 8.272434834762942,
+      "rx_duty": 0.8,
+      "violates": false
+    },
+    {
+      "uid": "26092902-xr-0016",
+      "service": "xr",
+      "choice": "10/4",
+      "confidence": 0.21285707165660583,
+      "miss_rate": 0.0,
+      "p99_ms": 9.721924924206107,
+      "rx_duty": 0.4,
+      "violates": false
+    },
+    {
+      "uid": "26092902-xr-0017",
+      "service": "xr",
+      "choice": "10/4",
+      "confidence": 0.1756716506958722,
+      "miss_rate": 0.0,
+      "p99_ms": 9.678063134683912,
+      "rx_duty": 0.4,
+      "violates": false
+    },
+    {
+      "uid": "26092902-xr-0018",
+      "service": "xr",
+      "choice": "10/4",
+      "confidence": 0.12629563743587224,
+      "miss_rate": 0.0,
+      "p99_ms": 8.134260888832408,
+      "rx_duty": 0.4,
+      "violates": false
+    },
+    {
+      "uid": "26092902-xr-0019",
+      "service": "xr",
+      "choice": "10/4",
+      "confidence": 0.2581689224868176,
+      "miss_rate": 0.0,
+      "p99_ms": 9.21216833668253,
+      "rx_duty": 0.4,
+      "violates": false
+    },
+    {
+      "uid": "26092902-xr-0020",
+      "service": "xr",
+      "choice": "10/4",
+      "confidence": 0.13220057220960216,
+      "miss_rate": 0.0,
+      "p99_ms": 7.819071613633381,
+      "rx_duty": 0.4,
+      "violates": false
+    },
+    {
+      "uid": "26092902-xr-0021",
+      "service": "xr",
+      "choice": "10/8",
+      "confidence": 0.06768465855457255,
+      "miss_rate": 0.0,
+      "p99_ms": 6.931039426212331,
+      "rx_duty": 0.8,
+      "violates": false
+    },
+    {
+      "uid": "26092902-xr-0022",
+      "service": "xr",
+      "choice": "10/4",
+      "confidence": 0.24098080887966553,
+      "miss_rate": 0.0,
+      "p99_ms": 8.000393296646626,
+      "rx_duty": 0.4,
+      "violates": false
+    },
+    {
+      "uid": "26092902-xr-0023",
+      "service": "xr",
+      "choice": "10/8",
+      "confidence": 0.16141997639949687,
+      "miss_rate": 0.0,
+      "p99_ms": 4.428502849627275,
+      "rx_duty": 0.8,
+      "violates": false
+    },
+    {
+      "uid": "26092902-xr-0024",
+      "service": "xr",
+      "choice": "10/4",
+      "confidence": 0.12108778764664611,
+      "miss_rate": 0.0,
+      "p99_ms": 7.845722966360689,
+      "rx_duty": 0.4,
+      "violates": false
+    },
+    {
+      "uid": "26092902-xr-0025",
+      "service": "xr",
+      "choice": "10/8",
+      "confidence": 0.06530378786813887,
+      "miss_rate": 0.0,
+      "p99_ms": 7.665445298568778,
+      "rx_duty": 0.8,
+      "violates": false
+    },
+    {
+      "uid": "26092902-xr-0026",
+      "service": "xr",
+      "choice": "10/4",
+      "confidence": 0.21119021511363734,
+      "miss_rate": 0.0,
+      "p99_ms": 9.648577297203587,
+      "rx_duty": 0.4,
+      "violates": false
+    },
+    {
+      "uid": "26092902-xr-0027",
+      "service": "xr",
+      "choice": "10/2",
+      "confidence": 0.08863824024359575,
+      "miss_rate": 0.0,
+      "p99_ms": 9.848409298063952,
+      "rx_duty": 0.2,
+      "violates": false
+    },
+    {
+      "uid": "26092902-xr-0028",
+      "service": "xr",
+      "choice": "10/8",
+      "confidence": 0.14345309322268845,
+      "miss_rate": 0.0,
+      "p99_ms": 6.099105374142879,
+      "rx_duty": 0.8,
+      "violates": false
+    },
+    {
+      "uid": "26092902-xr-0029",
+      "service": "xr",
+      "choice": "10/4",
+      "confidence": 0.14362062538596815,
+      "miss_rate": 0.0,
+      "p99_ms": 7.98270340702034,
+      "rx_duty": 0.4,
+      "violates": false
+    },
+    {
+      "uid": "26092902-gaming-0000",
+      "service": "gaming",
+      "choice": "10/2",
+      "confidence": 0.08414629334487936,
+      "miss_rate": 0.0,
+      "p99_ms": 11.901888695296766,
+      "rx_duty": 0.2,
+      "violates": false
+    },
+    {
+      "uid": "26092902-gaming-0001",
+      "service": "gaming",
+      "choice": "10/2",
+      "confidence": 0.1879230279168302,
+      "miss_rate": 0.0,
+      "p99_ms": 13.006149458005876,
+      "rx_duty": 0.2,
+      "violates": false
+    },
+    {
+      "uid": "26092902-gaming-0002",
+      "service": "gaming",
+      "choice": "10/2",
+      "confidence": 0.0970316023975778,
+      "miss_rate": 0.0,
+      "p99_ms": 12.971245528832512,
+      "rx_duty": 0.2,
+      "violates": false
+    },
+    {
+      "uid": "26092902-gaming-0003",
+      "service": "gaming",
+      "choice": "10/2",
+      "confidence": 0.15672465431479615,
+      "miss_rate": 0.0,
+      "p99_ms": 16.84901863107071,
+      "rx_duty": 0.2,
+      "violates": false
+    },
+    {
+      "uid": "26092902-gaming-0004",
+      "service": "gaming",
+      "choice": "10/2",
+      "confidence": 0.12521426152567908,
+      "miss_rate": 0.0,
+      "p99_ms": 14.532249988033731,
+      "rx_duty": 0.2,
+      "violates": false
+    },
+    {
+      "uid": "26092902-gaming-0005",
+      "service": "gaming",
+      "choice": "10/2",
+      "confidence": 0.08218610289884085,
+      "miss_rate": 0.0,
+      "p99_ms": 12.154724699657823,
+      "rx_duty": 0.2,
+      "violates": false
+    },
+    {
+      "uid": "26092902-gaming-0006",
+      "service": "gaming",
+      "choice": "10/2",
+      "confidence": 0.17831019061688394,
+      "miss_rate": 0.0,
+      "p99_ms": 10.758760810945502,
+      "rx_duty": 0.2,
+      "violates": false
+    },
+    {
+      "uid": "26092902-gaming-0007",
+      "service": "gaming",
+      "choice": "10/2",
+      "confidence": 0.08685268005196384,
+      "miss_rate": 0.0,
+      "p99_ms": 12.584337013064285,
+      "rx_duty": 0.2,
+      "violates": false
+    },
+    {
+      "uid": "26092902-gaming-0008",
+      "service": "gaming",
+      "choice": "10/2",
+      "confidence": 0.12152965522732728,
+      "miss_rate": 0.0,
+      "p99_ms": 15.490285897477094,
+      "rx_duty": 0.2,
+      "violates": false
+    },
+    {
+      "uid": "26092902-gaming-0009",
+      "service": "gaming",
+      "choice": "10/2",
+      "confidence": 0.12220271023141499,
+      "miss_rate": 0.0,
+      "p99_ms": 16.47596303131358,
+      "rx_duty": 0.2,
+      "violates": false
+    },
+    {
+      "uid": "26092902-gaming-0010",
+      "service": "gaming",
+      "choice": "10/2",
+      "confidence": 0.10961657488111193,
+      "miss_rate": 0.0,
+      "p99_ms": 11.884263894893902,
+      "rx_duty": 0.2,
+      "violates": false
+    },
+    {
+      "uid": "26092902-gaming-0011",
+      "service": "gaming",
+      "choice": "10/2",
+      "confidence": 0.10733314533793548,
+      "miss_rate": 0.0,
+      "p99_ms": 14.385487418998892,
+      "rx_duty": 0.2,
+      "violates": false
+    },
+    {
+      "uid": "26092902-gaming-0012",
+      "service": "gaming",
+      "choice": "10/2",
+      "confidence": 0.06309343940667635,
+      "miss_rate": 0.0,
+      "p99_ms": 5.539400619888432,
+      "rx_duty": 0.2,
+      "violates": false
+    },
+    {
+      "uid": "26092902-gaming-0013",
+      "service": "gaming",
+      "choice": "10/2",
+      "confidence": 0.14973022623227022,
+      "miss_rate": 0.0,
+      "p99_ms": 11.2715147684228,
+      "rx_duty": 0.2,
+      "violates": false
+    },
+    {
+      "uid": "26092902-gaming-0014",
+      "service": "gaming",
+      "choice": "10/2",
+      "confidence": 0.16582773005027102,
+      "miss_rate": 0.0,
+      "p99_ms": 11.974535515068302,
+      "rx_duty": 0.2,
+      "violates": false
+    },
+    {
+      "uid": "26092902-gaming-0015",
+      "service": "gaming",
+      "choice": "10/2",
+      "confidence": 0.12232459798521317,
+      "miss_rate": 0.0,
+      "p99_ms": 15.337578826037277,
+      "rx_duty": 0.2,
+      "violates": false
+    },
+    {
+      "uid": "26092902-gaming-0016",
+      "service": "gaming",
+      "choice": "10/2",
+      "confidence": 0.10222192979938131,
+      "miss_rate": 0.0,
+      "p99_ms": 9.547679928864257,
+      "rx_duty": 0.2,
+      "violates": false
+    },
+    {
+      "uid": "26092902-gaming-0017",
+      "service": "gaming",
+      "choice": "10/2",
+      "confidence": 0.1631009413150493,
+      "miss_rate": 0.0,
+      "p99_ms": 9.97611233124052,
+      "rx_duty": 0.2,
+      "violates": false
+    },
+    {
+      "uid": "26092902-gaming-0018",
+      "service": "gaming",
+      "choice": "10/2",
+      "confidence": 0.0728313207363298,
+      "miss_rate": 0.0,
+      "p99_ms": 10.70469152848803,
+      "rx_duty": 0.2,
+      "violates": false
+    },
+    {
+      "uid": "26092902-gaming-0019",
+      "service": "gaming",
+      "choice": "10/2",
+      "confidence": 0.15636105813927176,
+      "miss_rate": 0.0,
+      "p99_ms": 11.988883459332916,
+      "rx_duty": 0.2,
+      "violates": false
+    },
+    {
+      "uid": "26092902-gaming-0020",
+      "service": "gaming",
+      "choice": "10/2",
+      "confidence": 0.08987475077366146,
+      "miss_rate": 0.0,
+      "p99_ms": 12.290389899241868,
+      "rx_duty": 0.2,
+      "violates": false
+    },
+    {
+      "uid": "26092902-gaming-0021",
+      "service": "gaming",
+      "choice": "10/2",
+      "confidence": 0.11883269429237522,
+      "miss_rate": 0.0,
+      "p99_ms": 5.8488816035360145,
+      "rx_duty": 0.2,
+      "violates": false
+    },
+    {
+      "uid": "26092902-gaming-0022",
+      "service": "gaming",
+      "choice": "10/2",
+      "confidence": 0.07780089599510494,
+      "miss_rate": 0.0,
+      "p99_ms": 10.571847607355085,
+      "rx_duty": 0.2,
+      "violates": false
+    },
+    {
+      "uid": "26092902-gaming-0023",
+      "service": "gaming",
+      "choice": "10/2",
+      "confidence": 0.08650681673645068,
+      "miss_rate": 0.0,
+      "p99_ms": 14.519068575507248,
+      "rx_duty": 0.2,
+      "violates": false
+    },
+    {
+      "uid": "26092902-gaming-0024",
+      "service": "gaming",
+      "choice": "10/2",
+      "confidence": 0.10584665650761083,
+      "miss_rate": 0.0,
+      "p99_ms": 15.775756706720287,
+      "rx_duty": 0.2,
+      "violates": false
+    },
+    {
+      "uid": "26092902-gaming-0025",
+      "service": "gaming",
+      "choice": "10/2",
+      "confidence": 0.11703620762163046,
+      "miss_rate": 0.0,
+      "p99_ms": 10.332269046005175,
+      "rx_duty": 0.2,
+      "violates": false
+    },
+    {
+      "uid": "26092902-gaming-0026",
+      "service": "gaming",
+      "choice": "10/2",
+      "confidence": 0.12318720130889879,
+      "miss_rate": 0.0,
+      "p99_ms": 11.01035030275437,
+      "rx_duty": 0.2,
+      "violates": false
+    },
+    {
+      "uid": "26092902-gaming-0027",
+      "service": "gaming",
+      "choice": "10/2",
+      "confidence": 0.10788279292109512,
+      "miss_rate": 0.0,
+      "p99_ms": 11.645888768017437,
+      "rx_duty": 0.2,
+      "violates": false
+    },
+    {
+      "uid": "26092902-gaming-0028",
+      "service": "gaming",
+      "choice": "10/2",
+      "confidence": 0.12703577620947767,
+      "miss_rate": 0.0,
+      "p99_ms": 15.1320467816234,
+      "rx_duty": 0.2,
+      "violates": false
+    },
+    {
+      "uid": "26092902-gaming-0029",
+      "service": "gaming",
+      "choice": "10/2",
+      "confidence": 0.13683318874601852,
+      "miss_rate": 0.0,
+      "p99_ms": 11.936114912430732,
+      "rx_duty": 0.2,
+      "violates": false
+    }
+  ],
+  "fitting_rule": "minimize calibration oracle NLL; then choose zero-calibration-violation confidence threshold with lowest mean RX duty, else minimum violations"
+}

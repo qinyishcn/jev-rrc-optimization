@@ -1,0 +1,162 @@
+[
+  {
+    "method": "decider_adapter",
+    "baseline": "decider_base",
+    "metric": "p99_ms",
+    "baseline_minus_adapter": 6.3449253809765445,
+    "ci95": [
+      0.679925263271623,
+      14.89869127216891
+    ]
+  },
+  {
+    "method": "decider_adapter",
+    "baseline": "decider_base",
+    "metric": "miss_rate",
+    "baseline_minus_adapter": 0.1696314557758616,
+    "ci95": [
+      0.11399601779389959,
+      0.22418168206423145
+    ]
+  },
+  {
+    "method": "decider_adapter",
+    "baseline": "decider_base",
+    "metric": "rx_duty",
+    "baseline_minus_adapter": -0.1322222222222222,
+    "ci95": [
+      -0.19777777777777783,
+      -0.06333333333333335
+    ]
+  },
+  {
+    "method": "decider_adapter",
+    "baseline": "decider_base",
+    "metric": "scenario_violation",
+    "baseline_minus_adapter": 0.4,
+    "ci95": [
+      0.31111111111111106,
+      0.48888888888888893
+    ]
+  },
+  {
+    "method": "decider_adapter",
+    "baseline": "guard_only",
+    "metric": "p99_ms",
+    "baseline_minus_adapter": -0.7691167724874172,
+    "ci95": [
+      -3.4022683231442707,
+      0.839931376898372
+    ]
+  },
+  {
+    "method": "decider_adapter",
+    "baseline": "guard_only",
+    "metric": "miss_rate",
+    "baseline_minus_adapter": -0.038782978641921005,
+    "ci95": [
+      -0.06895690673570724,
+      -0.014684439079631451
+    ]
+  },
+  {
+    "method": "decider_adapter",
+    "baseline": "guard_only",
+    "metric": "rx_duty",
+    "baseline_minus_adapter": -0.03333333333333334,
+    "ci95": [
+      -0.08888888888888889,
+      0.024444444444444446
+    ]
+  },
+  {
+    "method": "decider_adapter",
+    "baseline": "guard_only",
+    "metric": "scenario_violation",
+    "baseline_minus_adapter": -0.12222222222222222,
+    "ci95": [
+      -0.18888888888888888,
+      -0.06666666666666667
+    ]
+  },
+  {
+    "method": "decider_adapter_screened",
+    "baseline": "decider_base_screened",
+    "metric": "p99_ms",
+    "baseline_minus_adapter": 0.3347048529248304,
+    "ci95": [
+      -0.2072537627893725,
+      0.8751556040647663
+    ]
+  },
+  {
+    "method": "decider_adapter_screened",
+    "baseline": "decider_base_screened",
+    "metric": "miss_rate",
+    "baseline_minus_adapter": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "method": "decider_adapter_screened",
+    "baseline": "decider_base_screened",
+    "metric": "rx_duty",
+    "baseline_minus_adapter": 2.4671622769447924e-18,
+    "ci95": [
+      -0.044444444444444446,
+      0.04444444444444445
+    ]
+  },
+  {
+    "method": "decider_adapter_screened",
+    "baseline": "decider_base_screened",
+    "metric": "scenario_violation",
+    "baseline_minus_adapter": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "method": "decider_adapter_screened",
+    "baseline": "guard_only",
+    "metric": "p99_ms",
+    "baseline_minus_adapter": 1.2665161462471677,
+    "ci95": [
+      0.8336219100921348,
+      1.6901616887522817
+    ]
+  },
+  {
+    "method": "decider_adapter_screened",
+    "baseline": "guard_only",
+    "metric": "miss_rate",
+    "baseline_minus_adapter": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "method": "decider_adapter_screened",
+    "baseline": "guard_only",
+    "metric": "rx_duty",
+    "baseline_minus_adapter": -0.12666666666666668,
+    "ci95": [
+      -0.16666666666666666,
+      -0.08661111111111142
+    ]
+  },
+  {
+    "method": "decider_adapter_screened",
+    "baseline": "guard_only",
+    "metric": "scenario_violation",
+    "baseline_minus_adapter": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  }
+]

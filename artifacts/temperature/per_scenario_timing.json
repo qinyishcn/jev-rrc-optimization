@@ -1,0 +1,1355 @@
+{
+  "measurement": "3 serial CPU runs, each generating arrivals and evaluating 9 profiles; Python perf_counter",
+  "rows": [
+    {
+      "uid": "26092902-industrial_control-0000",
+      "service": "industrial_control",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 500,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 215.9291000571102,
+      "simulation_wall_ms_trials": [
+        3.6082000005990267,
+        3.312499960884452,
+        3.3875000663101673
+      ],
+      "simulation_wall_ms_median": 3.3875000663101673
+    },
+    {
+      "uid": "26092902-industrial_control-0001",
+      "service": "industrial_control",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 600,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 196.62419985979795,
+      "simulation_wall_ms_trials": [
+        3.5106998402625322,
+        3.4620000515133142,
+        3.730199998244643
+      ],
+      "simulation_wall_ms_median": 3.5106998402625322
+    },
+    {
+      "uid": "26092902-industrial_control-0002",
+      "service": "industrial_control",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 1500,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 186.05790007859468,
+      "simulation_wall_ms_trials": [
+        7.171799894422293,
+        7.0216001477092505,
+        8.033900056034327
+      ],
+      "simulation_wall_ms_median": 7.171799894422293
+    },
+    {
+      "uid": "26092902-industrial_control-0003",
+      "service": "industrial_control",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 100,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 191.97070016525686,
+      "simulation_wall_ms_trials": [
+        2.224799944087863,
+        1.4410000294446945,
+        1.3823998160660267
+      ],
+      "simulation_wall_ms_median": 1.4410000294446945
+    },
+    {
+      "uid": "26092902-industrial_control-0004",
+      "service": "industrial_control",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 3000,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 186.1268999055028,
+      "simulation_wall_ms_trials": [
+        13.932300033047795,
+        13.483599992468953,
+        13.151000021025538
+      ],
+      "simulation_wall_ms_median": 13.483599992468953
+    },
+    {
+      "uid": "26092902-industrial_control-0005",
+      "service": "industrial_control",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 500,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 183.1749000120908,
+      "simulation_wall_ms_trials": [
+        3.0487000476568937,
+        3.002199809998274,
+        3.0945001635700464
+      ],
+      "simulation_wall_ms_median": 3.0487000476568937
+    },
+    {
+      "uid": "26092902-industrial_control-0006",
+      "service": "industrial_control",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 500,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 186.23029999434948,
+      "simulation_wall_ms_trials": [
+        3.0030999332666397,
+        3.6552001256495714,
+        3.284099977463484
+      ],
+      "simulation_wall_ms_median": 3.284099977463484
+    },
+    {
+      "uid": "26092902-industrial_control-0007",
+      "service": "industrial_control",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 100,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 201.80479995906353,
+      "simulation_wall_ms_trials": [
+        1.4097001403570175,
+        1.3838999439030886,
+        1.3538999482989311
+      ],
+      "simulation_wall_ms_median": 1.3838999439030886
+    },
+    {
+      "uid": "26092902-industrial_control-0008",
+      "service": "industrial_control",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 750,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 182.7913001179695,
+      "simulation_wall_ms_trials": [
+        4.0415998082607985,
+        4.443099955096841,
+        4.110099980607629
+      ],
+      "simulation_wall_ms_median": 4.110099980607629
+    },
+    {
+      "uid": "26092902-industrial_control-0009",
+      "service": "industrial_control",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 2000,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 179.4783000368625,
+      "simulation_wall_ms_trials": [
+        9.207500144839287,
+        9.14460001513362,
+        9.133900050073862
+      ],
+      "simulation_wall_ms_median": 9.14460001513362
+    },
+    {
+      "uid": "26092902-industrial_control-0010",
+      "service": "industrial_control",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 1000,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 186.76349986344576,
+      "simulation_wall_ms_trials": [
+        5.084600066766143,
+        5.227900110185146,
+        5.373799940571189
+      ],
+      "simulation_wall_ms_median": 5.227900110185146
+    },
+    {
+      "uid": "26092902-industrial_control-0011",
+      "service": "industrial_control",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 1497,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 194.93019999936223,
+      "simulation_wall_ms_trials": [
+        7.3009999468922615,
+        7.61430012062192,
+        7.635500049218535
+      ],
+      "simulation_wall_ms_median": 7.61430012062192
+    },
+    {
+      "uid": "26092902-industrial_control-0012",
+      "service": "industrial_control",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 1000,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 229.53289980068803,
+      "simulation_wall_ms_trials": [
+        5.0379999447613955,
+        5.334600107744336,
+        5.361299961805344
+      ],
+      "simulation_wall_ms_median": 5.334600107744336
+    },
+    {
+      "uid": "26092902-industrial_control-0013",
+      "service": "industrial_control",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 200,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 192.74179986678064,
+      "simulation_wall_ms_trials": [
+        1.8090999219566584,
+        1.7810000572353601,
+        2.2195999044924974
+      ],
+      "simulation_wall_ms_median": 1.8090999219566584
+    },
+    {
+      "uid": "26092902-industrial_control-0014",
+      "service": "industrial_control",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 1000,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 175.74120010249317,
+      "simulation_wall_ms_trials": [
+        5.301499972119927,
+        5.45100006274879,
+        5.49990008585155
+      ],
+      "simulation_wall_ms_median": 5.45100006274879
+    },
+    {
+      "uid": "26092902-industrial_control-0015",
+      "service": "industrial_control",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 1000,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 185.05589989945292,
+      "simulation_wall_ms_trials": [
+        5.258399993181229,
+        5.576999858021736,
+        5.414099898189306
+      ],
+      "simulation_wall_ms_median": 5.414099898189306
+    },
+    {
+      "uid": "26092902-industrial_control-0016",
+      "service": "industrial_control",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 300,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 197.70619994960725,
+      "simulation_wall_ms_trials": [
+        2.2835000418126583,
+        2.1934001706540585,
+        2.180699957534671
+      ],
+      "simulation_wall_ms_median": 2.1934001706540585
+    },
+    {
+      "uid": "26092902-industrial_control-0017",
+      "service": "industrial_control",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 100,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 181.62629986181855,
+      "simulation_wall_ms_trials": [
+        1.352099934592843,
+        1.4154999516904354,
+        1.3843998312950134
+      ],
+      "simulation_wall_ms_median": 1.3843998312950134
+    },
+    {
+      "uid": "26092902-industrial_control-0018",
+      "service": "industrial_control",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 3000,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 228.64250000566244,
+      "simulation_wall_ms_trials": [
+        13.094899943098426,
+        13.67570017464459,
+        13.604399980977178
+      ],
+      "simulation_wall_ms_median": 13.604399980977178
+    },
+    {
+      "uid": "26092902-industrial_control-0019",
+      "service": "industrial_control",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 100,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 191.59900001250207,
+      "simulation_wall_ms_trials": [
+        1.4301000628620386,
+        1.3596999924629927,
+        1.3520000502467155
+      ],
+      "simulation_wall_ms_median": 1.3596999924629927
+    },
+    {
+      "uid": "26092902-industrial_control-0020",
+      "service": "industrial_control",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 400,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 176.91300017759204,
+      "simulation_wall_ms_trials": [
+        2.5877999141812325,
+        3.217600053176284,
+        2.707800129428506
+      ],
+      "simulation_wall_ms_median": 2.707800129428506
+    },
+    {
+      "uid": "26092902-industrial_control-0021",
+      "service": "industrial_control",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 100,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 186.1386001110077,
+      "simulation_wall_ms_trials": [
+        1.3651000335812569,
+        1.345600001513958,
+        1.33050000295043
+      ],
+      "simulation_wall_ms_median": 1.345600001513958
+    },
+    {
+      "uid": "26092902-industrial_control-0022",
+      "service": "industrial_control",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 3000,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 182.36949993297458,
+      "simulation_wall_ms_trials": [
+        13.155899941921234,
+        13.597400160506368,
+        13.178099878132343
+      ],
+      "simulation_wall_ms_median": 13.178099878132343
+    },
+    {
+      "uid": "26092902-industrial_control-0023",
+      "service": "industrial_control",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 200,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 193.41520010493696,
+      "simulation_wall_ms_trials": [
+        1.8086000345647335,
+        1.7670001834630966,
+        1.7591998912394047
+      ],
+      "simulation_wall_ms_median": 1.7670001834630966
+    },
+    {
+      "uid": "26092902-industrial_control-0024",
+      "service": "industrial_control",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 200,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 186.25640007667243,
+      "simulation_wall_ms_trials": [
+        1.7675000708550215,
+        1.7593000084161758,
+        1.7609999049454927
+      ],
+      "simulation_wall_ms_median": 1.7609999049454927
+    },
+    {
+      "uid": "26092902-industrial_control-0025",
+      "service": "industrial_control",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 250,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 182.42139997892082,
+      "simulation_wall_ms_trials": [
+        1.9805000629276037,
+        2.4209998082369566,
+        2.0994001533836126
+      ],
+      "simulation_wall_ms_median": 2.0994001533836126
+    },
+    {
+      "uid": "26092902-industrial_control-0026",
+      "service": "industrial_control",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 1000,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 189.36079996638,
+      "simulation_wall_ms_trials": [
+        5.4484999272972345,
+        5.092700012028217,
+        5.348100094124675
+      ],
+      "simulation_wall_ms_median": 5.348100094124675
+    },
+    {
+      "uid": "26092902-industrial_control-0027",
+      "service": "industrial_control",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 400,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 217.57330000400543,
+      "simulation_wall_ms_trials": [
+        2.8782999143004417,
+        2.6823999360203743,
+        2.6932000182569027
+      ],
+      "simulation_wall_ms_median": 2.6932000182569027
+    },
+    {
+      "uid": "26092902-industrial_control-0028",
+      "service": "industrial_control",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 250,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 213.8207999523729,
+      "simulation_wall_ms_trials": [
+        2.0038001239299774,
+        2.5714999064803123,
+        2.002999885007739
+      ],
+      "simulation_wall_ms_median": 2.0038001239299774
+    },
+    {
+      "uid": "26092902-industrial_control-0029",
+      "service": "industrial_control",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 250,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 189.0048999339342,
+      "simulation_wall_ms_trials": [
+        1.9880998879671097,
+        1.9622000399976969,
+        2.007000148296356
+      ],
+      "simulation_wall_ms_median": 1.9880998879671097
+    },
+    {
+      "uid": "26092902-xr-0000",
+      "service": "xr",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 810,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 189.7762999869883,
+      "simulation_wall_ms_trials": [
+        4.2403999250382185,
+        4.38850000500679,
+        4.24350006505847
+      ],
+      "simulation_wall_ms_median": 4.24350006505847
+    },
+    {
+      "uid": "26092902-xr-0001",
+      "service": "xr",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 720,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 189.26199991256,
+      "simulation_wall_ms_trials": [
+        4.06270008534193,
+        3.9242999628186226,
+        3.9869998581707478
+      ],
+      "simulation_wall_ms_median": 3.9869998581707478
+    },
+    {
+      "uid": "26092902-xr-0002",
+      "service": "xr",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 900,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 185.94270013272762,
+      "simulation_wall_ms_trials": [
+        4.577100044116378,
+        4.946199944242835,
+        4.827399970963597
+      ],
+      "simulation_wall_ms_median": 4.827399970963597
+    },
+    {
+      "uid": "26092902-xr-0003",
+      "service": "xr",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 810,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 183.2245998084545,
+      "simulation_wall_ms_trials": [
+        4.268599906936288,
+        4.374800017103553,
+        4.377000033855438
+      ],
+      "simulation_wall_ms_median": 4.374800017103553
+    },
+    {
+      "uid": "26092902-xr-0004",
+      "service": "xr",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 480,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 185.5754000134766,
+      "simulation_wall_ms_trials": [
+        2.896500052884221,
+        2.8861998580396175,
+        2.8729999903589487
+      ],
+      "simulation_wall_ms_median": 2.8861998580396175
+    },
+    {
+      "uid": "26092902-xr-0005",
+      "service": "xr",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 360,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 184.29320002906024,
+      "simulation_wall_ms_trials": [
+        2.4084998294711113,
+        2.934499876573682,
+        2.7620999608188868
+      ],
+      "simulation_wall_ms_median": 2.7620999608188868
+    },
+    {
+      "uid": "26092902-xr-0006",
+      "service": "xr",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 630,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 176.4930000063032,
+      "simulation_wall_ms_trials": [
+        3.7588998675346375,
+        3.5186000168323517,
+        3.5101999528706074
+      ],
+      "simulation_wall_ms_median": 3.5186000168323517
+    },
+    {
+      "uid": "26092902-xr-0007",
+      "service": "xr",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 270,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 195.70860010571778,
+      "simulation_wall_ms_trials": [
+        2.361200051382184,
+        2.1202999632805586,
+        2.052099909633398
+      ],
+      "simulation_wall_ms_median": 2.1202999632805586
+    },
+    {
+      "uid": "26092902-xr-0008",
+      "service": "xr",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 360,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 183.85659996420145,
+      "simulation_wall_ms_trials": [
+        2.4397000670433044,
+        2.4061999283730984,
+        2.412100089713931
+      ],
+      "simulation_wall_ms_median": 2.412100089713931
+    },
+    {
+      "uid": "26092902-xr-0009",
+      "service": "xr",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 540,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 176.06449988670647,
+      "simulation_wall_ms_trials": [
+        3.1324001029133797,
+        3.800200065597892,
+        3.1443999614566565
+      ],
+      "simulation_wall_ms_median": 3.1443999614566565
+    },
+    {
+      "uid": "26092902-xr-0010",
+      "service": "xr",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 1440,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 175.37690000608563,
+      "simulation_wall_ms_trials": [
+        6.672700168564916,
+        7.11599993519485,
+        6.7652000579983
+      ],
+      "simulation_wall_ms_median": 6.7652000579983
+    },
+    {
+      "uid": "26092902-xr-0011",
+      "service": "xr",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 420,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 176.64660001173615,
+      "simulation_wall_ms_trials": [
+        2.662800019606948,
+        2.9362000059336424,
+        2.996700117364526
+      ],
+      "simulation_wall_ms_median": 2.9362000059336424
+    },
+    {
+      "uid": "26092902-xr-0012",
+      "service": "xr",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 480,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 183.6345000192523,
+      "simulation_wall_ms_trials": [
+        3.195700002834201,
+        3.138700034469366,
+        3.0002000275999308
+      ],
+      "simulation_wall_ms_median": 3.138700034469366
+    },
+    {
+      "uid": "26092902-xr-0013",
+      "service": "xr",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 720,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 201.86159992590547,
+      "simulation_wall_ms_trials": [
+        4.234599880874157,
+        4.3721001129597425,
+        4.1473000310361385
+      ],
+      "simulation_wall_ms_median": 4.234599880874157
+    },
+    {
+      "uid": "26092902-xr-0014",
+      "service": "xr",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 180,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 174.64790004305542,
+      "simulation_wall_ms_trials": [
+        1.7292997799813747,
+        1.694600097835064,
+        1.7043999396264553
+      ],
+      "simulation_wall_ms_median": 1.7043999396264553
+    },
+    {
+      "uid": "26092902-xr-0015",
+      "service": "xr",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 720,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 182.54949990659952,
+      "simulation_wall_ms_trials": [
+        4.1918999049812555,
+        3.8658000994473696,
+        3.946100128814578
+      ],
+      "simulation_wall_ms_median": 3.946100128814578
+    },
+    {
+      "uid": "26092902-xr-0016",
+      "service": "xr",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 720,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 177.33059986494482,
+      "simulation_wall_ms_trials": [
+        4.083500010892749,
+        4.318900173529983,
+        4.124999977648258
+      ],
+      "simulation_wall_ms_median": 4.124999977648258
+    },
+    {
+      "uid": "26092902-xr-0017",
+      "service": "xr",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 720,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 183.02250001579523,
+      "simulation_wall_ms_trials": [
+        3.9021000266075134,
+        4.320200067013502,
+        4.144300008192658
+      ],
+      "simulation_wall_ms_median": 4.144300008192658
+    },
+    {
+      "uid": "26092902-xr-0018",
+      "service": "xr",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 600,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 184.61739993654191,
+      "simulation_wall_ms_trials": [
+        3.948700148612261,
+        3.5735999699681997,
+        3.8725000340491533
+      ],
+      "simulation_wall_ms_median": 3.8725000340491533
+    },
+    {
+      "uid": "26092902-xr-0019",
+      "service": "xr",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 180,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 184.59339998662472,
+      "simulation_wall_ms_trials": [
+        1.7395999748259783,
+        1.6880000475794077,
+        1.684999791905284
+      ],
+      "simulation_wall_ms_median": 1.6880000475794077
+    },
+    {
+      "uid": "26092902-xr-0020",
+      "service": "xr",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 1200,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 195.2269000466913,
+      "simulation_wall_ms_trials": [
+        5.981799913570285,
+        6.058699917048216,
+        5.947399884462357
+      ],
+      "simulation_wall_ms_median": 5.981799913570285
+    },
+    {
+      "uid": "26092902-xr-0021",
+      "service": "xr",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 1320,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 191.3073998875916,
+      "simulation_wall_ms_trials": [
+        6.2692000064998865,
+        6.424000021070242,
+        6.687199929729104
+      ],
+      "simulation_wall_ms_median": 6.424000021070242
+    },
+    {
+      "uid": "26092902-xr-0022",
+      "service": "xr",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 420,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 178.10040013864636,
+      "simulation_wall_ms_trials": [
+        2.665300155058503,
+        2.862399909645319,
+        2.6485000271350145
+      ],
+      "simulation_wall_ms_median": 2.665300155058503
+    },
+    {
+      "uid": "26092902-xr-0023",
+      "service": "xr",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 990,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 178.44739998690784,
+      "simulation_wall_ms_trials": [
+        5.257299868389964,
+        5.495500052347779,
+        5.007999949157238
+      ],
+      "simulation_wall_ms_median": 5.257299868389964
+    },
+    {
+      "uid": "26092902-xr-0024",
+      "service": "xr",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 540,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 185.71919994428754,
+      "simulation_wall_ms_trials": [
+        3.1712001655250788,
+        3.3180001191794872,
+        3.235599957406521
+      ],
+      "simulation_wall_ms_median": 3.235599957406521
+    },
+    {
+      "uid": "26092902-xr-0025",
+      "service": "xr",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 840,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 176.21619999408722,
+      "simulation_wall_ms_trials": [
+        4.595400067046285,
+        4.522599978372455,
+        4.710600012913346
+      ],
+      "simulation_wall_ms_median": 4.595400067046285
+    },
+    {
+      "uid": "26092902-xr-0026",
+      "service": "xr",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 990,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 179.40320004709065,
+      "simulation_wall_ms_trials": [
+        5.272699985653162,
+        5.1195998676121235,
+        5.349700106307864
+      ],
+      "simulation_wall_ms_median": 5.272699985653162
+    },
+    {
+      "uid": "26092902-xr-0027",
+      "service": "xr",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 360,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 181.67890002951026,
+      "simulation_wall_ms_trials": [
+        2.549199853092432,
+        2.6215999387204647,
+        2.530299825593829
+      ],
+      "simulation_wall_ms_median": 2.549199853092432
+    },
+    {
+      "uid": "26092902-xr-0028",
+      "service": "xr",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 600,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 173.70599997229874,
+      "simulation_wall_ms_trials": [
+        3.467600094154477,
+        3.4888999070972204,
+        3.8201999850571156
+      ],
+      "simulation_wall_ms_median": 3.4888999070972204
+    },
+    {
+      "uid": "26092902-xr-0029",
+      "service": "xr",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 480,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 188.01450007595122,
+      "simulation_wall_ms_trials": [
+        2.977399853989482,
+        2.9331000987440348,
+        2.9060000088065863
+      ],
+      "simulation_wall_ms_median": 2.9331000987440348
+    },
+    {
+      "uid": "26092902-gaming-0000",
+      "service": "gaming",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 400,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 187.6660999841988,
+      "simulation_wall_ms_trials": [
+        2.5736000388860703,
+        2.5806999765336514,
+        2.9806001111865044
+      ],
+      "simulation_wall_ms_median": 2.5806999765336514
+    },
+    {
+      "uid": "26092902-gaming-0001",
+      "service": "gaming",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 30,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 172.89270018227398,
+      "simulation_wall_ms_trials": [
+        1.165800029411912,
+        1.1021001264452934,
+        1.0567998979240656
+      ],
+      "simulation_wall_ms_median": 1.1021001264452934
+    },
+    {
+      "uid": "26092902-gaming-0002",
+      "service": "gaming",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 180,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 197.3336001392454,
+      "simulation_wall_ms_trials": [
+        1.7023999243974686,
+        1.675700070336461,
+        1.6803001053631306
+      ],
+      "simulation_wall_ms_median": 1.6803001053631306
+    },
+    {
+      "uid": "26092902-gaming-0003",
+      "service": "gaming",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 150,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 208.13690009526908,
+      "simulation_wall_ms_trials": [
+        1.5604998916387558,
+        1.5430999919772148,
+        1.539899967610836
+      ],
+      "simulation_wall_ms_median": 1.5430999919772148
+    },
+    {
+      "uid": "26092902-gaming-0004",
+      "service": "gaming",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 100,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 190.54709980264306,
+      "simulation_wall_ms_trials": [
+        1.6132998280227184,
+        1.42990006133914,
+        1.6524998936802149
+      ],
+      "simulation_wall_ms_median": 1.6132998280227184
+    },
+    {
+      "uid": "26092902-gaming-0005",
+      "service": "gaming",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 360,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 188.3978999685496,
+      "simulation_wall_ms_trials": [
+        2.464700024574995,
+        2.3876000195741653,
+        2.3836998734623194
+      ],
+      "simulation_wall_ms_median": 2.3876000195741653
+    },
+    {
+      "uid": "26092902-gaming-0006",
+      "service": "gaming",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 60,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 181.77179992198944,
+      "simulation_wall_ms_trials": [
+        1.199300168082118,
+        1.1812997981905937,
+        1.1818001512438059
+      ],
+      "simulation_wall_ms_median": 1.1818001512438059
+    },
+    {
+      "uid": "26092902-gaming-0007",
+      "service": "gaming",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 30,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 198.63700005225837,
+      "simulation_wall_ms_trials": [
+        1.0565000120550394,
+        1.6679000109434128,
+        1.192399999126792
+      ],
+      "simulation_wall_ms_median": 1.192399999126792
+    },
+    {
+      "uid": "26092902-gaming-0008",
+      "service": "gaming",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 160,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 192.62979994527996,
+      "simulation_wall_ms_trials": [
+        1.59880006685853,
+        1.5986999496817589,
+        1.5977001748979092
+      ],
+      "simulation_wall_ms_median": 1.5986999496817589
+    },
+    {
+      "uid": "26092902-gaming-0009",
+      "service": "gaming",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 160,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 197.23820011131465,
+      "simulation_wall_ms_trials": [
+        1.596400048583746,
+        1.590099884197116,
+        1.5893001109361649
+      ],
+      "simulation_wall_ms_median": 1.590099884197116
+    },
+    {
+      "uid": "26092902-gaming-0010",
+      "service": "gaming",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 150,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 218.34559994749725,
+      "simulation_wall_ms_trials": [
+        1.5417998656630516,
+        1.546700019389391,
+        1.8180999904870987
+      ],
+      "simulation_wall_ms_median": 1.546700019389391
+    },
+    {
+      "uid": "26092902-gaming-0011",
+      "service": "gaming",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 124,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 200.25100000202656,
+      "simulation_wall_ms_trials": [
+        1.9471000414341688,
+        1.4999001286923885,
+        1.4579999260604382
+      ],
+      "simulation_wall_ms_median": 1.4999001286923885
+    },
+    {
+      "uid": "26092902-gaming-0012",
+      "service": "gaming",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 400,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 203.61050008796155,
+      "simulation_wall_ms_trials": [
+        2.602099906653166,
+        2.5625000707805157,
+        2.539099892601371
+      ],
+      "simulation_wall_ms_median": 2.5625000707805157
+    },
+    {
+      "uid": "26092902-gaming-0013",
+      "service": "gaming",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 180,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 180.9878998901695,
+      "simulation_wall_ms_trials": [
+        1.8997001461684704,
+        2.0288999658077955,
+        2.052400028333068
+      ],
+      "simulation_wall_ms_median": 2.0288999658077955
+    },
+    {
+      "uid": "26092902-gaming-0014",
+      "service": "gaming",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 234,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 183.6800999008119,
+      "simulation_wall_ms_trials": [
+        2.0806000102311373,
+        1.8986999057233334,
+        1.918399939313531
+      ],
+      "simulation_wall_ms_median": 1.918399939313531
+    },
+    {
+      "uid": "26092902-gaming-0015",
+      "service": "gaming",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 160,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 183.91290004365146,
+      "simulation_wall_ms_trials": [
+        1.6157999634742737,
+        1.6071000136435032,
+        1.605199882760644
+      ],
+      "simulation_wall_ms_median": 1.6071000136435032
+    },
+    {
+      "uid": "26092902-gaming-0016",
+      "service": "gaming",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 120,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 195.91800007037818,
+      "simulation_wall_ms_trials": [
+        1.442700158804655,
+        1.8232997972518206,
+        1.6327002085745335
+      ],
+      "simulation_wall_ms_median": 1.6327002085745335
+    },
+    {
+      "uid": "26092902-gaming-0017",
+      "service": "gaming",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 40,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 200.81449998542666,
+      "simulation_wall_ms_trials": [
+        1.1956000234931707,
+        1.2342999689280987,
+        1.1105001904070377
+      ],
+      "simulation_wall_ms_median": 1.1956000234931707
+    },
+    {
+      "uid": "26092902-gaming-0018",
+      "service": "gaming",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 180,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 202.00509997084737,
+      "simulation_wall_ms_trials": [
+        1.6926000826060772,
+        1.6652001067996025,
+        1.6587998252362013
+      ],
+      "simulation_wall_ms_median": 1.6652001067996025
+    },
+    {
+      "uid": "26092902-gaming-0019",
+      "service": "gaming",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 180,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 191.57310016453266,
+      "simulation_wall_ms_trials": [
+        1.7260999884456396,
+        1.7797001637518406,
+        1.769999973475933
+      ],
+      "simulation_wall_ms_median": 1.769999973475933
+    },
+    {
+      "uid": "26092902-gaming-0020",
+      "service": "gaming",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 120,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 182.26260016672313,
+      "simulation_wall_ms_trials": [
+        1.4400999061763287,
+        1.9088999833911657,
+        1.6107000410556793
+      ],
+      "simulation_wall_ms_median": 1.6107000410556793
+    },
+    {
+      "uid": "26092902-gaming-0021",
+      "service": "gaming",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 204,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 182.6774999499321,
+      "simulation_wall_ms_trials": [
+        1.82120013050735,
+        1.7670998349785805,
+        1.773900119587779
+      ],
+      "simulation_wall_ms_median": 1.773900119587779
+    },
+    {
+      "uid": "26092902-gaming-0022",
+      "service": "gaming",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 300,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 181.0639000032097,
+      "simulation_wall_ms_trials": [
+        2.1750000305473804,
+        2.3560000117868185,
+        2.2432999685406685
+      ],
+      "simulation_wall_ms_median": 2.2432999685406685
+    },
+    {
+      "uid": "26092902-gaming-0023",
+      "service": "gaming",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 150,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 192.22060008905828,
+      "simulation_wall_ms_trials": [
+        1.5940999146550894,
+        1.7916001379489899,
+        1.7816999461501837
+      ],
+      "simulation_wall_ms_median": 1.7816999461501837
+    },
+    {
+      "uid": "26092902-gaming-0024",
+      "service": "gaming",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 200,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 198.0380997993052,
+      "simulation_wall_ms_trials": [
+        1.9740001298487186,
+        1.795200165361166,
+        1.7854999750852585
+      ],
+      "simulation_wall_ms_median": 1.795200165361166
+    },
+    {
+      "uid": "26092902-gaming-0025",
+      "service": "gaming",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 90,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 202.61409995146096,
+      "simulation_wall_ms_trials": [
+        1.5616000164300203,
+        1.4033999759703875,
+        1.313100103288889
+      ],
+      "simulation_wall_ms_median": 1.4033999759703875
+    },
+    {
+      "uid": "26092902-gaming-0026",
+      "service": "gaming",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 180,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 189.108100021258,
+      "simulation_wall_ms_trials": [
+        1.6882999334484339,
+        1.8341999966651201,
+        1.8706000410020351
+      ],
+      "simulation_wall_ms_median": 1.8341999966651201
+    },
+    {
+      "uid": "26092902-gaming-0027",
+      "service": "gaming",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 30,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 189.4853999838233,
+      "simulation_wall_ms_trials": [
+        1.087399898096919,
+        1.0736999101936817,
+        1.0746000334620476
+      ],
+      "simulation_wall_ms_median": 1.0746000334620476
+    },
+    {
+      "uid": "26092902-gaming-0028",
+      "service": "gaming",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 40,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 181.12839991226792,
+      "simulation_wall_ms_trials": [
+        1.129399985074997,
+        1.1038000229746103,
+        1.1075998190790415
+      ],
+      "simulation_wall_ms_median": 1.1075998190790415
+    },
+    {
+      "uid": "26092902-gaming-0029",
+      "service": "gaming",
+      "arrivals_horizon_ms": 1000.0,
+      "n_profile_simulations": 9,
+      "packets": 300,
+      "n_decider_requests": 1,
+      "decider_inference_wall_ms": 218.61659991554916,
+      "simulation_wall_ms_trials": [
+        2.926100045442581,
+        2.207400044426322,
+        2.169499872252345
+      ],
+      "simulation_wall_ms_median": 2.207400044426322
+    }
+  ]
+}

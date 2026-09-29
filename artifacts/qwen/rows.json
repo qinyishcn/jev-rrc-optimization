@@ -1,0 +1,2972 @@
+[
+  {
+    "uid": "26092902-industrial_control-0000",
+    "service": "industrial_control",
+    "deadline_ms": 5,
+    "profile": "40/4",
+    "inference_ms": 1217.7585999015719,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf4",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf40": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 20.673676980018072,
+      "p95_ms": 37.713948373649984,
+      "p99_ms": 38.076116853193916,
+      "max_ms": 38.17738392784983,
+      "miss_rate": 0.9,
+      "rx_duty": 0.1,
+      "packets": 500,
+      "last_completion_ms": 1001.8244981952885,
+      "drain_ms": 1.82449819528847,
+      "capacity_packets_per_ms": 0.975,
+      "utilization": 0.5128205128205129,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-industrial_control-0001",
+    "service": "industrial_control",
+    "deadline_ms": 5,
+    "profile": "20/8",
+    "inference_ms": 1196.6580001171678,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf8",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf20": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 6.027403557232524,
+      "p95_ms": 13.521466037625986,
+      "p99_ms": 13.615487581234355,
+      "max_ms": 13.642237384581618,
+      "miss_rate": 0.4266666666666667,
+      "rx_duty": 0.4,
+      "packets": 600,
+      "last_completion_ms": 1000.9300913973017,
+      "drain_ms": 0.9300913973016804,
+      "capacity_packets_per_ms": 3.85,
+      "utilization": 0.15584415584415584,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-industrial_control-0002",
+    "service": "industrial_control",
+    "deadline_ms": 5,
+    "profile": "20/8",
+    "inference_ms": 1221.3914999738336,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf8",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf20": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 7.668760453323321,
+      "p95_ms": 14.43351571598848,
+      "p99_ms": 14.678775889676821,
+      "max_ms": 14.798778284003479,
+      "miss_rate": 0.6,
+      "rx_duty": 0.4,
+      "packets": 1500,
+      "last_completion_ms": 1002.1642710029869,
+      "drain_ms": 2.1642710029868795,
+      "capacity_packets_per_ms": 3.3,
+      "utilization": 0.4545454545454546,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-industrial_control-0003",
+    "service": "industrial_control",
+    "deadline_ms": 5,
+    "profile": "20/4",
+    "inference_ms": 1230.1235001068562,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf4",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf20": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 9.801755668928209,
+      "p95_ms": 17.51425195336555,
+      "p99_ms": 17.65989452022505,
+      "max_ms": 17.748931192661296,
+      "miss_rate": 0.84,
+      "rx_duty": 0.2,
+      "packets": 100,
+      "last_completion_ms": 1000.2046283700681,
+      "drain_ms": 0.2046283700681215,
+      "capacity_packets_per_ms": 1.95,
+      "utilization": 0.05128205128205129,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-industrial_control-0004",
+    "service": "industrial_control",
+    "deadline_ms": 5,
+    "profile": "10/4",
+    "inference_ms": 1227.022900013253,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf4",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf10": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 3.5659878279044435,
+      "p95_ms": 7.1202878699932555,
+      "p99_ms": 7.202281108633985,
+      "max_ms": 7.221683828185841,
+      "miss_rate": 0.281,
+      "rx_duty": 0.4,
+      "packets": 3000,
+      "last_completion_ms": 1001.4052866673883,
+      "drain_ms": 1.4052866673882818,
+      "capacity_packets_per_ms": 5.9,
+      "utilization": 0.5084745762711864,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-industrial_control-0005",
+    "service": "industrial_control",
+    "deadline_ms": 5,
+    "profile": "20/4",
+    "inference_ms": 1217.0286001637578,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf4",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf20": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 9.17417263145805,
+      "p95_ms": 16.6920218292175,
+      "p99_ms": 16.80173275100648,
+      "max_ms": 16.926848828254585,
+      "miss_rate": 0.62,
+      "rx_duty": 0.2,
+      "packets": 500,
+      "last_completion_ms": 1000.336494010292,
+      "drain_ms": 0.3364940102919718,
+      "capacity_packets_per_ms": 4.75,
+      "utilization": 0.10526315789473684,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-industrial_control-0006",
+    "service": "industrial_control",
+    "deadline_ms": 5,
+    "profile": "10/4",
+    "inference_ms": 1278.8350998889655,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf4",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf10": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 3.411501493378753,
+      "p95_ms": 6.649326294711485,
+      "p99_ms": 6.732182416643162,
+      "max_ms": 6.777679494861293,
+      "miss_rate": 0.2,
+      "rx_duty": 0.4,
+      "packets": 500,
+      "last_completion_ms": 1000.1261667976846,
+      "drain_ms": 0.12616679768461836,
+      "capacity_packets_per_ms": 6.3,
+      "utilization": 0.07936507936507936,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-industrial_control-0007",
+    "service": "industrial_control",
+    "deadline_ms": 5,
+    "profile": "10/4",
+    "inference_ms": 1252.412399975583,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf4",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf10": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 1.3051380964460095,
+      "p95_ms": 1.3051380964460426,
+      "p99_ms": 1.3051380964460426,
+      "max_ms": 1.3051380964460426,
+      "miss_rate": 0.0,
+      "rx_duty": 0.4,
+      "packets": 100,
+      "last_completion_ms": 992.013080112741,
+      "drain_ms": 0.0,
+      "capacity_packets_per_ms": 6.0,
+      "utilization": 0.016666666666666666,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-industrial_control-0008",
+    "service": "industrial_control",
+    "deadline_ms": 5,
+    "profile": "20/4",
+    "inference_ms": 1205.0052999984473,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf4",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf20": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 7.9627197922960535,
+      "p95_ms": 15.34986453688008,
+      "p99_ms": 15.368847508626411,
+      "max_ms": 15.375374439059334,
+      "miss_rate": 0.6,
+      "rx_duty": 0.2,
+      "packets": 750,
+      "last_completion_ms": 1000.7769225140064,
+      "drain_ms": 0.7769225140064009,
+      "capacity_packets_per_ms": 3.05,
+      "utilization": 0.24590163934426232,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-industrial_control-0009",
+    "service": "industrial_control",
+    "deadline_ms": 5,
+    "profile": "20/4",
+    "inference_ms": 1222.2115001641214,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf4",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf20": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 9.219035859498472,
+      "p95_ms": 16.574289660284986,
+      "p99_ms": 17.27281957057946,
+      "max_ms": 17.378022842360753,
+      "miss_rate": 0.75,
+      "rx_duty": 0.2,
+      "packets": 2000,
+      "last_completion_ms": 1002.587978640142,
+      "drain_ms": 2.587978640141955,
+      "capacity_packets_per_ms": 2.45,
+      "utilization": 0.8163265306122448,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-industrial_control-0010",
+    "service": "industrial_control",
+    "deadline_ms": 5,
+    "profile": "10/4",
+    "inference_ms": 1253.6615999415517,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf4",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf10": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 3.4161766349569067,
+      "p95_ms": 6.83481015799009,
+      "p99_ms": 6.887947589580967,
+      "max_ms": 6.894589122374351,
+      "miss_rate": 0.3,
+      "rx_duty": 0.4,
+      "packets": 1000,
+      "last_completion_ms": 1001.0654516197601,
+      "drain_ms": 1.065451619760097,
+      "capacity_packets_per_ms": 2.2,
+      "utilization": 0.45454545454545453,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-industrial_control-0011",
+    "service": "industrial_control",
+    "deadline_ms": 5,
+    "profile": "20/8",
+    "inference_ms": 1245.37150003016,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf8",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf20": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 7.609271456488905,
+      "p95_ms": 14.414095070293829,
+      "p99_ms": 14.699189021048854,
+      "max_ms": 14.855980444899998,
+      "miss_rate": 0.6466265865063461,
+      "rx_duty": 0.4,
+      "packets": 1497,
+      "last_completion_ms": 1002.5136023622481,
+      "drain_ms": 2.5136023622480934,
+      "capacity_packets_per_ms": 2.85,
+      "utilization": 0.5252631578947369,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-industrial_control-0012",
+    "service": "industrial_control",
+    "deadline_ms": 5,
+    "profile": "80/4",
+    "inference_ms": 1204.7383999451995,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf4",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf80": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 306.6322198198865,
+      "p95_ms": 547.3752688124127,
+      "p99_ms": 578.8578210317597,
+      "max_ms": 608.6889941747539,
+      "miss_rate": 0.996,
+      "rx_duty": 0.05,
+      "packets": 1000,
+      "last_completion_ms": 1600.604201303022,
+      "drain_ms": 600.6042013030219,
+      "capacity_packets_per_ms": 0.65,
+      "utilization": 1.5384615384615383,
+      "overloaded": true
+    }
+  },
+  {
+    "uid": "26092902-industrial_control-0013",
+    "service": "industrial_control",
+    "deadline_ms": 5,
+    "profile": "10/4",
+    "inference_ms": 1274.9644999857992,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf4",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf10": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 1.9570745155331581,
+      "p95_ms": 3.494031638471226,
+      "p99_ms": 3.6132831521650375,
+      "max_ms": 3.6263257181668798,
+      "miss_rate": 0.0,
+      "rx_duty": 0.4,
+      "packets": 200,
+      "last_completion_ms": 1000.0987023865002,
+      "drain_ms": 0.09870238650023566,
+      "capacity_packets_per_ms": 4.0,
+      "utilization": 0.05,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-industrial_control-0014",
+    "service": "industrial_control",
+    "deadline_ms": 5,
+    "profile": "10/4",
+    "inference_ms": 1199.5029000099748,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf4",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf10": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 5.105766577127694,
+      "p95_ms": 8.395115502091967,
+      "p99_ms": 8.523618017516887,
+      "max_ms": 8.594471012552596,
+      "miss_rate": 0.4,
+      "rx_duty": 0.4,
+      "packets": 1000,
+      "last_completion_ms": 1000.3414619316366,
+      "drain_ms": 0.3414619316365588,
+      "capacity_packets_per_ms": 7.0,
+      "utilization": 0.14285714285714285,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-industrial_control-0015",
+    "service": "industrial_control",
+    "deadline_ms": 5,
+    "profile": "20/4",
+    "inference_ms": 1177.665000082925,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf4",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf20": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 8.037629743945486,
+      "p95_ms": 15.893171359855643,
+      "p99_ms": 17.699917027384117,
+      "max_ms": 17.726769710440923,
+      "miss_rate": 0.612,
+      "rx_duty": 0.2,
+      "packets": 1000,
+      "last_completion_ms": 1001.1846451917627,
+      "drain_ms": 1.1846451917626837,
+      "capacity_packets_per_ms": 2.7,
+      "utilization": 0.37037037037037035,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-industrial_control-0016",
+    "service": "industrial_control",
+    "deadline_ms": 5,
+    "profile": "10/8",
+    "inference_ms": 1184.7731999587268,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf8",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf10": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 1.7072188482589654,
+      "p95_ms": 1.786524314953419,
+      "p99_ms": 1.786524314953419,
+      "max_ms": 1.786524314953419,
+      "miss_rate": 0.0,
+      "rx_duty": 0.8,
+      "packets": 300,
+      "last_completion_ms": 996.8025307991087,
+      "drain_ms": 0.0,
+      "capacity_packets_per_ms": 10.0,
+      "utilization": 0.03,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-industrial_control-0017",
+    "service": "industrial_control",
+    "deadline_ms": 5,
+    "profile": "80/4",
+    "inference_ms": 1192.821400007233,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf4",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf80": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 36.91195807353257,
+      "p95_ms": 71.08120143899953,
+      "p99_ms": 71.69268136790777,
+      "max_ms": 71.76842183811829,
+      "miss_rate": 0.87,
+      "rx_duty": 0.05,
+      "packets": 100,
+      "last_completion_ms": 1040.367427517342,
+      "drain_ms": 40.367427517342094,
+      "capacity_packets_per_ms": 0.4,
+      "utilization": 0.25,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-industrial_control-0018",
+    "service": "industrial_control",
+    "deadline_ms": 5,
+    "profile": "10/4",
+    "inference_ms": 1220.6684998236597,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf4",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf10": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 5.78911961113559,
+      "p95_ms": 8.941951621997758,
+      "p99_ms": 9.701075675517414,
+      "max_ms": 9.751044894464973,
+      "miss_rate": 0.595,
+      "rx_duty": 0.4,
+      "packets": 3000,
+      "last_completion_ms": 1001.4342424446211,
+      "drain_ms": 1.434242444621077,
+      "capacity_packets_per_ms": 5.0,
+      "utilization": 0.6,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-industrial_control-0019",
+    "service": "industrial_control",
+    "deadline_ms": 5,
+    "profile": "10/4",
+    "inference_ms": 1154.8602001275867,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf4",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf10": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 6.702479611407062,
+      "p95_ms": 8.876253988519021,
+      "p99_ms": 8.901805785382367,
+      "max_ms": 8.913941568436325,
+      "miss_rate": 0.67,
+      "rx_duty": 0.4,
+      "packets": 100,
+      "last_completion_ms": 1000.0830835293636,
+      "drain_ms": 0.08308352936364827,
+      "capacity_packets_per_ms": 4.8,
+      "utilization": 0.020833333333333336,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-industrial_control-0020",
+    "service": "industrial_control",
+    "deadline_ms": 5,
+    "profile": "10/8",
+    "inference_ms": 1189.0601001214236,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf8",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf10": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 4.233629030150605,
+      "p95_ms": 4.96542261797021,
+      "p99_ms": 4.987786367588201,
+      "max_ms": 4.9989572664495725,
+      "miss_rate": 0.0,
+      "rx_duty": 0.8,
+      "packets": 400,
+      "last_completion_ms": 1000.1464875547586,
+      "drain_ms": 0.1464875547585507,
+      "capacity_packets_per_ms": 10.9,
+      "utilization": 0.03669724770642202,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-industrial_control-0021",
+    "service": "industrial_control",
+    "deadline_ms": 5,
+    "profile": "20/4",
+    "inference_ms": 1169.9220999144018,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf4",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf20": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 7.766345842451604,
+      "p95_ms": 13.049109151375507,
+      "p99_ms": 13.158974824897676,
+      "max_ms": 13.243877016446122,
+      "miss_rate": 0.5,
+      "rx_duty": 0.2,
+      "packets": 100,
+      "last_completion_ms": 1000.1598128666313,
+      "drain_ms": 0.15981286663134142,
+      "capacity_packets_per_ms": 1.25,
+      "utilization": 0.08,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-industrial_control-0022",
+    "service": "industrial_control",
+    "deadline_ms": 5,
+    "profile": "80/4",
+    "inference_ms": 1216.2258999887854,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf4",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf80": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 2249.8288210177343,
+      "p95_ms": 4254.230607785214,
+      "p99_ms": 4448.594527615157,
+      "max_ms": 4455.988591180597,
+      "miss_rate": 0.996,
+      "rx_duty": 0.05,
+      "packets": 3000,
+      "last_completion_ms": 5443.6010956033715,
+      "drain_ms": 4443.6010956033715,
+      "capacity_packets_per_ms": 0.55,
+      "utilization": 5.454545454545454,
+      "overloaded": true
+    }
+  },
+  {
+    "uid": "26092902-industrial_control-0023",
+    "service": "industrial_control",
+    "deadline_ms": 5,
+    "profile": "10/4",
+    "inference_ms": 1167.2948999330401,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf4",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf10": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 3.640119886435132,
+      "p95_ms": 4.593942452828704,
+      "p99_ms": 4.626141444372859,
+      "max_ms": 4.635859341068654,
+      "miss_rate": 0.0,
+      "rx_duty": 0.4,
+      "packets": 200,
+      "last_completion_ms": 1000.1596338332017,
+      "drain_ms": 0.15963383320172397,
+      "capacity_packets_per_ms": 2.5,
+      "utilization": 0.08,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-industrial_control-0024",
+    "service": "industrial_control",
+    "deadline_ms": 5,
+    "profile": "20/8",
+    "inference_ms": 1206.5066997893155,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf8",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf20": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 7.529942214836512,
+      "p95_ms": 14.129217458267613,
+      "p99_ms": 14.227222578873592,
+      "max_ms": 14.263284615301455,
+      "miss_rate": 0.5,
+      "rx_duty": 0.4,
+      "packets": 200,
+      "last_completion_ms": 1000.3827884636777,
+      "drain_ms": 0.3827884636776844,
+      "capacity_packets_per_ms": 3.1,
+      "utilization": 0.06451612903225806,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-industrial_control-0025",
+    "service": "industrial_control",
+    "deadline_ms": 5,
+    "profile": "10/8",
+    "inference_ms": 1168.0177000816911,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf8",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf10": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 2.043255285821072,
+      "p95_ms": 3.34813630815705,
+      "p99_ms": 3.484520175487737,
+      "max_ms": 3.5454103653600306,
+      "miss_rate": 0.0,
+      "rx_duty": 0.8,
+      "packets": 250,
+      "last_completion_ms": 1000.1518235394101,
+      "drain_ms": 0.15182353941008842,
+      "capacity_packets_per_ms": 5.2,
+      "utilization": 0.04807692307692307,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-industrial_control-0026",
+    "service": "industrial_control",
+    "deadline_ms": 5,
+    "profile": "20/4",
+    "inference_ms": 1164.9323999881744,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf4",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf20": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 8.524398762818308,
+      "p95_ms": 16.39729110165016,
+      "p99_ms": 16.52173774377736,
+      "max_ms": 16.575574258895458,
+      "miss_rate": 0.7,
+      "rx_duty": 0.2,
+      "packets": 1000,
+      "last_completion_ms": 1001.8052671198129,
+      "drain_ms": 1.8052671198129246,
+      "capacity_packets_per_ms": 1.75,
+      "utilization": 0.5714285714285714,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-industrial_control-0027",
+    "service": "industrial_control",
+    "deadline_ms": 5,
+    "profile": "10/4",
+    "inference_ms": 1214.9920999072492,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf4",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf10": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 5.5285340758660295,
+      "p95_ms": 8.0110595717981,
+      "p99_ms": 8.142928404881587,
+      "max_ms": 8.185130748472817,
+      "miss_rate": 0.5,
+      "rx_duty": 0.4,
+      "packets": 400,
+      "last_completion_ms": 1000.333847230309,
+      "drain_ms": 0.3338472303089475,
+      "capacity_packets_per_ms": 2.3,
+      "utilization": 0.1739130434782609,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-industrial_control-0028",
+    "service": "industrial_control",
+    "deadline_ms": 5,
+    "profile": "20/4",
+    "inference_ms": 1176.1543001048267,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf4",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf20": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 8.586996783639043,
+      "p95_ms": 16.23768699737987,
+      "p99_ms": 16.343222615215495,
+      "max_ms": 16.371549070189015,
+      "miss_rate": 0.6,
+      "rx_duty": 0.2,
+      "packets": 250,
+      "last_completion_ms": 1000.4994718404246,
+      "drain_ms": 0.49947184042457593,
+      "capacity_packets_per_ms": 1.6,
+      "utilization": 0.15625,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-industrial_control-0029",
+    "service": "industrial_control",
+    "deadline_ms": 5,
+    "profile": "20/8",
+    "inference_ms": 1196.1055998690426,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf8",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf20": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 5.053425385948501,
+      "p95_ms": 11.6309986601815,
+      "p99_ms": 11.864663679866622,
+      "max_ms": 11.896391365222845,
+      "miss_rate": 0.4,
+      "rx_duty": 0.4,
+      "packets": 250,
+      "last_completion_ms": 1000.1372830379528,
+      "drain_ms": 0.13728303795278407,
+      "capacity_packets_per_ms": 8.7,
+      "utilization": 0.02873563218390805,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-xr-0000",
+    "service": "xr",
+    "deadline_ms": 10,
+    "profile": "10/4",
+    "inference_ms": 1188.1148999091238,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf4",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf10": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 4.007085801996038,
+      "p95_ms": 7.59357691963281,
+      "p99_ms": 8.216991884391694,
+      "max_ms": 8.382353230432031,
+      "miss_rate": 0.0,
+      "rx_duty": 0.4,
+      "packets": 810,
+      "last_completion_ms": 1001.4726979866479,
+      "drain_ms": 1.4726979866478587,
+      "capacity_packets_per_ms": 2.4,
+      "utilization": 0.3375,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-xr-0001",
+    "service": "xr",
+    "deadline_ms": 10,
+    "profile": "20/4",
+    "inference_ms": 1208.2003999967128,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf4",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf20": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 10.130881079719618,
+      "p95_ms": 18.98200640901338,
+      "p99_ms": 20.63249723615578,
+      "max_ms": 21.578011651931096,
+      "miss_rate": 0.49722222222222223,
+      "rx_duty": 0.2,
+      "packets": 720,
+      "last_completion_ms": 1002.3608537327182,
+      "drain_ms": 2.3608537327181693,
+      "capacity_packets_per_ms": 1.0,
+      "utilization": 0.72,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-xr-0002",
+    "service": "xr",
+    "deadline_ms": 10,
+    "profile": "10/4",
+    "inference_ms": 1183.2532999105752,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf4",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf10": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 4.722305845329682,
+      "p95_ms": 8.432165704252325,
+      "p99_ms": 8.939223134187765,
+      "max_ms": 9.171119620450902,
+      "miss_rate": 0.0,
+      "rx_duty": 0.4,
+      "packets": 900,
+      "last_completion_ms": 1000.619207606004,
+      "drain_ms": 0.6192076060040108,
+      "capacity_packets_per_ms": 6.4,
+      "utilization": 0.140625,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-xr-0003",
+    "service": "xr",
+    "deadline_ms": 10,
+    "profile": "10/4",
+    "inference_ms": 1179.1776998434216,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf4",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf10": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 5.82601109305042,
+      "p95_ms": 9.89814429194793,
+      "p99_ms": 10.329175260201188,
+      "max_ms": 10.441838854429022,
+      "miss_rate": 0.043209876543209874,
+      "rx_duty": 0.4,
+      "packets": 810,
+      "last_completion_ms": 1001.22836270135,
+      "drain_ms": 1.2283627013499654,
+      "capacity_packets_per_ms": 2.9,
+      "utilization": 0.2793103448275862,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-xr-0004",
+    "service": "xr",
+    "deadline_ms": 10,
+    "profile": "10/4",
+    "inference_ms": 1193.3802999556065,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf4",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf10": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 7.837418252724169,
+      "p95_ms": 12.075972466215262,
+      "p99_ms": 12.299498557302632,
+      "max_ms": 12.381281739232842,
+      "miss_rate": 0.2875,
+      "rx_duty": 0.4,
+      "packets": 480,
+      "last_completion_ms": 1001.3656489985287,
+      "drain_ms": 1.3656489985287408,
+      "capacity_packets_per_ms": 2.3,
+      "utilization": 0.20869565217391306,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-xr-0005",
+    "service": "xr",
+    "deadline_ms": 10,
+    "profile": "10/4",
+    "inference_ms": 1200.102100148797,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf4",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf10": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 5.99586542116157,
+      "p95_ms": 9.999999204520208,
+      "p99_ms": 10.426335799463029,
+      "max_ms": 10.552262603209854,
+      "miss_rate": 0.05,
+      "rx_duty": 0.4,
+      "packets": 360,
+      "last_completion_ms": 991.2427091400093,
+      "drain_ms": 0.0,
+      "capacity_packets_per_ms": 1.9,
+      "utilization": 0.18947368421052632,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-xr-0006",
+    "service": "xr",
+    "deadline_ms": 10,
+    "profile": "10/4",
+    "inference_ms": 1200.0178000889719,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf4",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf10": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 6.795780910545698,
+      "p95_ms": 10.678144778845617,
+      "p99_ms": 10.933489966409395,
+      "max_ms": 10.986213321782742,
+      "miss_rate": 0.08095238095238096,
+      "rx_duty": 0.4,
+      "packets": 630,
+      "last_completion_ms": 1000.3485728847841,
+      "drain_ms": 0.3485728847840619,
+      "capacity_packets_per_ms": 8.0,
+      "utilization": 0.07875,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-xr-0007",
+    "service": "xr",
+    "deadline_ms": 10,
+    "profile": "10/4",
+    "inference_ms": 1211.4176999311894,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf4",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf10": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 4.0804771964174344,
+      "p95_ms": 7.8635579569890925,
+      "p99_ms": 8.231958416746208,
+      "max_ms": 8.368154592178946,
+      "miss_rate": 0.0,
+      "rx_duty": 0.4,
+      "packets": 270,
+      "last_completion_ms": 1000.6082715608243,
+      "drain_ms": 0.6082715608242779,
+      "capacity_packets_per_ms": 1.9,
+      "utilization": 0.14210526315789476,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-xr-0008",
+    "service": "xr",
+    "deadline_ms": 10,
+    "profile": "10/4",
+    "inference_ms": 1179.2522000614554,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf4",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf10": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 3.3997206647016034,
+      "p95_ms": 7.01585675277269,
+      "p99_ms": 7.7921690924917195,
+      "max_ms": 7.835585989594069,
+      "miss_rate": 0.0,
+      "rx_duty": 0.4,
+      "packets": 360,
+      "last_completion_ms": 1000.5924991896514,
+      "drain_ms": 0.5924991896514484,
+      "capacity_packets_per_ms": 2.0,
+      "utilization": 0.18,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-xr-0009",
+    "service": "xr",
+    "deadline_ms": 10,
+    "profile": "10/8",
+    "inference_ms": 1178.9528001099825,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf8",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf10": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 3.838235021647969,
+      "p95_ms": 5.461726126983427,
+      "p99_ms": 6.079787307151305,
+      "max_ms": 6.136097789206269,
+      "miss_rate": 0.0,
+      "rx_duty": 0.8,
+      "packets": 540,
+      "last_completion_ms": 997.4176783484294,
+      "drain_ms": 0.0,
+      "capacity_packets_per_ms": 4.8,
+      "utilization": 0.11250000000000002,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-xr-0010",
+    "service": "xr",
+    "deadline_ms": 10,
+    "profile": "20/4",
+    "inference_ms": 1199.0799000486732,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf4",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf20": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 170.0149024159829,
+      "p95_ms": 308.2996474841135,
+      "p99_ms": 325.26014738796874,
+      "max_ms": 329.6678958191729,
+      "miss_rate": 1.0,
+      "rx_duty": 0.2,
+      "packets": 1440,
+      "last_completion_ms": 1321.7462925442192,
+      "drain_ms": 321.74629254421916,
+      "capacity_packets_per_ms": 1.1,
+      "utilization": 1.3090909090909089,
+      "overloaded": true
+    }
+  },
+  {
+    "uid": "26092902-xr-0011",
+    "service": "xr",
+    "deadline_ms": 10,
+    "profile": "10/4",
+    "inference_ms": 1194.3414001725614,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf4",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf10": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 7.1420498394643355,
+      "p95_ms": 11.382794376216937,
+      "p99_ms": 11.71057373367138,
+      "max_ms": 11.782183777979629,
+      "miss_rate": 0.13333333333333333,
+      "rx_duty": 0.4,
+      "packets": 420,
+      "last_completion_ms": 990.8414620813738,
+      "drain_ms": 0.0,
+      "capacity_packets_per_ms": 3.3,
+      "utilization": 0.1272727272727273,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-xr-0012",
+    "service": "xr",
+    "deadline_ms": 10,
+    "profile": "10/4",
+    "inference_ms": 1171.6541999485344,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf4",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf10": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 5.543612277095075,
+      "p95_ms": 9.167081119638782,
+      "p99_ms": 9.333533992240312,
+      "max_ms": 9.522886718607998,
+      "miss_rate": 0.0,
+      "rx_duty": 0.4,
+      "packets": 480,
+      "last_completion_ms": 1000.3196583977124,
+      "drain_ms": 0.3196583977123737,
+      "capacity_packets_per_ms": 5.0,
+      "utilization": 0.096,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-xr-0013",
+    "service": "xr",
+    "deadline_ms": 10,
+    "profile": "20/8",
+    "inference_ms": 1188.8826000504196,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf8",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf20": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 9.72476918912791,
+      "p95_ms": 16.77804080389816,
+      "p99_ms": 17.625748200406132,
+      "max_ms": 17.921637256931678,
+      "miss_rate": 0.45,
+      "rx_duty": 0.4,
+      "packets": 720,
+      "last_completion_ms": 1002.6246353093711,
+      "drain_ms": 2.624635309371115,
+      "capacity_packets_per_ms": 1.8,
+      "utilization": 0.39999999999999997,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-xr-0014",
+    "service": "xr",
+    "deadline_ms": 10,
+    "profile": "10/4",
+    "inference_ms": 1214.335799915716,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf4",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf10": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 4.275155340876129,
+      "p95_ms": 7.687220723712149,
+      "p99_ms": 8.228643296824941,
+      "max_ms": 8.528385613371443,
+      "miss_rate": 0.0,
+      "rx_duty": 0.4,
+      "packets": 180,
+      "last_completion_ms": 990.5023614243796,
+      "drain_ms": 0.0,
+      "capacity_packets_per_ms": 2.3,
+      "utilization": 0.0782608695652174,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-xr-0015",
+    "service": "xr",
+    "deadline_ms": 10,
+    "profile": "20/4",
+    "inference_ms": 1220.803099917248,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf4",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf20": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 13.281498207365345,
+      "p95_ms": 21.79261687262661,
+      "p99_ms": 22.30367200887202,
+      "max_ms": 22.370485411055427,
+      "miss_rate": 0.6638888888888889,
+      "rx_duty": 0.2,
+      "packets": 720,
+      "last_completion_ms": 1001.5372983847838,
+      "drain_ms": 1.5372983847837531,
+      "capacity_packets_per_ms": 1.0,
+      "utilization": 0.72,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-xr-0016",
+    "service": "xr",
+    "deadline_ms": 10,
+    "profile": "20/8",
+    "inference_ms": 1194.0015000291169,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf8",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf20": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 7.401428440380725,
+      "p95_ms": 15.034461266324927,
+      "p99_ms": 15.694555384212817,
+      "max_ms": 15.852514549182962,
+      "miss_rate": 0.36527777777777776,
+      "rx_duty": 0.4,
+      "packets": 720,
+      "last_completion_ms": 1001.5281562784744,
+      "drain_ms": 1.5281562784743983,
+      "capacity_packets_per_ms": 3.1,
+      "utilization": 0.23225806451612901,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-xr-0017",
+    "service": "xr",
+    "deadline_ms": 10,
+    "profile": "20/8",
+    "inference_ms": 1201.805500080809,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf8",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf20": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 7.277266064192258,
+      "p95_ms": 14.730085396536987,
+      "p99_ms": 15.377551000228168,
+      "max_ms": 15.771207056540547,
+      "miss_rate": 0.2791666666666667,
+      "rx_duty": 0.4,
+      "packets": 720,
+      "last_completion_ms": 1000.3997958897503,
+      "drain_ms": 0.399795889750294,
+      "capacity_packets_per_ms": 6.0,
+      "utilization": 0.12,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-xr-0018",
+    "service": "xr",
+    "deadline_ms": 10,
+    "profile": "10/4",
+    "inference_ms": 1193.976999958977,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf4",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf10": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 4.573011623025916,
+      "p95_ms": 7.792208208969563,
+      "p99_ms": 8.134260888832408,
+      "max_ms": 8.506945691821878,
+      "miss_rate": 0.0,
+      "rx_duty": 0.4,
+      "packets": 600,
+      "last_completion_ms": 1000.7304735471394,
+      "drain_ms": 0.7304735471393542,
+      "capacity_packets_per_ms": 5.4,
+      "utilization": 0.1111111111111111,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-xr-0019",
+    "service": "xr",
+    "deadline_ms": 10,
+    "profile": "10/4",
+    "inference_ms": 1177.991900127381,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf4",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf10": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 5.048175404782919,
+      "p95_ms": 9.046273633622185,
+      "p99_ms": 9.21216833668253,
+      "max_ms": 9.30983152107276,
+      "miss_rate": 0.0,
+      "rx_duty": 0.4,
+      "packets": 180,
+      "last_completion_ms": 1000.6570195709204,
+      "drain_ms": 0.6570195709203972,
+      "capacity_packets_per_ms": 1.8,
+      "utilization": 0.09999999999999999,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-xr-0020",
+    "service": "xr",
+    "deadline_ms": 10,
+    "profile": "80/4",
+    "inference_ms": 1207.7190999407321,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf4",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf80": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 754.2136456310932,
+      "p95_ms": 1401.816946932946,
+      "p99_ms": 1488.5123266804158,
+      "max_ms": 1495.4775260371798,
+      "miss_rate": 0.9916666666666667,
+      "rx_duty": 0.05,
+      "packets": 1200,
+      "last_completion_ms": 2482.005356321424,
+      "drain_ms": 1482.0053563214242,
+      "capacity_packets_per_ms": 0.4875,
+      "utilization": 2.4615384615384617,
+      "overloaded": true
+    }
+  },
+  {
+    "uid": "26092902-xr-0021",
+    "service": "xr",
+    "deadline_ms": 10,
+    "profile": "20/8",
+    "inference_ms": 1182.5244999490678,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf8",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf20": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 8.68525462800375,
+      "p95_ms": 15.96127598322782,
+      "p99_ms": 16.82186909782206,
+      "max_ms": 16.98536412345212,
+      "miss_rate": 0.38484848484848483,
+      "rx_duty": 0.4,
+      "packets": 1320,
+      "last_completion_ms": 1001.5594988229336,
+      "drain_ms": 1.5594988229336195,
+      "capacity_packets_per_ms": 2.8,
+      "utilization": 0.4714285714285715,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-xr-0022",
+    "service": "xr",
+    "deadline_ms": 10,
+    "profile": "80/4",
+    "inference_ms": 1195.154899964109,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf4",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf80": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 39.58715989963872,
+      "p95_ms": 73.4825124553754,
+      "p99_ms": 76.45256893430974,
+      "max_ms": 76.58168858354429,
+      "miss_rate": 0.85,
+      "rx_duty": 0.05,
+      "packets": 420,
+      "last_completion_ms": 1040.7208586656093,
+      "drain_ms": 40.720858665609285,
+      "capacity_packets_per_ms": 0.9625,
+      "utilization": 0.43636363636363634,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-xr-0023",
+    "service": "xr",
+    "deadline_ms": 10,
+    "profile": "20/8",
+    "inference_ms": 1172.9571998585016,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf8",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf20": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 5.933557888361098,
+      "p95_ms": 13.367266668434711,
+      "p99_ms": 14.213978782306697,
+      "max_ms": 14.531563909411293,
+      "miss_rate": 0.23232323232323232,
+      "rx_duty": 0.4,
+      "packets": 990,
+      "last_completion_ms": 1003.506022208788,
+      "drain_ms": 3.506022208787954,
+      "capacity_packets_per_ms": 2.5,
+      "utilization": 0.396,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-xr-0024",
+    "service": "xr",
+    "deadline_ms": 10,
+    "profile": "10/4",
+    "inference_ms": 1187.4661999754608,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf4",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf10": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 3.61228678872585,
+      "p95_ms": 7.546649294478219,
+      "p99_ms": 7.845722966360689,
+      "max_ms": 7.930216439219797,
+      "miss_rate": 0.0,
+      "rx_duty": 0.4,
+      "packets": 540,
+      "last_completion_ms": 1001.1218211413309,
+      "drain_ms": 1.1218211413308836,
+      "capacity_packets_per_ms": 2.1,
+      "utilization": 0.2571428571428572,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-xr-0025",
+    "service": "xr",
+    "deadline_ms": 10,
+    "profile": "20/4",
+    "inference_ms": 1182.8963998705149,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf4",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf20": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 12.891787088557017,
+      "p95_ms": 20.834679590651238,
+      "p99_ms": 21.797096476272124,
+      "max_ms": 21.92645738202704,
+      "miss_rate": 0.655952380952381,
+      "rx_duty": 0.2,
+      "packets": 840,
+      "last_completion_ms": 1003.1797020922711,
+      "drain_ms": 3.1797020922711,
+      "capacity_packets_per_ms": 1.1,
+      "utilization": 0.7636363636363636,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-xr-0026",
+    "service": "xr",
+    "deadline_ms": 10,
+    "profile": "20/8",
+    "inference_ms": 1197.094300063327,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf8",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf20": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 7.3610009667225915,
+      "p95_ms": 14.948852689934903,
+      "p99_ms": 15.454184059740228,
+      "max_ms": 15.74741847884073,
+      "miss_rate": 0.3101010101010101,
+      "rx_duty": 0.4,
+      "packets": 990,
+      "last_completion_ms": 1001.2995216317216,
+      "drain_ms": 1.2995216317216318,
+      "capacity_packets_per_ms": 3.35,
+      "utilization": 0.2955223880597015,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-xr-0027",
+    "service": "xr",
+    "deadline_ms": 10,
+    "profile": "10/4",
+    "inference_ms": 1190.9209000878036,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf4",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf10": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 3.914926698313489,
+      "p95_ms": 7.561944522470345,
+      "p99_ms": 7.80581036161426,
+      "max_ms": 7.888717736514211,
+      "miss_rate": 0.0,
+      "rx_duty": 0.4,
+      "packets": 360,
+      "last_completion_ms": 1000.3429426053269,
+      "drain_ms": 0.34294260532692533,
+      "capacity_packets_per_ms": 3.4,
+      "utilization": 0.10588235294117647,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-xr-0028",
+    "service": "xr",
+    "deadline_ms": 10,
+    "profile": "20/8",
+    "inference_ms": 1166.7249999009073,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf8",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf20": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 7.8561037018145665,
+      "p95_ms": 15.286667992771704,
+      "p99_ms": 16.040246110203213,
+      "max_ms": 16.171390579830028,
+      "miss_rate": 0.315,
+      "rx_duty": 0.4,
+      "packets": 600,
+      "last_completion_ms": 1001.0928845343938,
+      "drain_ms": 1.092884534393761,
+      "capacity_packets_per_ms": 3.65,
+      "utilization": 0.1643835616438356,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-xr-0029",
+    "service": "xr",
+    "deadline_ms": 10,
+    "profile": "20/4",
+    "inference_ms": 1209.6671999897808,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf4",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf20": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 8.107562396117276,
+      "p95_ms": 17.037642652128763,
+      "p99_ms": 17.93345116164646,
+      "max_ms": 18.029034715694124,
+      "miss_rate": 0.4083333333333333,
+      "rx_duty": 0.2,
+      "packets": 480,
+      "last_completion_ms": 983.3426539096464,
+      "drain_ms": 0.0,
+      "capacity_packets_per_ms": 4.2,
+      "utilization": 0.11428571428571428,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-gaming-0000",
+    "service": "gaming",
+    "deadline_ms": 20,
+    "profile": "10/4",
+    "inference_ms": 1183.4306998644024,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf4",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf10": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 10.604831029662755,
+      "p95_ms": 11.706767793199035,
+      "p99_ms": 11.901888695296766,
+      "max_ms": 12.010012617543335,
+      "miss_rate": 0.0,
+      "rx_duty": 0.4,
+      "packets": 400,
+      "last_completion_ms": 1000.3902974467519,
+      "drain_ms": 0.3902974467519016,
+      "capacity_packets_per_ms": 4.0,
+      "utilization": 0.1,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-gaming-0001",
+    "service": "gaming",
+    "deadline_ms": 20,
+    "profile": "10/4",
+    "inference_ms": 1154.1116998996586,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf4",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf10": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 7.24183277123339,
+      "p95_ms": 10.473296239580566,
+      "p99_ms": 10.673327815108903,
+      "max_ms": 10.682159875850012,
+      "miss_rate": 0.0,
+      "rx_duty": 0.4,
+      "packets": 30,
+      "last_completion_ms": 990.1784746692474,
+      "drain_ms": 0.0,
+      "capacity_packets_per_ms": 2.2,
+      "utilization": 0.013636363636363634,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-gaming-0002",
+    "service": "gaming",
+    "deadline_ms": 20,
+    "profile": "20/8",
+    "inference_ms": 1213.512800168246,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf8",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf20": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 9.455071272066728,
+      "p95_ms": 17.395462958287553,
+      "p99_ms": 17.688635971214968,
+      "max_ms": 17.796103821783436,
+      "miss_rate": 0.0,
+      "rx_duty": 0.4,
+      "packets": 180,
+      "last_completion_ms": 1000.4467802826705,
+      "drain_ms": 0.4467802826704883,
+      "capacity_packets_per_ms": 2.65,
+      "utilization": 0.06792452830188679,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-gaming-0003",
+    "service": "gaming",
+    "deadline_ms": 20,
+    "profile": "20/4",
+    "inference_ms": 1198.02389992401,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf4",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf20": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 8.420299676532137,
+      "p95_ms": 8.580613793556815,
+      "p99_ms": 9.228338685660281,
+      "max_ms": 24.669340592536805,
+      "miss_rate": 0.006666666666666667,
+      "rx_duty": 0.2,
+      "packets": 150,
+      "last_completion_ms": 982.6788689046413,
+      "drain_ms": 0.0,
+      "capacity_packets_per_ms": 0.65,
+      "utilization": 0.23076923076923075,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-gaming-0004",
+    "service": "gaming",
+    "deadline_ms": 20,
+    "profile": "10/4",
+    "inference_ms": 1163.3643999230117,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf4",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf10": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 12.690741393598136,
+      "p95_ms": 14.257946114683488,
+      "p99_ms": 14.331267155570549,
+      "max_ms": 14.453371340741384,
+      "miss_rate": 0.0,
+      "rx_duty": 0.4,
+      "packets": 100,
+      "last_completion_ms": 1000.4019656649264,
+      "drain_ms": 0.4019656649263652,
+      "capacity_packets_per_ms": 1.9,
+      "utilization": 0.052631578947368425,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-gaming-0005",
+    "service": "gaming",
+    "deadline_ms": 20,
+    "profile": "10/4",
+    "inference_ms": 1181.156399892643,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf4",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf10": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 5.98657654592064,
+      "p95_ms": 9.534543638274917,
+      "p99_ms": 10.082378999607267,
+      "max_ms": 10.263346252998064,
+      "miss_rate": 0.0,
+      "rx_duty": 0.4,
+      "packets": 360,
+      "last_completion_ms": 1000.3134864152873,
+      "drain_ms": 0.31348641528734333,
+      "capacity_packets_per_ms": 7.6,
+      "utilization": 0.04736842105263158,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-gaming-0006",
+    "service": "gaming",
+    "deadline_ms": 20,
+    "profile": "10/4",
+    "inference_ms": 1177.8484000824392,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf4",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf10": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 5.473650902348165,
+      "p95_ms": 9.887444218603239,
+      "p99_ms": 10.08227740969792,
+      "max_ms": 10.105307703390341,
+      "miss_rate": 0.0,
+      "rx_duty": 0.4,
+      "packets": 60,
+      "last_completion_ms": 990.1105812889391,
+      "drain_ms": 0.0,
+      "capacity_packets_per_ms": 3.6,
+      "utilization": 0.016666666666666666,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-gaming-0007",
+    "service": "gaming",
+    "deadline_ms": 20,
+    "profile": "20/4",
+    "inference_ms": 1174.7248000465333,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf4",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf20": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 11.18257804770259,
+      "p95_ms": 20.3375825562928,
+      "p99_ms": 20.69134005811255,
+      "max_ms": 20.745159614599025,
+      "miss_rate": 0.1,
+      "rx_duty": 0.2,
+      "packets": 30,
+      "last_completion_ms": 980.0923895190964,
+      "drain_ms": 0.0,
+      "capacity_packets_per_ms": 2.15,
+      "utilization": 0.013953488372093023,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-gaming-0008",
+    "service": "gaming",
+    "deadline_ms": 20,
+    "profile": "40/4",
+    "inference_ms": 1179.0108000859618,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf4",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf40": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 27.011128286423784,
+      "p95_ms": 43.1814225245263,
+      "p99_ms": 44.10885614734326,
+      "max_ms": 44.5514604255652,
+      "miss_rate": 0.675,
+      "rx_duty": 0.1,
+      "packets": 160,
+      "last_completion_ms": 1001.1134698823194,
+      "drain_ms": 1.1134698823193503,
+      "capacity_packets_per_ms": 0.35,
+      "utilization": 0.4571428571428572,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-gaming-0009",
+    "service": "gaming",
+    "deadline_ms": 20,
+    "profile": "10/4",
+    "inference_ms": 1183.531700167805,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf4",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf10": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 10.072846241796078,
+      "p95_ms": 13.380869180687728,
+      "p99_ms": 13.902172558312483,
+      "max_ms": 14.233254641941032,
+      "miss_rate": 0.0,
+      "rx_duty": 0.4,
+      "packets": 160,
+      "last_completion_ms": 980.8337450769457,
+      "drain_ms": 0.0,
+      "capacity_packets_per_ms": 1.9,
+      "utilization": 0.08421052631578949,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-gaming-0010",
+    "service": "gaming",
+    "deadline_ms": 20,
+    "profile": "20/4",
+    "inference_ms": 1176.1147000361234,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf4",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf20": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 4.441843608454257,
+      "p95_ms": 5.995037848347632,
+      "p99_ms": 13.367737432154646,
+      "max_ms": 19.854327458703963,
+      "miss_rate": 0.0,
+      "rx_duty": 0.2,
+      "packets": 150,
+      "last_completion_ms": 1000.6380131626149,
+      "drain_ms": 0.638013162614925,
+      "capacity_packets_per_ms": 0.9,
+      "utilization": 0.16666666666666666,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-gaming-0011",
+    "service": "gaming",
+    "deadline_ms": 20,
+    "profile": "10/4",
+    "inference_ms": 1179.5599998440593,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf4",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf10": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 9.28206781693248,
+      "p95_ms": 13.228134837550526,
+      "p99_ms": 13.338140229124356,
+      "max_ms": 13.43066660769761,
+      "miss_rate": 0.0,
+      "rx_duty": 0.4,
+      "packets": 124,
+      "last_completion_ms": 1000.3737179915288,
+      "drain_ms": 0.3737179915287925,
+      "capacity_packets_per_ms": 4.2,
+      "utilization": 0.02952380952380952,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-gaming-0012",
+    "service": "gaming",
+    "deadline_ms": 20,
+    "profile": "20/4",
+    "inference_ms": 1160.351200029254,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf4",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf20": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 9.722963027889186,
+      "p95_ms": 15.24660122448229,
+      "p99_ms": 15.417949725446249,
+      "max_ms": 15.659317510255756,
+      "miss_rate": 0.0,
+      "rx_duty": 0.2,
+      "packets": 400,
+      "last_completion_ms": 1001.0181617109438,
+      "drain_ms": 1.0181617109437866,
+      "capacity_packets_per_ms": 1.55,
+      "utilization": 0.25806451612903225,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-gaming-0013",
+    "service": "gaming",
+    "deadline_ms": 20,
+    "profile": "20/4",
+    "inference_ms": 1172.8497999720275,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf4",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf20": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 10.211398025108554,
+      "p95_ms": 19.095601341373488,
+      "p99_ms": 19.35462540267992,
+      "max_ms": 19.467707895710028,
+      "miss_rate": 0.0,
+      "rx_duty": 0.2,
+      "packets": 180,
+      "last_completion_ms": 1000.5121711263116,
+      "drain_ms": 0.512171126311614,
+      "capacity_packets_per_ms": 1.15,
+      "utilization": 0.1565217391304348,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-gaming-0014",
+    "service": "gaming",
+    "deadline_ms": 20,
+    "profile": "20/8",
+    "inference_ms": 1167.0045999344438,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf8",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf20": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 7.26467340525207,
+      "p95_ms": 13.975208029302674,
+      "p99_ms": 14.450397848407775,
+      "max_ms": 14.701059060480796,
+      "miss_rate": 0.0,
+      "rx_duty": 0.4,
+      "packets": 234,
+      "last_completion_ms": 981.3517832783764,
+      "drain_ms": 0.0,
+      "capacity_packets_per_ms": 1.75,
+      "utilization": 0.13371428571428573,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-gaming-0015",
+    "service": "gaming",
+    "deadline_ms": 20,
+    "profile": "20/4",
+    "inference_ms": 1170.6031998619437,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf4",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf20": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 14.212713636751285,
+      "p95_ms": 22.68071881847193,
+      "p99_ms": 23.180751797133397,
+      "max_ms": 23.312821285439718,
+      "miss_rate": 0.11875,
+      "rx_duty": 0.2,
+      "packets": 160,
+      "last_completion_ms": 980.77041282964,
+      "drain_ms": 0.0,
+      "capacity_packets_per_ms": 1.0,
+      "utilization": 0.16,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-gaming-0016",
+    "service": "gaming",
+    "deadline_ms": 20,
+    "profile": "10/4",
+    "inference_ms": 1164.6972999442369,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf4",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf10": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 4.589402525684026,
+      "p95_ms": 8.938887335429195,
+      "p99_ms": 9.016032214560884,
+      "max_ms": 9.03265006129463,
+      "miss_rate": 0.0,
+      "rx_duty": 0.4,
+      "packets": 120,
+      "last_completion_ms": 980.248120876574,
+      "drain_ms": 0.0,
+      "capacity_packets_per_ms": 4.8,
+      "utilization": 0.025,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-gaming-0017",
+    "service": "gaming",
+    "deadline_ms": 20,
+    "profile": "20/4",
+    "inference_ms": 1200.474200071767,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf4",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf20": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 12.138514193838287,
+      "p95_ms": 19.856988177810777,
+      "p99_ms": 19.97611233124052,
+      "max_ms": 20.01322308631012,
+      "miss_rate": 0.025,
+      "rx_duty": 0.2,
+      "packets": 40,
+      "last_completion_ms": 1000.2880960138801,
+      "drain_ms": 0.2880960138801356,
+      "capacity_packets_per_ms": 0.65,
+      "utilization": 0.061538461538461535,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-gaming-0018",
+    "service": "gaming",
+    "deadline_ms": 20,
+    "profile": "20/8",
+    "inference_ms": 1168.0395000148565,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf8",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf20": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 5.138280620777138,
+      "p95_ms": 14.068600113659548,
+      "p99_ms": 14.524247678710799,
+      "max_ms": 14.72344210776882,
+      "miss_rate": 0.0,
+      "rx_duty": 0.4,
+      "packets": 180,
+      "last_completion_ms": 987.8860696993544,
+      "drain_ms": 0.0,
+      "capacity_packets_per_ms": 3.55,
+      "utilization": 0.05070422535211268,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-gaming-0019",
+    "service": "gaming",
+    "deadline_ms": 20,
+    "profile": "20/4",
+    "inference_ms": 1158.290799940005,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf4",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf20": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 8.386520190924271,
+      "p95_ms": 18.798190447617166,
+      "p99_ms": 19.856288074520887,
+      "max_ms": 20.07457337651939,
+      "miss_rate": 0.005555555555555556,
+      "rx_duty": 0.2,
+      "packets": 180,
+      "last_completion_ms": 1001.5267393207951,
+      "drain_ms": 1.526739320795059,
+      "capacity_packets_per_ms": 0.75,
+      "utilization": 0.24,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-gaming-0020",
+    "service": "gaming",
+    "deadline_ms": 20,
+    "profile": "10/4",
+    "inference_ms": 1186.2240000627935,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf4",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf10": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 8.855625362989922,
+      "p95_ms": 12.178908566422958,
+      "p99_ms": 12.290389899241868,
+      "max_ms": 12.34439956639211,
+      "miss_rate": 0.0,
+      "rx_duty": 0.4,
+      "packets": 120,
+      "last_completion_ms": 1000.4511774104128,
+      "drain_ms": 0.4511774104128108,
+      "capacity_packets_per_ms": 1.7,
+      "utilization": 0.07058823529411765,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-gaming-0021",
+    "service": "gaming",
+    "deadline_ms": 20,
+    "profile": "20/4",
+    "inference_ms": 1174.1893000435084,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf4",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf20": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 4.52910359657523,
+      "p95_ms": 5.619444919707795,
+      "p99_ms": 5.8488816035360145,
+      "max_ms": 5.885418502370035,
+      "miss_rate": 0.0,
+      "rx_duty": 0.2,
+      "packets": 204,
+      "last_completion_ms": 1000.8806583894284,
+      "drain_ms": 0.8806583894283904,
+      "capacity_packets_per_ms": 0.9,
+      "utilization": 0.22666666666666666,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-gaming-0022",
+    "service": "gaming",
+    "deadline_ms": 20,
+    "profile": "20/8",
+    "inference_ms": 1168.2483998592943,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf8",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf20": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 7.277022011749329,
+      "p95_ms": 10.379300999540506,
+      "p99_ms": 10.551510833866164,
+      "max_ms": 10.571818818016474,
+      "miss_rate": 0.0,
+      "rx_duty": 0.4,
+      "packets": 300,
+      "last_completion_ms": 1000.8134728092217,
+      "drain_ms": 0.8134728092217074,
+      "capacity_packets_per_ms": 1.45,
+      "utilization": 0.20689655172413793,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-gaming-0023",
+    "service": "gaming",
+    "deadline_ms": 20,
+    "profile": "20/4",
+    "inference_ms": 1198.597699869424,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf4",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf20": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 12.97070971565533,
+      "p95_ms": 15.024069429338013,
+      "p99_ms": 15.164665200544324,
+      "max_ms": 15.210567548082095,
+      "miss_rate": 0.0,
+      "rx_duty": 0.2,
+      "packets": 150,
+      "last_completion_ms": 1000.2598066655812,
+      "drain_ms": 0.259806665581209,
+      "capacity_packets_per_ms": 2.3,
+      "utilization": 0.06521739130434782,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-gaming-0024",
+    "service": "gaming",
+    "deadline_ms": 20,
+    "profile": "10/4",
+    "inference_ms": 1194.7920001111925,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf4",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf10": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 8.930720008779737,
+      "p95_ms": 13.268308230325745,
+      "p99_ms": 13.712837345933576,
+      "max_ms": 13.831992760753774,
+      "miss_rate": 0.0,
+      "rx_duty": 0.4,
+      "packets": 200,
+      "last_completion_ms": 982.2335421299106,
+      "drain_ms": 0.0,
+      "capacity_packets_per_ms": 2.3,
+      "utilization": 0.08695652173913045,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-gaming-0025",
+    "service": "gaming",
+    "deadline_ms": 20,
+    "profile": "80/4",
+    "inference_ms": 1175.6927000824362,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf4",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf80": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 39.61932390699969,
+      "p95_ms": 74.83704167253096,
+      "p99_ms": 77.84312753497728,
+      "max_ms": 78.02060326474431,
+      "miss_rate": 0.7222222222222222,
+      "rx_duty": 0.05,
+      "packets": 90,
+      "last_completion_ms": 1040.5982327969675,
+      "drain_ms": 40.59823279696752,
+      "capacity_packets_per_ms": 0.25,
+      "utilization": 0.36,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-gaming-0026",
+    "service": "gaming",
+    "deadline_ms": 20,
+    "profile": "20/4",
+    "inference_ms": 1162.9923000000417,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf4",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf20": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 9.628020067734562,
+      "p95_ms": 17.548464027545332,
+      "p99_ms": 17.619156810496207,
+      "max_ms": 17.68425167379269,
+      "miss_rate": 0.0,
+      "rx_duty": 0.2,
+      "packets": 180,
+      "last_completion_ms": 1000.4668237085646,
+      "drain_ms": 0.46682370856456146,
+      "capacity_packets_per_ms": 1.25,
+      "utilization": 0.144,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-gaming-0027",
+    "service": "gaming",
+    "deadline_ms": 20,
+    "profile": "20/4",
+    "inference_ms": 1171.2347001302987,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf4",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf20": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 10.323265688496353,
+      "p95_ms": 18.156298047430194,
+      "p99_ms": 18.852126443983526,
+      "max_ms": 18.894956107888294,
+      "miss_rate": 0.0,
+      "rx_duty": 0.2,
+      "packets": 30,
+      "last_completion_ms": 980.2667220659322,
+      "drain_ms": 0.0,
+      "capacity_packets_per_ms": 0.7,
+      "utilization": 0.04285714285714286,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-gaming-0028",
+    "service": "gaming",
+    "deadline_ms": 20,
+    "profile": "20/8",
+    "inference_ms": 1178.7871001288295,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf8",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf20": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 11.728839783770614,
+      "p95_ms": 19.0998542438603,
+      "p99_ms": 19.73281077809076,
+      "max_ms": 19.75058267945792,
+      "miss_rate": 0.0,
+      "rx_duty": 0.4,
+      "packets": 40,
+      "last_completion_ms": 980.2083317792368,
+      "drain_ms": 0.0,
+      "capacity_packets_per_ms": 1.9,
+      "utilization": 0.02105263157894737,
+      "overloaded": false
+    }
+  },
+  {
+    "uid": "26092902-gaming-0029",
+    "service": "gaming",
+    "deadline_ms": 20,
+    "profile": "10/8",
+    "inference_ms": 1167.389800073579,
+    "configuration_fragment": {
+      "drx-Config": {
+        "setup": {
+          "onDurationTimer": "psf8",
+          "drx-InactivityTimer": "psf1",
+          "drx-RetransmissionTimer": "psf1",
+          "longDRX-CycleStartOffset": {
+            "sf10": 0
+          }
+        }
+      }
+    },
+    "metrics": {
+      "mean_ms": 3.917088454817513,
+      "p95_ms": 5.482233013072225,
+      "p99_ms": 5.9658838849126585,
+      "max_ms": 6.029913832953719,
+      "miss_rate": 0.0,
+      "rx_duty": 0.8,
+      "packets": 300,
+      "last_completion_ms": 985.7006546122094,
+      "drain_ms": 0.0,
+      "capacity_packets_per_ms": 6.4,
+      "utilization": 0.04687499999999999,
+      "overloaded": false
+    }
+  }
+]

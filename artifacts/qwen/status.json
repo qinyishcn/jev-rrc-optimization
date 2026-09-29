@@ -1,0 +1,12 @@
+{
+  "state": "complete",
+  "n_evaluation": 90,
+  "valid": 90,
+  "invalid": 0,
+  "evidence_sha256": {
+    "design.json": "996b7fa775a10da9c22e6cbf421ee4cb172fc9c15d619da96830d582740d1542",
+    "rows.json": "07fc93e80a8be1fdadffc538f1e33e89203929b924f9f45636f331c38c288579",
+    "summary.json": "866c56e614faae58c31722a0e8e4af326610ca1b0b807532207100d46a4c1c76",
+    "decisions.jsonl": "c8f820550585448ae5011234f41e4ae15a3554c89d4680c50e484784bcc7c708"
+  }
+}

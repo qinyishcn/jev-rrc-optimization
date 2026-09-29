@@ -1,0 +1,2702 @@
+[
+  {
+    "uid": "26092902-industrial_control-0000",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"industrial_control\",\"packet_deadline_ms\":5,\"burst_interval_ms\":4.0,\"burst_jitter_plus_minus_ms\":0.4467,\"packets_per_burst\":2,\"service_time_per_packet_ms\":0.1014,\"fixed_network_delay_ms\":3.4031,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "10/8",
+      "10/2",
+      "40/4",
+      "20/4",
+      "32/8",
+      "off",
+      "80/4",
+      "10/4",
+      "20/8"
+    ],
+    "raw": "10/8",
+    "screened": "off",
+    "probs": {
+      "10/8": 0.5796810388565063,
+      "10/2": 0.1289006471633911,
+      "40/4": 0.011505256406962872,
+      "20/4": 0.007487620692700148,
+      "32/8": 0.008336466737091541,
+      "off": 0.03024405427277088,
+      "80/4": 0.007900652475655079,
+      "10/4": 0.22051890194416046,
+      "20/8": 0.005425369832664728
+    },
+    "inference_ms": 246.85380002483726
+  },
+  {
+    "uid": "26092902-industrial_control-0001",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"industrial_control\",\"packet_deadline_ms\":5,\"burst_interval_ms\":5.0,\"burst_jitter_plus_minus_ms\":0.3948,\"packets_per_burst\":3,\"service_time_per_packet_ms\":0.1033,\"fixed_network_delay_ms\":1.2344,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "10/4",
+      "20/8",
+      "10/2",
+      "80/4",
+      "20/4",
+      "40/4",
+      "10/8",
+      "32/8",
+      "off"
+    ],
+    "raw": "10/8",
+    "screened": "10/8",
+    "probs": {
+      "10/4": 0.09824329614639282,
+      "20/8": 0.006704231258481741,
+      "10/2": 0.3968246579170227,
+      "80/4": 0.006353746633976698,
+      "20/4": 0.005706787109375,
+      "40/4": 0.004363111220300198,
+      "10/8": 0.46618232131004333,
+      "32/8": 0.003519816556945443,
+      "off": 0.01210204791277647
+    },
+    "inference_ms": 218.06859993375838
+  },
+  {
+    "uid": "26092902-industrial_control-0002",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"industrial_control\",\"packet_deadline_ms\":5,\"burst_interval_ms\":2.0,\"burst_jitter_plus_minus_ms\":0.2751,\"packets_per_burst\":3,\"service_time_per_packet_ms\":0.1202,\"fixed_network_delay_ms\":3.1977,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "80/4",
+      "10/4",
+      "20/8",
+      "40/4",
+      "20/4",
+      "10/2",
+      "32/8",
+      "off",
+      "10/8"
+    ],
+    "raw": "10/8",
+    "screened": "off",
+    "probs": {
+      "80/4": 0.01738431304693222,
+      "10/4": 0.20551086962223053,
+      "20/8": 0.008649871684610844,
+      "40/4": 0.011937790550291538,
+      "20/4": 0.009127010591328144,
+      "10/2": 0.2414306104183197,
+      "32/8": 0.005939854774624109,
+      "off": 0.014797910116612911,
+      "10/8": 0.4852217137813568
+    },
+    "inference_ms": 214.66060006059706
+  },
+  {
+    "uid": "26092902-industrial_control-0003",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"industrial_control\",\"packet_deadline_ms\":5,\"burst_interval_ms\":10.0,\"burst_jitter_plus_minus_ms\":1.4054,\"packets_per_burst\":1,\"service_time_per_packet_ms\":0.1023,\"fixed_network_delay_ms\":1.5813,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "80/4",
+      "10/8",
+      "off",
+      "32/8",
+      "20/8",
+      "10/2",
+      "20/4",
+      "10/4",
+      "40/4"
+    ],
+    "raw": "10/2",
+    "screened": "10/8",
+    "probs": {
+      "80/4": 0.016672339290380478,
+      "10/8": 0.3557819426059723,
+      "off": 0.03730634227395058,
+      "32/8": 0.007061408367007971,
+      "20/8": 0.009236054494976997,
+      "10/2": 0.3754073679447174,
+      "20/4": 0.008753214962780476,
+      "10/4": 0.18679054081439972,
+      "40/4": 0.0029907911084592342
+    },
+    "inference_ms": 199.0775999147445
+  },
+  {
+    "uid": "26092902-industrial_control-0004",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"industrial_control\",\"packet_deadline_ms\":5,\"burst_interval_ms\":1.0,\"burst_jitter_plus_minus_ms\":0.058,\"packets_per_burst\":3,\"service_time_per_packet_ms\":0.0669,\"fixed_network_delay_ms\":0.9542,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "20/8",
+      "20/4",
+      "10/2",
+      "32/8",
+      "10/8",
+      "40/4",
+      "10/4",
+      "80/4",
+      "off"
+    ],
+    "raw": "10/8",
+    "screened": "10/8",
+    "probs": {
+      "20/8": 0.005575437564402819,
+      "20/4": 0.006207506638020277,
+      "10/2": 0.25230932235717773,
+      "32/8": 0.006207506638020277,
+      "10/8": 0.5957152247428894,
+      "40/4": 0.0069112274795770645,
+      "10/4": 0.10686322301626205,
+      "80/4": 0.004745935555547476,
+      "off": 0.015464693307876587
+    },
+    "inference_ms": 206.4351998269558
+  },
+  {
+    "uid": "26092902-industrial_control-0005",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"industrial_control\",\"packet_deadline_ms\":5,\"burst_interval_ms\":4.0,\"burst_jitter_plus_minus_ms\":0.3804,\"packets_per_burst\":2,\"service_time_per_packet_ms\":0.0421,\"fixed_network_delay_ms\":3.2682,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "80/4",
+      "40/4",
+      "10/4",
+      "20/8",
+      "10/8",
+      "32/8",
+      "10/2",
+      "20/4",
+      "off"
+    ],
+    "raw": "10/8",
+    "screened": "off",
+    "probs": {
+      "80/4": 0.009273944422602654,
+      "40/4": 0.01212997268885374,
+      "10/4": 0.20881931483745575,
+      "20/8": 0.0043731811456382275,
+      "10/8": 0.6804409027099609,
+      "32/8": 0.006719701457768679,
+      "10/2": 0.0640842616558075,
+      "20/4": 0.0043731811456382275,
+      "off": 0.009785507805645466
+    },
+    "inference_ms": 210.36070003174245
+  },
+  {
+    "uid": "26092902-industrial_control-0006",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"industrial_control\",\"packet_deadline_ms\":5,\"burst_interval_ms\":4.0,\"burst_jitter_plus_minus_ms\":0.2614,\"packets_per_burst\":2,\"service_time_per_packet_ms\":0.0631,\"fixed_network_delay_ms\":1.6124,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "80/4",
+      "10/4",
+      "10/2",
+      "32/8",
+      "10/8",
+      "20/8",
+      "off",
+      "40/4",
+      "20/4"
+    ],
+    "raw": "10/8",
+    "screened": "10/8",
+    "probs": {
+      "80/4": 0.012986098416149616,
+      "10/4": 0.13067689538002014,
+      "10/2": 0.29240506887435913,
+      "32/8": 0.005212596617639065,
+      "10/8": 0.5278306007385254,
+      "20/8": 0.007193970028311014,
+      "off": 0.016097363084554672,
+      "40/4": 0.004205114673823118,
+      "20/4": 0.003392357612028718
+    },
+    "inference_ms": 212.87560020573437
+  },
+  {
+    "uid": "26092902-industrial_control-0007",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"industrial_control\",\"packet_deadline_ms\":5,\"burst_interval_ms\":10.0,\"burst_jitter_plus_minus_ms\":0.0328,\"packets_per_burst\":1,\"service_time_per_packet_ms\":0.0656,\"fixed_network_delay_ms\":1.2395,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "80/4",
+      "32/8",
+      "10/8",
+      "10/2",
+      "off",
+      "10/4",
+      "20/8",
+      "20/4",
+      "40/4"
+    ],
+    "raw": "10/8",
+    "screened": "10/8",
+    "probs": {
+      "80/4": 0.01700732856988907,
+      "32/8": 0.008019906468689442,
+      "10/8": 0.3629304766654968,
+      "10/2": 0.29278403520584106,
+      "off": 0.04015517979860306,
+      "10/4": 0.26297178864479065,
+      "20/8": 0.007600640878081322,
+      "20/4": 0.00494649400934577,
+      "40/4": 0.0035841239150613546
+    },
+    "inference_ms": 188.5793001856655
+  },
+  {
+    "uid": "26092902-industrial_control-0008",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"industrial_control\",\"packet_deadline_ms\":5,\"burst_interval_ms\":4.0,\"burst_jitter_plus_minus_ms\":0.016,\"packets_per_burst\":3,\"service_time_per_packet_ms\":0.0647,\"fixed_network_delay_ms\":1.3411,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "10/2",
+      "32/8",
+      "20/4",
+      "10/8",
+      "80/4",
+      "off",
+      "40/4",
+      "10/4",
+      "20/8"
+    ],
+    "raw": "10/8",
+    "screened": "10/8",
+    "probs": {
+      "10/2": 0.3434448540210724,
+      "32/8": 0.00891579408198595,
+      "20/4": 0.009407606907188892,
+      "10/8": 0.4034730792045593,
+      "80/4": 0.009407606907188892,
+      "off": 0.032345809042453766,
+      "40/4": 0.007192565128207207,
+      "10/4": 0.1803136020898819,
+      "20/8": 0.005499059800058603
+    },
+    "inference_ms": 200.2811001148075
+  },
+  {
+    "uid": "26092902-industrial_control-0009",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"industrial_control\",\"packet_deadline_ms\":5,\"burst_interval_ms\":1.0,\"burst_jitter_plus_minus_ms\":0.1985,\"packets_per_burst\":2,\"service_time_per_packet_ms\":0.0809,\"fixed_network_delay_ms\":1.6395,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "80/4",
+      "20/4",
+      "10/2",
+      "off",
+      "32/8",
+      "40/4",
+      "10/8",
+      "10/4",
+      "20/8"
+    ],
+    "raw": "10/8",
+    "screened": "10/8",
+    "probs": {
+      "80/4": 0.010228216648101807,
+      "20/4": 0.004105589352548122,
+      "10/2": 0.25641554594039917,
+      "off": 0.01489475928246975,
+      "32/8": 0.004823171533644199,
+      "40/4": 0.005089227110147476,
+      "10/8": 0.5153380632400513,
+      "10/4": 0.18579331040382385,
+      "20/8": 0.0033120685257017612
+    },
+    "inference_ms": 210.32000007107854
+  },
+  {
+    "uid": "26092902-industrial_control-0010",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"industrial_control\",\"packet_deadline_ms\":5,\"burst_interval_ms\":1.0,\"burst_jitter_plus_minus_ms\":0.0656,\"packets_per_burst\":1,\"service_time_per_packet_ms\":0.1776,\"fixed_network_delay_ms\":1.026,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "10/8",
+      "10/2",
+      "10/4",
+      "80/4",
+      "20/8",
+      "20/4",
+      "off",
+      "32/8",
+      "40/4"
+    ],
+    "raw": "10/8",
+    "screened": "10/8",
+    "probs": {
+      "10/8": 0.4622955620288849,
+      "10/2": 0.19580091536045074,
+      "10/4": 0.2702271342277527,
+      "80/4": 0.016562923789024353,
+      "20/8": 0.009175450541079044,
+      "20/4": 0.009175450541079044,
+      "off": 0.028335295617580414,
+      "32/8": 0.0043267360888421535,
+      "40/4": 0.004100542049854994
+    },
+    "inference_ms": 238.85959992185235
+  },
+  {
+    "uid": "26092902-industrial_control-0011",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"industrial_control\",\"packet_deadline_ms\":5,\"burst_interval_ms\":2.0,\"burst_jitter_plus_minus_ms\":0.3724,\"packets_per_burst\":3,\"service_time_per_packet_ms\":0.1396,\"fixed_network_delay_ms\":2.3378,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "10/2",
+      "off",
+      "20/8",
+      "40/4",
+      "80/4",
+      "10/4",
+      "32/8",
+      "10/8",
+      "20/4"
+    ],
+    "raw": "10/8",
+    "screened": "10/8",
+    "probs": {
+      "10/2": 0.15369446575641632,
+      "off": 0.01893278956413269,
+      "20/8": 0.008018795400857925,
+      "40/4": 0.006825776305049658,
+      "80/4": 0.009939982555806637,
+      "10/4": 0.2927434742450714,
+      "32/8": 0.005810248199850321,
+      "10/8": 0.500815749168396,
+      "20/4": 0.003218733472749591
+    },
+    "inference_ms": 205.82419983111322
+  },
+  {
+    "uid": "26092902-industrial_control-0012",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"industrial_control\",\"packet_deadline_ms\":5,\"burst_interval_ms\":2.0,\"burst_jitter_plus_minus_ms\":0.3157,\"packets_per_burst\":2,\"service_time_per_packet_ms\":0.0755,\"fixed_network_delay_ms\":0.9749,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "10/2",
+      "80/4",
+      "20/8",
+      "32/8",
+      "20/4",
+      "40/4",
+      "off",
+      "10/8",
+      "10/4"
+    ],
+    "raw": "10/8",
+    "screened": "10/8",
+    "probs": {
+      "10/2": 0.14586777985095978,
+      "80/4": 0.010503271594643593,
+      "20/8": 0.009954175911843777,
+      "32/8": 0.006835525389760733,
+      "20/4": 0.006835525389760733,
+      "40/4": 0.007212586235255003,
+      "off": 0.011082648299634457,
+      "10/8": 0.47531190514564514,
+      "10/4": 0.32639652490615845
+    },
+    "inference_ms": 212.03749999403954
+  },
+  {
+    "uid": "26092902-industrial_control-0013",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"industrial_control\",\"packet_deadline_ms\":5,\"burst_interval_ms\":5.0,\"burst_jitter_plus_minus_ms\":0.7128,\"packets_per_burst\":1,\"service_time_per_packet_ms\":0.0987,\"fixed_network_delay_ms\":0.9002,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "32/8",
+      "80/4",
+      "10/2",
+      "40/4",
+      "20/8",
+      "10/4",
+      "off",
+      "20/4",
+      "10/8"
+    ],
+    "raw": "10/2",
+    "screened": "10/8",
+    "probs": {
+      "32/8": 0.006713348440825939,
+      "80/4": 0.008321761153638363,
+      "10/2": 0.39736413955688477,
+      "40/4": 0.009776260703802109,
+      "20/8": 0.007083666045218706,
+      "10/4": 0.15950149297714233,
+      "off": 0.00926517229527235,
+      "20/4": 0.0046100495383143425,
+      "10/8": 0.39736413955688477
+    },
+    "inference_ms": 209.2533998657018
+  },
+  {
+    "uid": "26092902-industrial_control-0014",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"industrial_control\",\"packet_deadline_ms\":5,\"burst_interval_ms\":2.0,\"burst_jitter_plus_minus_ms\":0.3269,\"packets_per_burst\":2,\"service_time_per_packet_ms\":0.0569,\"fixed_network_delay_ms\":3.1281,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "20/4",
+      "10/2",
+      "10/4",
+      "10/8",
+      "80/4",
+      "20/8",
+      "32/8",
+      "40/4",
+      "off"
+    ],
+    "raw": "10/8",
+    "screened": "off",
+    "probs": {
+      "20/4": 0.0062664952129125595,
+      "10/2": 0.14888468384742737,
+      "10/4": 0.35152438282966614,
+      "10/8": 0.45978081226348877,
+      "80/4": 0.0069769034162163734,
+      "20/8": 0.0069769034162163734,
+      "32/8": 0.00479103485122323,
+      "40/4": 0.00407823221758008,
+      "off": 0.010720504447817802
+    },
+    "inference_ms": 206.46439981646836
+  },
+  {
+    "uid": "26092902-industrial_control-0015",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"industrial_control\",\"packet_deadline_ms\":5,\"burst_interval_ms\":2.0,\"burst_jitter_plus_minus_ms\":0.1559,\"packets_per_burst\":2,\"service_time_per_packet_ms\":0.074,\"fixed_network_delay_ms\":1.5126,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "10/2",
+      "20/4",
+      "20/8",
+      "32/8",
+      "10/8",
+      "40/4",
+      "off",
+      "10/4",
+      "80/4"
+    ],
+    "raw": "10/8",
+    "screened": "10/8",
+    "probs": {
+      "10/2": 0.17488987743854523,
+      "20/4": 0.006976217497140169,
+      "20/8": 0.00912463292479515,
+      "32/8": 0.005054817534983158,
+      "10/8": 0.6344862580299377,
+      "40/4": 0.006976217497140169,
+      "off": 0.025309162214398384,
+      "10/4": 0.13371166586875916,
+      "80/4": 0.003471138421446085
+    },
+    "inference_ms": 208.65090005099773
+  },
+  {
+    "uid": "26092902-industrial_control-0016",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"industrial_control\",\"packet_deadline_ms\":5,\"burst_interval_ms\":10.0,\"burst_jitter_plus_minus_ms\":0.9945,\"packets_per_burst\":3,\"service_time_per_packet_ms\":0.0793,\"fixed_network_delay_ms\":1.5486,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "40/4",
+      "32/8",
+      "20/8",
+      "10/4",
+      "off",
+      "80/4",
+      "10/2",
+      "10/8",
+      "20/4"
+    ],
+    "raw": "10/8",
+    "screened": "10/8",
+    "probs": {
+      "40/4": 0.015422124415636063,
+      "32/8": 0.0068922038190066814,
+      "20/8": 0.00854346714913845,
+      "10/4": 0.13210132718086243,
+      "off": 0.0263836532831192,
+      "80/4": 0.005560087505728006,
+      "10/2": 0.2384607195854187,
+      "10/8": 0.5630179643630981,
+      "20/4": 0.0036185046192258596
+    },
+    "inference_ms": 197.75930000469089
+  },
+  {
+    "uid": "26092902-industrial_control-0017",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"industrial_control\",\"packet_deadline_ms\":5,\"burst_interval_ms\":10.0,\"burst_jitter_plus_minus_ms\":1.1888,\"packets_per_burst\":1,\"service_time_per_packet_ms\":0.1225,\"fixed_network_delay_ms\":2.5425,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "off",
+      "32/8",
+      "20/8",
+      "20/4",
+      "40/4",
+      "10/8",
+      "10/2",
+      "80/4",
+      "10/4"
+    ],
+    "raw": "10/4",
+    "screened": "10/8",
+    "probs": {
+      "off": 0.04151815548539162,
+      "32/8": 0.007858624681830406,
+      "20/8": 0.010278787463903427,
+      "20/4": 0.009232167154550552,
+      "40/4": 0.010278787463903427,
+      "10/8": 0.25768333673477173,
+      "10/2": 0.3194205164909363,
+      "80/4": 0.00668943440541625,
+      "10/4": 0.3370402157306671
+    },
+    "inference_ms": 215.69069987162948
+  },
+  {
+    "uid": "26092902-industrial_control-0018",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"industrial_control\",\"packet_deadline_ms\":5,\"burst_interval_ms\":1.0,\"burst_jitter_plus_minus_ms\":0.1089,\"packets_per_burst\":3,\"service_time_per_packet_ms\":0.0797,\"fixed_network_delay_ms\":3.4336,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "80/4",
+      "10/8",
+      "10/4",
+      "40/4",
+      "20/4",
+      "10/2",
+      "off",
+      "32/8",
+      "20/8"
+    ],
+    "raw": "10/8",
+    "screened": "off",
+    "probs": {
+      "80/4": 0.01722022332251072,
+      "10/8": 0.3877439498901367,
+      "10/4": 0.31280162930488586,
+      "40/4": 0.009539569728076458,
+      "20/4": 0.00691217090934515,
+      "10/2": 0.23915179073810577,
+      "off": 0.01917242631316185,
+      "32/8": 0.003829169785603881,
+      "20/8": 0.003628987818956375
+    },
+    "inference_ms": 193.1388999801129
+  },
+  {
+    "uid": "26092902-industrial_control-0019",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"industrial_control\",\"packet_deadline_ms\":5,\"burst_interval_ms\":10.0,\"burst_jitter_plus_minus_ms\":0.4594,\"packets_per_burst\":1,\"service_time_per_packet_ms\":0.0831,\"fixed_network_delay_ms\":2.7601,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "40/4",
+      "10/4",
+      "off",
+      "10/8",
+      "20/4",
+      "80/4",
+      "32/8",
+      "20/8",
+      "10/2"
+    ],
+    "raw": "10/8",
+    "screened": "10/8",
+    "probs": {
+      "40/4": 0.017633870244026184,
+      "10/4": 0.1774466335773468,
+      "off": 0.03358738496899605,
+      "10/8": 0.6437625288963318,
+      "20/4": 0.007078203838318586,
+      "80/4": 0.008774038404226303,
+      "32/8": 0.006708171684294939,
+      "20/8": 0.006708171684294939,
+      "10/2": 0.09830104559659958
+    },
+    "inference_ms": 191.3282999303192
+  },
+  {
+    "uid": "26092902-industrial_control-0020",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"industrial_control\",\"packet_deadline_ms\":5,\"burst_interval_ms\":5.0,\"burst_jitter_plus_minus_ms\":0.106,\"packets_per_burst\":2,\"service_time_per_packet_ms\":0.0732,\"fixed_network_delay_ms\":3.4991,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "80/4",
+      "32/8",
+      "20/8",
+      "20/4",
+      "10/4",
+      "40/4",
+      "10/2",
+      "off",
+      "10/8"
+    ],
+    "raw": "10/8",
+    "screened": "off",
+    "probs": {
+      "80/4": 0.013469134457409382,
+      "32/8": 0.00876571238040924,
+      "20/8": 0.007461567409336567,
+      "20/4": 0.006351450923830271,
+      "10/4": 0.15090321004390717,
+      "40/4": 0.007461567409336567,
+      "10/2": 0.10934118181467056,
+      "off": 0.017617126926779747,
+      "10/8": 0.6786291003227234
+    },
+    "inference_ms": 216.21079999022186
+  },
+  {
+    "uid": "26092902-industrial_control-0021",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"industrial_control\",\"packet_deadline_ms\":5,\"burst_interval_ms\":10.0,\"burst_jitter_plus_minus_ms\":1.1317,\"packets_per_burst\":1,\"service_time_per_packet_ms\":0.1598,\"fixed_network_delay_ms\":3.1673,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "off",
+      "10/4",
+      "10/8",
+      "40/4",
+      "10/2",
+      "20/4",
+      "32/8",
+      "20/8",
+      "80/4"
+    ],
+    "raw": "10/8",
+    "screened": "off",
+    "probs": {
+      "off": 0.03756101429462433,
+      "10/4": 0.13626842200756073,
+      "10/8": 0.4685261845588684,
+      "40/4": 0.010924427770078182,
+      "10/2": 0.32173675298690796,
+      "20/4": 0.008812972344458103,
+      "32/8": 0.0060518598183989525,
+      "20/8": 0.006385691463947296,
+      "80/4": 0.0037326489109545946
+    },
+    "inference_ms": 210.36419994197786
+  },
+  {
+    "uid": "26092902-industrial_control-0022",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"industrial_control\",\"packet_deadline_ms\":5,\"burst_interval_ms\":1.0,\"burst_jitter_plus_minus_ms\":0.0645,\"packets_per_burst\":3,\"service_time_per_packet_ms\":0.09,\"fixed_network_delay_ms\":2.1921,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "10/2",
+      "80/4",
+      "20/8",
+      "10/4",
+      "40/4",
+      "32/8",
+      "20/4",
+      "10/8",
+      "off"
+    ],
+    "raw": "10/8",
+    "screened": "10/8",
+    "probs": {
+      "10/2": 0.24951650202274323,
+      "80/4": 0.009953019209206104,
+      "20/8": 0.009432697668671608,
+      "10/4": 0.22410991787910461,
+      "40/4": 0.008029316551983356,
+      "32/8": 0.0052254763431847095,
+      "20/4": 0.006138796452432871,
+      "10/8": 0.47525671124458313,
+      "off": 0.012337617576122284
+    },
+    "inference_ms": 192.20759999006987
+  },
+  {
+    "uid": "26092902-industrial_control-0023",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"industrial_control\",\"packet_deadline_ms\":5,\"burst_interval_ms\":5.0,\"burst_jitter_plus_minus_ms\":0.2323,\"packets_per_burst\":1,\"service_time_per_packet_ms\":0.1596,\"fixed_network_delay_ms\":2.6965,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "40/4",
+      "20/8",
+      "10/2",
+      "32/8",
+      "80/4",
+      "20/4",
+      "off",
+      "10/4",
+      "10/8"
+    ],
+    "raw": "10/8",
+    "screened": "off",
+    "probs": {
+      "40/4": 0.010190306231379509,
+      "20/8": 0.00535005796700716,
+      "10/2": 0.4141937494277954,
+      "32/8": 0.006285152863711119,
+      "80/4": 0.007383681833744049,
+      "20/4": 0.005070366431027651,
+      "off": 0.006285152863711119,
+      "10/4": 0.10819986462593079,
+      "10/8": 0.437041699886322
+    },
+    "inference_ms": 201.65459997951984
+  },
+  {
+    "uid": "26092902-industrial_control-0024",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"industrial_control\",\"packet_deadline_ms\":5,\"burst_interval_ms\":5.0,\"burst_jitter_plus_minus_ms\":0.4598,\"packets_per_burst\":1,\"service_time_per_packet_ms\":0.1276,\"fixed_network_delay_ms\":3.1443,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "10/4",
+      "20/8",
+      "10/2",
+      "off",
+      "40/4",
+      "10/8",
+      "32/8",
+      "20/4",
+      "80/4"
+    ],
+    "raw": "10/8",
+    "screened": "off",
+    "probs": {
+      "10/4": 0.12973424792289734,
+      "20/8": 0.005761667154729366,
+      "10/2": 0.3410341739654541,
+      "off": 0.035759929567575455,
+      "40/4": 0.006079492624849081,
+      "10/8": 0.47066569328308105,
+      "32/8": 0.004904458299279213,
+      "20/4": 0.0035536654759198427,
+      "80/4": 0.002506701275706291
+    },
+    "inference_ms": 203.6468000151217
+  },
+  {
+    "uid": "26092902-industrial_control-0025",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"industrial_control\",\"packet_deadline_ms\":5,\"burst_interval_ms\":4.0,\"burst_jitter_plus_minus_ms\":0.3431,\"packets_per_burst\":1,\"service_time_per_packet_ms\":0.1518,\"fixed_network_delay_ms\":1.6029,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "80/4",
+      "20/8",
+      "10/4",
+      "off",
+      "40/4",
+      "20/4",
+      "10/2",
+      "10/8",
+      "32/8"
+    ],
+    "raw": "10/8",
+    "screened": "10/8",
+    "probs": {
+      "80/4": 0.00865441095083952,
+      "20/8": 0.0040810368955135345,
+      "10/4": 0.22892926633358002,
+      "off": 0.015622393228113651,
+      "40/4": 0.007366825360804796,
+      "20/4": 0.0038676876574754715,
+      "10/2": 0.21696116030216217,
+      "10/8": 0.512256383895874,
+      "32/8": 0.0022607920691370964
+    },
+    "inference_ms": 180.83690013736486
+  },
+  {
+    "uid": "26092902-industrial_control-0026",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"industrial_control\",\"packet_deadline_ms\":5,\"burst_interval_ms\":2.0,\"burst_jitter_plus_minus_ms\":0.1207,\"packets_per_burst\":2,\"service_time_per_packet_ms\":0.1128,\"fixed_network_delay_ms\":1.3019,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "32/8",
+      "80/4",
+      "off",
+      "20/4",
+      "10/8",
+      "20/8",
+      "10/2",
+      "40/4",
+      "10/4"
+    ],
+    "raw": "10/8",
+    "screened": "10/8",
+    "probs": {
+      "32/8": 0.006942938547581434,
+      "80/4": 0.010110600851476192,
+      "off": 0.022623669356107712,
+      "20/4": 0.004518461879342794,
+      "10/8": 0.6662920713424683,
+      "20/8": 0.009081105701625347,
+      "10/2": 0.13307376205921173,
+      "40/4": 0.006942938547581434,
+      "10/4": 0.14041443169116974
+    },
+    "inference_ms": 215.8321999013424
+  },
+  {
+    "uid": "26092902-industrial_control-0027",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"industrial_control\",\"packet_deadline_ms\":5,\"burst_interval_ms\":5.0,\"burst_jitter_plus_minus_ms\":0.6432,\"packets_per_burst\":2,\"service_time_per_packet_ms\":0.1669,\"fixed_network_delay_ms\":3.3385,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "20/8",
+      "10/4",
+      "32/8",
+      "20/4",
+      "off",
+      "80/4",
+      "10/2",
+      "40/4",
+      "10/8"
+    ],
+    "raw": "10/8",
+    "screened": "off",
+    "probs": {
+      "20/8": 0.005313903093338013,
+      "10/4": 0.16513334214687347,
+      "32/8": 0.00695039052516222,
+      "20/4": 0.005607027560472488,
+      "off": 0.01827058382332325,
+      "80/4": 0.005313903093338013,
+      "10/2": 0.15650038421154022,
+      "40/4": 0.0047728256322443485,
+      "10/8": 0.6321375370025635
+    },
+    "inference_ms": 212.79700007289648
+  },
+  {
+    "uid": "26092902-industrial_control-0028",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"industrial_control\",\"packet_deadline_ms\":5,\"burst_interval_ms\":4.0,\"burst_jitter_plus_minus_ms\":0.2475,\"packets_per_burst\":1,\"service_time_per_packet_ms\":0.1249,\"fixed_network_delay_ms\":1.4221,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "10/4",
+      "off",
+      "80/4",
+      "20/4",
+      "32/8",
+      "40/4",
+      "20/8",
+      "10/8",
+      "10/2"
+    ],
+    "raw": "10/8",
+    "screened": "10/8",
+    "probs": {
+      "10/4": 0.062442928552627563,
+      "off": 0.038513362407684326,
+      "80/4": 0.015459217131137848,
+      "20/4": 0.006205302197486162,
+      "32/8": 0.006908777169883251,
+      "40/4": 0.008564014919102192,
+      "20/8": 0.006908777169883251,
+      "10/8": 0.5069058537483215,
+      "10/2": 0.3480917513370514
+    },
+    "inference_ms": 196.3925000745803
+  },
+  {
+    "uid": "26092902-industrial_control-0029",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"industrial_control\",\"packet_deadline_ms\":5,\"burst_interval_ms\":4.0,\"burst_jitter_plus_minus_ms\":0.4924,\"packets_per_burst\":1,\"service_time_per_packet_ms\":0.0458,\"fixed_network_delay_ms\":1.3929,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "80/4",
+      "10/4",
+      "20/8",
+      "10/2",
+      "40/4",
+      "20/4",
+      "10/8",
+      "32/8",
+      "off"
+    ],
+    "raw": "10/8",
+    "screened": "10/8",
+    "probs": {
+      "80/4": 0.012404581531882286,
+      "10/4": 0.17227289080619812,
+      "20/8": 0.005849448963999748,
+      "10/2": 0.32812967896461487,
+      "40/4": 0.008988089859485626,
+      "20/4": 0.005253841169178486,
+      "10/8": 0.45285606384277344,
+      "32/8": 0.004238385707139969,
+      "off": 0.010007040575146675
+    },
+    "inference_ms": 195.2496999874711
+  },
+  {
+    "uid": "26092902-xr-0000",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"xr\",\"packet_deadline_ms\":10,\"burst_interval_ms\":11.1111,\"burst_jitter_plus_minus_ms\":2.0204,\"packets_per_burst\":9,\"service_time_per_packet_ms\":0.1636,\"fixed_network_delay_ms\":0.7534,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "off",
+      "80/4",
+      "20/4",
+      "40/4",
+      "20/8",
+      "32/8",
+      "10/4",
+      "10/8",
+      "10/2"
+    ],
+    "raw": "10/8",
+    "screened": "10/8",
+    "probs": {
+      "off": 0.02022770792245865,
+      "80/4": 0.009039836004376411,
+      "20/4": 0.006207645405083895,
+      "40/4": 0.006911386735737324,
+      "20/8": 0.0055755628272891045,
+      "32/8": 0.0036285738460719585,
+      "10/4": 0.14748656749725342,
+      "10/8": 0.7384561896324158,
+      "10/2": 0.06246648356318474
+    },
+    "inference_ms": 236.3617999944836
+  },
+  {
+    "uid": "26092902-xr-0001",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"xr\",\"packet_deadline_ms\":10,\"burst_interval_ms\":16.6667,\"burst_jitter_plus_minus_ms\":1.568,\"packets_per_burst\":12,\"service_time_per_packet_ms\":0.1967,\"fixed_network_delay_ms\":0.7445,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "20/4",
+      "10/4",
+      "20/8",
+      "10/8",
+      "40/4",
+      "off",
+      "10/2",
+      "80/4",
+      "32/8"
+    ],
+    "raw": "10/8",
+    "screened": "10/8",
+    "probs": {
+      "20/4": 0.004965703468769789,
+      "10/4": 0.27855539321899414,
+      "20/8": 0.006853229831904173,
+      "10/8": 0.5305673480033875,
+      "40/4": 0.005833616945892572,
+      "off": 0.021163899451494217,
+      "10/2": 0.14624552428722382,
+      "80/4": 0.0034099435433745384,
+      "32/8": 0.0024053221568465233
+    },
+    "inference_ms": 195.89519989676774
+  },
+  {
+    "uid": "26092902-xr-0002",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"xr\",\"packet_deadline_ms\":10,\"burst_interval_ms\":11.1111,\"burst_jitter_plus_minus_ms\":1.1016,\"packets_per_burst\":10,\"service_time_per_packet_ms\":0.0619,\"fixed_network_delay_ms\":2.4922,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "32/8",
+      "20/4",
+      "off",
+      "10/2",
+      "10/4",
+      "80/4",
+      "20/8",
+      "10/8",
+      "40/4"
+    ],
+    "raw": "10/4",
+    "screened": "10/4",
+    "probs": {
+      "32/8": 0.006252098362892866,
+      "20/4": 0.004068865440785885,
+      "off": 0.012565325014293194,
+      "10/2": 0.2408369928598404,
+      "10/4": 0.37006303668022156,
+      "80/4": 0.006596976425498724,
+      "20/8": 0.006252098362892866,
+      "10/8": 0.35071665048599243,
+      "40/4": 0.0026480157393962145
+    },
+    "inference_ms": 209.80350021272898
+  },
+  {
+    "uid": "26092902-xr-0003",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"xr\",\"packet_deadline_ms\":10,\"burst_interval_ms\":11.1111,\"burst_jitter_plus_minus_ms\":0.8726,\"packets_per_burst\":9,\"service_time_per_packet_ms\":0.1365,\"fixed_network_delay_ms\":3.0954,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "off",
+      "20/8",
+      "10/4",
+      "10/8",
+      "10/2",
+      "32/8",
+      "20/4",
+      "80/4",
+      "40/4"
+    ],
+    "raw": "10/8",
+    "screened": "10/8",
+    "probs": {
+      "off": 0.022731073200702667,
+      "20/8": 0.005938039161264896,
+      "10/4": 0.22873888909816742,
+      "10/8": 0.54006427526474,
+      "10/2": 0.18452870845794678,
+      "32/8": 0.006611211225390434,
+      "20/4": 0.005333407782018185,
+      "80/4": 0.0034709814935922623,
+      "40/4": 0.0025834334082901478
+    },
+    "inference_ms": 215.66089987754822
+  },
+  {
+    "uid": "26092902-xr-0004",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"xr\",\"packet_deadline_ms\":10,\"burst_interval_ms\":16.6667,\"burst_jitter_plus_minus_ms\":3.2651,\"packets_per_burst\":8,\"service_time_per_packet_ms\":0.1707,\"fixed_network_delay_ms\":4.847,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "80/4",
+      "10/2",
+      "10/4",
+      "40/4",
+      "32/8",
+      "20/8",
+      "10/8",
+      "20/4",
+      "off"
+    ],
+    "raw": "10/2",
+    "screened": "10/8",
+    "probs": {
+      "80/4": 0.012235213071107864,
+      "10/2": 0.3802177906036377,
+      "10/4": 0.3802177906036377,
+      "40/4": 0.007151888683438301,
+      "32/8": 0.005467957817018032,
+      "20/8": 0.004911195021122694,
+      "10/8": 0.19961972534656525,
+      "20/4": 0.0037548430263996124,
+      "off": 0.00642365962266922
+    },
+    "inference_ms": 185.58689998462796
+  },
+  {
+    "uid": "26092902-xr-0005",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"xr\",\"packet_deadline_ms\":10,\"burst_interval_ms\":16.6667,\"burst_jitter_plus_minus_ms\":2.1654,\"packets_per_burst\":6,\"service_time_per_packet_ms\":0.2071,\"fixed_network_delay_ms\":3.146,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "20/8",
+      "10/2",
+      "off",
+      "10/4",
+      "32/8",
+      "40/4",
+      "10/8",
+      "20/4",
+      "80/4"
+    ],
+    "raw": "10/8",
+    "screened": "10/8",
+    "probs": {
+      "20/8": 0.0035671950317919254,
+      "10/2": 0.3612162470817566,
+      "off": 0.01786073110997677,
+      "10/4": 0.22279006242752075,
+      "32/8": 0.004190677311271429,
+      "40/4": 0.0044218432158231735,
+      "10/8": 0.3811418116092682,
+      "20/4": 0.0030364750418812037,
+      "80/4": 0.0017749207327142358
+    },
+    "inference_ms": 197.83750013448298
+  },
+  {
+    "uid": "26092902-xr-0006",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"xr\",\"packet_deadline_ms\":10,\"burst_interval_ms\":11.1111,\"burst_jitter_plus_minus_ms\":1.2117,\"packets_per_burst\":7,\"service_time_per_packet_ms\":0.0498,\"fixed_network_delay_ms\":4.6146,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "10/4",
+      "10/8",
+      "32/8",
+      "20/8",
+      "10/2",
+      "off",
+      "80/4",
+      "40/4",
+      "20/4"
+    ],
+    "raw": "10/8",
+    "screened": "10/8",
+    "probs": {
+      "10/4": 0.33259594440460205,
+      "10/8": 0.3509424030780792,
+      "32/8": 0.008634153753519058,
+      "20/8": 0.006965355481952429,
+      "10/2": 0.24099178612232208,
+      "off": 0.045615363866090775,
+      "80/4": 0.006256123073399067,
+      "40/4": 0.004533053375780582,
+      "20/4": 0.003465735586360097
+    },
+    "inference_ms": 185.09799987077713
+  },
+  {
+    "uid": "26092902-xr-0007",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"xr\",\"packet_deadline_ms\":10,\"burst_interval_ms\":11.1111,\"burst_jitter_plus_minus_ms\":1.1366,\"packets_per_burst\":3,\"service_time_per_packet_ms\":0.2028,\"fixed_network_delay_ms\":1.6688,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "20/4",
+      "10/8",
+      "40/4",
+      "20/8",
+      "off",
+      "32/8",
+      "10/2",
+      "10/4",
+      "80/4"
+    ],
+    "raw": "10/8",
+    "screened": "10/8",
+    "probs": {
+      "20/4": 0.004444937687367201,
+      "10/8": 0.47492516040802,
+      "40/4": 0.0072067175060510635,
+      "20/8": 0.005509877111762762,
+      "off": 0.02109205722808838,
+      "32/8": 0.004690128844231367,
+      "10/2": 0.32613062858581543,
+      "10/4": 0.15378883481025696,
+      "80/4": 0.002211655955761671
+    },
+    "inference_ms": 207.7033999375999
+  },
+  {
+    "uid": "26092902-xr-0008",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"xr\",\"packet_deadline_ms\":10,\"burst_interval_ms\":8.3333,\"burst_jitter_plus_minus_ms\":0.4384,\"packets_per_burst\":3,\"service_time_per_packet_ms\":0.1975,\"fixed_network_delay_ms\":1.0492,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "10/8",
+      "40/4",
+      "80/4",
+      "off",
+      "32/8",
+      "20/8",
+      "10/4",
+      "20/4",
+      "10/2"
+    ],
+    "raw": "10/2",
+    "screened": "10/2",
+    "probs": {
+      "10/8": 0.22838349640369415,
+      "40/4": 0.011915591545403004,
+      "80/4": 0.013998216949403286,
+      "off": 0.03679730370640755,
+      "32/8": 0.006600936409085989,
+      "20/8": 0.006600936409085989,
+      "10/4": 0.2051287293434143,
+      "20/4": 0.006255852058529854,
+      "10/2": 0.48431897163391113
+    },
+    "inference_ms": 208.7510998826474
+  },
+  {
+    "uid": "26092902-xr-0009",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"xr\",\"packet_deadline_ms\":10,\"burst_interval_ms\":11.1111,\"burst_jitter_plus_minus_ms\":2.0276,\"packets_per_burst\":6,\"service_time_per_packet_ms\":0.1661,\"fixed_network_delay_ms\":2.9779,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "80/4",
+      "32/8",
+      "40/4",
+      "10/4",
+      "20/8",
+      "10/2",
+      "10/8",
+      "off",
+      "20/4"
+    ],
+    "raw": "10/8",
+    "screened": "10/8",
+    "probs": {
+      "80/4": 0.013742279261350632,
+      "32/8": 0.0049544586800038815,
+      "40/4": 0.011697719804942608,
+      "10/4": 0.19085043668746948,
+      "20/8": 0.006141474470496178,
+      "10/2": 0.224207803606987,
+      "10/8": 0.529365599155426,
+      "off": 0.016144176945090294,
+      "20/4": 0.0028960458002984524
+    },
+    "inference_ms": 196.24800002202392
+  },
+  {
+    "uid": "26092902-xr-0010",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"xr\",\"packet_deadline_ms\":10,\"burst_interval_ms\":8.3333,\"burst_jitter_plus_minus_ms\":0.3386,\"packets_per_burst\":12,\"service_time_per_packet_ms\":0.1746,\"fixed_network_delay_ms\":4.0063,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "20/4",
+      "10/2",
+      "32/8",
+      "40/4",
+      "80/4",
+      "10/8",
+      "off",
+      "20/8",
+      "10/4"
+    ],
+    "raw": "10/8",
+    "screened": "10/8",
+    "probs": {
+      "20/4": 0.004625489003956318,
+      "10/2": 0.35809868574142456,
+      "32/8": 0.006383695639669895,
+      "40/4": 0.006049967370927334,
+      "80/4": 0.009808998554944992,
+      "10/8": 0.37785229086875916,
+      "off": 0.012159092351794243,
+      "20/8": 0.004154506605118513,
+      "10/4": 0.22086723148822784
+    },
+    "inference_ms": 201.72229991294444
+  },
+  {
+    "uid": "26092902-xr-0011",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"xr\",\"packet_deadline_ms\":10,\"burst_interval_ms\":16.6667,\"burst_jitter_plus_minus_ms\":1.9829,\"packets_per_burst\":7,\"service_time_per_packet_ms\":0.1202,\"fixed_network_delay_ms\":4.8284,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "80/4",
+      "32/8",
+      "40/4",
+      "10/4",
+      "off",
+      "20/8",
+      "10/8",
+      "20/4",
+      "10/2"
+    ],
+    "raw": "10/8",
+    "screened": "10/8",
+    "probs": {
+      "80/4": 0.013161544688045979,
+      "32/8": 0.005881945136934519,
+      "40/4": 0.01247348915785551,
+      "10/4": 0.22657820582389832,
+      "off": 0.02022366039454937,
+      "20/8": 0.0050068385899066925,
+      "10/8": 0.5644720792770386,
+      "20/4": 0.0047450908459723,
+      "10/2": 0.147457093000412
+    },
+    "inference_ms": 197.32779986225069
+  },
+  {
+    "uid": "26092902-xr-0012",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"xr\",\"packet_deadline_ms\":10,\"burst_interval_ms\":8.3333,\"burst_jitter_plus_minus_ms\":0.5369,\"packets_per_burst\":4,\"service_time_per_packet_ms\":0.0799,\"fixed_network_delay_ms\":3.504,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "80/4",
+      "20/4",
+      "32/8",
+      "10/4",
+      "10/2",
+      "10/8",
+      "20/8",
+      "40/4",
+      "off"
+    ],
+    "raw": "10/8",
+    "screened": "10/8",
+    "probs": {
+      "80/4": 0.010007151402533054,
+      "20/4": 0.002910527167841792,
+      "32/8": 0.005543708801269531,
+      "10/4": 0.21354910731315613,
+      "10/2": 0.3462335765361786,
+      "10/8": 0.40674886107444763,
+      "20/8": 0.005253894254565239,
+      "40/4": 0.003240482183173299,
+      "off": 0.0065126498229801655
+    },
+    "inference_ms": 196.24219997785985
+  },
+  {
+    "uid": "26092902-xr-0013",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"xr\",\"packet_deadline_ms\":10,\"burst_interval_ms\":8.3333,\"burst_jitter_plus_minus_ms\":1.3639,\"packets_per_burst\":6,\"service_time_per_packet_ms\":0.2187,\"fixed_network_delay_ms\":4.4562,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "10/2",
+      "20/8",
+      "10/4",
+      "80/4",
+      "40/4",
+      "32/8",
+      "20/4",
+      "off",
+      "10/8"
+    ],
+    "raw": "10/2",
+    "screened": "10/8",
+    "probs": {
+      "10/2": 0.4970409572124481,
+      "20/8": 0.009349330328404903,
+      "10/4": 0.2221294343471527,
+      "80/4": 0.008860568515956402,
+      "40/4": 0.006774325389415026,
+      "32/8": 0.00546499527990818,
+      "20/4": 0.004408730193972588,
+      "off": 0.011589295230805874,
+      "10/8": 0.23438240587711334
+    },
+    "inference_ms": 194.70119988545775
+  },
+  {
+    "uid": "26092902-xr-0014",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"xr\",\"packet_deadline_ms\":10,\"burst_interval_ms\":16.6667,\"burst_jitter_plus_minus_ms\":1.4656,\"packets_per_burst\":3,\"service_time_per_packet_ms\":0.1675,\"fixed_network_delay_ms\":1.9013,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "10/8",
+      "40/4",
+      "32/8",
+      "20/4",
+      "10/2",
+      "10/4",
+      "off",
+      "80/4",
+      "20/8"
+    ],
+    "raw": "10/8",
+    "screened": "10/8",
+    "probs": {
+      "10/8": 0.40868422389030457,
+      "40/4": 0.007687341887503862,
+      "32/8": 0.0100547568872571,
+      "20/4": 0.005570083856582642,
+      "10/2": 0.3296942710876465,
+      "10/4": 0.2145649939775467,
+      "off": 0.015449843369424343,
+      "80/4": 0.004035963676869869,
+      "20/8": 0.0042585949413478374
+    },
+    "inference_ms": 183.79989988170564
+  },
+  {
+    "uid": "26092902-xr-0015",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"xr\",\"packet_deadline_ms\":10,\"burst_interval_ms\":11.1111,\"burst_jitter_plus_minus_ms\":1.8748,\"packets_per_burst\":8,\"service_time_per_packet_ms\":0.1922,\"fixed_network_delay_ms\":4.6584,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "20/8",
+      "40/4",
+      "32/8",
+      "10/4",
+      "10/2",
+      "20/4",
+      "off",
+      "10/8",
+      "80/4"
+    ],
+    "raw": "10/2",
+    "screened": "10/8",
+    "probs": {
+      "20/8": 0.003384827636182308,
+      "40/4": 0.005201029125601053,
+      "32/8": 0.006110073532909155,
+      "10/4": 0.11711040139198303,
+      "10/2": 0.5557107925415039,
+      "20/4": 0.007178005762398243,
+      "off": 0.011029516346752644,
+      "10/8": 0.2917560338973999,
+      "80/4": 0.0025193109177052975
+    },
+    "inference_ms": 196.91019994206727
+  },
+  {
+    "uid": "26092902-xr-0016",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"xr\",\"packet_deadline_ms\":10,\"burst_interval_ms\":16.6667,\"burst_jitter_plus_minus_ms\":3.1427,\"packets_per_burst\":12,\"service_time_per_packet_ms\":0.1273,\"fixed_network_delay_ms\":2.217,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "80/4",
+      "20/4",
+      "40/4",
+      "10/4",
+      "32/8",
+      "off",
+      "10/8",
+      "10/2",
+      "20/8"
+    ],
+    "raw": "10/8",
+    "screened": "10/8",
+    "probs": {
+      "80/4": 0.014113386161625385,
+      "20/4": 0.004104803781956434,
+      "40/4": 0.012013625353574753,
+      "10/4": 0.3733314573764801,
+      "32/8": 0.0053689307533204556,
+      "off": 0.010226253420114517,
+      "10/8": 0.462776243686676,
+      "10/2": 0.11457115411758423,
+      "20/8": 0.0034940994810312986
+    },
+    "inference_ms": 209.7664000466466
+  },
+  {
+    "uid": "26092902-xr-0017",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"xr\",\"packet_deadline_ms\":10,\"burst_interval_ms\":8.3333,\"burst_jitter_plus_minus_ms\":0.7156,\"packets_per_burst\":6,\"service_time_per_packet_ms\":0.0666,\"fixed_network_delay_ms\":3.3397,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "10/8",
+      "40/4",
+      "20/8",
+      "80/4",
+      "32/8",
+      "10/2",
+      "off",
+      "10/4",
+      "20/4"
+    ],
+    "raw": "10/2",
+    "screened": "10/4",
+    "probs": {
+      "10/8": 0.21214161813259125,
+      "40/4": 0.0068266079761087894,
+      "20/8": 0.009941194206476212,
+      "80/4": 0.008019773289561272,
+      "32/8": 0.007203177083283663,
+      "10/2": 0.40406838059425354,
+      "off": 0.02224460430443287,
+      "10/4": 0.3259705603122711,
+      "20/4": 0.003584065707400441
+    },
+    "inference_ms": 194.61140013299882
+  },
+  {
+    "uid": "26092902-xr-0018",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"xr\",\"packet_deadline_ms\":10,\"burst_interval_ms\":16.6667,\"burst_jitter_plus_minus_ms\":3.2331,\"packets_per_burst\":10,\"service_time_per_packet_ms\":0.073,\"fixed_network_delay_ms\":1.8484,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "10/2",
+      "off",
+      "10/4",
+      "40/4",
+      "10/8",
+      "32/8",
+      "80/4",
+      "20/4",
+      "20/8"
+    ],
+    "raw": "10/8",
+    "screened": "10/8",
+    "probs": {
+      "10/2": 0.28761693835258484,
+      "off": 0.02185237407684326,
+      "10/4": 0.14310887455940247,
+      "40/4": 0.006355649791657925,
+      "10/8": 0.5191873908042908,
+      "32/8": 0.0070761688984930515,
+      "80/4": 0.006023388355970383,
+      "20/4": 0.0039200205355882645,
+      "20/8": 0.00485919788479805
+    },
+    "inference_ms": 182.13009997271
+  },
+  {
+    "uid": "26092902-xr-0019",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"xr\",\"packet_deadline_ms\":10,\"burst_interval_ms\":16.6667,\"burst_jitter_plus_minus_ms\":2.5562,\"packets_per_burst\":3,\"service_time_per_packet_ms\":0.219,\"fixed_network_delay_ms\":2.4635,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "80/4",
+      "10/8",
+      "20/4",
+      "10/2",
+      "off",
+      "10/4",
+      "32/8",
+      "20/8",
+      "40/4"
+    ],
+    "raw": "10/8",
+    "screened": "10/8",
+    "probs": {
+      "80/4": 0.015438346192240715,
+      "10/8": 0.329448938369751,
+      "20/4": 0.005274964030832052,
+      "10/2": 0.329448938369751,
+      "off": 0.027868324890732765,
+      "10/4": 0.28043416142463684,
+      "32/8": 0.005565939005464315,
+      "20/8": 0.0040329620242118835,
+      "40/4": 0.002487438265234232
+    },
+    "inference_ms": 193.79230006597936
+  },
+  {
+    "uid": "26092902-xr-0020",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"xr\",\"packet_deadline_ms\":10,\"burst_interval_ms\":8.3333,\"burst_jitter_plus_minus_ms\":1.0153,\"packets_per_burst\":10,\"service_time_per_packet_ms\":0.1003,\"fixed_network_delay_ms\":0.8906,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "32/8",
+      "20/8",
+      "10/4",
+      "10/2",
+      "80/4",
+      "20/4",
+      "40/4",
+      "10/8",
+      "off"
+    ],
+    "raw": "10/2",
+    "screened": "10/8",
+    "probs": {
+      "32/8": 0.005094058346003294,
+      "20/8": 0.004827749915421009,
+      "10/4": 0.28575554490089417,
+      "10/2": 0.3943746089935303,
+      "80/4": 0.006662838160991669,
+      "20/4": 0.005671551916748285,
+      "40/4": 0.004827749915421009,
+      "10/8": 0.28575554490089417,
+      "off": 0.007030372973531485
+    },
+    "inference_ms": 198.59280018135905
+  },
+  {
+    "uid": "26092902-xr-0021",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"xr\",\"packet_deadline_ms\":10,\"burst_interval_ms\":8.3333,\"burst_jitter_plus_minus_ms\":1.5041,\"packets_per_burst\":11,\"service_time_per_packet_ms\":0.1418,\"fixed_network_delay_ms\":3.2871,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "20/8",
+      "20/4",
+      "40/4",
+      "32/8",
+      "10/8",
+      "off",
+      "10/2",
+      "80/4",
+      "10/4"
+    ],
+    "raw": "10/4",
+    "screened": "10/8",
+    "probs": {
+      "20/8": 0.004931784700602293,
+      "20/4": 0.006113365758210421,
+      "40/4": 0.008437136188149452,
+      "32/8": 0.006113365758210421,
+      "10/8": 0.24848298728466034,
+      "off": 0.023402228951454163,
+      "10/2": 0.24848298728466034,
+      "80/4": 0.005490885116159916,
+      "10/4": 0.44854530692100525
+    },
+    "inference_ms": 189.28210018202662
+  },
+  {
+    "uid": "26092902-xr-0022",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"xr\",\"packet_deadline_ms\":10,\"burst_interval_ms\":16.6667,\"burst_jitter_plus_minus_ms\":1.8338,\"packets_per_burst\":7,\"service_time_per_packet_ms\":0.0515,\"fixed_network_delay_ms\":1.6579,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "10/8",
+      "10/2",
+      "80/4",
+      "32/8",
+      "off",
+      "20/8",
+      "40/4",
+      "10/4",
+      "20/4"
+    ],
+    "raw": "10/8",
+    "screened": "10/8",
+    "probs": {
+      "10/8": 0.5017263889312744,
+      "10/2": 0.16246752440929413,
+      "80/4": 0.01234386209398508,
+      "32/8": 0.005820815917104483,
+      "off": 0.023511460050940514,
+      "20/8": 0.006480699870735407,
+      "40/4": 0.006480699870735407,
+      "10/4": 0.2779439687728882,
+      "20/4": 0.003224586136639118
+    },
+    "inference_ms": 183.2311002071947
+  },
+  {
+    "uid": "26092902-xr-0023",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"xr\",\"packet_deadline_ms\":10,\"burst_interval_ms\":11.1111,\"burst_jitter_plus_minus_ms\":1.5973,\"packets_per_burst\":11,\"service_time_per_packet_ms\":0.1594,\"fixed_network_delay_ms\":0.6238,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "10/2",
+      "80/4",
+      "40/4",
+      "10/4",
+      "off",
+      "20/4",
+      "20/8",
+      "10/8",
+      "32/8"
+    ],
+    "raw": "10/8",
+    "screened": "10/8",
+    "probs": {
+      "10/2": 0.2544501721858978,
+      "80/4": 0.009619210846722126,
+      "40/4": 0.01559591293334961,
+      "10/4": 0.26848629117012024,
+      "off": 0.02396422252058983,
+      "20/4": 0.005932907108217478,
+      "20/8": 0.006605498027056456,
+      "10/8": 0.41254809498786926,
+      "32/8": 0.0027976962737739086
+    },
+    "inference_ms": 193.80750018171966
+  },
+  {
+    "uid": "26092902-xr-0024",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"xr\",\"packet_deadline_ms\":10,\"burst_interval_ms\":11.1111,\"burst_jitter_plus_minus_ms\":2.1154,\"packets_per_burst\":6,\"service_time_per_packet_ms\":0.187,\"fixed_network_delay_ms\":0.6227,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "40/4",
+      "20/8",
+      "10/4",
+      "off",
+      "20/4",
+      "10/2",
+      "10/8",
+      "80/4",
+      "32/8"
+    ],
+    "raw": "10/8",
+    "screened": "10/8",
+    "probs": {
+      "40/4": 0.009503280743956566,
+      "20/8": 0.0042470525950193405,
+      "10/4": 0.27988237142562866,
+      "off": 0.013115601614117622,
+      "20/4": 0.006184733938425779,
+      "10/2": 0.2953210771083832,
+      "10/8": 0.3862689733505249,
+      "80/4": 0.0032470745500177145,
+      "32/8": 0.002229762729257345
+    },
+    "inference_ms": 181.96370010264218
+  },
+  {
+    "uid": "26092902-xr-0025",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"xr\",\"packet_deadline_ms\":10,\"burst_interval_ms\":8.3333,\"burst_jitter_plus_minus_ms\":0.2797,\"packets_per_burst\":7,\"service_time_per_packet_ms\":0.1767,\"fixed_network_delay_ms\":4.5221,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "off",
+      "10/8",
+      "10/4",
+      "40/4",
+      "10/2",
+      "20/4",
+      "32/8",
+      "20/8",
+      "80/4"
+    ],
+    "raw": "10/2",
+    "screened": "10/8",
+    "probs": {
+      "off": 0.05586528033018112,
+      "10/8": 0.21385470032691956,
+      "10/4": 0.2650911808013916,
+      "40/4": 0.010021472349762917,
+      "10/2": 0.42980027198791504,
+      "20/4": 0.010021472349762917,
+      "32/8": 0.005551645066589117,
+      "20/8": 0.006181016098707914,
+      "80/4": 0.0036130095832049847
+    },
+    "inference_ms": 188.62339993938804
+  },
+  {
+    "uid": "26092902-xr-0026",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"xr\",\"packet_deadline_ms\":10,\"burst_interval_ms\":11.1111,\"burst_jitter_plus_minus_ms\":0.6064,\"packets_per_burst\":11,\"service_time_per_packet_ms\":0.1181,\"fixed_network_delay_ms\":2.3573,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "80/4",
+      "20/4",
+      "20/8",
+      "10/8",
+      "32/8",
+      "40/4",
+      "10/4",
+      "off",
+      "10/2"
+    ],
+    "raw": "10/8",
+    "screened": "10/8",
+    "probs": {
+      "80/4": 0.02064698562026024,
+      "20/4": 0.007054648362100124,
+      "20/8": 0.009736207313835621,
+      "10/8": 0.6080770492553711,
+      "32/8": 0.007854406721889973,
+      "40/4": 0.008287674747407436,
+      "10/4": 0.15884801745414734,
+      "off": 0.02064698562026024,
+      "10/2": 0.15884801745414734
+    },
+    "inference_ms": 190.24030002765357
+  },
+  {
+    "uid": "26092902-xr-0027",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"xr\",\"packet_deadline_ms\":10,\"burst_interval_ms\":8.3333,\"burst_jitter_plus_minus_ms\":1.5037,\"packets_per_burst\":3,\"service_time_per_packet_ms\":0.1143,\"fixed_network_delay_ms\":1.5182,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "10/8",
+      "32/8",
+      "20/4",
+      "80/4",
+      "40/4",
+      "off",
+      "20/8",
+      "10/2",
+      "10/4"
+    ],
+    "raw": "10/4",
+    "screened": "10/4",
+    "probs": {
+      "10/8": 0.12962694466114044,
+      "32/8": 0.006763103883713484,
+      "20/4": 0.010391990654170513,
+      "80/4": 0.008383439853787422,
+      "40/4": 0.007529814261943102,
+      "off": 0.018758943304419518,
+      "20/8": 0.004900400061160326,
+      "10/2": 0.29005569219589233,
+      "10/4": 0.5235896706581116
+    },
+    "inference_ms": 198.63089988939464
+  },
+  {
+    "uid": "26092902-xr-0028",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"xr\",\"packet_deadline_ms\":10,\"burst_interval_ms\":8.3333,\"burst_jitter_plus_minus_ms\":0.6122,\"packets_per_burst\":5,\"service_time_per_packet_ms\":0.1093,\"fixed_network_delay_ms\":3.5193,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "40/4",
+      "10/2",
+      "20/8",
+      "10/4",
+      "32/8",
+      "off",
+      "10/8",
+      "80/4",
+      "20/4"
+    ],
+    "raw": "10/4",
+    "screened": "10/8",
+    "probs": {
+      "40/4": 0.01658736914396286,
+      "10/2": 0.31792643666267395,
+      "20/8": 0.005667556077241898,
+      "10/4": 0.35396870970726013,
+      "32/8": 0.005667556077241898,
+      "off": 0.022892426699399948,
+      "10/8": 0.2706259787082672,
+      "80/4": 0.0036884453147649765,
+      "20/4": 0.00297554861754179
+    },
+    "inference_ms": 193.6602999921888
+  },
+  {
+    "uid": "26092902-xr-0029",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"xr\",\"packet_deadline_ms\":10,\"burst_interval_ms\":16.6667,\"burst_jitter_plus_minus_ms\":1.2487,\"packets_per_burst\":8,\"service_time_per_packet_ms\":0.0473,\"fixed_network_delay_ms\":1.6101,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "40/4",
+      "off",
+      "10/4",
+      "20/8",
+      "32/8",
+      "10/2",
+      "10/8",
+      "20/4",
+      "80/4"
+    ],
+    "raw": "10/8",
+    "screened": "10/8",
+    "probs": {
+      "40/4": 0.010772496461868286,
+      "off": 0.010209335014224052,
+      "10/4": 0.28495752811431885,
+      "20/8": 0.004098010715097189,
+      "32/8": 0.005655716173350811,
+      "10/2": 0.28495752811431885,
+      "10/8": 0.3932732343673706,
+      "20/4": 0.003680737689137459,
+      "80/4": 0.0023954235948622227
+    },
+    "inference_ms": 196.73250010237098
+  },
+  {
+    "uid": "26092902-gaming-0000",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"gaming\",\"packet_deadline_ms\":20,\"burst_interval_ms\":10.0,\"burst_jitter_plus_minus_ms\":1.1779,\"packets_per_burst\":4,\"service_time_per_packet_ms\":0.0976,\"fixed_network_delay_ms\":7.2105,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "40/4",
+      "10/8",
+      "32/8",
+      "off",
+      "20/8",
+      "10/2",
+      "10/4",
+      "20/4",
+      "80/4"
+    ],
+    "raw": "10/2",
+    "screened": "10/2",
+    "probs": {
+      "40/4": 0.01379865687340498,
+      "10/8": 0.3851408064365387,
+      "32/8": 0.008980165235698223,
+      "off": 0.019043689593672752,
+      "20/8": 0.013077295385301113,
+      "10/2": 0.4063856899738312,
+      "10/4": 0.14651302993297577,
+      "20/4": 0.0047147138975560665,
+      "80/4": 0.0023458879441022873
+    },
+    "inference_ms": 185.30080001801252
+  },
+  {
+    "uid": "26092902-gaming-0001",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"gaming\",\"packet_deadline_ms\":20,\"burst_interval_ms\":33.3333,\"burst_jitter_plus_minus_ms\":5.2993,\"packets_per_burst\":1,\"service_time_per_packet_ms\":0.1785,\"fixed_network_delay_ms\":4.701,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "20/8",
+      "10/4",
+      "10/2",
+      "80/4",
+      "10/8",
+      "20/4",
+      "off",
+      "32/8",
+      "40/4"
+    ],
+    "raw": "10/2",
+    "screened": "10/2",
+    "probs": {
+      "20/8": 0.006571646314114332,
+      "10/4": 0.0963003933429718,
+      "10/2": 0.48217013478279114,
+      "80/4": 0.004761673975735903,
+      "10/8": 0.38897693157196045,
+      "20/4": 0.0062280925922095776,
+      "off": 0.009569902904331684,
+      "32/8": 0.0027833569329231977,
+      "40/4": 0.0026378484908491373
+    },
+    "inference_ms": 195.80579991452396
+  },
+  {
+    "uid": "26092902-gaming-0002",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"gaming\",\"packet_deadline_ms\":20,\"burst_interval_ms\":16.6667,\"burst_jitter_plus_minus_ms\":1.1728,\"packets_per_burst\":3,\"service_time_per_packet_ms\":0.1489,\"fixed_network_delay_ms\":5.2896,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "10/8",
+      "20/8",
+      "32/8",
+      "80/4",
+      "40/4",
+      "20/4",
+      "10/4",
+      "off",
+      "10/2"
+    ],
+    "raw": "10/8",
+    "screened": "10/8",
+    "probs": {
+      "10/8": 0.4346517324447632,
+      "20/8": 0.011905930936336517,
+      "32/8": 0.009604768827557564,
+      "80/4": 0.010693629272282124,
+      "40/4": 0.007343303877860308,
+      "20/4": 0.008175790309906006,
+      "10/4": 0.10198266059160233,
+      "off": 0.02524818480014801,
+      "10/2": 0.39039403200149536
+    },
+    "inference_ms": 201.0282000992447
+  },
+  {
+    "uid": "26092902-gaming-0003",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"gaming\",\"packet_deadline_ms\":20,\"burst_interval_ms\":20.0,\"burst_jitter_plus_minus_ms\":2.1796,\"packets_per_burst\":3,\"service_time_per_packet_ms\":0.2915,\"fixed_network_delay_ms\":7.7037,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "32/8",
+      "40/4",
+      "20/8",
+      "20/4",
+      "10/4",
+      "10/2",
+      "off",
+      "80/4",
+      "10/8"
+    ],
+    "raw": "10/2",
+    "screened": "10/2",
+    "probs": {
+      "32/8": 0.007636557333171368,
+      "40/4": 0.005244016647338867,
+      "20/8": 0.016194399446249008,
+      "20/4": 0.011734110303223133,
+      "10/4": 0.10051088780164719,
+      "10/2": 0.4769429564476013,
+      "off": 0.01238139159977436,
+      "80/4": 0.00471005542203784,
+      "10/8": 0.36464565992355347
+    },
+    "inference_ms": 195.59290003962815
+  },
+  {
+    "uid": "26092902-gaming-0004",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"gaming\",\"packet_deadline_ms\":20,\"burst_interval_ms\":20.0,\"burst_jitter_plus_minus_ms\":1.8535,\"packets_per_burst\":2,\"service_time_per_packet_ms\":0.201,\"fixed_network_delay_ms\":7.9091,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "10/8",
+      "off",
+      "40/4",
+      "10/2",
+      "10/4",
+      "20/4",
+      "32/8",
+      "20/8",
+      "80/4"
+    ],
+    "raw": "10/8",
+    "screened": "10/8",
+    "probs": {
+      "10/8": 0.40152934193611145,
+      "off": 0.0358392558991909,
+      "40/4": 0.012921007350087166,
+      "10/2": 0.3417905867099762,
+      "10/4": 0.17944493889808655,
+      "20/4": 0.0098787322640419,
+      "32/8": 0.006429074797779322,
+      "20/8": 0.008408990688621998,
+      "80/4": 0.0037580085918307304
+    },
+    "inference_ms": 208.20740005001426
+  },
+  {
+    "uid": "26092902-gaming-0005",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"gaming\",\"packet_deadline_ms\":20,\"burst_interval_ms\":16.6667,\"burst_jitter_plus_minus_ms\":3.2982,\"packets_per_burst\":6,\"service_time_per_packet_ms\":0.0522,\"fixed_network_delay_ms\":3.946,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "20/4",
+      "10/4",
+      "off",
+      "32/8",
+      "40/4",
+      "80/4",
+      "20/8",
+      "10/2",
+      "10/8"
+    ],
+    "raw": "10/8",
+    "screened": "10/8",
+    "probs": {
+      "20/4": 0.006524801719933748,
+      "10/4": 0.17259614169597626,
+      "off": 0.023671472445130348,
+      "32/8": 0.005263698752969503,
+      "40/4": 0.006524801719933748,
+      "80/4": 0.005554052535444498,
+      "20/8": 0.005860424600541592,
+      "10/2": 0.29527169466018677,
+      "10/8": 0.4787328541278839
+    },
+    "inference_ms": 196.03150011971593
+  },
+  {
+    "uid": "26092902-gaming-0006",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"gaming\",\"packet_deadline_ms\":20,\"burst_interval_ms\":16.6667,\"burst_jitter_plus_minus_ms\":0.4616,\"packets_per_burst\":1,\"service_time_per_packet_ms\":0.1106,\"fixed_network_delay_ms\":3.8935,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "10/2",
+      "10/8",
+      "off",
+      "10/4",
+      "32/8",
+      "20/8",
+      "40/4",
+      "20/4",
+      "80/4"
+    ],
+    "raw": "10/2",
+    "screened": "10/2",
+    "probs": {
+      "10/2": 0.5620883703231812,
+      "10/8": 0.21382640302181244,
+      "off": 0.0730600357055664,
+      "10/4": 0.11845441907644272,
+      "32/8": 0.007260384038090706,
+      "20/8": 0.01002014521509409,
+      "40/4": 0.004985697567462921,
+      "20/4": 0.006880823988467455,
+      "80/4": 0.003423673566430807
+    },
+    "inference_ms": 195.24940010160208
+  },
+  {
+    "uid": "26092902-gaming-0007",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"gaming\",\"packet_deadline_ms\":20,\"burst_interval_ms\":33.3333,\"burst_jitter_plus_minus_ms\":4.8029,\"packets_per_burst\":1,\"service_time_per_packet_ms\":0.0924,\"fixed_network_delay_ms\":4.6121,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "32/8",
+      "10/2",
+      "off",
+      "10/4",
+      "20/4",
+      "40/4",
+      "80/4",
+      "10/8",
+      "20/8"
+    ],
+    "raw": "10/2",
+    "screened": "10/2",
+    "probs": {
+      "32/8": 0.008020888082683086,
+      "10/2": 0.4747576117515564,
+      "off": 0.029099127277731895,
+      "10/4": 0.2010791003704071,
+      "20/4": 0.0068275537341833115,
+      "40/4": 0.0061323498375713825,
+      "80/4": 0.0061323498375713825,
+      "10/8": 0.263003945350647,
+      "20/8": 0.004947098903357983
+    },
+    "inference_ms": 194.40090004354715
+  },
+  {
+    "uid": "26092902-gaming-0008",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"gaming\",\"packet_deadline_ms\":20,\"burst_interval_ms\":25.0,\"burst_jitter_plus_minus_ms\":1.338,\"packets_per_burst\":4,\"service_time_per_packet_ms\":0.2784,\"fixed_network_delay_ms\":7.5547,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "off",
+      "32/8",
+      "10/4",
+      "20/4",
+      "10/2",
+      "40/4",
+      "10/8",
+      "80/4",
+      "20/8"
+    ],
+    "raw": "10/2",
+    "screened": "10/2",
+    "probs": {
+      "off": 0.02048334665596485,
+      "32/8": 0.004090994130820036,
+      "10/4": 0.06674528121948242,
+      "20/4": 0.003300292184576392,
+      "10/2": 0.6365342736244202,
+      "40/4": 0.005350868217647076,
+      "10/8": 0.2555038630962372,
+      "80/4": 0.0036744356621056795,
+      "20/8": 0.004316659178584814
+    },
+    "inference_ms": 237.6808999106288
+  },
+  {
+    "uid": "26092902-gaming-0009",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"gaming\",\"packet_deadline_ms\":20,\"burst_interval_ms\":25.0,\"burst_jitter_plus_minus_ms\":2.3564,\"packets_per_burst\":4,\"service_time_per_packet_ms\":0.2082,\"fixed_network_delay_ms\":7.6023,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "off",
+      "32/8",
+      "40/4",
+      "20/4",
+      "10/2",
+      "10/4",
+      "20/8",
+      "10/8",
+      "80/4"
+    ],
+    "raw": "10/2",
+    "screened": "10/2",
+    "probs": {
+      "off": 0.01936357468366623,
+      "32/8": 0.0034735635854303837,
+      "40/4": 0.007366179022938013,
+      "20/4": 0.003665172029286623,
+      "10/2": 0.5702791810035706,
+      "10/4": 0.1571916788816452,
+      "20/8": 0.007366179022938013,
+      "10/8": 0.22890914976596832,
+      "80/4": 0.0023852926678955555
+    },
+    "inference_ms": 210.06820001639426
+  },
+  {
+    "uid": "26092902-gaming-0010",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"gaming\",\"packet_deadline_ms\":20,\"burst_interval_ms\":20.0,\"burst_jitter_plus_minus_ms\":3.6127,\"packets_per_burst\":3,\"service_time_per_packet_ms\":0.2127,\"fixed_network_delay_ms\":3.0473,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "off",
+      "40/4",
+      "10/8",
+      "10/2",
+      "20/4",
+      "10/4",
+      "80/4",
+      "32/8",
+      "20/8"
+    ],
+    "raw": "10/2",
+    "screened": "10/2",
+    "probs": {
+      "off": 0.03125037997961044,
+      "40/4": 0.01323580089956522,
+      "10/8": 0.3318140208721161,
+      "10/2": 0.45794084668159485,
+      "20/4": 0.009089010767638683,
+      "10/4": 0.14053666591644287,
+      "80/4": 0.0062414174899458885,
+      "32/8": 0.004285974893718958,
+      "20/8": 0.005605895537883043
+    },
+    "inference_ms": 200.4263000562787
+  },
+  {
+    "uid": "26092902-gaming-0011",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"gaming\",\"packet_deadline_ms\":20,\"burst_interval_ms\":33.3333,\"burst_jitter_plus_minus_ms\":1.2642,\"packets_per_burst\":4,\"service_time_per_packet_ms\":0.0934,\"fixed_network_delay_ms\":6.9703,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "40/4",
+      "10/2",
+      "32/8",
+      "20/8",
+      "20/4",
+      "off",
+      "10/8",
+      "80/4",
+      "10/4"
+    ],
+    "raw": "10/2",
+    "screened": "10/2",
+    "probs": {
+      "40/4": 0.010128957219421864,
+      "10/2": 0.5681922435760498,
+      "32/8": 0.007339229341596365,
+      "20/8": 0.007339229341596365,
+      "20/4": 0.01324829924851656,
+      "off": 0.013979094102978706,
+      "10/8": 0.2679344415664673,
+      "80/4": 0.0042900219559669495,
+      "10/4": 0.10754844546318054
+    },
+    "inference_ms": 194.59409988485277
+  },
+  {
+    "uid": "26092902-gaming-0012",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"gaming\",\"packet_deadline_ms\":20,\"burst_interval_ms\":10.0,\"burst_jitter_plus_minus_ms\":1.0769,\"packets_per_burst\":4,\"service_time_per_packet_ms\":0.1273,\"fixed_network_delay_ms\":1.4746,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "off",
+      "10/4",
+      "80/4",
+      "32/8",
+      "40/4",
+      "10/8",
+      "20/8",
+      "20/4",
+      "10/2"
+    ],
+    "raw": "10/2",
+    "screened": "10/2",
+    "probs": {
+      "off": 0.03124447725713253,
+      "10/4": 0.03124447725713253,
+      "80/4": 0.013963270001113415,
+      "32/8": 0.006240236572921276,
+      "40/4": 0.01188584417104721,
+      "10/8": 0.43391841650009155,
+      "20/8": 0.0077353063970804214,
+      "20/4": 0.0059140087105333805,
+      "10/2": 0.4578539729118347
+    },
+    "inference_ms": 210.51430003717542
+  },
+  {
+    "uid": "26092902-gaming-0013",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"gaming\",\"packet_deadline_ms\":20,\"burst_interval_ms\":16.6667,\"burst_jitter_plus_minus_ms\":2.5785,\"packets_per_burst\":3,\"service_time_per_packet_ms\":0.1707,\"fixed_network_delay_ms\":2.7913,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "20/4",
+      "20/8",
+      "10/8",
+      "10/4",
+      "32/8",
+      "off",
+      "80/4",
+      "40/4",
+      "10/2"
+    ],
+    "raw": "10/8",
+    "screened": "10/8",
+    "probs": {
+      "20/4": 0.008926562033593655,
+      "20/8": 0.012999235652387142,
+      "10/8": 0.40396034717559814,
+      "10/4": 0.1308092176914215,
+      "32/8": 0.007201254367828369,
+      "off": 0.022238656878471375,
+      "80/4": 0.0046865735203027725,
+      "40/4": 0.005217875353991985,
+      "10/2": 0.40396034717559814
+    },
+    "inference_ms": 205.95799991860986
+  },
+  {
+    "uid": "26092902-gaming-0014",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"gaming\",\"packet_deadline_ms\":20,\"burst_interval_ms\":25.0,\"burst_jitter_plus_minus_ms\":1.5925,\"packets_per_burst\":6,\"service_time_per_packet_ms\":0.2253,\"fixed_network_delay_ms\":2.5512,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "10/2",
+      "10/4",
+      "20/8",
+      "20/4",
+      "off",
+      "32/8",
+      "10/8",
+      "40/4",
+      "80/4"
+    ],
+    "raw": "10/2",
+    "screened": "10/2",
+    "probs": {
+      "10/2": 0.5206084251403809,
+      "10/4": 0.09854169934988022,
+      "20/8": 0.00928069744259119,
+      "20/4": 0.00928069744259119,
+      "off": 0.028660345822572708,
+      "32/8": 0.00487250043079257,
+      "10/8": 0.3210996091365814,
+      "40/4": 0.003930749837309122,
+      "80/4": 0.0037252590991556644
+    },
+    "inference_ms": 199.91390011273324
+  },
+  {
+    "uid": "26092902-gaming-0015",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"gaming\",\"packet_deadline_ms\":20,\"burst_interval_ms\":25.0,\"burst_jitter_plus_minus_ms\":3.1337,\"packets_per_burst\":4,\"service_time_per_packet_ms\":0.1926,\"fixed_network_delay_ms\":6.4649,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "40/4",
+      "off",
+      "80/4",
+      "10/2",
+      "20/4",
+      "10/8",
+      "20/8",
+      "10/4",
+      "32/8"
+    ],
+    "raw": "10/8",
+    "screened": "10/8",
+    "probs": {
+      "40/4": 0.010880185291171074,
+      "off": 0.01031139399856329,
+      "80/4": 0.00926145352423191,
+      "10/2": 0.41911545395851135,
+      "20/4": 0.008318420499563217,
+      "10/8": 0.44223442673683167,
+      "20/8": 0.00926145352423191,
+      "10/4": 0.08832432329654694,
+      "32/8": 0.0022928896360099316
+    },
+    "inference_ms": 197.56120000965893
+  },
+  {
+    "uid": "26092902-gaming-0016",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"gaming\",\"packet_deadline_ms\":20,\"burst_interval_ms\":25.0,\"burst_jitter_plus_minus_ms\":0.4536,\"packets_per_burst\":3,\"service_time_per_packet_ms\":0.0827,\"fixed_network_delay_ms\":2.7366,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "20/8",
+      "10/4",
+      "10/8",
+      "80/4",
+      "off",
+      "20/4",
+      "40/4",
+      "10/2",
+      "32/8"
+    ],
+    "raw": "10/8",
+    "screened": "10/8",
+    "probs": {
+      "20/8": 0.008185645565390587,
+      "10/4": 0.1199517697095871,
+      "10/8": 0.6686781048774719,
+      "80/4": 0.005327214952558279,
+      "off": 0.020392799749970436,
+      "20/4": 0.005048717837780714,
+      "40/4": 0.005048717837780714,
+      "10/2": 0.16554684937000275,
+      "32/8": 0.0018201982602477074
+    },
+    "inference_ms": 213.90009997412562
+  },
+  {
+    "uid": "26092902-gaming-0017",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"gaming\",\"packet_deadline_ms\":20,\"burst_interval_ms\":25.0,\"burst_jitter_plus_minus_ms\":0.454,\"packets_per_burst\":1,\"service_time_per_packet_ms\":0.2881,\"fixed_network_delay_ms\":4.4101,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "10/2",
+      "40/4",
+      "20/4",
+      "20/8",
+      "10/4",
+      "off",
+      "10/8",
+      "80/4",
+      "32/8"
+    ],
+    "raw": "10/2",
+    "screened": "10/8",
+    "probs": {
+      "10/2": 0.3941706418991089,
+      "40/4": 0.007823331281542778,
+      "20/4": 0.010232620872557163,
+      "20/8": 0.015723159536719322,
+      "10/4": 0.1499481201171875,
+      "off": 0.019490180537104607,
+      "10/8": 0.3941706418991089,
+      "80/4": 0.004333930090069771,
+      "32/8": 0.004107359796762466
+    },
+    "inference_ms": 190.6101000495255
+  },
+  {
+    "uid": "26092902-gaming-0018",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"gaming\",\"packet_deadline_ms\":20,\"burst_interval_ms\":33.3333,\"burst_jitter_plus_minus_ms\":6.1443,\"packets_per_burst\":6,\"service_time_per_packet_ms\":0.1113,\"fixed_network_delay_ms\":2.0757,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "off",
+      "40/4",
+      "20/4",
+      "10/8",
+      "20/8",
+      "10/4",
+      "80/4",
+      "32/8",
+      "10/2"
+    ],
+    "raw": "10/8",
+    "screened": "10/8",
+    "probs": {
+      "off": 0.02655019797384739,
+      "40/4": 0.010657217353582382,
+      "20/4": 0.009572063572704792,
+      "10/8": 0.4822785258293152,
+      "20/8": 0.013210518285632133,
+      "10/4": 0.1329353153705597,
+      "80/4": 0.005903828889131546,
+      "32/8": 0.0050254687666893005,
+      "10/2": 0.31386682391166687
+    },
+    "inference_ms": 207.51859992742538
+  },
+  {
+    "uid": "26092902-gaming-0019",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"gaming\",\"packet_deadline_ms\":20,\"burst_interval_ms\":33.3333,\"burst_jitter_plus_minus_ms\":4.3924,\"packets_per_burst\":6,\"service_time_per_packet_ms\":0.2545,\"fixed_network_delay_ms\":2.3474,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "80/4",
+      "20/8",
+      "10/8",
+      "10/2",
+      "20/4",
+      "32/8",
+      "40/4",
+      "10/4",
+      "off"
+    ],
+    "raw": "10/2",
+    "screened": "10/2",
+    "probs": {
+      "80/4": 0.012164573185145855,
+      "20/8": 0.007916702888906002,
+      "10/8": 0.32178086042404175,
+      "10/2": 0.5217134952545166,
+      "20/4": 0.007916702888906002,
+      "32/8": 0.0054363892413675785,
+      "40/4": 0.006386573426425457,
+      "10/4": 0.10994581878185272,
+      "off": 0.006738869473338127
+    },
+    "inference_ms": 219.47410004213452
+  },
+  {
+    "uid": "26092902-gaming-0020",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"gaming\",\"packet_deadline_ms\":20,\"burst_interval_ms\":16.6667,\"burst_jitter_plus_minus_ms\":0.4246,\"packets_per_burst\":2,\"service_time_per_packet_ms\":0.2256,\"fixed_network_delay_ms\":5.8009,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "80/4",
+      "20/4",
+      "40/4",
+      "32/8",
+      "20/8",
+      "10/8",
+      "off",
+      "10/2",
+      "10/4"
+    ],
+    "raw": "10/2",
+    "screened": "10/2",
+    "probs": {
+      "80/4": 0.014496125280857086,
+      "20/4": 0.005226242821663618,
+      "40/4": 0.026167485862970352,
+      "32/8": 0.007212802302092314,
+      "20/8": 0.013738300651311874,
+      "10/8": 0.34441137313842773,
+      "off": 0.014496125280857086,
+      "10/2": 0.38345614075660706,
+      "10/4": 0.19079536199569702
+    },
+    "inference_ms": 187.3967000283301
+  },
+  {
+    "uid": "26092902-gaming-0021",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"gaming\",\"packet_deadline_ms\":20,\"burst_interval_ms\":20.0,\"burst_jitter_plus_minus_ms\":0.9834,\"packets_per_burst\":4,\"service_time_per_packet_ms\":0.2202,\"fixed_network_delay_ms\":3.3636,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "off",
+      "10/8",
+      "10/4",
+      "32/8",
+      "40/4",
+      "20/8",
+      "80/4",
+      "10/2",
+      "20/4"
+    ],
+    "raw": "10/2",
+    "screened": "10/2",
+    "probs": {
+      "off": 0.03997911140322685,
+      "10/8": 0.24813148379325867,
+      "10/4": 0.12346206605434418,
+      "32/8": 0.006441461853682995,
+      "40/4": 0.007567314896732569,
+      "20/8": 0.008425191976130009,
+      "80/4": 0.00679678563028574,
+      "10/2": 0.5552236437797546,
+      "20/4": 0.003972947597503662
+    },
+    "inference_ms": 202.47199991717935
+  },
+  {
+    "uid": "26092902-gaming-0022",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"gaming\",\"packet_deadline_ms\":20,\"burst_interval_ms\":10.0,\"burst_jitter_plus_minus_ms\":0.3381,\"packets_per_burst\":3,\"service_time_per_packet_ms\":0.2712,\"fixed_network_delay_ms\":4.0538,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "40/4",
+      "20/4",
+      "80/4",
+      "10/4",
+      "32/8",
+      "10/8",
+      "20/8",
+      "off",
+      "10/2"
+    ],
+    "raw": "10/2",
+    "screened": "10/2",
+    "probs": {
+      "40/4": 0.014905277639627457,
+      "20/4": 0.007028669584542513,
+      "80/4": 0.01139579713344574,
+      "10/4": 0.16699306666851044,
+      "32/8": 0.008712631650269032,
+      "10/8": 0.35413235425949097,
+      "20/8": 0.00741638382896781,
+      "off": 0.013387573882937431,
+      "10/2": 0.4160282015800476
+    },
+    "inference_ms": 214.36999994330108
+  },
+  {
+    "uid": "26092902-gaming-0023",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"gaming\",\"packet_deadline_ms\":20,\"burst_interval_ms\":20.0,\"burst_jitter_plus_minus_ms\":2.3573,\"packets_per_burst\":3,\"service_time_per_packet_ms\":0.0866,\"fixed_network_delay_ms\":6.2995,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "40/4",
+      "10/2",
+      "20/4",
+      "off",
+      "32/8",
+      "10/8",
+      "20/8",
+      "10/4",
+      "80/4"
+    ],
+    "raw": "10/8",
+    "screened": "10/8",
+    "probs": {
+      "40/4": 0.01332788448780775,
+      "10/2": 0.3720008432865143,
+      "20/4": 0.011344989761710167,
+      "off": 0.019408628344535828,
+      "32/8": 0.008220341056585312,
+      "10/8": 0.48656323552131653,
+      "20/8": 0.012631133198738098,
+      "10/4": 0.07429707795381546,
+      "80/4": 0.0022058309987187386
+    },
+    "inference_ms": 224.13889993913472
+  },
+  {
+    "uid": "26092902-gaming-0024",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"gaming\",\"packet_deadline_ms\":20,\"burst_interval_ms\":25.0,\"burst_jitter_plus_minus_ms\":1.7835,\"packets_per_burst\":5,\"service_time_per_packet_ms\":0.1688,\"fixed_network_delay_ms\":6.8537,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "20/8",
+      "off",
+      "40/4",
+      "10/4",
+      "10/8",
+      "20/4",
+      "10/2",
+      "80/4",
+      "32/8"
+    ],
+    "raw": "10/8",
+    "screened": "10/8",
+    "probs": {
+      "20/8": 0.006126216147094965,
+      "off": 0.009413367137312889,
+      "40/4": 0.006126216147094965,
+      "10/4": 0.06863582134246826,
+      "10/8": 0.5879140496253967,
+      "20/4": 0.006126216147094965,
+      "10/2": 0.30866318941116333,
+      "80/4": 0.003778511192649603,
+      "32/8": 0.0032163504511117935
+    },
+    "inference_ms": 217.0557000208646
+  },
+  {
+    "uid": "26092902-gaming-0025",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"gaming\",\"packet_deadline_ms\":20,\"burst_interval_ms\":33.3333,\"burst_jitter_plus_minus_ms\":3.0423,\"packets_per_burst\":3,\"service_time_per_packet_ms\":0.1994,\"fixed_network_delay_ms\":1.7967,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "20/8",
+      "off",
+      "32/8",
+      "20/4",
+      "10/8",
+      "10/2",
+      "80/4",
+      "10/4",
+      "40/4"
+    ],
+    "raw": "10/2",
+    "screened": "10/2",
+    "probs": {
+      "20/8": 0.00936372671276331,
+      "off": 0.013635854236781597,
+      "32/8": 0.008410281501710415,
+      "20/4": 0.007159016560763121,
+      "10/8": 0.2909843623638153,
+      "10/2": 0.4978063106536865,
+      "80/4": 0.008410281501710415,
+      "10/4": 0.1611979752779007,
+      "40/4": 0.0030321322847157717
+    },
+    "inference_ms": 213.31669995561242
+  },
+  {
+    "uid": "26092902-gaming-0026",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"gaming\",\"packet_deadline_ms\":20,\"burst_interval_ms\":16.6667,\"burst_jitter_plus_minus_ms\":0.07,\"packets_per_burst\":3,\"service_time_per_packet_ms\":0.1556,\"fixed_network_delay_ms\":3.507,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "80/4",
+      "10/8",
+      "20/8",
+      "10/2",
+      "20/4",
+      "off",
+      "32/8",
+      "40/4",
+      "10/4"
+    ],
+    "raw": "10/2",
+    "screened": "10/2",
+    "probs": {
+      "80/4": 0.017303697764873505,
+      "10/8": 0.29788604378700256,
+      "20/8": 0.010114586912095547,
+      "10/2": 0.5096135139465332,
+      "20/4": 0.010114586912095547,
+      "off": 0.023881059139966965,
+      "32/8": 0.005603231023997068,
+      "40/4": 0.005912316031754017,
+      "10/4": 0.11957099288702011
+    },
+    "inference_ms": 200.1769000198692
+  },
+  {
+    "uid": "26092902-gaming-0027",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"gaming\",\"packet_deadline_ms\":20,\"burst_interval_ms\":33.3333,\"burst_jitter_plus_minus_ms\":2.9781,\"packets_per_burst\":1,\"service_time_per_packet_ms\":0.2667,\"fixed_network_delay_ms\":3.6796,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "10/8",
+      "off",
+      "20/4",
+      "80/4",
+      "40/4",
+      "32/8",
+      "10/2",
+      "20/8",
+      "10/4"
+    ],
+    "raw": "10/2",
+    "screened": "10/2",
+    "probs": {
+      "10/8": 0.3660343289375305,
+      "off": 0.024978600442409515,
+      "20/4": 0.009005452506244183,
+      "80/4": 0.008534668013453484,
+      "40/4": 0.008534668013453484,
+      "32/8": 0.005554358474910259,
+      "10/2": 0.38622570037841797,
+      "20/8": 0.009005452506244183,
+      "10/4": 0.18212684988975525
+    },
+    "inference_ms": 182.57659999653697
+  },
+  {
+    "uid": "26092902-gaming-0028",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"gaming\",\"packet_deadline_ms\":20,\"burst_interval_ms\":25.0,\"burst_jitter_plus_minus_ms\":2.2104,\"packets_per_burst\":1,\"service_time_per_packet_ms\":0.2083,\"fixed_network_delay_ms\":7.7011,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "10/2",
+      "40/4",
+      "80/4",
+      "10/8",
+      "20/4",
+      "20/8",
+      "32/8",
+      "off",
+      "10/4"
+    ],
+    "raw": "10/2",
+    "screened": "10/2",
+    "probs": {
+      "10/2": 0.4812808632850647,
+      "40/4": 0.011221823282539845,
+      "80/4": 0.012493991293013096,
+      "10/8": 0.31321755051612854,
+      "20/4": 0.009552257135510445,
+      "20/8": 0.015487371012568474,
+      "32/8": 0.005891612730920315,
+      "off": 0.018194276839494705,
+      "10/4": 0.13266021013259888
+    },
+    "inference_ms": 201.57000003382564
+  },
+  {
+    "uid": "26092902-gaming-0029",
+    "state": "LTE FDD simplified periodic receive windows. Packets arriving during sleep wait for the next ON window. FIFO; each whole packet must finish within an ON window. The fixed network delay is added to queueing and service delay. Burst phase is unknown. Minimize ON fraction subject to the deadline. {\"service\":\"gaming\",\"packet_deadline_ms\":20,\"burst_interval_ms\":16.6667,\"burst_jitter_plus_minus_ms\":3.0578,\"packets_per_burst\":5,\"service_time_per_packet_ms\":0.1249,\"fixed_network_delay_ms\":3.2867,\"existing_MAC_config_from_public_RRC_trace\":{\"periodicBSR-Timer\":\"sf20\",\"retxBSR-Timer\":\"sf320\",\"timeAlignmentTimerDedicated\":\"infinity\"}}",
+    "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+    "options": [
+      "off",
+      "20/8",
+      "10/4",
+      "20/4",
+      "10/2",
+      "10/8",
+      "32/8",
+      "40/4",
+      "80/4"
+    ],
+    "raw": "10/2",
+    "screened": "10/2",
+    "probs": {
+      "off": 0.014088205061852932,
+      "20/8": 0.004323506262153387,
+      "10/4": 0.1578388661146164,
+      "20/4": 0.005079175811260939,
+      "10/2": 0.4149135649204254,
+      "10/8": 0.393222451210022,
+      "32/8": 0.00456199748441577,
+      "40/4": 0.0033055273815989494,
+      "80/4": 0.0026666393969208
+    },
+    "inference_ms": 205.40610002353787
+  }
+]

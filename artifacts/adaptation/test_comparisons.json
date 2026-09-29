@@ -1,0 +1,322 @@
+[
+  {
+    "method": "decider_adapter_raw",
+    "baseline": "decider_raw",
+    "metric": "p99_ms",
+    "baseline_minus_adapter": 7.004818373027673,
+    "ci95": [
+      2.2030962685049764,
+      15.783956167161833
+    ]
+  },
+  {
+    "method": "decider_adapter_raw",
+    "baseline": "decider_raw",
+    "metric": "miss_rate",
+    "baseline_minus_adapter": 0.1486524497179919,
+    "ci95": [
+      0.10002827721440155,
+      0.19997251746592165
+    ]
+  },
+  {
+    "method": "decider_adapter_raw",
+    "baseline": "decider_raw",
+    "metric": "rx_duty",
+    "baseline_minus_adapter": -0.11222222222222222,
+    "ci95": [
+      -0.17225000000000001,
+      -0.05333333333333335
+    ]
+  },
+  {
+    "method": "decider_adapter_raw",
+    "baseline": "decider_raw",
+    "metric": "scenario_violation",
+    "baseline_minus_adapter": 0.28888888888888886,
+    "ci95": [
+      0.19999999999999998,
+      0.37777777777777777
+    ]
+  },
+  {
+    "method": "decider_adapter_raw",
+    "baseline": "decider_screened",
+    "metric": "p99_ms",
+    "baseline_minus_adapter": -0.7190180223426468,
+    "ci95": [
+      -1.411090499906956,
+      0.011081415118695372
+    ]
+  },
+  {
+    "method": "decider_adapter_raw",
+    "baseline": "decider_screened",
+    "metric": "miss_rate",
+    "baseline_minus_adapter": -0.043328707712041045,
+    "ci95": [
+      -0.07662864698573033,
+      -0.014866767676767681
+    ]
+  },
+  {
+    "method": "decider_adapter_raw",
+    "baseline": "decider_screened",
+    "metric": "rx_duty",
+    "baseline_minus_adapter": 0.11777777777777779,
+    "ci95": [
+      0.05777777777777778,
+      0.17555555555555558
+    ]
+  },
+  {
+    "method": "decider_adapter_raw",
+    "baseline": "decider_screened",
+    "metric": "scenario_violation",
+    "baseline_minus_adapter": -0.1111111111111111,
+    "ci95": [
+      -0.17777777777777778,
+      -0.05555555555555555
+    ]
+  },
+  {
+    "method": "decider_adapter_raw",
+    "baseline": "guard_only",
+    "metric": "p99_ms",
+    "baseline_minus_adapter": 0.4140635231563321,
+    "ci95": [
+      -0.17567376897640094,
+      0.9982359712683182
+    ]
+  },
+  {
+    "method": "decider_adapter_raw",
+    "baseline": "guard_only",
+    "metric": "miss_rate",
+    "baseline_minus_adapter": -0.043328707712041045,
+    "ci95": [
+      -0.07662864698573033,
+      -0.014866767676767681
+    ]
+  },
+  {
+    "method": "decider_adapter_raw",
+    "baseline": "guard_only",
+    "metric": "rx_duty",
+    "baseline_minus_adapter": -0.031111111111111114,
+    "ci95": [
+      -0.0888888888888889,
+      0.026666666666666655
+    ]
+  },
+  {
+    "method": "decider_adapter_raw",
+    "baseline": "guard_only",
+    "metric": "scenario_violation",
+    "baseline_minus_adapter": -0.1111111111111111,
+    "ci95": [
+      -0.17777777777777778,
+      -0.05555555555555555
+    ]
+  },
+  {
+    "method": "decider_adapter_raw",
+    "baseline": "calibrated_per_service",
+    "metric": "p99_ms",
+    "baseline_minus_adapter": -0.6158197471975169,
+    "ci95": [
+      -1.1362927683390038,
+      -0.11500629173960449
+    ]
+  },
+  {
+    "method": "decider_adapter_raw",
+    "baseline": "calibrated_per_service",
+    "metric": "miss_rate",
+    "baseline_minus_adapter": -0.043328707712041045,
+    "ci95": [
+      -0.07662864698573033,
+      -0.014866767676767681
+    ]
+  },
+  {
+    "method": "decider_adapter_raw",
+    "baseline": "calibrated_per_service",
+    "metric": "rx_duty",
+    "baseline_minus_adapter": 0.08888888888888886,
+    "ci95": [
+      0.04,
+      0.13777777777777778
+    ]
+  },
+  {
+    "method": "decider_adapter_raw",
+    "baseline": "calibrated_per_service",
+    "metric": "scenario_violation",
+    "baseline_minus_adapter": -0.1111111111111111,
+    "ci95": [
+      -0.17777777777777778,
+      -0.05555555555555555
+    ]
+  },
+  {
+    "method": "decider_adapter_screened",
+    "baseline": "decider_raw",
+    "metric": "p99_ms",
+    "baseline_minus_adapter": 7.799133387415389,
+    "ci95": [
+      3.006081438595276,
+      16.40567211515151
+    ]
+  },
+  {
+    "method": "decider_adapter_screened",
+    "baseline": "decider_raw",
+    "metric": "miss_rate",
+    "baseline_minus_adapter": 0.19198115743003297,
+    "ci95": [
+      0.1428479550130939,
+      0.2376487310320229
+    ]
+  },
+  {
+    "method": "decider_adapter_screened",
+    "baseline": "decider_raw",
+    "metric": "rx_duty",
+    "baseline_minus_adapter": -0.20333333333333334,
+    "ci95": [
+      -0.26002777777777786,
+      -0.1455277777777779
+    ]
+  },
+  {
+    "method": "decider_adapter_screened",
+    "baseline": "decider_raw",
+    "metric": "scenario_violation",
+    "baseline_minus_adapter": 0.4,
+    "ci95": [
+      0.3111111111111111,
+      0.4888888888888889
+    ]
+  },
+  {
+    "method": "decider_adapter_screened",
+    "baseline": "decider_screened",
+    "metric": "p99_ms",
+    "baseline_minus_adapter": 0.07529699204506826,
+    "ci95": [
+      -0.5307680725819559,
+      0.7228048301475498
+    ]
+  },
+  {
+    "method": "decider_adapter_screened",
+    "baseline": "decider_screened",
+    "metric": "miss_rate",
+    "baseline_minus_adapter": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "method": "decider_adapter_screened",
+    "baseline": "decider_screened",
+    "metric": "rx_duty",
+    "baseline_minus_adapter": 0.026666666666666665,
+    "ci95": [
+      -0.022222222222222223,
+      0.07116666666666639
+    ]
+  },
+  {
+    "method": "decider_adapter_screened",
+    "baseline": "decider_screened",
+    "metric": "scenario_violation",
+    "baseline_minus_adapter": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "method": "decider_adapter_screened",
+    "baseline": "guard_only",
+    "metric": "p99_ms",
+    "baseline_minus_adapter": 1.208378537544047,
+    "ci95": [
+      0.8114237547457345,
+      1.6325507176285123
+    ]
+  },
+  {
+    "method": "decider_adapter_screened",
+    "baseline": "guard_only",
+    "metric": "miss_rate",
+    "baseline_minus_adapter": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "method": "decider_adapter_screened",
+    "baseline": "guard_only",
+    "metric": "rx_duty",
+    "baseline_minus_adapter": -0.12222222222222222,
+    "ci95": [
+      -0.16444444444444448,
+      -0.08222222222222224
+    ]
+  },
+  {
+    "method": "decider_adapter_screened",
+    "baseline": "guard_only",
+    "metric": "scenario_violation",
+    "baseline_minus_adapter": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "method": "decider_adapter_screened",
+    "baseline": "calibrated_per_service",
+    "metric": "p99_ms",
+    "baseline_minus_adapter": 0.17849526719019812,
+    "ci95": [
+      -0.21982315065254807,
+      0.5780540734431924
+    ]
+  },
+  {
+    "method": "decider_adapter_screened",
+    "baseline": "calibrated_per_service",
+    "metric": "miss_rate",
+    "baseline_minus_adapter": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "method": "decider_adapter_screened",
+    "baseline": "calibrated_per_service",
+    "metric": "rx_duty",
+    "baseline_minus_adapter": -0.0022222222222222413,
+    "ci95": [
+      -0.042277777777777796,
+      0.037777777777777764
+    ]
+  },
+  {
+    "method": "decider_adapter_screened",
+    "baseline": "calibrated_per_service",
+    "metric": "scenario_violation",
+    "baseline_minus_adapter": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  }
+]

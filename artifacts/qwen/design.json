@@ -1,0 +1,98 @@
+{
+  "repo": "Qwen/Qwen3.5-2B-Base",
+  "revision": "b1485b2fa6dfa1287294f269f5fb618e03d52d7c",
+  "model_identity": {
+    "model": {
+      "repo": "Qwen/Qwen3.5-2B-Base",
+      "revision": "b1485b2fa6dfa1287294f269f5fb618e03d52d7c",
+      "files_sha256": {
+        "LICENSE": "50cbab8a892c5f2993b8c7351a99182507472def3b1374558308605d99b86b32",
+        "README.md": "50ca45b87d976d9850de95ad00e76fba77e105c2cdef1093b8e3bb261d9a1787",
+        "config.json": "ed1c1723241f23f7f4e23430759cbd7dcfb4103cbdfe052bfe7626b57c2615b4",
+        "merges.txt": "a9d356d7bdf1ef4949e3e748e95b8e10ad9d4e2e838eddc38a0a7b6b94d1db8d",
+        "model.safetensors-00001-of-00001.safetensors": "928acbf11878c32185bbd863514d191769285065ab9ea14fbfe431303f5fdf2d",
+        "model.safetensors.index.json": "74d2ddfe79f10f35b27b498632f02b97b60dd9ec39b35d7c5a890c399284e319",
+        "preprocessor_config.json": "27225450ac9c6529872ee1924fcb0962ff5634834f817040f444118116f4e516",
+        "tokenizer.json": "fe000e3ed39ed12b8d2481d527d44f93c65d37e87645d2dcc80d1bf9d50d2927",
+        "tokenizer_config.json": "e611fbccc7c29ef3b1cafb1cb7ea548d189968632901d678fd62be68c47885de",
+        "video_preprocessor_config.json": "d039cd7d88b3502a99edd455496b75b44ecf7dd3b3669748bafac37e6cecc085",
+        "vocab.json": "ce99b4cb2983d118806ce0a8b777a35b093e2000a503ebde25853284c9dfa003"
+      }
+    },
+    "source_sha256": {
+      "rrcopt/simulation.py": "97bab959be0e88614ea041d725ce962f918388e6ab7b6a90e105eb1d93c4c307",
+      "rrcopt/policies.py": "19c6160c8185fe79a6c6bdc95c2d35b4e3ccc7a5b755196efd6827ad90a46331",
+      "rrcopt/qwen_baseline.py": "75eea7123732a9f04ac2ec57cb375b999f63feb948d01deeac68b368a17754c5",
+      "scripts/run_qwen_baseline.py": "0a2816619d029efcbebb07bae905ab51f36479daf994f79e0d511e974a75c17c"
+    },
+    "packages": {
+      "torch": "2.6.0+cu124",
+      "transformers": "5.6.2",
+      "numpy": "1.26.4"
+    },
+    "python": "3.12.10",
+    "frozen_scenarios_sha256": "279db625b685f2f6450de17185b5505d8fb8c4b1e38cc6e6d4b8a509c511424a",
+    "protocol_context_sha256": "b216e0847cd77e227474a926069960437f411ddcfae1a40a4c8c4b480e50bf0c"
+  },
+  "calibration_seed": 26092801,
+  "evaluation_seed": 26092902,
+  "n_evaluation": 90,
+  "calibration_examples": [
+    {
+      "scenario": {
+        "uid": "26092801-industrial_control-0000",
+        "service": "industrial_control",
+        "deadline_ms": 5,
+        "period_ms": 1.0,
+        "jitter_ms": 0.07905895290340495,
+        "burst_packets": 3,
+        "packet_service_ms": 0.17518016542286557,
+        "base_delay_ms": 3.066809079918513,
+        "duration_ms": 1000.0,
+        "seed": 1752462145369670677
+      },
+      "answer": "off"
+    },
+    {
+      "scenario": {
+        "uid": "26092801-xr-0000",
+        "service": "xr",
+        "deadline_ms": 10,
+        "period_ms": 16.666666666666668,
+        "jitter_ms": 2.7134422220193763,
+        "burst_packets": 4,
+        "packet_service_ms": 0.18955041078811494,
+        "base_delay_ms": 4.187772685815776,
+        "duration_ms": 1000.0,
+        "seed": 4534447653881221604
+      },
+      "answer": "10/8"
+    },
+    {
+      "scenario": {
+        "uid": "26092801-gaming-0000",
+        "service": "gaming",
+        "deadline_ms": 20,
+        "period_ms": 10.0,
+        "jitter_ms": 0.42697413618396807,
+        "burst_packets": 4,
+        "packet_service_ms": 0.1309963221264937,
+        "base_delay_ms": 3.202383843047162,
+        "duration_ms": 1000.0,
+        "seed": 6952378717010920929
+      },
+      "answer": "10/2"
+    }
+  ],
+  "generation": {
+    "do_sample": false,
+    "max_new_tokens": 16,
+    "mode": "unconstrained autoregressive text generation"
+  },
+  "parser": "Only one bare exact profile name is valid; invalid means no configuration.",
+  "current_mac": {
+    "periodicBSR-Timer": "sf20",
+    "retxBSR-Timer": "sf320",
+    "timeAlignmentTimerDedicated": "infinity"
+  }
+}

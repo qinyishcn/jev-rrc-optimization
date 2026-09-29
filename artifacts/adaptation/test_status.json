@@ -1,0 +1,8 @@
+{
+  "state": "complete",
+  "test_seed": 26092902,
+  "n_scenarios": 90,
+  "adapter_sha256": "9b82de92e67d5fc20ede0c60d4844867b00b0533ca7071d30d93a3e962927c84",
+  "source_labels": "2c659bd100779d006f6617f3bdd21e686e44d59291cea906e29973a59a9b939c",
+  "decisions_sha256": "73e4d8be681eeff551e32f39ff946f64e63860b012a4c420c7dfc8951a52602a"
+}

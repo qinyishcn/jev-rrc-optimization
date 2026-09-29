@@ -1,0 +1,36 @@
+{
+  "train_seed": 26093011,
+  "validation_seed": 26093012,
+  "held_out_test_seed": 26092902,
+  "n_train": 300,
+  "n_validation": 90,
+  "n_held_out_test": 90,
+  "phases_per_descriptor": 3,
+  "options_per_descriptor": 9,
+  "train_descriptor_sha256": "12eb4b7d0d245e56fa3cecc9f0b81b3f0cd33c9374b026248307687080ae6ac4",
+  "validation_descriptor_sha256": "2e6f597203fd0d2c20107da3dc11a4d6d4225be2f1c8e68ceb300898a7cf603c",
+  "held_out_test_descriptor_sha256": "e7aefd7b003f82daa6143848db203bfcce78db0f633b1e81afc9603f98cf90dd",
+  "label_rule": "all phases miss_rate <= 0.01; then minimum RX duty; then mean p99",
+  "test_use": "Final evaluation only, after the adapter and settings are frozen",
+  "current_mac": {
+    "periodicBSR-Timer": "sf20",
+    "retxBSR-Timer": "sf320",
+    "timeAlignmentTimerDedicated": "infinity"
+  },
+  "train_label_sha256": "2c659bd100779d006f6617f3bdd21e686e44d59291cea906e29973a59a9b939c",
+  "validation_label_sha256": "d8d2cedf937bbe9a7685fcbdd0e4eb6876d1700115d0605dfd68da78fe722374",
+  "train_label_counts": {
+    "10/8": 118,
+    "off": 18,
+    "10/2": 111,
+    "10/4": 49,
+    "20/4": 4
+  },
+  "validation_label_counts": {
+    "10/8": 39,
+    "off": 3,
+    "10/4": 15,
+    "10/2": 31,
+    "20/4": 2
+  }
+}

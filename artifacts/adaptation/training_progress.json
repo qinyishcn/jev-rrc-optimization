@@ -1,0 +1,6 @@
+{
+  "step": 300,
+  "train_loss_last_25": 1.191480931043625,
+  "elapsed_s": 357.1991387999151,
+  "peak_allocated_gb": 3.980250112
+}

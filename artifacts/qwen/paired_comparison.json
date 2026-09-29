@@ -1,0 +1,4177 @@
+{
+  "summary": {
+    "decider_raw": {
+      "n": 90,
+      "invalid": 0,
+      "scenario_violations": 36,
+      "mean_miss_rate": 0.19198115743003297,
+      "mean_rx_duty": 0.46555555555555556,
+      "mean_scenario_p99_ms": 14.363308620889253,
+      "inference_ms_median": 186.24335003551096,
+      "inference_ms_p95": 216.83341002790257
+    },
+    "qwen_raw": {
+      "n": 90,
+      "invalid": 0,
+      "scenario_violations": 48,
+      "mean_miss_rate": 0.2683918216914116,
+      "mean_rx_duty": 0.33666666666666667,
+      "mean_scenario_p99_ms": 90.72691396455798,
+      "inference_ms_median": 1188.4987499797717,
+      "inference_ms_p95": 1238.5099000646733
+    },
+    "decider_guard": {
+      "n": 90,
+      "invalid": 0,
+      "scenario_violations": 0,
+      "mean_miss_rate": 0.0,
+      "mean_rx_duty": 0.6644444444444445,
+      "mean_scenario_p99_ms": 7.0081831971617765,
+      "inference_ms_median": 186.24335003551096,
+      "inference_ms_p95": 216.83341002790257
+    },
+    "qwen_guard": {
+      "n": 90,
+      "invalid": 0,
+      "scenario_violations": 0,
+      "mean_miss_rate": 0.0,
+      "mean_rx_duty": 0.5888888888888889,
+      "mean_scenario_p99_ms": 7.871847298746201,
+      "inference_ms_median": 1188.4987499797717,
+      "inference_ms_p95": 1238.5099000646733
+    },
+    "guard_only": {
+      "n": 90,
+      "invalid": 0,
+      "scenario_violations": 0,
+      "mean_miss_rate": 0.0,
+      "mean_rx_duty": 0.5466666666666667,
+      "mean_scenario_p99_ms": 7.772553771017913,
+      "inference_ms_median": 0.0,
+      "inference_ms_p95": 0.0
+    }
+  },
+  "paired_qwen_minus_decider_raw": {
+    "violates": {
+      "first_minus_second": 0.13333333333333333,
+      "ci95": [
+        0.022222222222222223,
+        0.24444444444444444
+      ]
+    },
+    "miss_rate": {
+      "first_minus_second": 0.07641066426137866,
+      "ci95": [
+        0.002518043337690829,
+        0.15038737154392245
+      ]
+    },
+    "rx_duty": {
+      "first_minus_second": -0.12888888888888891,
+      "ci95": [
+        -0.18611111111111112,
+        -0.07111111111111112
+      ]
+    },
+    "p99_ms": {
+      "first_minus_second": 76.36360534366874,
+      "ci95": [
+        3.732476836658607,
+        193.550846798253
+      ]
+    }
+  },
+  "paired_qwen_minus_decider_guard": {
+    "violates": {
+      "first_minus_second": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    "miss_rate": {
+      "first_minus_second": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    "rx_duty": {
+      "first_minus_second": -0.07555555555555556,
+      "ci95": [
+        -0.1111111111111111,
+        -0.044444444444444446
+      ]
+    },
+    "p99_ms": {
+      "first_minus_second": 0.8636641015844247,
+      "ci95": [
+        0.33308679348765474,
+        1.4441665013229352
+      ]
+    }
+  },
+  "rows": {
+    "decider_raw": [
+      {
+        "uid": "26092902-industrial_control-0000",
+        "profile": "10/4",
+        "miss_rate": 0.482,
+        "rx_duty": 0.4,
+        "p99_ms": 9.671201587834897,
+        "violates": 1,
+        "inference_ms": 215.9291000571102
+      },
+      {
+        "uid": "26092902-industrial_control-0001",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 3.6299535337761206,
+        "violates": 0,
+        "inference_ms": 196.62419985979795
+      },
+      {
+        "uid": "26092902-industrial_control-0002",
+        "profile": "20/4",
+        "miss_rate": 0.8926666666666667,
+        "rx_duty": 0.2,
+        "p99_ms": 18.61458427030659,
+        "violates": 1,
+        "inference_ms": 186.05790007859468
+      },
+      {
+        "uid": "26092902-industrial_control-0003",
+        "profile": "10/4",
+        "miss_rate": 0.67,
+        "rx_duty": 0.4,
+        "p99_ms": 7.659894520225047,
+        "violates": 1,
+        "inference_ms": 191.97070016525686
+      },
+      {
+        "uid": "26092902-industrial_control-0004",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 3.2023846965817833,
+        "violates": 0,
+        "inference_ms": 186.1268999055028
+      },
+      {
+        "uid": "26092902-industrial_control-0005",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 4.820261766337518,
+        "violates": 0,
+        "inference_ms": 183.1749000120908
+      },
+      {
+        "uid": "26092902-industrial_control-0006",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 2.7253009436494695,
+        "violates": 0,
+        "inference_ms": 186.23029999434948
+      },
+      {
+        "uid": "26092902-industrial_control-0007",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 1.3051380964460426,
+        "violates": 0,
+        "inference_ms": 201.80479995906353
+      },
+      {
+        "uid": "26092902-industrial_control-0008",
+        "profile": "10/4",
+        "miss_rate": 0.4,
+        "rx_duty": 0.4,
+        "p99_ms": 7.367893126105922,
+        "violates": 1,
+        "inference_ms": 182.7913001179695
+      },
+      {
+        "uid": "26092902-industrial_control-0009",
+        "profile": "10/4",
+        "miss_rate": 0.3,
+        "rx_duty": 0.4,
+        "p99_ms": 7.332389522126981,
+        "violates": 1,
+        "inference_ms": 179.4783000368625
+      },
+      {
+        "uid": "26092902-industrial_control-0010",
+        "profile": "10/4",
+        "miss_rate": 0.3,
+        "rx_duty": 0.4,
+        "p99_ms": 6.887947589580967,
+        "violates": 1,
+        "inference_ms": 186.76349986344576
+      },
+      {
+        "uid": "26092902-industrial_control-0011",
+        "profile": "10/4",
+        "miss_rate": 0.5664662658650634,
+        "rx_duty": 0.4,
+        "p99_ms": 8.798167917881248,
+        "violates": 1,
+        "inference_ms": 194.93019999936223
+      },
+      {
+        "uid": "26092902-industrial_control-0012",
+        "profile": "10/4",
+        "miss_rate": 0.211,
+        "rx_duty": 0.4,
+        "p99_ms": 6.8697737976457205,
+        "violates": 1,
+        "inference_ms": 229.53289980068803
+      },
+      {
+        "uid": "26092902-industrial_control-0013",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 3.6132831521650375,
+        "violates": 0,
+        "inference_ms": 192.74179986678064
+      },
+      {
+        "uid": "26092902-industrial_control-0014",
+        "profile": "10/4",
+        "miss_rate": 0.4,
+        "rx_duty": 0.4,
+        "p99_ms": 8.523618017516887,
+        "violates": 1,
+        "inference_ms": 175.74120010249317
+      },
+      {
+        "uid": "26092902-industrial_control-0015",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 3.7133391919324326,
+        "violates": 0,
+        "inference_ms": 185.05589989945292
+      },
+      {
+        "uid": "26092902-industrial_control-0016",
+        "profile": "20/4",
+        "miss_rate": 0.8466666666666667,
+        "rx_duty": 0.2,
+        "p99_ms": 16.076083306684982,
+        "violates": 1,
+        "inference_ms": 197.70619994960725
+      },
+      {
+        "uid": "26092902-industrial_control-0017",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 2.664946406583405,
+        "violates": 0,
+        "inference_ms": 181.62629986181855
+      },
+      {
+        "uid": "26092902-industrial_control-0018",
+        "profile": "10/4",
+        "miss_rate": 0.595,
+        "rx_duty": 0.4,
+        "p99_ms": 9.701075675517414,
+        "violates": 1,
+        "inference_ms": 228.64250000566244
+      },
+      {
+        "uid": "26092902-industrial_control-0019",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 2.843155273563621,
+        "violates": 0,
+        "inference_ms": 191.59900001250207
+      },
+      {
+        "uid": "26092902-industrial_control-0020",
+        "profile": "10/2",
+        "miss_rate": 0.77,
+        "rx_duty": 0.2,
+        "p99_ms": 9.992789017771345,
+        "violates": 1,
+        "inference_ms": 176.91300017759204
+      },
+      {
+        "uid": "26092902-industrial_control-0021",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 3.3271073606367896,
+        "violates": 0,
+        "inference_ms": 186.1386001110077
+      },
+      {
+        "uid": "26092902-industrial_control-0022",
+        "profile": "10/4",
+        "miss_rate": 0.5,
+        "rx_duty": 0.4,
+        "p99_ms": 8.205979112879739,
+        "violates": 1,
+        "inference_ms": 182.36949993297458
+      },
+      {
+        "uid": "26092902-industrial_control-0023",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 4.626141444372859,
+        "violates": 0,
+        "inference_ms": 193.41520010493696
+      },
+      {
+        "uid": "26092902-industrial_control-0024",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 4.254543953653816,
+        "violates": 0,
+        "inference_ms": 186.25640007667243
+      },
+      {
+        "uid": "26092902-industrial_control-0025",
+        "profile": "10/2",
+        "miss_rate": 0.6,
+        "rx_duty": 0.2,
+        "p99_ms": 9.506770694233346,
+        "violates": 1,
+        "inference_ms": 182.42139997892082
+      },
+      {
+        "uid": "26092902-industrial_control-0026",
+        "profile": "10/4",
+        "miss_rate": 0.2,
+        "rx_duty": 0.4,
+        "p99_ms": 6.559423964724782,
+        "violates": 1,
+        "inference_ms": 189.36079996638
+      },
+      {
+        "uid": "26092902-industrial_control-0027",
+        "profile": "10/4",
+        "miss_rate": 0.5,
+        "rx_duty": 0.4,
+        "p99_ms": 8.142928404881587,
+        "violates": 1,
+        "inference_ms": 217.57330000400543
+      },
+      {
+        "uid": "26092902-industrial_control-0028",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 2.353457799312122,
+        "violates": 0,
+        "inference_ms": 213.8207999523729
+      },
+      {
+        "uid": "26092902-industrial_control-0029",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 3.398243443294598,
+        "violates": 0,
+        "inference_ms": 189.0048999339342
+      },
+      {
+        "uid": "26092902-xr-0000",
+        "profile": "40/4",
+        "miss_rate": 1.0,
+        "rx_duty": 0.1,
+        "p99_ms": 372.063979662186,
+        "violates": 1,
+        "inference_ms": 189.7762999869883
+      },
+      {
+        "uid": "26092902-xr-0001",
+        "profile": "20/8",
+        "miss_rate": 0.2847222222222222,
+        "rx_duty": 0.4,
+        "p99_ms": 14.954825766614503,
+        "violates": 1,
+        "inference_ms": 189.26199991256
+      },
+      {
+        "uid": "26092902-xr-0002",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 8.939223134187765,
+        "violates": 0,
+        "inference_ms": 185.94270013272762
+      },
+      {
+        "uid": "26092902-xr-0003",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 6.3537671028777485,
+        "violates": 0,
+        "inference_ms": 183.2245998084545
+      },
+      {
+        "uid": "26092902-xr-0004",
+        "profile": "10/4",
+        "miss_rate": 0.2875,
+        "rx_duty": 0.4,
+        "p99_ms": 12.299498557302632,
+        "violates": 1,
+        "inference_ms": 185.5754000134766
+      },
+      {
+        "uid": "26092902-xr-0005",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 6.466838821427072,
+        "violates": 0,
+        "inference_ms": 184.29320002906024
+      },
+      {
+        "uid": "26092902-xr-0006",
+        "profile": "20/4",
+        "miss_rate": 0.5412698412698412,
+        "rx_duty": 0.2,
+        "p99_ms": 20.707423335551333,
+        "violates": 1,
+        "inference_ms": 176.4930000063032
+      },
+      {
+        "uid": "26092902-xr-0007",
+        "profile": "20/8",
+        "miss_rate": 0.22592592592592592,
+        "rx_duty": 0.4,
+        "p99_ms": 14.070237397339543,
+        "violates": 1,
+        "inference_ms": 195.70860010571778
+      },
+      {
+        "uid": "26092902-xr-0008",
+        "profile": "20/4",
+        "miss_rate": 0.37777777777777777,
+        "rx_duty": 0.2,
+        "p99_ms": 17.62906021929303,
+        "violates": 1,
+        "inference_ms": 183.85659996420145
+      },
+      {
+        "uid": "26092902-xr-0009",
+        "profile": "20/4",
+        "miss_rate": 0.5370370370370371,
+        "rx_duty": 0.2,
+        "p99_ms": 19.864684670302054,
+        "violates": 1,
+        "inference_ms": 176.06449988670647
+      },
+      {
+        "uid": "26092902-xr-0010",
+        "profile": "10/4",
+        "miss_rate": 0.22152777777777777,
+        "rx_duty": 0.4,
+        "p99_ms": 12.145301878758614,
+        "violates": 1,
+        "inference_ms": 175.37690000608563
+      },
+      {
+        "uid": "26092902-xr-0011",
+        "profile": "20/4",
+        "miss_rate": 0.5619047619047619,
+        "rx_duty": 0.2,
+        "p99_ms": 21.618942323453044,
+        "violates": 1,
+        "inference_ms": 176.64660001173615
+      },
+      {
+        "uid": "26092902-xr-0012",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 9.333533992240312,
+        "violates": 0,
+        "inference_ms": 183.6345000192523
+      },
+      {
+        "uid": "26092902-xr-0013",
+        "profile": "20/4",
+        "miss_rate": 0.6680555555555555,
+        "rx_duty": 0.2,
+        "p99_ms": 21.735439828864468,
+        "violates": 1,
+        "inference_ms": 201.86159992590547
+      },
+      {
+        "uid": "26092902-xr-0014",
+        "profile": "20/8",
+        "miss_rate": 0.2722222222222222,
+        "rx_duty": 0.4,
+        "p99_ms": 14.41668751427997,
+        "violates": 1,
+        "inference_ms": 174.64790004305542
+      },
+      {
+        "uid": "26092902-xr-0015",
+        "profile": "20/4",
+        "miss_rate": 0.6638888888888889,
+        "rx_duty": 0.2,
+        "p99_ms": 22.30367200887202,
+        "violates": 1,
+        "inference_ms": 182.54949990659952
+      },
+      {
+        "uid": "26092902-xr-0016",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 9.721924924206107,
+        "violates": 0,
+        "inference_ms": 177.33059986494482
+      },
+      {
+        "uid": "26092902-xr-0017",
+        "profile": "20/4",
+        "miss_rate": 0.5166666666666667,
+        "rx_duty": 0.2,
+        "p99_ms": 19.64649360532975,
+        "violates": 1,
+        "inference_ms": 183.02250001579523
+      },
+      {
+        "uid": "26092902-xr-0018",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 4.620841098952261,
+        "violates": 0,
+        "inference_ms": 184.61739993654191
+      },
+      {
+        "uid": "26092902-xr-0019",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 9.21216833668253,
+        "violates": 0,
+        "inference_ms": 184.59339998662472
+      },
+      {
+        "uid": "26092902-xr-0020",
+        "profile": "20/4",
+        "miss_rate": 0.44166666666666665,
+        "rx_duty": 0.2,
+        "p99_ms": 17.730293695738744,
+        "violates": 1,
+        "inference_ms": 195.2269000466913
+      },
+      {
+        "uid": "26092902-xr-0021",
+        "profile": "20/4",
+        "miss_rate": 0.6765151515151515,
+        "rx_duty": 0.2,
+        "p99_ms": 23.61486767971576,
+        "violates": 1,
+        "inference_ms": 191.3073998875916
+      },
+      {
+        "uid": "26092902-xr-0022",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 8.000393296646626,
+        "violates": 0,
+        "inference_ms": 178.10040013864636
+      },
+      {
+        "uid": "26092902-xr-0023",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 8.451735950113195,
+        "violates": 0,
+        "inference_ms": 178.44739998690784
+      },
+      {
+        "uid": "26092902-xr-0024",
+        "profile": "20/4",
+        "miss_rate": 0.37407407407407406,
+        "rx_duty": 0.2,
+        "p99_ms": 17.78754626404731,
+        "violates": 1,
+        "inference_ms": 185.71919994428754
+      },
+      {
+        "uid": "26092902-xr-0025",
+        "profile": "20/8",
+        "miss_rate": 0.43333333333333335,
+        "rx_duty": 0.4,
+        "p99_ms": 17.63442971410709,
+        "violates": 1,
+        "inference_ms": 176.21619999408722
+      },
+      {
+        "uid": "26092902-xr-0026",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 9.648577297203587,
+        "violates": 0,
+        "inference_ms": 179.40320004709065
+      },
+      {
+        "uid": "26092902-xr-0027",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 7.80581036161426,
+        "violates": 0,
+        "inference_ms": 181.67890002951026
+      },
+      {
+        "uid": "26092902-xr-0028",
+        "profile": "20/4",
+        "miss_rate": 0.5333333333333333,
+        "rx_duty": 0.2,
+        "p99_ms": 19.870293847485453,
+        "violates": 1,
+        "inference_ms": 173.70599997229874
+      },
+      {
+        "uid": "26092902-xr-0029",
+        "profile": "20/4",
+        "miss_rate": 0.4083333333333333,
+        "rx_duty": 0.2,
+        "p99_ms": 17.93345116164646,
+        "violates": 1,
+        "inference_ms": 188.01450007595122
+      },
+      {
+        "uid": "26092902-gaming-0000",
+        "profile": "20/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 19.650064811454463,
+        "violates": 0,
+        "inference_ms": 187.6660999841988
+      },
+      {
+        "uid": "26092902-gaming-0001",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 6.06451615186392,
+        "violates": 0,
+        "inference_ms": 172.89270018227398
+      },
+      {
+        "uid": "26092902-gaming-0002",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 11.754506192070336,
+        "violates": 0,
+        "inference_ms": 197.3336001392454
+      },
+      {
+        "uid": "26092902-gaming-0003",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 8.978964950871989,
+        "violates": 0,
+        "inference_ms": 208.13690009526908
+      },
+      {
+        "uid": "26092902-gaming-0004",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 14.331267155570549,
+        "violates": 0,
+        "inference_ms": 190.54709980264306
+      },
+      {
+        "uid": "26092902-gaming-0005",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 6.015480921932228,
+        "violates": 0,
+        "inference_ms": 188.3978999685496
+      },
+      {
+        "uid": "26092902-gaming-0006",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 4.06606268844791,
+        "violates": 0,
+        "inference_ms": 181.77179992198944
+      },
+      {
+        "uid": "26092902-gaming-0007",
+        "profile": "20/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 16.277061818717772,
+        "violates": 0,
+        "inference_ms": 198.63700005225837
+      },
+      {
+        "uid": "26092902-gaming-0008",
+        "profile": "20/8",
+        "miss_rate": 0.01875,
+        "rx_duty": 0.4,
+        "p99_ms": 20.058287414845157,
+        "violates": 1,
+        "inference_ms": 192.62979994527996
+      },
+      {
+        "uid": "26092902-gaming-0009",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 13.902172558312483,
+        "violates": 0,
+        "inference_ms": 197.23820011131465
+      },
+      {
+        "uid": "26092902-gaming-0010",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 8.267737432154735,
+        "violates": 0,
+        "inference_ms": 218.34559994749725
+      },
+      {
+        "uid": "26092902-gaming-0011",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 9.37619394032192,
+        "violates": 0,
+        "inference_ms": 200.25100000202656
+      },
+      {
+        "uid": "26092902-gaming-0012",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 4.088908702609894,
+        "violates": 0,
+        "inference_ms": 203.61050008796155
+      },
+      {
+        "uid": "26092902-gaming-0013",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 9.381167326213841,
+        "violates": 0,
+        "inference_ms": 180.9878998901695
+      },
+      {
+        "uid": "26092902-gaming-0014",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 4.737933437788373,
+        "violates": 0,
+        "inference_ms": 183.6800999008119
+      },
+      {
+        "uid": "26092902-gaming-0015",
+        "profile": "20/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 19.09124472585353,
+        "violates": 0,
+        "inference_ms": 183.91290004365146
+      },
+      {
+        "uid": "26092902-gaming-0016",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 4.561821259836435,
+        "violates": 0,
+        "inference_ms": 195.91800007037818
+      },
+      {
+        "uid": "26092902-gaming-0017",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 5.1080692131384895,
+        "violates": 0,
+        "inference_ms": 200.81449998542666
+      },
+      {
+        "uid": "26092902-gaming-0018",
+        "profile": "20/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 14.524247678710799,
+        "violates": 0,
+        "inference_ms": 202.00509997084737
+      },
+      {
+        "uid": "26092902-gaming-0019",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 10.051158617517878,
+        "violates": 0,
+        "inference_ms": 191.57310016453266
+      },
+      {
+        "uid": "26092902-gaming-0020",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 12.290389899241868,
+        "violates": 0,
+        "inference_ms": 182.26260016672313
+      },
+      {
+        "uid": "26092902-gaming-0021",
+        "profile": "20/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.2,
+        "p99_ms": 5.8488816035360145,
+        "violates": 0,
+        "inference_ms": 182.6774999499321
+      },
+      {
+        "uid": "26092902-gaming-0022",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 10.571847607355085,
+        "violates": 0,
+        "inference_ms": 181.0639000032097
+      },
+      {
+        "uid": "26092902-gaming-0023",
+        "profile": "20/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 15.164665200544324,
+        "violates": 0,
+        "inference_ms": 192.22060008905828
+      },
+      {
+        "uid": "26092902-gaming-0024",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 9.7309998580639,
+        "violates": 0,
+        "inference_ms": 198.0380997993052
+      },
+      {
+        "uid": "26092902-gaming-0025",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 8.433898103252936,
+        "violates": 0,
+        "inference_ms": 202.61409995146096
+      },
+      {
+        "uid": "26092902-gaming-0026",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 7.660320726901131,
+        "violates": 0,
+        "inference_ms": 189.108100021258
+      },
+      {
+        "uid": "26092902-gaming-0027",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 9.944295147158686,
+        "violates": 0,
+        "inference_ms": 189.4853999838233
+      },
+      {
+        "uid": "26092902-gaming-0028",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 13.830005815571146,
+        "violates": 0,
+        "inference_ms": 181.12839991226792
+      },
+      {
+        "uid": "26092902-gaming-0029",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 5.9658838849126585,
+        "violates": 0,
+        "inference_ms": 218.61659991554916
+      }
+    ],
+    "qwen_raw": [
+      {
+        "uid": "26092902-industrial_control-0000",
+        "profile": "40/4",
+        "miss_rate": 0.9,
+        "rx_duty": 0.1,
+        "p99_ms": 38.076116853193916,
+        "violates": 1,
+        "inference_ms": 1217.7585999015719
+      },
+      {
+        "uid": "26092902-industrial_control-0001",
+        "profile": "20/8",
+        "miss_rate": 0.4266666666666667,
+        "rx_duty": 0.4,
+        "p99_ms": 13.615487581234355,
+        "violates": 1,
+        "inference_ms": 1196.6580001171678
+      },
+      {
+        "uid": "26092902-industrial_control-0002",
+        "profile": "20/8",
+        "miss_rate": 0.6,
+        "rx_duty": 0.4,
+        "p99_ms": 14.678775889676821,
+        "violates": 1,
+        "inference_ms": 1221.3914999738336
+      },
+      {
+        "uid": "26092902-industrial_control-0003",
+        "profile": "20/4",
+        "miss_rate": 0.84,
+        "rx_duty": 0.2,
+        "p99_ms": 17.65989452022505,
+        "violates": 1,
+        "inference_ms": 1230.1235001068562
+      },
+      {
+        "uid": "26092902-industrial_control-0004",
+        "profile": "10/4",
+        "miss_rate": 0.281,
+        "rx_duty": 0.4,
+        "p99_ms": 7.202281108633985,
+        "violates": 1,
+        "inference_ms": 1227.022900013253
+      },
+      {
+        "uid": "26092902-industrial_control-0005",
+        "profile": "20/4",
+        "miss_rate": 0.62,
+        "rx_duty": 0.2,
+        "p99_ms": 16.80173275100648,
+        "violates": 1,
+        "inference_ms": 1217.0286001637578
+      },
+      {
+        "uid": "26092902-industrial_control-0006",
+        "profile": "10/4",
+        "miss_rate": 0.2,
+        "rx_duty": 0.4,
+        "p99_ms": 6.732182416643162,
+        "violates": 1,
+        "inference_ms": 1278.8350998889655
+      },
+      {
+        "uid": "26092902-industrial_control-0007",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 1.3051380964460426,
+        "violates": 0,
+        "inference_ms": 1252.412399975583
+      },
+      {
+        "uid": "26092902-industrial_control-0008",
+        "profile": "20/4",
+        "miss_rate": 0.6,
+        "rx_duty": 0.2,
+        "p99_ms": 15.368847508626411,
+        "violates": 1,
+        "inference_ms": 1205.0052999984473
+      },
+      {
+        "uid": "26092902-industrial_control-0009",
+        "profile": "20/4",
+        "miss_rate": 0.75,
+        "rx_duty": 0.2,
+        "p99_ms": 17.27281957057946,
+        "violates": 1,
+        "inference_ms": 1222.2115001641214
+      },
+      {
+        "uid": "26092902-industrial_control-0010",
+        "profile": "10/4",
+        "miss_rate": 0.3,
+        "rx_duty": 0.4,
+        "p99_ms": 6.887947589580967,
+        "violates": 1,
+        "inference_ms": 1253.6615999415517
+      },
+      {
+        "uid": "26092902-industrial_control-0011",
+        "profile": "20/8",
+        "miss_rate": 0.6466265865063461,
+        "rx_duty": 0.4,
+        "p99_ms": 14.699189021048854,
+        "violates": 1,
+        "inference_ms": 1245.37150003016
+      },
+      {
+        "uid": "26092902-industrial_control-0012",
+        "profile": "80/4",
+        "miss_rate": 0.996,
+        "rx_duty": 0.05,
+        "p99_ms": 578.8578210317597,
+        "violates": 1,
+        "inference_ms": 1204.7383999451995
+      },
+      {
+        "uid": "26092902-industrial_control-0013",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 3.6132831521650375,
+        "violates": 0,
+        "inference_ms": 1274.9644999857992
+      },
+      {
+        "uid": "26092902-industrial_control-0014",
+        "profile": "10/4",
+        "miss_rate": 0.4,
+        "rx_duty": 0.4,
+        "p99_ms": 8.523618017516887,
+        "violates": 1,
+        "inference_ms": 1199.5029000099748
+      },
+      {
+        "uid": "26092902-industrial_control-0015",
+        "profile": "20/4",
+        "miss_rate": 0.612,
+        "rx_duty": 0.2,
+        "p99_ms": 17.699917027384117,
+        "violates": 1,
+        "inference_ms": 1177.665000082925
+      },
+      {
+        "uid": "26092902-industrial_control-0016",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 1.786524314953419,
+        "violates": 0,
+        "inference_ms": 1184.7731999587268
+      },
+      {
+        "uid": "26092902-industrial_control-0017",
+        "profile": "80/4",
+        "miss_rate": 0.87,
+        "rx_duty": 0.05,
+        "p99_ms": 71.69268136790777,
+        "violates": 1,
+        "inference_ms": 1192.821400007233
+      },
+      {
+        "uid": "26092902-industrial_control-0018",
+        "profile": "10/4",
+        "miss_rate": 0.595,
+        "rx_duty": 0.4,
+        "p99_ms": 9.701075675517414,
+        "violates": 1,
+        "inference_ms": 1220.6684998236597
+      },
+      {
+        "uid": "26092902-industrial_control-0019",
+        "profile": "10/4",
+        "miss_rate": 0.67,
+        "rx_duty": 0.4,
+        "p99_ms": 8.901805785382367,
+        "violates": 1,
+        "inference_ms": 1154.8602001275867
+      },
+      {
+        "uid": "26092902-industrial_control-0020",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 4.987786367588201,
+        "violates": 0,
+        "inference_ms": 1189.0601001214236
+      },
+      {
+        "uid": "26092902-industrial_control-0021",
+        "profile": "20/4",
+        "miss_rate": 0.5,
+        "rx_duty": 0.2,
+        "p99_ms": 13.158974824897676,
+        "violates": 1,
+        "inference_ms": 1169.9220999144018
+      },
+      {
+        "uid": "26092902-industrial_control-0022",
+        "profile": "80/4",
+        "miss_rate": 0.996,
+        "rx_duty": 0.05,
+        "p99_ms": 4448.594527615157,
+        "violates": 1,
+        "inference_ms": 1216.2258999887854
+      },
+      {
+        "uid": "26092902-industrial_control-0023",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 4.626141444372859,
+        "violates": 0,
+        "inference_ms": 1167.2948999330401
+      },
+      {
+        "uid": "26092902-industrial_control-0024",
+        "profile": "20/8",
+        "miss_rate": 0.5,
+        "rx_duty": 0.4,
+        "p99_ms": 14.227222578873592,
+        "violates": 1,
+        "inference_ms": 1206.5066997893155
+      },
+      {
+        "uid": "26092902-industrial_control-0025",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 3.484520175487737,
+        "violates": 0,
+        "inference_ms": 1168.0177000816911
+      },
+      {
+        "uid": "26092902-industrial_control-0026",
+        "profile": "20/4",
+        "miss_rate": 0.7,
+        "rx_duty": 0.2,
+        "p99_ms": 16.52173774377736,
+        "violates": 1,
+        "inference_ms": 1164.9323999881744
+      },
+      {
+        "uid": "26092902-industrial_control-0027",
+        "profile": "10/4",
+        "miss_rate": 0.5,
+        "rx_duty": 0.4,
+        "p99_ms": 8.142928404881587,
+        "violates": 1,
+        "inference_ms": 1214.9920999072492
+      },
+      {
+        "uid": "26092902-industrial_control-0028",
+        "profile": "20/4",
+        "miss_rate": 0.6,
+        "rx_duty": 0.2,
+        "p99_ms": 16.343222615215495,
+        "violates": 1,
+        "inference_ms": 1176.1543001048267
+      },
+      {
+        "uid": "26092902-industrial_control-0029",
+        "profile": "20/8",
+        "miss_rate": 0.4,
+        "rx_duty": 0.4,
+        "p99_ms": 11.864663679866622,
+        "violates": 1,
+        "inference_ms": 1196.1055998690426
+      },
+      {
+        "uid": "26092902-xr-0000",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 8.216991884391694,
+        "violates": 0,
+        "inference_ms": 1188.1148999091238
+      },
+      {
+        "uid": "26092902-xr-0001",
+        "profile": "20/4",
+        "miss_rate": 0.49722222222222223,
+        "rx_duty": 0.2,
+        "p99_ms": 20.63249723615578,
+        "violates": 1,
+        "inference_ms": 1208.2003999967128
+      },
+      {
+        "uid": "26092902-xr-0002",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 8.939223134187765,
+        "violates": 0,
+        "inference_ms": 1183.2532999105752
+      },
+      {
+        "uid": "26092902-xr-0003",
+        "profile": "10/4",
+        "miss_rate": 0.043209876543209874,
+        "rx_duty": 0.4,
+        "p99_ms": 10.329175260201188,
+        "violates": 1,
+        "inference_ms": 1179.1776998434216
+      },
+      {
+        "uid": "26092902-xr-0004",
+        "profile": "10/4",
+        "miss_rate": 0.2875,
+        "rx_duty": 0.4,
+        "p99_ms": 12.299498557302632,
+        "violates": 1,
+        "inference_ms": 1193.3802999556065
+      },
+      {
+        "uid": "26092902-xr-0005",
+        "profile": "10/4",
+        "miss_rate": 0.05,
+        "rx_duty": 0.4,
+        "p99_ms": 10.426335799463029,
+        "violates": 1,
+        "inference_ms": 1200.102100148797
+      },
+      {
+        "uid": "26092902-xr-0006",
+        "profile": "10/4",
+        "miss_rate": 0.08095238095238096,
+        "rx_duty": 0.4,
+        "p99_ms": 10.933489966409395,
+        "violates": 1,
+        "inference_ms": 1200.0178000889719
+      },
+      {
+        "uid": "26092902-xr-0007",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 8.231958416746208,
+        "violates": 0,
+        "inference_ms": 1211.4176999311894
+      },
+      {
+        "uid": "26092902-xr-0008",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 7.7921690924917195,
+        "violates": 0,
+        "inference_ms": 1179.2522000614554
+      },
+      {
+        "uid": "26092902-xr-0009",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 6.079787307151305,
+        "violates": 0,
+        "inference_ms": 1178.9528001099825
+      },
+      {
+        "uid": "26092902-xr-0010",
+        "profile": "20/4",
+        "miss_rate": 1.0,
+        "rx_duty": 0.2,
+        "p99_ms": 325.26014738796874,
+        "violates": 1,
+        "inference_ms": 1199.0799000486732
+      },
+      {
+        "uid": "26092902-xr-0011",
+        "profile": "10/4",
+        "miss_rate": 0.13333333333333333,
+        "rx_duty": 0.4,
+        "p99_ms": 11.71057373367138,
+        "violates": 1,
+        "inference_ms": 1194.3414001725614
+      },
+      {
+        "uid": "26092902-xr-0012",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 9.333533992240312,
+        "violates": 0,
+        "inference_ms": 1171.6541999485344
+      },
+      {
+        "uid": "26092902-xr-0013",
+        "profile": "20/8",
+        "miss_rate": 0.45,
+        "rx_duty": 0.4,
+        "p99_ms": 17.625748200406132,
+        "violates": 1,
+        "inference_ms": 1188.8826000504196
+      },
+      {
+        "uid": "26092902-xr-0014",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 8.228643296824941,
+        "violates": 0,
+        "inference_ms": 1214.335799915716
+      },
+      {
+        "uid": "26092902-xr-0015",
+        "profile": "20/4",
+        "miss_rate": 0.6638888888888889,
+        "rx_duty": 0.2,
+        "p99_ms": 22.30367200887202,
+        "violates": 1,
+        "inference_ms": 1220.803099917248
+      },
+      {
+        "uid": "26092902-xr-0016",
+        "profile": "20/8",
+        "miss_rate": 0.36527777777777776,
+        "rx_duty": 0.4,
+        "p99_ms": 15.694555384212817,
+        "violates": 1,
+        "inference_ms": 1194.0015000291169
+      },
+      {
+        "uid": "26092902-xr-0017",
+        "profile": "20/8",
+        "miss_rate": 0.2791666666666667,
+        "rx_duty": 0.4,
+        "p99_ms": 15.377551000228168,
+        "violates": 1,
+        "inference_ms": 1201.805500080809
+      },
+      {
+        "uid": "26092902-xr-0018",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 8.134260888832408,
+        "violates": 0,
+        "inference_ms": 1193.976999958977
+      },
+      {
+        "uid": "26092902-xr-0019",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 9.21216833668253,
+        "violates": 0,
+        "inference_ms": 1177.991900127381
+      },
+      {
+        "uid": "26092902-xr-0020",
+        "profile": "80/4",
+        "miss_rate": 0.9916666666666667,
+        "rx_duty": 0.05,
+        "p99_ms": 1488.5123266804158,
+        "violates": 1,
+        "inference_ms": 1207.7190999407321
+      },
+      {
+        "uid": "26092902-xr-0021",
+        "profile": "20/8",
+        "miss_rate": 0.38484848484848483,
+        "rx_duty": 0.4,
+        "p99_ms": 16.82186909782206,
+        "violates": 1,
+        "inference_ms": 1182.5244999490678
+      },
+      {
+        "uid": "26092902-xr-0022",
+        "profile": "80/4",
+        "miss_rate": 0.85,
+        "rx_duty": 0.05,
+        "p99_ms": 76.45256893430974,
+        "violates": 1,
+        "inference_ms": 1195.154899964109
+      },
+      {
+        "uid": "26092902-xr-0023",
+        "profile": "20/8",
+        "miss_rate": 0.23232323232323232,
+        "rx_duty": 0.4,
+        "p99_ms": 14.213978782306697,
+        "violates": 1,
+        "inference_ms": 1172.9571998585016
+      },
+      {
+        "uid": "26092902-xr-0024",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 7.845722966360689,
+        "violates": 0,
+        "inference_ms": 1187.4661999754608
+      },
+      {
+        "uid": "26092902-xr-0025",
+        "profile": "20/4",
+        "miss_rate": 0.655952380952381,
+        "rx_duty": 0.2,
+        "p99_ms": 21.797096476272124,
+        "violates": 1,
+        "inference_ms": 1182.8963998705149
+      },
+      {
+        "uid": "26092902-xr-0026",
+        "profile": "20/8",
+        "miss_rate": 0.3101010101010101,
+        "rx_duty": 0.4,
+        "p99_ms": 15.454184059740228,
+        "violates": 1,
+        "inference_ms": 1197.094300063327
+      },
+      {
+        "uid": "26092902-xr-0027",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 7.80581036161426,
+        "violates": 0,
+        "inference_ms": 1190.9209000878036
+      },
+      {
+        "uid": "26092902-xr-0028",
+        "profile": "20/8",
+        "miss_rate": 0.315,
+        "rx_duty": 0.4,
+        "p99_ms": 16.040246110203213,
+        "violates": 1,
+        "inference_ms": 1166.7249999009073
+      },
+      {
+        "uid": "26092902-xr-0029",
+        "profile": "20/4",
+        "miss_rate": 0.4083333333333333,
+        "rx_duty": 0.2,
+        "p99_ms": 17.93345116164646,
+        "violates": 1,
+        "inference_ms": 1209.6671999897808
+      },
+      {
+        "uid": "26092902-gaming-0000",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 11.901888695296766,
+        "violates": 0,
+        "inference_ms": 1183.4306998644024
+      },
+      {
+        "uid": "26092902-gaming-0001",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 10.673327815108903,
+        "violates": 0,
+        "inference_ms": 1154.1116998996586
+      },
+      {
+        "uid": "26092902-gaming-0002",
+        "profile": "20/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 17.688635971214968,
+        "violates": 0,
+        "inference_ms": 1213.512800168246
+      },
+      {
+        "uid": "26092902-gaming-0003",
+        "profile": "20/4",
+        "miss_rate": 0.006666666666666667,
+        "rx_duty": 0.2,
+        "p99_ms": 9.228338685660281,
+        "violates": 0,
+        "inference_ms": 1198.02389992401
+      },
+      {
+        "uid": "26092902-gaming-0004",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 14.331267155570549,
+        "violates": 0,
+        "inference_ms": 1163.3643999230117
+      },
+      {
+        "uid": "26092902-gaming-0005",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 10.082378999607267,
+        "violates": 0,
+        "inference_ms": 1181.156399892643
+      },
+      {
+        "uid": "26092902-gaming-0006",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 10.08227740969792,
+        "violates": 0,
+        "inference_ms": 1177.8484000824392
+      },
+      {
+        "uid": "26092902-gaming-0007",
+        "profile": "20/4",
+        "miss_rate": 0.1,
+        "rx_duty": 0.2,
+        "p99_ms": 20.69134005811255,
+        "violates": 1,
+        "inference_ms": 1174.7248000465333
+      },
+      {
+        "uid": "26092902-gaming-0008",
+        "profile": "40/4",
+        "miss_rate": 0.675,
+        "rx_duty": 0.1,
+        "p99_ms": 44.10885614734326,
+        "violates": 1,
+        "inference_ms": 1179.0108000859618
+      },
+      {
+        "uid": "26092902-gaming-0009",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 13.902172558312483,
+        "violates": 0,
+        "inference_ms": 1183.531700167805
+      },
+      {
+        "uid": "26092902-gaming-0010",
+        "profile": "20/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.2,
+        "p99_ms": 13.367737432154646,
+        "violates": 0,
+        "inference_ms": 1176.1147000361234
+      },
+      {
+        "uid": "26092902-gaming-0011",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 13.338140229124356,
+        "violates": 0,
+        "inference_ms": 1179.5599998440593
+      },
+      {
+        "uid": "26092902-gaming-0012",
+        "profile": "20/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.2,
+        "p99_ms": 15.417949725446249,
+        "violates": 0,
+        "inference_ms": 1160.351200029254
+      },
+      {
+        "uid": "26092902-gaming-0013",
+        "profile": "20/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.2,
+        "p99_ms": 19.35462540267992,
+        "violates": 0,
+        "inference_ms": 1172.8497999720275
+      },
+      {
+        "uid": "26092902-gaming-0014",
+        "profile": "20/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 14.450397848407775,
+        "violates": 0,
+        "inference_ms": 1167.0045999344438
+      },
+      {
+        "uid": "26092902-gaming-0015",
+        "profile": "20/4",
+        "miss_rate": 0.11875,
+        "rx_duty": 0.2,
+        "p99_ms": 23.180751797133397,
+        "violates": 1,
+        "inference_ms": 1170.6031998619437
+      },
+      {
+        "uid": "26092902-gaming-0016",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 9.016032214560884,
+        "violates": 0,
+        "inference_ms": 1164.6972999442369
+      },
+      {
+        "uid": "26092902-gaming-0017",
+        "profile": "20/4",
+        "miss_rate": 0.025,
+        "rx_duty": 0.2,
+        "p99_ms": 19.97611233124052,
+        "violates": 1,
+        "inference_ms": 1200.474200071767
+      },
+      {
+        "uid": "26092902-gaming-0018",
+        "profile": "20/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 14.524247678710799,
+        "violates": 0,
+        "inference_ms": 1168.0395000148565
+      },
+      {
+        "uid": "26092902-gaming-0019",
+        "profile": "20/4",
+        "miss_rate": 0.005555555555555556,
+        "rx_duty": 0.2,
+        "p99_ms": 19.856288074520887,
+        "violates": 0,
+        "inference_ms": 1158.290799940005
+      },
+      {
+        "uid": "26092902-gaming-0020",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 12.290389899241868,
+        "violates": 0,
+        "inference_ms": 1186.2240000627935
+      },
+      {
+        "uid": "26092902-gaming-0021",
+        "profile": "20/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.2,
+        "p99_ms": 5.8488816035360145,
+        "violates": 0,
+        "inference_ms": 1174.1893000435084
+      },
+      {
+        "uid": "26092902-gaming-0022",
+        "profile": "20/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 10.551510833866164,
+        "violates": 0,
+        "inference_ms": 1168.2483998592943
+      },
+      {
+        "uid": "26092902-gaming-0023",
+        "profile": "20/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.2,
+        "p99_ms": 15.164665200544324,
+        "violates": 0,
+        "inference_ms": 1198.597699869424
+      },
+      {
+        "uid": "26092902-gaming-0024",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 13.712837345933576,
+        "violates": 0,
+        "inference_ms": 1194.7920001111925
+      },
+      {
+        "uid": "26092902-gaming-0025",
+        "profile": "80/4",
+        "miss_rate": 0.7222222222222222,
+        "rx_duty": 0.05,
+        "p99_ms": 77.84312753497728,
+        "violates": 1,
+        "inference_ms": 1175.6927000824362
+      },
+      {
+        "uid": "26092902-gaming-0026",
+        "profile": "20/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.2,
+        "p99_ms": 17.619156810496207,
+        "violates": 0,
+        "inference_ms": 1162.9923000000417
+      },
+      {
+        "uid": "26092902-gaming-0027",
+        "profile": "20/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.2,
+        "p99_ms": 18.852126443983526,
+        "violates": 0,
+        "inference_ms": 1171.2347001302987
+      },
+      {
+        "uid": "26092902-gaming-0028",
+        "profile": "20/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 19.73281077809076,
+        "violates": 0,
+        "inference_ms": 1178.7871001288295
+      },
+      {
+        "uid": "26092902-gaming-0029",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 5.9658838849126585,
+        "violates": 0,
+        "inference_ms": 1167.389800073579
+      }
+    ],
+    "decider_guard": [
+      {
+        "uid": "26092902-industrial_control-0000",
+        "profile": "off",
+        "miss_rate": 0.0,
+        "rx_duty": 1.0,
+        "p99_ms": 3.60586098761985,
+        "violates": 0,
+        "inference_ms": 215.9291000571102
+      },
+      {
+        "uid": "26092902-industrial_control-0001",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 3.6299535337761206,
+        "violates": 0,
+        "inference_ms": 196.62419985979795
+      },
+      {
+        "uid": "26092902-industrial_control-0002",
+        "profile": "off",
+        "miss_rate": 0.0,
+        "rx_duty": 1.0,
+        "p99_ms": 3.5584104564227106,
+        "violates": 0,
+        "inference_ms": 186.05790007859468
+      },
+      {
+        "uid": "26092902-industrial_control-0003",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 1.6835711924953705,
+        "violates": 0,
+        "inference_ms": 191.97070016525686
+      },
+      {
+        "uid": "26092902-industrial_control-0004",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 3.2023846965817833,
+        "violates": 0,
+        "inference_ms": 186.1268999055028
+      },
+      {
+        "uid": "26092902-industrial_control-0005",
+        "profile": "off",
+        "miss_rate": 0.0,
+        "rx_duty": 1.0,
+        "p99_ms": 3.352311281048123,
+        "violates": 0,
+        "inference_ms": 183.1749000120908
+      },
+      {
+        "uid": "26092902-industrial_control-0006",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 2.7253009436494695,
+        "violates": 0,
+        "inference_ms": 186.23029999434948
+      },
+      {
+        "uid": "26092902-industrial_control-0007",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 1.3051380964460426,
+        "violates": 0,
+        "inference_ms": 201.80479995906353
+      },
+      {
+        "uid": "26092902-industrial_control-0008",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 3.3663528540709047,
+        "violates": 0,
+        "inference_ms": 182.7913001179695
+      },
+      {
+        "uid": "26092902-industrial_control-0009",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 3.3234784909700883,
+        "violates": 0,
+        "inference_ms": 179.4783000368625
+      },
+      {
+        "uid": "26092902-industrial_control-0010",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 2.884392259900399,
+        "violates": 0,
+        "inference_ms": 186.76349986344576
+      },
+      {
+        "uid": "26092902-industrial_control-0011",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 4.793187260279019,
+        "violates": 0,
+        "inference_ms": 194.93019999936223
+      },
+      {
+        "uid": "26092902-industrial_control-0012",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 2.859817792196134,
+        "violates": 0,
+        "inference_ms": 229.53289980068803
+      },
+      {
+        "uid": "26092902-industrial_control-0013",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 3.0347997294320708,
+        "violates": 0,
+        "inference_ms": 192.74179986678064
+      },
+      {
+        "uid": "26092902-industrial_control-0014",
+        "profile": "off",
+        "miss_rate": 0.0,
+        "rx_duty": 1.0,
+        "p99_ms": 3.241901649608656,
+        "violates": 0,
+        "inference_ms": 175.74120010249317
+      },
+      {
+        "uid": "26092902-industrial_control-0015",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 3.7133391919324326,
+        "violates": 0,
+        "inference_ms": 185.05589989945292
+      },
+      {
+        "uid": "26092902-industrial_control-0016",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 1.786524314953419,
+        "violates": 0,
+        "inference_ms": 197.70619994960725
+      },
+      {
+        "uid": "26092902-industrial_control-0017",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 2.664946406583405,
+        "violates": 0,
+        "inference_ms": 181.62629986181855
+      },
+      {
+        "uid": "26092902-industrial_control-0018",
+        "profile": "off",
+        "miss_rate": 0.0,
+        "rx_duty": 1.0,
+        "p99_ms": 3.672652389536415,
+        "violates": 0,
+        "inference_ms": 228.64250000566244
+      },
+      {
+        "uid": "26092902-industrial_control-0019",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 2.843155273563621,
+        "violates": 0,
+        "inference_ms": 191.59900001250207
+      },
+      {
+        "uid": "26092902-industrial_control-0020",
+        "profile": "off",
+        "miss_rate": 0.0,
+        "rx_duty": 1.0,
+        "p99_ms": 3.6455796300350656,
+        "violates": 0,
+        "inference_ms": 176.91300017759204
+      },
+      {
+        "uid": "26092902-industrial_control-0021",
+        "profile": "off",
+        "miss_rate": 0.0,
+        "rx_duty": 1.0,
+        "p99_ms": 3.3271073606367896,
+        "violates": 0,
+        "inference_ms": 186.1386001110077
+      },
+      {
+        "uid": "26092902-industrial_control-0022",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 4.210791564523744,
+        "violates": 0,
+        "inference_ms": 182.36949993297458
+      },
+      {
+        "uid": "26092902-industrial_control-0023",
+        "profile": "off",
+        "miss_rate": 0.0,
+        "rx_duty": 1.0,
+        "p99_ms": 2.8561808639950947,
+        "violates": 0,
+        "inference_ms": 193.41520010493696
+      },
+      {
+        "uid": "26092902-industrial_control-0024",
+        "profile": "off",
+        "miss_rate": 0.0,
+        "rx_duty": 1.0,
+        "p99_ms": 3.271891002506134,
+        "violates": 0,
+        "inference_ms": 186.25640007667243
+      },
+      {
+        "uid": "26092902-industrial_control-0025",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 3.484520175487737,
+        "violates": 0,
+        "inference_ms": 182.42139997892082
+      },
+      {
+        "uid": "26092902-industrial_control-0026",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 2.5681952934450285,
+        "violates": 0,
+        "inference_ms": 189.36079996638
+      },
+      {
+        "uid": "26092902-industrial_control-0027",
+        "profile": "off",
+        "miss_rate": 0.0,
+        "rx_duty": 1.0,
+        "p99_ms": 3.672335172263574,
+        "violates": 0,
+        "inference_ms": 217.57330000400543
+      },
+      {
+        "uid": "26092902-industrial_control-0028",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 2.353457799312122,
+        "violates": 0,
+        "inference_ms": 213.8207999523729
+      },
+      {
+        "uid": "26092902-industrial_control-0029",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 3.398243443294598,
+        "violates": 0,
+        "inference_ms": 189.0048999339342
+      },
+      {
+        "uid": "26092902-xr-0000",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 4.288693445051441,
+        "violates": 0,
+        "inference_ms": 189.7762999869883
+      },
+      {
+        "uid": "26092902-xr-0001",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 9.185922178966358,
+        "violates": 0,
+        "inference_ms": 189.26199991256
+      },
+      {
+        "uid": "26092902-xr-0002",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 8.939223134187765,
+        "violates": 0,
+        "inference_ms": 185.94270013272762
+      },
+      {
+        "uid": "26092902-xr-0003",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 6.3537671028777485,
+        "violates": 0,
+        "inference_ms": 183.2245998084545
+      },
+      {
+        "uid": "26092902-xr-0004",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 8.26173208961908,
+        "violates": 0,
+        "inference_ms": 185.5754000134766
+      },
+      {
+        "uid": "26092902-xr-0005",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 6.466838821427072,
+        "violates": 0,
+        "inference_ms": 184.29320002906024
+      },
+      {
+        "uid": "26092902-xr-0006",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 6.9331173549228735,
+        "violates": 0,
+        "inference_ms": 176.4930000063032
+      },
+      {
+        "uid": "26092902-xr-0007",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 8.231958416746208,
+        "violates": 0,
+        "inference_ms": 195.70860010571778
+      },
+      {
+        "uid": "26092902-xr-0008",
+        "profile": "10/2",
+        "miss_rate": 0.0,
+        "rx_duty": 0.2,
+        "p99_ms": 9.78218874788544,
+        "violates": 0,
+        "inference_ms": 183.85659996420145
+      },
+      {
+        "uid": "26092902-xr-0009",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 6.079787307151305,
+        "violates": 0,
+        "inference_ms": 176.06449988670647
+      },
+      {
+        "uid": "26092902-xr-0010",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 8.179813183099462,
+        "violates": 0,
+        "inference_ms": 175.37690000608563
+      },
+      {
+        "uid": "26092902-xr-0011",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 7.710473641519846,
+        "violates": 0,
+        "inference_ms": 176.64660001173615
+      },
+      {
+        "uid": "26092902-xr-0012",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 9.333533992240312,
+        "violates": 0,
+        "inference_ms": 183.6345000192523
+      },
+      {
+        "uid": "26092902-xr-0013",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 7.833156377753812,
+        "violates": 0,
+        "inference_ms": 201.86159992590547
+      },
+      {
+        "uid": "26092902-xr-0014",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 8.228643296824941,
+        "violates": 0,
+        "inference_ms": 174.64790004305542
+      },
+      {
+        "uid": "26092902-xr-0015",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 8.272434834762942,
+        "violates": 0,
+        "inference_ms": 182.54949990659952
+      },
+      {
+        "uid": "26092902-xr-0016",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 9.721924924206107,
+        "violates": 0,
+        "inference_ms": 177.33059986494482
+      },
+      {
+        "uid": "26092902-xr-0017",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 9.678063134683912,
+        "violates": 0,
+        "inference_ms": 183.02250001579523
+      },
+      {
+        "uid": "26092902-xr-0018",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 4.620841098952261,
+        "violates": 0,
+        "inference_ms": 184.61739993654191
+      },
+      {
+        "uid": "26092902-xr-0019",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 9.21216833668253,
+        "violates": 0,
+        "inference_ms": 184.59339998662472
+      },
+      {
+        "uid": "26092902-xr-0020",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 7.819071613633381,
+        "violates": 0,
+        "inference_ms": 195.2269000466913
+      },
+      {
+        "uid": "26092902-xr-0021",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 6.931039426212331,
+        "violates": 0,
+        "inference_ms": 191.3073998875916
+      },
+      {
+        "uid": "26092902-xr-0022",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 8.000393296646626,
+        "violates": 0,
+        "inference_ms": 178.10040013864636
+      },
+      {
+        "uid": "26092902-xr-0023",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 4.428502849627275,
+        "violates": 0,
+        "inference_ms": 178.44739998690784
+      },
+      {
+        "uid": "26092902-xr-0024",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 7.845722966360689,
+        "violates": 0,
+        "inference_ms": 185.71919994428754
+      },
+      {
+        "uid": "26092902-xr-0025",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 7.665445298568778,
+        "violates": 0,
+        "inference_ms": 176.21619999408722
+      },
+      {
+        "uid": "26092902-xr-0026",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 9.648577297203587,
+        "violates": 0,
+        "inference_ms": 179.40320004709065
+      },
+      {
+        "uid": "26092902-xr-0027",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 7.80581036161426,
+        "violates": 0,
+        "inference_ms": 181.67890002951026
+      },
+      {
+        "uid": "26092902-xr-0028",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 6.099105374142879,
+        "violates": 0,
+        "inference_ms": 173.70599997229874
+      },
+      {
+        "uid": "26092902-xr-0029",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 7.98270340702034,
+        "violates": 0,
+        "inference_ms": 188.01450007595122
+      },
+      {
+        "uid": "26092902-gaming-0000",
+        "profile": "20/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 19.650064811454463,
+        "violates": 0,
+        "inference_ms": 187.6660999841988
+      },
+      {
+        "uid": "26092902-gaming-0001",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 6.06451615186392,
+        "violates": 0,
+        "inference_ms": 172.89270018227398
+      },
+      {
+        "uid": "26092902-gaming-0002",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 11.754506192070336,
+        "violates": 0,
+        "inference_ms": 197.3336001392454
+      },
+      {
+        "uid": "26092902-gaming-0003",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 8.978964950871989,
+        "violates": 0,
+        "inference_ms": 208.13690009526908
+      },
+      {
+        "uid": "26092902-gaming-0004",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 14.331267155570549,
+        "violates": 0,
+        "inference_ms": 190.54709980264306
+      },
+      {
+        "uid": "26092902-gaming-0005",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 6.015480921932228,
+        "violates": 0,
+        "inference_ms": 188.3978999685496
+      },
+      {
+        "uid": "26092902-gaming-0006",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 4.06606268844791,
+        "violates": 0,
+        "inference_ms": 181.77179992198944
+      },
+      {
+        "uid": "26092902-gaming-0007",
+        "profile": "20/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 16.277061818717772,
+        "violates": 0,
+        "inference_ms": 198.63700005225837
+      },
+      {
+        "uid": "26092902-gaming-0008",
+        "profile": "10/2",
+        "miss_rate": 0.0,
+        "rx_duty": 0.2,
+        "p99_ms": 15.490285897477094,
+        "violates": 0,
+        "inference_ms": 192.62979994527996
+      },
+      {
+        "uid": "26092902-gaming-0009",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 13.902172558312483,
+        "violates": 0,
+        "inference_ms": 197.23820011131465
+      },
+      {
+        "uid": "26092902-gaming-0010",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 8.267737432154735,
+        "violates": 0,
+        "inference_ms": 218.34559994749725
+      },
+      {
+        "uid": "26092902-gaming-0011",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 9.37619394032192,
+        "violates": 0,
+        "inference_ms": 200.25100000202656
+      },
+      {
+        "uid": "26092902-gaming-0012",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 4.088908702609894,
+        "violates": 0,
+        "inference_ms": 203.61050008796155
+      },
+      {
+        "uid": "26092902-gaming-0013",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 9.381167326213841,
+        "violates": 0,
+        "inference_ms": 180.9878998901695
+      },
+      {
+        "uid": "26092902-gaming-0014",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 4.737933437788373,
+        "violates": 0,
+        "inference_ms": 183.6800999008119
+      },
+      {
+        "uid": "26092902-gaming-0015",
+        "profile": "20/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 19.09124472585353,
+        "violates": 0,
+        "inference_ms": 183.91290004365146
+      },
+      {
+        "uid": "26092902-gaming-0016",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 4.561821259836435,
+        "violates": 0,
+        "inference_ms": 195.91800007037818
+      },
+      {
+        "uid": "26092902-gaming-0017",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 5.1080692131384895,
+        "violates": 0,
+        "inference_ms": 200.81449998542666
+      },
+      {
+        "uid": "26092902-gaming-0018",
+        "profile": "20/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 14.524247678710799,
+        "violates": 0,
+        "inference_ms": 202.00509997084737
+      },
+      {
+        "uid": "26092902-gaming-0019",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 10.051158617517878,
+        "violates": 0,
+        "inference_ms": 191.57310016453266
+      },
+      {
+        "uid": "26092902-gaming-0020",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 12.290389899241868,
+        "violates": 0,
+        "inference_ms": 182.26260016672313
+      },
+      {
+        "uid": "26092902-gaming-0021",
+        "profile": "10/2",
+        "miss_rate": 0.0,
+        "rx_duty": 0.2,
+        "p99_ms": 5.8488816035360145,
+        "violates": 0,
+        "inference_ms": 182.6774999499321
+      },
+      {
+        "uid": "26092902-gaming-0022",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 10.571847607355085,
+        "violates": 0,
+        "inference_ms": 181.0639000032097
+      },
+      {
+        "uid": "26092902-gaming-0023",
+        "profile": "20/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 15.164665200544324,
+        "violates": 0,
+        "inference_ms": 192.22060008905828
+      },
+      {
+        "uid": "26092902-gaming-0024",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 9.7309998580639,
+        "violates": 0,
+        "inference_ms": 198.0380997993052
+      },
+      {
+        "uid": "26092902-gaming-0025",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 8.433898103252936,
+        "violates": 0,
+        "inference_ms": 202.61409995146096
+      },
+      {
+        "uid": "26092902-gaming-0026",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 7.660320726901131,
+        "violates": 0,
+        "inference_ms": 189.108100021258
+      },
+      {
+        "uid": "26092902-gaming-0027",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 9.944295147158686,
+        "violates": 0,
+        "inference_ms": 189.4853999838233
+      },
+      {
+        "uid": "26092902-gaming-0028",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 13.830005815571146,
+        "violates": 0,
+        "inference_ms": 181.12839991226792
+      },
+      {
+        "uid": "26092902-gaming-0029",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 5.9658838849126585,
+        "violates": 0,
+        "inference_ms": 218.61659991554916
+      }
+    ],
+    "qwen_guard": [
+      {
+        "uid": "26092902-industrial_control-0000",
+        "profile": "off",
+        "miss_rate": 0.0,
+        "rx_duty": 1.0,
+        "p99_ms": 3.60586098761985,
+        "violates": 0,
+        "inference_ms": 1217.7585999015719
+      },
+      {
+        "uid": "26092902-industrial_control-0001",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 3.6299535337761206,
+        "violates": 0,
+        "inference_ms": 1196.6580001171678
+      },
+      {
+        "uid": "26092902-industrial_control-0002",
+        "profile": "off",
+        "miss_rate": 0.0,
+        "rx_duty": 1.0,
+        "p99_ms": 3.5584104564227106,
+        "violates": 0,
+        "inference_ms": 1221.3914999738336
+      },
+      {
+        "uid": "26092902-industrial_control-0003",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 1.6835711924953705,
+        "violates": 0,
+        "inference_ms": 1230.1235001068562
+      },
+      {
+        "uid": "26092902-industrial_control-0004",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 3.2023846965817833,
+        "violates": 0,
+        "inference_ms": 1227.022900013253
+      },
+      {
+        "uid": "26092902-industrial_control-0005",
+        "profile": "off",
+        "miss_rate": 0.0,
+        "rx_duty": 1.0,
+        "p99_ms": 3.352311281048123,
+        "violates": 0,
+        "inference_ms": 1217.0286001637578
+      },
+      {
+        "uid": "26092902-industrial_control-0006",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 2.7253009436494695,
+        "violates": 0,
+        "inference_ms": 1278.8350998889655
+      },
+      {
+        "uid": "26092902-industrial_control-0007",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 1.3051380964460426,
+        "violates": 0,
+        "inference_ms": 1252.412399975583
+      },
+      {
+        "uid": "26092902-industrial_control-0008",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 3.3663528540709047,
+        "violates": 0,
+        "inference_ms": 1205.0052999984473
+      },
+      {
+        "uid": "26092902-industrial_control-0009",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 3.3234784909700883,
+        "violates": 0,
+        "inference_ms": 1222.2115001641214
+      },
+      {
+        "uid": "26092902-industrial_control-0010",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 2.884392259900399,
+        "violates": 0,
+        "inference_ms": 1253.6615999415517
+      },
+      {
+        "uid": "26092902-industrial_control-0011",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 4.793187260279019,
+        "violates": 0,
+        "inference_ms": 1245.37150003016
+      },
+      {
+        "uid": "26092902-industrial_control-0012",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 2.859817792196134,
+        "violates": 0,
+        "inference_ms": 1204.7383999451995
+      },
+      {
+        "uid": "26092902-industrial_control-0013",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 3.0347997294320708,
+        "violates": 0,
+        "inference_ms": 1274.9644999857992
+      },
+      {
+        "uid": "26092902-industrial_control-0014",
+        "profile": "off",
+        "miss_rate": 0.0,
+        "rx_duty": 1.0,
+        "p99_ms": 3.241901649608656,
+        "violates": 0,
+        "inference_ms": 1199.5029000099748
+      },
+      {
+        "uid": "26092902-industrial_control-0015",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 3.7133391919324326,
+        "violates": 0,
+        "inference_ms": 1177.665000082925
+      },
+      {
+        "uid": "26092902-industrial_control-0016",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 1.786524314953419,
+        "violates": 0,
+        "inference_ms": 1184.7731999587268
+      },
+      {
+        "uid": "26092902-industrial_control-0017",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 2.664946406583405,
+        "violates": 0,
+        "inference_ms": 1192.821400007233
+      },
+      {
+        "uid": "26092902-industrial_control-0018",
+        "profile": "off",
+        "miss_rate": 0.0,
+        "rx_duty": 1.0,
+        "p99_ms": 3.672652389536415,
+        "violates": 0,
+        "inference_ms": 1220.6684998236597
+      },
+      {
+        "uid": "26092902-industrial_control-0019",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 2.843155273563621,
+        "violates": 0,
+        "inference_ms": 1154.8602001275867
+      },
+      {
+        "uid": "26092902-industrial_control-0020",
+        "profile": "off",
+        "miss_rate": 0.0,
+        "rx_duty": 1.0,
+        "p99_ms": 3.6455796300350656,
+        "violates": 0,
+        "inference_ms": 1189.0601001214236
+      },
+      {
+        "uid": "26092902-industrial_control-0021",
+        "profile": "off",
+        "miss_rate": 0.0,
+        "rx_duty": 1.0,
+        "p99_ms": 3.3271073606367896,
+        "violates": 0,
+        "inference_ms": 1169.9220999144018
+      },
+      {
+        "uid": "26092902-industrial_control-0022",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 4.210791564523744,
+        "violates": 0,
+        "inference_ms": 1216.2258999887854
+      },
+      {
+        "uid": "26092902-industrial_control-0023",
+        "profile": "off",
+        "miss_rate": 0.0,
+        "rx_duty": 1.0,
+        "p99_ms": 2.8561808639950947,
+        "violates": 0,
+        "inference_ms": 1167.2948999330401
+      },
+      {
+        "uid": "26092902-industrial_control-0024",
+        "profile": "off",
+        "miss_rate": 0.0,
+        "rx_duty": 1.0,
+        "p99_ms": 3.271891002506134,
+        "violates": 0,
+        "inference_ms": 1206.5066997893155
+      },
+      {
+        "uid": "26092902-industrial_control-0025",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 3.484520175487737,
+        "violates": 0,
+        "inference_ms": 1168.0177000816911
+      },
+      {
+        "uid": "26092902-industrial_control-0026",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 2.5681952934450285,
+        "violates": 0,
+        "inference_ms": 1164.9323999881744
+      },
+      {
+        "uid": "26092902-industrial_control-0027",
+        "profile": "off",
+        "miss_rate": 0.0,
+        "rx_duty": 1.0,
+        "p99_ms": 3.672335172263574,
+        "violates": 0,
+        "inference_ms": 1214.9920999072492
+      },
+      {
+        "uid": "26092902-industrial_control-0028",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 2.353457799312122,
+        "violates": 0,
+        "inference_ms": 1176.1543001048267
+      },
+      {
+        "uid": "26092902-industrial_control-0029",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 3.398243443294598,
+        "violates": 0,
+        "inference_ms": 1196.1055998690426
+      },
+      {
+        "uid": "26092902-xr-0000",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 4.288693445051441,
+        "violates": 0,
+        "inference_ms": 1188.1148999091238
+      },
+      {
+        "uid": "26092902-xr-0001",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 9.185922178966358,
+        "violates": 0,
+        "inference_ms": 1208.2003999967128
+      },
+      {
+        "uid": "26092902-xr-0002",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 8.939223134187765,
+        "violates": 0,
+        "inference_ms": 1183.2532999105752
+      },
+      {
+        "uid": "26092902-xr-0003",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 6.3537671028777485,
+        "violates": 0,
+        "inference_ms": 1179.1776998434216
+      },
+      {
+        "uid": "26092902-xr-0004",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 8.26173208961908,
+        "violates": 0,
+        "inference_ms": 1193.3802999556065
+      },
+      {
+        "uid": "26092902-xr-0005",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 6.466838821427072,
+        "violates": 0,
+        "inference_ms": 1200.102100148797
+      },
+      {
+        "uid": "26092902-xr-0006",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 6.9331173549228735,
+        "violates": 0,
+        "inference_ms": 1200.0178000889719
+      },
+      {
+        "uid": "26092902-xr-0007",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 8.231958416746208,
+        "violates": 0,
+        "inference_ms": 1211.4176999311894
+      },
+      {
+        "uid": "26092902-xr-0008",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 7.7921690924917195,
+        "violates": 0,
+        "inference_ms": 1179.2522000614554
+      },
+      {
+        "uid": "26092902-xr-0009",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 6.079787307151305,
+        "violates": 0,
+        "inference_ms": 1178.9528001099825
+      },
+      {
+        "uid": "26092902-xr-0010",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 8.179813183099462,
+        "violates": 0,
+        "inference_ms": 1199.0799000486732
+      },
+      {
+        "uid": "26092902-xr-0011",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 7.710473641519846,
+        "violates": 0,
+        "inference_ms": 1194.3414001725614
+      },
+      {
+        "uid": "26092902-xr-0012",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 9.333533992240312,
+        "violates": 0,
+        "inference_ms": 1171.6541999485344
+      },
+      {
+        "uid": "26092902-xr-0013",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 7.833156377753812,
+        "violates": 0,
+        "inference_ms": 1188.8826000504196
+      },
+      {
+        "uid": "26092902-xr-0014",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 8.228643296824941,
+        "violates": 0,
+        "inference_ms": 1214.335799915716
+      },
+      {
+        "uid": "26092902-xr-0015",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 8.272434834762942,
+        "violates": 0,
+        "inference_ms": 1220.803099917248
+      },
+      {
+        "uid": "26092902-xr-0016",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 9.721924924206107,
+        "violates": 0,
+        "inference_ms": 1194.0015000291169
+      },
+      {
+        "uid": "26092902-xr-0017",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 9.678063134683912,
+        "violates": 0,
+        "inference_ms": 1201.805500080809
+      },
+      {
+        "uid": "26092902-xr-0018",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 8.134260888832408,
+        "violates": 0,
+        "inference_ms": 1193.976999958977
+      },
+      {
+        "uid": "26092902-xr-0019",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 9.21216833668253,
+        "violates": 0,
+        "inference_ms": 1177.991900127381
+      },
+      {
+        "uid": "26092902-xr-0020",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 7.819071613633381,
+        "violates": 0,
+        "inference_ms": 1207.7190999407321
+      },
+      {
+        "uid": "26092902-xr-0021",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 6.931039426212331,
+        "violates": 0,
+        "inference_ms": 1182.5244999490678
+      },
+      {
+        "uid": "26092902-xr-0022",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 8.000393296646626,
+        "violates": 0,
+        "inference_ms": 1195.154899964109
+      },
+      {
+        "uid": "26092902-xr-0023",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 4.428502849627275,
+        "violates": 0,
+        "inference_ms": 1172.9571998585016
+      },
+      {
+        "uid": "26092902-xr-0024",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 7.845722966360689,
+        "violates": 0,
+        "inference_ms": 1187.4661999754608
+      },
+      {
+        "uid": "26092902-xr-0025",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 7.665445298568778,
+        "violates": 0,
+        "inference_ms": 1182.8963998705149
+      },
+      {
+        "uid": "26092902-xr-0026",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 9.648577297203587,
+        "violates": 0,
+        "inference_ms": 1197.094300063327
+      },
+      {
+        "uid": "26092902-xr-0027",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 7.80581036161426,
+        "violates": 0,
+        "inference_ms": 1190.9209000878036
+      },
+      {
+        "uid": "26092902-xr-0028",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 6.099105374142879,
+        "violates": 0,
+        "inference_ms": 1166.7249999009073
+      },
+      {
+        "uid": "26092902-xr-0029",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 7.98270340702034,
+        "violates": 0,
+        "inference_ms": 1209.6671999897808
+      },
+      {
+        "uid": "26092902-gaming-0000",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 11.901888695296766,
+        "violates": 0,
+        "inference_ms": 1183.4306998644024
+      },
+      {
+        "uid": "26092902-gaming-0001",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 10.673327815108903,
+        "violates": 0,
+        "inference_ms": 1154.1116998996586
+      },
+      {
+        "uid": "26092902-gaming-0002",
+        "profile": "20/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 17.688635971214968,
+        "violates": 0,
+        "inference_ms": 1213.512800168246
+      },
+      {
+        "uid": "26092902-gaming-0003",
+        "profile": "10/2",
+        "miss_rate": 0.0,
+        "rx_duty": 0.2,
+        "p99_ms": 16.84901863107071,
+        "violates": 0,
+        "inference_ms": 1198.02389992401
+      },
+      {
+        "uid": "26092902-gaming-0004",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 14.331267155570549,
+        "violates": 0,
+        "inference_ms": 1163.3643999230117
+      },
+      {
+        "uid": "26092902-gaming-0005",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 10.082378999607267,
+        "violates": 0,
+        "inference_ms": 1181.156399892643
+      },
+      {
+        "uid": "26092902-gaming-0006",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 10.08227740969792,
+        "violates": 0,
+        "inference_ms": 1177.8484000824392
+      },
+      {
+        "uid": "26092902-gaming-0007",
+        "profile": "10/2",
+        "miss_rate": 0.0,
+        "rx_duty": 0.2,
+        "p99_ms": 12.584337013064285,
+        "violates": 0,
+        "inference_ms": 1174.7248000465333
+      },
+      {
+        "uid": "26092902-gaming-0008",
+        "profile": "10/2",
+        "miss_rate": 0.0,
+        "rx_duty": 0.2,
+        "p99_ms": 15.490285897477094,
+        "violates": 0,
+        "inference_ms": 1179.0108000859618
+      },
+      {
+        "uid": "26092902-gaming-0009",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 13.902172558312483,
+        "violates": 0,
+        "inference_ms": 1183.531700167805
+      },
+      {
+        "uid": "26092902-gaming-0010",
+        "profile": "20/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.2,
+        "p99_ms": 13.367737432154646,
+        "violates": 0,
+        "inference_ms": 1176.1147000361234
+      },
+      {
+        "uid": "26092902-gaming-0011",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 13.338140229124356,
+        "violates": 0,
+        "inference_ms": 1179.5599998440593
+      },
+      {
+        "uid": "26092902-gaming-0012",
+        "profile": "20/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.2,
+        "p99_ms": 15.417949725446249,
+        "violates": 0,
+        "inference_ms": 1160.351200029254
+      },
+      {
+        "uid": "26092902-gaming-0013",
+        "profile": "20/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.2,
+        "p99_ms": 19.35462540267992,
+        "violates": 0,
+        "inference_ms": 1172.8497999720275
+      },
+      {
+        "uid": "26092902-gaming-0014",
+        "profile": "20/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 14.450397848407775,
+        "violates": 0,
+        "inference_ms": 1167.0045999344438
+      },
+      {
+        "uid": "26092902-gaming-0015",
+        "profile": "10/2",
+        "miss_rate": 0.0,
+        "rx_duty": 0.2,
+        "p99_ms": 15.337578826037277,
+        "violates": 0,
+        "inference_ms": 1170.6031998619437
+      },
+      {
+        "uid": "26092902-gaming-0016",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 9.016032214560884,
+        "violates": 0,
+        "inference_ms": 1164.6972999442369
+      },
+      {
+        "uid": "26092902-gaming-0017",
+        "profile": "10/2",
+        "miss_rate": 0.0,
+        "rx_duty": 0.2,
+        "p99_ms": 9.97611233124052,
+        "violates": 0,
+        "inference_ms": 1200.474200071767
+      },
+      {
+        "uid": "26092902-gaming-0018",
+        "profile": "20/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 14.524247678710799,
+        "violates": 0,
+        "inference_ms": 1168.0395000148565
+      },
+      {
+        "uid": "26092902-gaming-0019",
+        "profile": "10/2",
+        "miss_rate": 0.0,
+        "rx_duty": 0.2,
+        "p99_ms": 11.988883459332916,
+        "violates": 0,
+        "inference_ms": 1158.290799940005
+      },
+      {
+        "uid": "26092902-gaming-0020",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 12.290389899241868,
+        "violates": 0,
+        "inference_ms": 1186.2240000627935
+      },
+      {
+        "uid": "26092902-gaming-0021",
+        "profile": "10/2",
+        "miss_rate": 0.0,
+        "rx_duty": 0.2,
+        "p99_ms": 5.8488816035360145,
+        "violates": 0,
+        "inference_ms": 1174.1893000435084
+      },
+      {
+        "uid": "26092902-gaming-0022",
+        "profile": "20/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 10.551510833866164,
+        "violates": 0,
+        "inference_ms": 1168.2483998592943
+      },
+      {
+        "uid": "26092902-gaming-0023",
+        "profile": "10/2",
+        "miss_rate": 0.0,
+        "rx_duty": 0.2,
+        "p99_ms": 14.519068575507248,
+        "violates": 0,
+        "inference_ms": 1198.597699869424
+      },
+      {
+        "uid": "26092902-gaming-0024",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 13.712837345933576,
+        "violates": 0,
+        "inference_ms": 1194.7920001111925
+      },
+      {
+        "uid": "26092902-gaming-0025",
+        "profile": "10/2",
+        "miss_rate": 0.0,
+        "rx_duty": 0.2,
+        "p99_ms": 10.332269046005175,
+        "violates": 0,
+        "inference_ms": 1175.6927000824362
+      },
+      {
+        "uid": "26092902-gaming-0026",
+        "profile": "10/2",
+        "miss_rate": 0.0,
+        "rx_duty": 0.2,
+        "p99_ms": 11.01035030275437,
+        "violates": 0,
+        "inference_ms": 1162.9923000000417
+      },
+      {
+        "uid": "26092902-gaming-0027",
+        "profile": "10/2",
+        "miss_rate": 0.0,
+        "rx_duty": 0.2,
+        "p99_ms": 11.645888768017437,
+        "violates": 0,
+        "inference_ms": 1171.2347001302987
+      },
+      {
+        "uid": "26092902-gaming-0028",
+        "profile": "10/2",
+        "miss_rate": 0.0,
+        "rx_duty": 0.2,
+        "p99_ms": 15.1320467816234,
+        "violates": 0,
+        "inference_ms": 1178.7871001288295
+      },
+      {
+        "uid": "26092902-gaming-0029",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 5.9658838849126585,
+        "violates": 0,
+        "inference_ms": 1167.389800073579
+      }
+    ],
+    "guard_only": [
+      {
+        "uid": "26092902-industrial_control-0000",
+        "profile": "off",
+        "miss_rate": 0.0,
+        "rx_duty": 1.0,
+        "p99_ms": 3.60586098761985,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-industrial_control-0001",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 3.6299535337761206,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-industrial_control-0002",
+        "profile": "off",
+        "miss_rate": 0.0,
+        "rx_duty": 1.0,
+        "p99_ms": 3.5584104564227106,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-industrial_control-0003",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 1.6835711924953705,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-industrial_control-0004",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 3.2023846965817833,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-industrial_control-0005",
+        "profile": "off",
+        "miss_rate": 0.0,
+        "rx_duty": 1.0,
+        "p99_ms": 3.352311281048123,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-industrial_control-0006",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 2.7253009436494695,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-industrial_control-0007",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 1.3051380964460426,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-industrial_control-0008",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 3.3663528540709047,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-industrial_control-0009",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 3.3234784909700883,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-industrial_control-0010",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 2.884392259900399,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-industrial_control-0011",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 4.793187260279019,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-industrial_control-0012",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 2.859817792196134,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-industrial_control-0013",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 3.0347997294320708,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-industrial_control-0014",
+        "profile": "off",
+        "miss_rate": 0.0,
+        "rx_duty": 1.0,
+        "p99_ms": 3.241901649608656,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-industrial_control-0015",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 3.7133391919324326,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-industrial_control-0016",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 1.786524314953419,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-industrial_control-0017",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 2.664946406583405,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-industrial_control-0018",
+        "profile": "off",
+        "miss_rate": 0.0,
+        "rx_duty": 1.0,
+        "p99_ms": 3.672652389536415,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-industrial_control-0019",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 2.843155273563621,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-industrial_control-0020",
+        "profile": "off",
+        "miss_rate": 0.0,
+        "rx_duty": 1.0,
+        "p99_ms": 3.6455796300350656,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-industrial_control-0021",
+        "profile": "off",
+        "miss_rate": 0.0,
+        "rx_duty": 1.0,
+        "p99_ms": 3.3271073606367896,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-industrial_control-0022",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 4.210791564523744,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-industrial_control-0023",
+        "profile": "off",
+        "miss_rate": 0.0,
+        "rx_duty": 1.0,
+        "p99_ms": 2.8561808639950947,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-industrial_control-0024",
+        "profile": "off",
+        "miss_rate": 0.0,
+        "rx_duty": 1.0,
+        "p99_ms": 3.271891002506134,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-industrial_control-0025",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 3.484520175487737,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-industrial_control-0026",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 2.5681952934450285,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-industrial_control-0027",
+        "profile": "off",
+        "miss_rate": 0.0,
+        "rx_duty": 1.0,
+        "p99_ms": 3.672335172263574,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-industrial_control-0028",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 2.353457799312122,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-industrial_control-0029",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 3.398243443294598,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-xr-0000",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 4.288693445051441,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-xr-0001",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 9.185922178966358,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-xr-0002",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 8.939223134187765,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-xr-0003",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 6.3537671028777485,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-xr-0004",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 8.26173208961908,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-xr-0005",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 6.466838821427072,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-xr-0006",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 6.9331173549228735,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-xr-0007",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 8.231958416746208,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-xr-0008",
+        "profile": "10/2",
+        "miss_rate": 0.0,
+        "rx_duty": 0.2,
+        "p99_ms": 9.78218874788544,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-xr-0009",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 6.079787307151305,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-xr-0010",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 8.179813183099462,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-xr-0011",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 7.710473641519846,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-xr-0012",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 9.333533992240312,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-xr-0013",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 7.833156377753812,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-xr-0014",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 8.228643296824941,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-xr-0015",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 8.272434834762942,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-xr-0016",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 9.721924924206107,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-xr-0017",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 9.678063134683912,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-xr-0018",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 8.134260888832408,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-xr-0019",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 9.21216833668253,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-xr-0020",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 7.819071613633381,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-xr-0021",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 6.931039426212331,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-xr-0022",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 8.000393296646626,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-xr-0023",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 4.428502849627275,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-xr-0024",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 7.845722966360689,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-xr-0025",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 7.665445298568778,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-xr-0026",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 9.648577297203587,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-xr-0027",
+        "profile": "10/2",
+        "miss_rate": 0.0,
+        "rx_duty": 0.2,
+        "p99_ms": 9.848409298063952,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-xr-0028",
+        "profile": "10/8",
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "p99_ms": 6.099105374142879,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-xr-0029",
+        "profile": "10/4",
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "p99_ms": 7.98270340702034,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-gaming-0000",
+        "profile": "10/2",
+        "miss_rate": 0.0,
+        "rx_duty": 0.2,
+        "p99_ms": 11.901888695296766,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-gaming-0001",
+        "profile": "10/2",
+        "miss_rate": 0.0,
+        "rx_duty": 0.2,
+        "p99_ms": 13.006149458005876,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-gaming-0002",
+        "profile": "10/2",
+        "miss_rate": 0.0,
+        "rx_duty": 0.2,
+        "p99_ms": 12.971245528832512,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-gaming-0003",
+        "profile": "10/2",
+        "miss_rate": 0.0,
+        "rx_duty": 0.2,
+        "p99_ms": 16.84901863107071,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-gaming-0004",
+        "profile": "10/2",
+        "miss_rate": 0.0,
+        "rx_duty": 0.2,
+        "p99_ms": 14.532249988033731,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-gaming-0005",
+        "profile": "10/2",
+        "miss_rate": 0.0,
+        "rx_duty": 0.2,
+        "p99_ms": 12.154724699657823,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-gaming-0006",
+        "profile": "10/2",
+        "miss_rate": 0.0,
+        "rx_duty": 0.2,
+        "p99_ms": 10.758760810945502,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-gaming-0007",
+        "profile": "10/2",
+        "miss_rate": 0.0,
+        "rx_duty": 0.2,
+        "p99_ms": 12.584337013064285,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-gaming-0008",
+        "profile": "10/2",
+        "miss_rate": 0.0,
+        "rx_duty": 0.2,
+        "p99_ms": 15.490285897477094,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-gaming-0009",
+        "profile": "10/2",
+        "miss_rate": 0.0,
+        "rx_duty": 0.2,
+        "p99_ms": 16.47596303131358,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-gaming-0010",
+        "profile": "10/2",
+        "miss_rate": 0.0,
+        "rx_duty": 0.2,
+        "p99_ms": 11.884263894893902,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-gaming-0011",
+        "profile": "10/2",
+        "miss_rate": 0.0,
+        "rx_duty": 0.2,
+        "p99_ms": 14.385487418998892,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-gaming-0012",
+        "profile": "10/2",
+        "miss_rate": 0.0,
+        "rx_duty": 0.2,
+        "p99_ms": 5.539400619888432,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-gaming-0013",
+        "profile": "10/2",
+        "miss_rate": 0.0,
+        "rx_duty": 0.2,
+        "p99_ms": 11.2715147684228,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-gaming-0014",
+        "profile": "10/2",
+        "miss_rate": 0.0,
+        "rx_duty": 0.2,
+        "p99_ms": 11.974535515068302,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-gaming-0015",
+        "profile": "10/2",
+        "miss_rate": 0.0,
+        "rx_duty": 0.2,
+        "p99_ms": 15.337578826037277,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-gaming-0016",
+        "profile": "10/2",
+        "miss_rate": 0.0,
+        "rx_duty": 0.2,
+        "p99_ms": 9.547679928864257,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-gaming-0017",
+        "profile": "10/2",
+        "miss_rate": 0.0,
+        "rx_duty": 0.2,
+        "p99_ms": 9.97611233124052,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-gaming-0018",
+        "profile": "10/2",
+        "miss_rate": 0.0,
+        "rx_duty": 0.2,
+        "p99_ms": 10.70469152848803,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-gaming-0019",
+        "profile": "10/2",
+        "miss_rate": 0.0,
+        "rx_duty": 0.2,
+        "p99_ms": 11.988883459332916,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-gaming-0020",
+        "profile": "10/2",
+        "miss_rate": 0.0,
+        "rx_duty": 0.2,
+        "p99_ms": 12.290389899241868,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-gaming-0021",
+        "profile": "10/2",
+        "miss_rate": 0.0,
+        "rx_duty": 0.2,
+        "p99_ms": 5.8488816035360145,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-gaming-0022",
+        "profile": "10/2",
+        "miss_rate": 0.0,
+        "rx_duty": 0.2,
+        "p99_ms": 10.571847607355085,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-gaming-0023",
+        "profile": "10/2",
+        "miss_rate": 0.0,
+        "rx_duty": 0.2,
+        "p99_ms": 14.519068575507248,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-gaming-0024",
+        "profile": "10/2",
+        "miss_rate": 0.0,
+        "rx_duty": 0.2,
+        "p99_ms": 15.775756706720287,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-gaming-0025",
+        "profile": "10/2",
+        "miss_rate": 0.0,
+        "rx_duty": 0.2,
+        "p99_ms": 10.332269046005175,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-gaming-0026",
+        "profile": "10/2",
+        "miss_rate": 0.0,
+        "rx_duty": 0.2,
+        "p99_ms": 11.01035030275437,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-gaming-0027",
+        "profile": "10/2",
+        "miss_rate": 0.0,
+        "rx_duty": 0.2,
+        "p99_ms": 11.645888768017437,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-gaming-0028",
+        "profile": "10/2",
+        "miss_rate": 0.0,
+        "rx_duty": 0.2,
+        "p99_ms": 15.1320467816234,
+        "violates": 0,
+        "inference_ms": 0.0
+      },
+      {
+        "uid": "26092902-gaming-0029",
+        "profile": "10/2",
+        "miss_rate": 0.0,
+        "rx_duty": 0.2,
+        "p99_ms": 11.936114912430732,
+        "violates": 0,
+        "inference_ms": 0.0
+      }
+    ]
+  },
+  "note": "same one-choice candidate guard for both models; distinct from Decider probability reranking after eligibility screen"
+}

@@ -1,0 +1,128 @@
+[
+  {
+    "service": "industrial_control",
+    "method": "decider_adapter_raw",
+    "n_scenarios": 30,
+    "mean_delay_ms": 2.813861298959556,
+    "mean_scenario_p99_ms": 3.94546051211848,
+    "mean_miss_rate": 0.05404444444444445,
+    "mean_rx_duty": 0.7466666666666668,
+    "scenario_violation_rate": 0.13333333333333333,
+    "mean_inference_ms": 207.05706665758044,
+    "profile_counts": {
+      "10/8": 27,
+      "10/2": 2,
+      "10/4": 1
+    }
+  },
+  {
+    "service": "all",
+    "method": "decider_adapter_raw",
+    "n_scenarios": 90,
+    "mean_delay_ms": 4.989387775378107,
+    "mean_scenario_p99_ms": 7.358490247861581,
+    "mean_miss_rate": 0.043328707712041045,
+    "mean_rx_duty": 0.5777777777777778,
+    "scenario_violation_rate": 0.1111111111111111,
+    "mean_inference_ms": 202.4971444470187,
+    "profile_counts": {
+      "10/8": 55,
+      "10/2": 30,
+      "10/4": 5
+    }
+  },
+  {
+    "service": "industrial_control",
+    "method": "decider_adapter_screened",
+    "n_scenarios": 30,
+    "mean_delay_ms": 2.399616192866006,
+    "mean_scenario_p99_ms": 3.134526036885531,
+    "mean_miss_rate": 0.0,
+    "mean_rx_duty": 0.8666666666666668,
+    "scenario_violation_rate": 0.0,
+    "mean_inference_ms": 207.05706665758044,
+    "profile_counts": {
+      "off": 10,
+      "10/8": 20
+    }
+  },
+  {
+    "service": "all",
+    "method": "decider_adapter_screened",
+    "n_scenarios": 90,
+    "mean_delay_ms": 4.553707591963509,
+    "mean_scenario_p99_ms": 6.5641752334738666,
+    "mean_miss_rate": 0.0,
+    "mean_rx_duty": 0.6688888888888889,
+    "scenario_violation_rate": 0.0,
+    "mean_inference_ms": 202.4971444470187,
+    "profile_counts": {
+      "off": 10,
+      "10/8": 56,
+      "10/4": 3,
+      "10/2": 21
+    }
+  },
+  {
+    "service": "xr",
+    "method": "decider_adapter_raw",
+    "n_scenarios": 30,
+    "mean_delay_ms": 4.621327837798702,
+    "mean_scenario_p99_ms": 7.667143550444768,
+    "mean_miss_rate": 0.07594167869167869,
+    "mean_rx_duty": 0.6066666666666667,
+    "scenario_violation_rate": 0.2,
+    "mean_inference_ms": 196.82382334334156,
+    "profile_counts": {
+      "10/8": 19,
+      "10/4": 4,
+      "10/2": 7
+    }
+  },
+  {
+    "service": "xr",
+    "method": "decider_adapter_screened",
+    "n_scenarios": 30,
+    "mean_delay_ms": 3.8093923194731443,
+    "mean_scenario_p99_ms": 6.257401086451307,
+    "mean_miss_rate": 0.0,
+    "mean_rx_duty": 0.7400000000000001,
+    "scenario_violation_rate": 0.0,
+    "mean_inference_ms": 196.82382334334156,
+    "profile_counts": {
+      "10/8": 26,
+      "10/4": 3,
+      "10/2": 1
+    }
+  },
+  {
+    "service": "gaming",
+    "method": "decider_adapter_raw",
+    "n_scenarios": 30,
+    "mean_delay_ms": 7.5329741893760644,
+    "mean_scenario_p99_ms": 10.462866681021495,
+    "mean_miss_rate": 0.0,
+    "mean_rx_duty": 0.37999999999999995,
+    "scenario_violation_rate": 0.0,
+    "mean_inference_ms": 203.61054334013411,
+    "profile_counts": {
+      "10/2": 21,
+      "10/8": 9
+    }
+  },
+  {
+    "service": "gaming",
+    "method": "decider_adapter_screened",
+    "n_scenarios": 30,
+    "mean_delay_ms": 7.452114263551377,
+    "mean_scenario_p99_ms": 10.300598577084761,
+    "mean_miss_rate": 0.0,
+    "mean_rx_duty": 0.39999999999999997,
+    "scenario_violation_rate": 0.0,
+    "mean_inference_ms": 203.61054334013411,
+    "profile_counts": {
+      "10/2": 20,
+      "10/8": 10
+    }
+  }
+]

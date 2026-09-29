@@ -1,0 +1,10 @@
+{
+  "seed": 26093013,
+  "descriptor_sha256": "a540ebcb41aa4540129b63f71a470dd0e01aa21656202e26776642fbf228c8e1",
+  "n_scenarios": 90,
+  "adapter_sha256": "9b82de92e67d5fc20ede0c60d4844867b00b0533ca7071d30d93a3e962927c84",
+  "train_labels_sha256": "2c659bd100779d006f6617f3bdd21e686e44d59291cea906e29973a59a9b939c",
+  "question": "Choose the connected-mode DRX profile with the lowest receiver ON fraction that keeps packet delay within the stated deadline for at least 99% of packets. Consider base delay, sleep wait, burst queueing and available service capacity. off means always awake. Other choices are cycle/on-duration in milliseconds. Use off when the deadline cannot safely tolerate sleep. Which profile?",
+  "option_order_seed": 8171,
+  "role": "fresh confirmatory, no model or threshold selection"
+}
