@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "scenarios": 90,
+  "typed_model_decisions": 90,
+  "independently_recomputed_profile_scenarios": 810,
+  "verified_method_rows": 900,
+  "protocol_freeze_hashes_match": true,
+  "output_hashes_match": true,
+  "command": "python scripts/verify_evidence.py"
+}

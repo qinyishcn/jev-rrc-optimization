@@ -1,0 +1,14 @@
+{
+  "frozen_at_utc": "2026-09-28T23:06:10.849911+00:00",
+  "evaluation_seed": 26092902,
+  "calibration_seed": 26092801,
+  "pilot_seed_not_used_for_claims": 26092802,
+  "n_per_service": 30,
+  "files": {
+    "rrcopt/simulation.py": "97bab959be0e88614ea041d725ce962f918388e6ab7b6a90e105eb1d93c4c307",
+    "rrcopt/policies.py": "19c6160c8185fe79a6c6bdc95c2d35b4e3ccc7a5b755196efd6827ad90a46331",
+    "rrcopt/protocol.py": "d672e0ad2d5251b05a0ff1868f759003749af3227bda74e7420d2a2d28d05963",
+    "scripts/run_experiment.py": "c1d69b40749e8773cff459640f78654b321a34c196a884b78795ba48c2e933a6",
+    "artifacts/protocol_context.json": "b216e0847cd77e227474a926069960437f411ddcfae1a40a4c8c4b480e50bf0c"
+  }
+}

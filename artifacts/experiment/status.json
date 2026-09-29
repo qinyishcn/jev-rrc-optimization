@@ -1,0 +1,24 @@
+{
+  "state": "complete",
+  "evaluation_seed": 26092902,
+  "model_evaluated": true,
+  "n_rows": 900,
+  "evidence_sha256": {
+    "calibration_metrics.json": "b4d30a52b0aa052a7f257168503200ddf8a5193ba2f1207818051f3fe95f40fa",
+    "calibration_scenarios.json": "f7663d19e5b1dac43219263a2b92a05891b5376de90b1525c06f6d8e04db331a",
+    "case_studies.json": "5ea31cfe44145b6677eefffe43394b3be57c1f77ec6ea2f35a0377119048b13c",
+    "design.json": "a777710dc04cbecf65d9ef2ddf9572bb3ab96b0782fb2ef3f011c853be55e692",
+    "evaluation_metrics.json": "880c332fd73888caaa90e05c831e349a5a9df9b4ecb2c12a372e0e1aaf30e366",
+    "evaluation_scenarios.json": "279db625b685f2f6450de17185b5505d8fb8c4b1e38cc6e6d4b8a509c511424a",
+    "model_identity.json": "54fa75e2e381952285af746aca673fd70381a41700782d87fa3ab73aef2b0627",
+    "paired_intervals.json": "086294129b794203ec75fc1ae2e5f182affd5f0721fda4d7d96889089f21e53c",
+    "rows.json": "8d42c0f1d1648569bb901f3a2945ba3547141d33e44ae66f0fea9e64e559c87c",
+    "summary.json": "0502bab59a007bd067e4eff7c087504789fb1d2d751a825822161a62ac6f5de6",
+    "decisions.jsonl": "ef8db6d2d3bf9bb6cc106b7351ec307a587a96495e1f63545156386d12881440"
+  },
+  "source_sha256": {
+    "rrcopt/simulation.py": "97bab959be0e88614ea041d725ce962f918388e6ab7b6a90e105eb1d93c4c307",
+    "rrcopt/policies.py": "19c6160c8185fe79a6c6bdc95c2d35b4e3ccc7a5b755196efd6827ad90a46331",
+    "scripts/run_experiment.py": "c1d69b40749e8773cff459640f78654b321a34c196a884b78795ba48c2e933a6"
+  }
+}

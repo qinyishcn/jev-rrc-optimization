@@ -1,0 +1,12 @@
+{
+  "dataset_sha256": "530084af5436b544c4ab3c9e0090e503080ba403cc363c26d138b637c4091ccf",
+  "upstream_parser_sha256": "73183a4770322cabee660959e48d7285f199ea4f6543872e772bc51f100ef549",
+  "parsed_messages": 37,
+  "paired_rows": 16,
+  "current_mac": {
+    "periodicBSR-Timer": "sf20",
+    "retxBSR-Timer": "sf320",
+    "timeAlignmentTimerDedicated": "infinity"
+  },
+  "scope": "Only observed MAC values are integrated; DRX and QoS labels are absent."
+}

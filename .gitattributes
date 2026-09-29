@@ -1,0 +1,2 @@
+# Evidence hashes refer to exact local bytes. Preserve them across platforms.
+* -text

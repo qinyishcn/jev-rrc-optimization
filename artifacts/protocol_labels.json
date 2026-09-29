@@ -1,0 +1,150 @@
+[
+  {
+    "row": 0,
+    "ul_types": [
+      "rrcConnectionRequest"
+    ],
+    "observed_dl_types": [
+      "rrcConnectionSetup"
+    ]
+  },
+  {
+    "row": 1,
+    "ul_types": [
+      "rrcConnectionSetupComplete"
+    ],
+    "observed_dl_types": [
+      "dlInformationTransfer"
+    ]
+  },
+  {
+    "row": 2,
+    "ul_types": [
+      "ulInformationTransfer"
+    ],
+    "observed_dl_types": [
+      "dlInformationTransfer"
+    ]
+  },
+  {
+    "row": 3,
+    "ul_types": [
+      "ulInformationTransfer"
+    ],
+    "observed_dl_types": [
+      "securityModeCommand"
+    ]
+  },
+  {
+    "row": 4,
+    "ul_types": [
+      "securityModeComplete"
+    ],
+    "observed_dl_types": [
+      "ueCapabilityEnquiry"
+    ]
+  },
+  {
+    "row": 5,
+    "ul_types": [
+      "ueCapabilityInformation"
+    ],
+    "observed_dl_types": [
+      "rrcConnectionReconfiguration"
+    ]
+  },
+  {
+    "row": 6,
+    "ul_types": [
+      "rrcConnectionReconfigurationComplete",
+      "ulInformationTransfer"
+    ],
+    "observed_dl_types": [
+      "dlInformationTransfer",
+      "rrcConnectionRelease",
+      "paging"
+    ]
+  },
+  {
+    "row": 7,
+    "ul_types": [
+      "rrcConnectionRequest"
+    ],
+    "observed_dl_types": [
+      "rrcConnectionSetup"
+    ]
+  },
+  {
+    "row": 8,
+    "ul_types": [
+      "rrcConnectionSetupComplete"
+    ],
+    "observed_dl_types": [
+      "securityModeCommand"
+    ]
+  },
+  {
+    "row": 9,
+    "ul_types": [
+      "securityModeComplete"
+    ],
+    "observed_dl_types": [
+      "ueCapabilityEnquiry"
+    ]
+  },
+  {
+    "row": 10,
+    "ul_types": [
+      "ueCapabilityInformation"
+    ],
+    "observed_dl_types": [
+      "rrcConnectionReconfiguration"
+    ]
+  },
+  {
+    "row": 11,
+    "ul_types": [
+      "rrcConnectionReconfigurationComplete"
+    ],
+    "observed_dl_types": [
+      "rrcConnectionRelease",
+      "paging"
+    ]
+  },
+  {
+    "row": 12,
+    "ul_types": [
+      "rrcConnectionRequest"
+    ],
+    "observed_dl_types": [
+      "rrcConnectionSetup"
+    ]
+  },
+  {
+    "row": 13,
+    "ul_types": [
+      "rrcConnectionSetupComplete"
+    ],
+    "observed_dl_types": [
+      "securityModeCommand"
+    ]
+  },
+  {
+    "row": 14,
+    "ul_types": [
+      "securityModeComplete"
+    ],
+    "observed_dl_types": [
+      "ueCapabilityEnquiry"
+    ]
+  },
+  {
+    "row": 15,
+    "ul_types": [
+      "ueCapabilityInformation"
+    ],
+    "observed_dl_types": [
+      "rrcConnectionReconfiguration"
+    ]
+  }
+]

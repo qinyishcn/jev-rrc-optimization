@@ -1,0 +1,2466 @@
+[
+  {
+    "service": "all",
+    "method": "decider_raw",
+    "baseline": "fixed_balanced",
+    "metric": "p99_ms",
+    "baseline_minus_method": 171.42869314065638,
+    "ci95": [
+      105.18336549521084,
+      245.43600540328657
+    ]
+  },
+  {
+    "service": "all",
+    "method": "decider_raw",
+    "baseline": "fixed_balanced",
+    "metric": "miss_rate",
+    "baseline_minus_method": 0.5710164472744432,
+    "ci95": [
+      0.5246649081107112,
+      0.6136022822516181
+    ]
+  },
+  {
+    "service": "all",
+    "method": "decider_raw",
+    "baseline": "fixed_balanced",
+    "metric": "rx_duty",
+    "baseline_minus_method": -0.36555555555555563,
+    "ci95": [
+      -0.40780555555555564,
+      -0.32333333333333336
+    ]
+  },
+  {
+    "service": "all",
+    "method": "decider_raw",
+    "baseline": "fixed_balanced",
+    "metric": "scenario_violation",
+    "baseline_minus_method": 0.6,
+    "ci95": [
+      0.5111111111111112,
+      0.6888888888888888
+    ]
+  },
+  {
+    "service": "all",
+    "method": "decider_raw",
+    "baseline": "fixed_low_latency",
+    "metric": "p99_ms",
+    "baseline_minus_method": -9.056925229092469,
+    "ci95": [
+      -17.544659495171796,
+      -4.420123976500647
+    ]
+  },
+  {
+    "service": "all",
+    "method": "decider_raw",
+    "baseline": "fixed_low_latency",
+    "metric": "miss_rate",
+    "baseline_minus_method": -0.1906330092818848,
+    "ci95": [
+      -0.24026662031387344,
+      -0.14566470544323373
+    ]
+  },
+  {
+    "service": "all",
+    "method": "decider_raw",
+    "baseline": "fixed_low_latency",
+    "metric": "rx_duty",
+    "baseline_minus_method": 0.3344444444444445,
+    "ci95": [
+      0.2921944444444444,
+      0.3766666666666667
+    ]
+  },
+  {
+    "service": "all",
+    "method": "decider_raw",
+    "baseline": "fixed_low_latency",
+    "metric": "scenario_violation",
+    "baseline_minus_method": -0.37777777777777777,
+    "ci95": [
+      -0.4666666666666666,
+      -0.3
+    ]
+  },
+  {
+    "service": "all",
+    "method": "decider_raw",
+    "baseline": "service_rule",
+    "metric": "p99_ms",
+    "baseline_minus_method": -4.883201771143482,
+    "ci95": [
+      -13.386658469975997,
+      -0.21338884754072235
+    ]
+  },
+  {
+    "service": "all",
+    "method": "decider_raw",
+    "baseline": "service_rule",
+    "metric": "miss_rate",
+    "baseline_minus_method": -0.17177742522259706,
+    "ci95": [
+      -0.21959319135357994,
+      -0.12624229720075614
+    ]
+  },
+  {
+    "service": "all",
+    "method": "decider_raw",
+    "baseline": "service_rule",
+    "metric": "rx_duty",
+    "baseline_minus_method": 0.06777777777777778,
+    "ci95": [
+      0.025527777777777767,
+      0.11
+    ]
+  },
+  {
+    "service": "all",
+    "method": "decider_raw",
+    "baseline": "service_rule",
+    "metric": "scenario_violation",
+    "baseline_minus_method": -0.23333333333333334,
+    "ci95": [
+      -0.32222222222222224,
+      -0.14444444444444446
+    ]
+  },
+  {
+    "service": "all",
+    "method": "decider_raw",
+    "baseline": "calibrated_per_service",
+    "metric": "p99_ms",
+    "baseline_minus_method": -7.620638120225189,
+    "ci95": [
+      -16.14082148455217,
+      -2.9792986269722976
+    ]
+  },
+  {
+    "service": "all",
+    "method": "decider_raw",
+    "baseline": "calibrated_per_service",
+    "metric": "miss_rate",
+    "baseline_minus_method": -0.191981157430033,
+    "ci95": [
+      -0.24174469956433892,
+      -0.14682831767223464
+    ]
+  },
+  {
+    "service": "all",
+    "method": "decider_raw",
+    "baseline": "calibrated_per_service",
+    "metric": "rx_duty",
+    "baseline_minus_method": 0.20111111111111113,
+    "ci95": [
+      0.15886111111111106,
+      0.24333333333333332
+    ]
+  },
+  {
+    "service": "all",
+    "method": "decider_raw",
+    "baseline": "calibrated_per_service",
+    "metric": "scenario_violation",
+    "baseline_minus_method": -0.4,
+    "ci95": [
+      -0.4888888888888889,
+      -0.3111111111111111
+    ]
+  },
+  {
+    "service": "all",
+    "method": "decider_raw",
+    "baseline": "guard_only",
+    "metric": "p99_ms",
+    "baseline_minus_method": -6.590754849871341,
+    "ci95": [
+      -15.148856264983136,
+      -1.9011201328729164
+    ]
+  },
+  {
+    "service": "all",
+    "method": "decider_raw",
+    "baseline": "guard_only",
+    "metric": "miss_rate",
+    "baseline_minus_method": -0.191981157430033,
+    "ci95": [
+      -0.24174469956433892,
+      -0.14682831767223464
+    ]
+  },
+  {
+    "service": "all",
+    "method": "decider_raw",
+    "baseline": "guard_only",
+    "metric": "rx_duty",
+    "baseline_minus_method": 0.08111111111111113,
+    "ci95": [
+      0.028888888888888926,
+      0.13333333333333333
+    ]
+  },
+  {
+    "service": "all",
+    "method": "decider_raw",
+    "baseline": "guard_only",
+    "metric": "scenario_violation",
+    "baseline_minus_method": -0.4,
+    "ci95": [
+      -0.4888888888888889,
+      -0.3111111111111111
+    ]
+  },
+  {
+    "service": "all",
+    "method": "decider_screened",
+    "baseline": "fixed_balanced",
+    "metric": "p99_ms",
+    "baseline_minus_method": 179.1525295360267,
+    "ci95": [
+      112.30756573380484,
+      254.04366374005681
+    ]
+  },
+  {
+    "service": "all",
+    "method": "decider_screened",
+    "baseline": "fixed_balanced",
+    "metric": "miss_rate",
+    "baseline_minus_method": 0.7629976047044762,
+    "ci95": [
+      0.7424507045461544,
+      0.7819195873242306
+    ]
+  },
+  {
+    "service": "all",
+    "method": "decider_screened",
+    "baseline": "fixed_balanced",
+    "metric": "rx_duty",
+    "baseline_minus_method": -0.5955555555555556,
+    "ci95": [
+      -0.6311111111111111,
+      -0.5622222222222222
+    ]
+  },
+  {
+    "service": "all",
+    "method": "decider_screened",
+    "baseline": "fixed_balanced",
+    "metric": "scenario_violation",
+    "baseline_minus_method": 1.0,
+    "ci95": [
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "service": "all",
+    "method": "decider_screened",
+    "baseline": "fixed_low_latency",
+    "metric": "p99_ms",
+    "baseline_minus_method": -1.333088833722149,
+    "ci95": [
+      -1.794226538704031,
+      -0.9093948334495793
+    ]
+  },
+  {
+    "service": "all",
+    "method": "decider_screened",
+    "baseline": "fixed_low_latency",
+    "metric": "miss_rate",
+    "baseline_minus_method": 0.0013481481481481482,
+    "ci95": [
+      0.0,
+      0.0037185185185185186
+    ]
+  },
+  {
+    "service": "all",
+    "method": "decider_screened",
+    "baseline": "fixed_low_latency",
+    "metric": "rx_duty",
+    "baseline_minus_method": 0.10444444444444446,
+    "ci95": [
+      0.06888888888888893,
+      0.1377777777777778
+    ]
+  },
+  {
+    "service": "all",
+    "method": "decider_screened",
+    "baseline": "fixed_low_latency",
+    "metric": "scenario_violation",
+    "baseline_minus_method": 0.022222222222222223,
+    "ci95": [
+      0.0,
+      0.05555555555555555
+    ]
+  },
+  {
+    "service": "all",
+    "method": "decider_screened",
+    "baseline": "service_rule",
+    "metric": "p99_ms",
+    "baseline_minus_method": 2.8406346242268365,
+    "ci95": [
+      2.29275497158508,
+      3.3778883743525645
+    ]
+  },
+  {
+    "service": "all",
+    "method": "decider_screened",
+    "baseline": "service_rule",
+    "metric": "miss_rate",
+    "baseline_minus_method": 0.02020373220743591,
+    "ci95": [
+      0.009853659578590133,
+      0.031764478437371936
+    ]
+  },
+  {
+    "service": "all",
+    "method": "decider_screened",
+    "baseline": "service_rule",
+    "metric": "rx_duty",
+    "baseline_minus_method": -0.16222222222222224,
+    "ci95": [
+      -0.1977777777777778,
+      -0.12888888888888891
+    ]
+  },
+  {
+    "service": "all",
+    "method": "decider_screened",
+    "baseline": "service_rule",
+    "metric": "scenario_violation",
+    "baseline_minus_method": 0.16666666666666666,
+    "ci95": [
+      0.09999999999999999,
+      0.24444444444444444
+    ]
+  },
+  {
+    "service": "all",
+    "method": "decider_screened",
+    "baseline": "calibrated_per_service",
+    "metric": "p99_ms",
+    "baseline_minus_method": 0.10319827514512994,
+    "ci95": [
+      -0.3523688759177587,
+      0.5384183766632141
+    ]
+  },
+  {
+    "service": "all",
+    "method": "decider_screened",
+    "baseline": "calibrated_per_service",
+    "metric": "miss_rate",
+    "baseline_minus_method": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "service": "all",
+    "method": "decider_screened",
+    "baseline": "calibrated_per_service",
+    "metric": "rx_duty",
+    "baseline_minus_method": -0.0288888888888889,
+    "ci95": [
+      -0.0644444444444444,
+      0.004444444444444491
+    ]
+  },
+  {
+    "service": "all",
+    "method": "decider_screened",
+    "baseline": "calibrated_per_service",
+    "metric": "scenario_violation",
+    "baseline_minus_method": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "service": "all",
+    "method": "decider_screened",
+    "baseline": "guard_only",
+    "metric": "p99_ms",
+    "baseline_minus_method": 1.1330815454989789,
+    "ci95": [
+      0.7152926509698281,
+      1.5368898224075183
+    ]
+  },
+  {
+    "service": "all",
+    "method": "decider_screened",
+    "baseline": "guard_only",
+    "metric": "miss_rate",
+    "baseline_minus_method": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "service": "all",
+    "method": "decider_screened",
+    "baseline": "guard_only",
+    "metric": "rx_duty",
+    "baseline_minus_method": -0.1488888888888889,
+    "ci95": [
+      -0.17777777777777773,
+      -0.11999999999999998
+    ]
+  },
+  {
+    "service": "all",
+    "method": "decider_screened",
+    "baseline": "guard_only",
+    "metric": "scenario_violation",
+    "baseline_minus_method": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "service": "all",
+    "method": "guard_only",
+    "baseline": "fixed_balanced",
+    "metric": "p99_ms",
+    "baseline_minus_method": 178.01944799052774,
+    "ci95": [
+      111.04196922752624,
+      252.53116175684042
+    ]
+  },
+  {
+    "service": "all",
+    "method": "guard_only",
+    "baseline": "fixed_balanced",
+    "metric": "miss_rate",
+    "baseline_minus_method": 0.7629976047044762,
+    "ci95": [
+      0.7424507045461544,
+      0.7819195873242306
+    ]
+  },
+  {
+    "service": "all",
+    "method": "guard_only",
+    "baseline": "fixed_balanced",
+    "metric": "rx_duty",
+    "baseline_minus_method": -0.4466666666666667,
+    "ci95": [
+      -0.4755555555555555,
+      -0.4177777777777778
+    ]
+  },
+  {
+    "service": "all",
+    "method": "guard_only",
+    "baseline": "fixed_balanced",
+    "metric": "scenario_violation",
+    "baseline_minus_method": 1.0,
+    "ci95": [
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "service": "all",
+    "method": "guard_only",
+    "baseline": "fixed_low_latency",
+    "metric": "p99_ms",
+    "baseline_minus_method": -2.466170379221128,
+    "ci95": [
+      -2.7791103973802653,
+      -2.1216617552637786
+    ]
+  },
+  {
+    "service": "all",
+    "method": "guard_only",
+    "baseline": "fixed_low_latency",
+    "metric": "miss_rate",
+    "baseline_minus_method": 0.0013481481481481482,
+    "ci95": [
+      0.0,
+      0.0037185185185185186
+    ]
+  },
+  {
+    "service": "all",
+    "method": "guard_only",
+    "baseline": "fixed_low_latency",
+    "metric": "rx_duty",
+    "baseline_minus_method": 0.2533333333333333,
+    "ci95": [
+      0.22444444444444453,
+      0.2822222222222223
+    ]
+  },
+  {
+    "service": "all",
+    "method": "guard_only",
+    "baseline": "fixed_low_latency",
+    "metric": "scenario_violation",
+    "baseline_minus_method": 0.022222222222222223,
+    "ci95": [
+      0.0,
+      0.05555555555555555
+    ]
+  },
+  {
+    "service": "all",
+    "method": "guard_only",
+    "baseline": "service_rule",
+    "metric": "p99_ms",
+    "baseline_minus_method": 1.7075530787278574,
+    "ci95": [
+      1.2278012029299905,
+      2.1590179675621144
+    ]
+  },
+  {
+    "service": "all",
+    "method": "guard_only",
+    "baseline": "service_rule",
+    "metric": "miss_rate",
+    "baseline_minus_method": 0.02020373220743591,
+    "ci95": [
+      0.009853659578590133,
+      0.031764478437371936
+    ]
+  },
+  {
+    "service": "all",
+    "method": "guard_only",
+    "baseline": "service_rule",
+    "metric": "rx_duty",
+    "baseline_minus_method": -0.013333333333333326,
+    "ci95": [
+      -0.042222222222222196,
+      0.015555555555555581
+    ]
+  },
+  {
+    "service": "all",
+    "method": "guard_only",
+    "baseline": "service_rule",
+    "metric": "scenario_violation",
+    "baseline_minus_method": 0.16666666666666666,
+    "ci95": [
+      0.09999999999999999,
+      0.24444444444444444
+    ]
+  },
+  {
+    "service": "all",
+    "method": "guard_only",
+    "baseline": "calibrated_per_service",
+    "metric": "p99_ms",
+    "baseline_minus_method": -1.0298832703538492,
+    "ci95": [
+      -1.2957390660472379,
+      -0.7555008324801653
+    ]
+  },
+  {
+    "service": "all",
+    "method": "guard_only",
+    "baseline": "calibrated_per_service",
+    "metric": "miss_rate",
+    "baseline_minus_method": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "service": "all",
+    "method": "guard_only",
+    "baseline": "calibrated_per_service",
+    "metric": "rx_duty",
+    "baseline_minus_method": 0.12000000000000001,
+    "ci95": [
+      0.0911111111111111,
+      0.14888888888888888
+    ]
+  },
+  {
+    "service": "all",
+    "method": "guard_only",
+    "baseline": "calibrated_per_service",
+    "metric": "scenario_violation",
+    "baseline_minus_method": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "service": "industrial_control",
+    "method": "decider_raw",
+    "baseline": "fixed_balanced",
+    "metric": "p99_ms",
+    "baseline_minus_method": 279.67913827340215,
+    "ci95": [
+      127.60842343114757,
+      459.26725343008553
+    ]
+  },
+  {
+    "service": "industrial_control",
+    "method": "decider_raw",
+    "baseline": "fixed_balanced",
+    "metric": "miss_rate",
+    "baseline_minus_method": 0.6188509908706301,
+    "ci95": [
+      0.5238362686484079,
+      0.7133212686484078
+    ]
+  },
+  {
+    "service": "industrial_control",
+    "method": "decider_raw",
+    "baseline": "fixed_balanced",
+    "metric": "rx_duty",
+    "baseline_minus_method": -0.4066666666666666,
+    "ci95": [
+      -0.4866666666666666,
+      -0.3266666666666668
+    ]
+  },
+  {
+    "service": "industrial_control",
+    "method": "decider_raw",
+    "baseline": "fixed_balanced",
+    "metric": "scenario_violation",
+    "baseline_minus_method": 0.4666666666666667,
+    "ci95": [
+      0.3,
+      0.6333333333333333
+    ]
+  },
+  {
+    "service": "industrial_control",
+    "method": "decider_raw",
+    "baseline": "fixed_low_latency",
+    "metric": "p99_ms",
+    "baseline_minus_method": -3.027960437548276,
+    "ci95": [
+      -4.467586770791329,
+      -1.8193374130539373
+    ]
+  },
+  {
+    "service": "industrial_control",
+    "method": "decider_raw",
+    "baseline": "fixed_low_latency",
+    "metric": "miss_rate",
+    "baseline_minus_method": -0.27041554219550207,
+    "ci95": [
+      -0.37632248663994655,
+      -0.16834483299933212
+    ]
+  },
+  {
+    "service": "industrial_control",
+    "method": "decider_raw",
+    "baseline": "fixed_low_latency",
+    "metric": "rx_duty",
+    "baseline_minus_method": 0.29333333333333333,
+    "ci95": [
+      0.2133333333333334,
+      0.3733333333333333
+    ]
+  },
+  {
+    "service": "industrial_control",
+    "method": "decider_raw",
+    "baseline": "fixed_low_latency",
+    "metric": "scenario_violation",
+    "baseline_minus_method": -0.4666666666666667,
+    "ci95": [
+      -0.6333333333333333,
+      -0.3
+    ]
+  },
+  {
+    "service": "industrial_control",
+    "method": "decider_raw",
+    "baseline": "service_rule",
+    "metric": "p99_ms",
+    "baseline_minus_method": -3.027960437548276,
+    "ci95": [
+      -4.467586770791329,
+      -1.8193374130539373
+    ]
+  },
+  {
+    "service": "industrial_control",
+    "method": "decider_raw",
+    "baseline": "service_rule",
+    "metric": "miss_rate",
+    "baseline_minus_method": -0.27041554219550207,
+    "ci95": [
+      -0.37632248663994655,
+      -0.16834483299933212
+    ]
+  },
+  {
+    "service": "industrial_control",
+    "method": "decider_raw",
+    "baseline": "service_rule",
+    "metric": "rx_duty",
+    "baseline_minus_method": 0.29333333333333333,
+    "ci95": [
+      0.2133333333333334,
+      0.3733333333333333
+    ]
+  },
+  {
+    "service": "industrial_control",
+    "method": "decider_raw",
+    "baseline": "service_rule",
+    "metric": "scenario_violation",
+    "baseline_minus_method": -0.4666666666666667,
+    "ci95": [
+      -0.6333333333333333,
+      -0.3
+    ]
+  },
+  {
+    "service": "industrial_control",
+    "method": "decider_raw",
+    "baseline": "calibrated_per_service",
+    "metric": "p99_ms",
+    "baseline_minus_method": -4.254988961240375,
+    "ci95": [
+      -5.708683734876504,
+      -3.0122103031881764
+    ]
+  },
+  {
+    "service": "industrial_control",
+    "method": "decider_raw",
+    "baseline": "calibrated_per_service",
+    "metric": "miss_rate",
+    "baseline_minus_method": -0.27445998663994653,
+    "ci95": [
+      -0.3800904314183924,
+      -0.1694580555555556
+    ]
+  },
+  {
+    "service": "industrial_control",
+    "method": "decider_raw",
+    "baseline": "calibrated_per_service",
+    "metric": "rx_duty",
+    "baseline_minus_method": 0.49333333333333323,
+    "ci95": [
+      0.4133333333333332,
+      0.5733333333333334
+    ]
+  },
+  {
+    "service": "industrial_control",
+    "method": "decider_raw",
+    "baseline": "calibrated_per_service",
+    "metric": "scenario_violation",
+    "baseline_minus_method": -0.5333333333333333,
+    "ci95": [
+      -0.7,
+      -0.36666666666666664
+    ]
+  },
+  {
+    "service": "industrial_control",
+    "method": "decider_raw",
+    "baseline": "guard_only",
+    "metric": "p99_ms",
+    "baseline_minus_method": -3.4117332160552385,
+    "ci95": [
+      -4.89567312788837,
+      -2.1665966323590884
+    ]
+  },
+  {
+    "service": "industrial_control",
+    "method": "decider_raw",
+    "baseline": "guard_only",
+    "metric": "miss_rate",
+    "baseline_minus_method": -0.27445998663994653,
+    "ci95": [
+      -0.3800904314183924,
+      -0.1694580555555556
+    ]
+  },
+  {
+    "service": "industrial_control",
+    "method": "decider_raw",
+    "baseline": "guard_only",
+    "metric": "rx_duty",
+    "baseline_minus_method": 0.36,
+    "ci95": [
+      0.2733333333333333,
+      0.44666666666666666
+    ]
+  },
+  {
+    "service": "industrial_control",
+    "method": "decider_raw",
+    "baseline": "guard_only",
+    "metric": "scenario_violation",
+    "baseline_minus_method": -0.5333333333333333,
+    "ci95": [
+      -0.7,
+      -0.36666666666666664
+    ]
+  },
+  {
+    "service": "industrial_control",
+    "method": "decider_screened",
+    "baseline": "fixed_balanced",
+    "metric": "p99_ms",
+    "baseline_minus_method": 283.0908714894574,
+    "ci95": [
+      130.17166088884926,
+      463.5067661828002
+    ]
+  },
+  {
+    "service": "industrial_control",
+    "method": "decider_screened",
+    "baseline": "fixed_balanced",
+    "metric": "miss_rate",
+    "baseline_minus_method": 0.8933109775105766,
+    "ci95": [
+      0.8629190364061454,
+      0.9217672361389445
+    ]
+  },
+  {
+    "service": "industrial_control",
+    "method": "decider_screened",
+    "baseline": "fixed_balanced",
+    "metric": "rx_duty",
+    "baseline_minus_method": -0.7666666666666665,
+    "ci95": [
+      -0.7999999999999999,
+      -0.7333333333333332
+    ]
+  },
+  {
+    "service": "industrial_control",
+    "method": "decider_screened",
+    "baseline": "fixed_balanced",
+    "metric": "scenario_violation",
+    "baseline_minus_method": 1.0,
+    "ci95": [
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "service": "industrial_control",
+    "method": "decider_screened",
+    "baseline": "fixed_low_latency",
+    "metric": "p99_ms",
+    "baseline_minus_method": 0.38377277850696223,
+    "ci95": [
+      0.16666801989910182,
+      0.6407230186759518
+    ]
+  },
+  {
+    "service": "industrial_control",
+    "method": "decider_screened",
+    "baseline": "fixed_low_latency",
+    "metric": "miss_rate",
+    "baseline_minus_method": 0.004044444444444444,
+    "ci95": [
+      0.0,
+      0.011155555555555556
+    ]
+  },
+  {
+    "service": "industrial_control",
+    "method": "decider_screened",
+    "baseline": "fixed_low_latency",
+    "metric": "rx_duty",
+    "baseline_minus_method": -0.06666666666666665,
+    "ci95": [
+      -0.1,
+      -0.033333333333333326
+    ]
+  },
+  {
+    "service": "industrial_control",
+    "method": "decider_screened",
+    "baseline": "fixed_low_latency",
+    "metric": "scenario_violation",
+    "baseline_minus_method": 0.06666666666666667,
+    "ci95": [
+      0.0,
+      0.16666666666666666
+    ]
+  },
+  {
+    "service": "industrial_control",
+    "method": "decider_screened",
+    "baseline": "service_rule",
+    "metric": "p99_ms",
+    "baseline_minus_method": 0.38377277850696223,
+    "ci95": [
+      0.16666801989910182,
+      0.6407230186759518
+    ]
+  },
+  {
+    "service": "industrial_control",
+    "method": "decider_screened",
+    "baseline": "service_rule",
+    "metric": "miss_rate",
+    "baseline_minus_method": 0.004044444444444444,
+    "ci95": [
+      0.0,
+      0.011155555555555556
+    ]
+  },
+  {
+    "service": "industrial_control",
+    "method": "decider_screened",
+    "baseline": "service_rule",
+    "metric": "rx_duty",
+    "baseline_minus_method": -0.06666666666666665,
+    "ci95": [
+      -0.1,
+      -0.033333333333333326
+    ]
+  },
+  {
+    "service": "industrial_control",
+    "method": "decider_screened",
+    "baseline": "service_rule",
+    "metric": "scenario_violation",
+    "baseline_minus_method": 0.06666666666666667,
+    "ci95": [
+      0.0,
+      0.16666666666666666
+    ]
+  },
+  {
+    "service": "industrial_control",
+    "method": "decider_screened",
+    "baseline": "calibrated_per_service",
+    "metric": "p99_ms",
+    "baseline_minus_method": -0.8432557451851376,
+    "ci95": [
+      -1.1644427722082107,
+      -0.5361146537791083
+    ]
+  },
+  {
+    "service": "industrial_control",
+    "method": "decider_screened",
+    "baseline": "calibrated_per_service",
+    "metric": "miss_rate",
+    "baseline_minus_method": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "service": "industrial_control",
+    "method": "decider_screened",
+    "baseline": "calibrated_per_service",
+    "metric": "rx_duty",
+    "baseline_minus_method": 0.13333333333333333,
+    "ci95": [
+      0.1,
+      0.16666666666666666
+    ]
+  },
+  {
+    "service": "industrial_control",
+    "method": "decider_screened",
+    "baseline": "calibrated_per_service",
+    "metric": "scenario_violation",
+    "baseline_minus_method": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "service": "industrial_control",
+    "method": "decider_screened",
+    "baseline": "guard_only",
+    "metric": "p99_ms",
+    "baseline_minus_method": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "service": "industrial_control",
+    "method": "decider_screened",
+    "baseline": "guard_only",
+    "metric": "miss_rate",
+    "baseline_minus_method": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "service": "industrial_control",
+    "method": "decider_screened",
+    "baseline": "guard_only",
+    "metric": "rx_duty",
+    "baseline_minus_method": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "service": "industrial_control",
+    "method": "decider_screened",
+    "baseline": "guard_only",
+    "metric": "scenario_violation",
+    "baseline_minus_method": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "service": "industrial_control",
+    "method": "guard_only",
+    "baseline": "fixed_balanced",
+    "metric": "p99_ms",
+    "baseline_minus_method": 283.0908714894574,
+    "ci95": [
+      130.17166088884926,
+      463.5067661828002
+    ]
+  },
+  {
+    "service": "industrial_control",
+    "method": "guard_only",
+    "baseline": "fixed_balanced",
+    "metric": "miss_rate",
+    "baseline_minus_method": 0.8933109775105766,
+    "ci95": [
+      0.8629190364061454,
+      0.9217672361389445
+    ]
+  },
+  {
+    "service": "industrial_control",
+    "method": "guard_only",
+    "baseline": "fixed_balanced",
+    "metric": "rx_duty",
+    "baseline_minus_method": -0.7666666666666665,
+    "ci95": [
+      -0.7999999999999999,
+      -0.7333333333333332
+    ]
+  },
+  {
+    "service": "industrial_control",
+    "method": "guard_only",
+    "baseline": "fixed_balanced",
+    "metric": "scenario_violation",
+    "baseline_minus_method": 1.0,
+    "ci95": [
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "service": "industrial_control",
+    "method": "guard_only",
+    "baseline": "fixed_low_latency",
+    "metric": "p99_ms",
+    "baseline_minus_method": 0.38377277850696223,
+    "ci95": [
+      0.16666801989910182,
+      0.6407230186759518
+    ]
+  },
+  {
+    "service": "industrial_control",
+    "method": "guard_only",
+    "baseline": "fixed_low_latency",
+    "metric": "miss_rate",
+    "baseline_minus_method": 0.004044444444444444,
+    "ci95": [
+      0.0,
+      0.011155555555555556
+    ]
+  },
+  {
+    "service": "industrial_control",
+    "method": "guard_only",
+    "baseline": "fixed_low_latency",
+    "metric": "rx_duty",
+    "baseline_minus_method": -0.06666666666666665,
+    "ci95": [
+      -0.1,
+      -0.033333333333333326
+    ]
+  },
+  {
+    "service": "industrial_control",
+    "method": "guard_only",
+    "baseline": "fixed_low_latency",
+    "metric": "scenario_violation",
+    "baseline_minus_method": 0.06666666666666667,
+    "ci95": [
+      0.0,
+      0.16666666666666666
+    ]
+  },
+  {
+    "service": "industrial_control",
+    "method": "guard_only",
+    "baseline": "service_rule",
+    "metric": "p99_ms",
+    "baseline_minus_method": 0.38377277850696223,
+    "ci95": [
+      0.16666801989910182,
+      0.6407230186759518
+    ]
+  },
+  {
+    "service": "industrial_control",
+    "method": "guard_only",
+    "baseline": "service_rule",
+    "metric": "miss_rate",
+    "baseline_minus_method": 0.004044444444444444,
+    "ci95": [
+      0.0,
+      0.011155555555555556
+    ]
+  },
+  {
+    "service": "industrial_control",
+    "method": "guard_only",
+    "baseline": "service_rule",
+    "metric": "rx_duty",
+    "baseline_minus_method": -0.06666666666666665,
+    "ci95": [
+      -0.1,
+      -0.033333333333333326
+    ]
+  },
+  {
+    "service": "industrial_control",
+    "method": "guard_only",
+    "baseline": "service_rule",
+    "metric": "scenario_violation",
+    "baseline_minus_method": 0.06666666666666667,
+    "ci95": [
+      0.0,
+      0.16666666666666666
+    ]
+  },
+  {
+    "service": "industrial_control",
+    "method": "guard_only",
+    "baseline": "calibrated_per_service",
+    "metric": "p99_ms",
+    "baseline_minus_method": -0.8432557451851376,
+    "ci95": [
+      -1.1644427722082107,
+      -0.5361146537791083
+    ]
+  },
+  {
+    "service": "industrial_control",
+    "method": "guard_only",
+    "baseline": "calibrated_per_service",
+    "metric": "miss_rate",
+    "baseline_minus_method": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "service": "industrial_control",
+    "method": "guard_only",
+    "baseline": "calibrated_per_service",
+    "metric": "rx_duty",
+    "baseline_minus_method": 0.13333333333333333,
+    "ci95": [
+      0.1,
+      0.16666666666666666
+    ]
+  },
+  {
+    "service": "industrial_control",
+    "method": "guard_only",
+    "baseline": "calibrated_per_service",
+    "metric": "scenario_violation",
+    "baseline_minus_method": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "service": "xr",
+    "method": "decider_raw",
+    "baseline": "fixed_balanced",
+    "metric": "p99_ms",
+    "baseline_minus_method": 206.53749040428508,
+    "ci95": [
+      96.04989620897204,
+      345.80092154328855
+    ]
+  },
+  {
+    "service": "xr",
+    "method": "decider_raw",
+    "baseline": "fixed_balanced",
+    "metric": "miss_rate",
+    "baseline_minus_method": 0.5605079164662498,
+    "ci95": [
+      0.46094064604377094,
+      0.6514437525052107
+    ]
+  },
+  {
+    "service": "xr",
+    "method": "decider_raw",
+    "baseline": "fixed_balanced",
+    "metric": "rx_duty",
+    "baseline_minus_method": -0.24999999999999997,
+    "ci95": [
+      -0.32,
+      -0.18666666666666665
+    ]
+  },
+  {
+    "service": "xr",
+    "method": "decider_raw",
+    "baseline": "fixed_balanced",
+    "metric": "scenario_violation",
+    "baseline_minus_method": 0.36666666666666664,
+    "ci95": [
+      0.2,
+      0.5333333333333333
+    ]
+  },
+  {
+    "service": "xr",
+    "method": "decider_raw",
+    "baseline": "fixed_low_latency",
+    "metric": "p99_ms",
+    "baseline_minus_method": -20.562569779547005,
+    "ci95": [
+      -45.647436812620974,
+      -7.105598393455146
+    ]
+  },
+  {
+    "service": "xr",
+    "method": "decider_raw",
+    "baseline": "fixed_low_latency",
+    "metric": "miss_rate",
+    "baseline_minus_method": -0.3008584856501523,
+    "ci95": [
+      -0.40438717031425364,
+      -0.2052451950056117
+    ]
+  },
+  {
+    "service": "xr",
+    "method": "decider_raw",
+    "baseline": "fixed_low_latency",
+    "metric": "rx_duty",
+    "baseline_minus_method": 0.45,
+    "ci95": [
+      0.38000000000000006,
+      0.5133333333333333
+    ]
+  },
+  {
+    "service": "xr",
+    "method": "decider_raw",
+    "baseline": "fixed_low_latency",
+    "metric": "scenario_violation",
+    "baseline_minus_method": -0.6333333333333333,
+    "ci95": [
+      -0.8,
+      -0.4666666666666667
+    ]
+  },
+  {
+    "service": "xr",
+    "method": "decider_raw",
+    "baseline": "service_rule",
+    "metric": "p99_ms",
+    "baseline_minus_method": -16.585928935521324,
+    "ci95": [
+      -41.65237370991571,
+      -3.1140233213040824
+    ]
+  },
+  {
+    "service": "xr",
+    "method": "decider_raw",
+    "baseline": "service_rule",
+    "metric": "miss_rate",
+    "baseline_minus_method": -0.24616673347228898,
+    "ci95": [
+      -0.3453081309122976,
+      -0.15727388000374112
+    ]
+  },
+  {
+    "service": "xr",
+    "method": "decider_raw",
+    "baseline": "service_rule",
+    "metric": "rx_duty",
+    "baseline_minus_method": 0.05,
+    "ci95": [
+      -0.020000000000000004,
+      0.11333333333333334
+    ]
+  },
+  {
+    "service": "xr",
+    "method": "decider_raw",
+    "baseline": "service_rule",
+    "metric": "scenario_violation",
+    "baseline_minus_method": -0.26666666666666666,
+    "ci95": [
+      -0.4666666666666667,
+      -0.06666666666666667
+    ]
+  },
+  {
+    "service": "xr",
+    "method": "decider_raw",
+    "baseline": "calibrated_per_service",
+    "metric": "p99_ms",
+    "baseline_minus_method": -20.562569779547005,
+    "ci95": [
+      -45.647436812620974,
+      -7.105598393455146
+    ]
+  },
+  {
+    "service": "xr",
+    "method": "decider_raw",
+    "baseline": "calibrated_per_service",
+    "metric": "miss_rate",
+    "baseline_minus_method": -0.3008584856501523,
+    "ci95": [
+      -0.40438717031425364,
+      -0.2052451950056117
+    ]
+  },
+  {
+    "service": "xr",
+    "method": "decider_raw",
+    "baseline": "calibrated_per_service",
+    "metric": "rx_duty",
+    "baseline_minus_method": 0.45,
+    "ci95": [
+      0.38000000000000006,
+      0.5133333333333333
+    ]
+  },
+  {
+    "service": "xr",
+    "method": "decider_raw",
+    "baseline": "calibrated_per_service",
+    "metric": "scenario_violation",
+    "baseline_minus_method": -0.6333333333333333,
+    "ci95": [
+      -0.8,
+      -0.4666666666666667
+    ]
+  },
+  {
+    "service": "xr",
+    "method": "decider_raw",
+    "baseline": "guard_only",
+    "metric": "p99_ms",
+    "baseline_minus_method": -18.316175713670596,
+    "ci95": [
+      -43.63694631433378,
+      -4.5855944368307275
+    ]
+  },
+  {
+    "service": "xr",
+    "method": "decider_raw",
+    "baseline": "guard_only",
+    "metric": "miss_rate",
+    "baseline_minus_method": -0.3008584856501523,
+    "ci95": [
+      -0.40438717031425364,
+      -0.2052451950056117
+    ]
+  },
+  {
+    "service": "xr",
+    "method": "decider_raw",
+    "baseline": "guard_only",
+    "metric": "rx_duty",
+    "baseline_minus_method": 0.22333333333333333,
+    "ci95": [
+      0.11991666666666669,
+      0.33
+    ]
+  },
+  {
+    "service": "xr",
+    "method": "decider_raw",
+    "baseline": "guard_only",
+    "metric": "scenario_violation",
+    "baseline_minus_method": -0.6333333333333333,
+    "ci95": [
+      -0.8,
+      -0.4666666666666667
+    ]
+  },
+  {
+    "service": "xr",
+    "method": "decider_screened",
+    "baseline": "fixed_balanced",
+    "metric": "p99_ms",
+    "baseline_minus_method": 225.7109457835185,
+    "ci95": [
+      112.89238164788152,
+      365.89359685551574
+    ]
+  },
+  {
+    "service": "xr",
+    "method": "decider_screened",
+    "baseline": "fixed_balanced",
+    "metric": "miss_rate",
+    "baseline_minus_method": 0.8613664021164021,
+    "ci95": [
+      0.8199119543650795,
+      0.902728549382716
+    ]
+  },
+  {
+    "service": "xr",
+    "method": "decider_screened",
+    "baseline": "fixed_balanced",
+    "metric": "rx_duty",
+    "baseline_minus_method": -0.56,
+    "ci95": [
+      -0.6333333333333333,
+      -0.48666666666666675
+    ]
+  },
+  {
+    "service": "xr",
+    "method": "decider_screened",
+    "baseline": "fixed_balanced",
+    "metric": "scenario_violation",
+    "baseline_minus_method": 1.0,
+    "ci95": [
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "service": "xr",
+    "method": "decider_screened",
+    "baseline": "fixed_low_latency",
+    "metric": "p99_ms",
+    "baseline_minus_method": -1.389114400313576,
+    "ci95": [
+      -2.0834679688042534,
+      -0.6581499284420887
+    ]
+  },
+  {
+    "service": "xr",
+    "method": "decider_screened",
+    "baseline": "fixed_low_latency",
+    "metric": "miss_rate",
+    "baseline_minus_method": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "service": "xr",
+    "method": "decider_screened",
+    "baseline": "fixed_low_latency",
+    "metric": "rx_duty",
+    "baseline_minus_method": 0.14,
+    "ci95": [
+      0.06666666666666667,
+      0.21333333333333335
+    ]
+  },
+  {
+    "service": "xr",
+    "method": "decider_screened",
+    "baseline": "fixed_low_latency",
+    "metric": "scenario_violation",
+    "baseline_minus_method": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "service": "xr",
+    "method": "decider_screened",
+    "baseline": "service_rule",
+    "metric": "p99_ms",
+    "baseline_minus_method": 2.5875264437121035,
+    "ci95": [
+      1.870721023971507,
+      3.3231652865465886
+    ]
+  },
+  {
+    "service": "xr",
+    "method": "decider_screened",
+    "baseline": "service_rule",
+    "metric": "miss_rate",
+    "baseline_minus_method": 0.05469175217786328,
+    "ci95": [
+      0.024665803371011704,
+      0.08804192370129868
+    ]
+  },
+  {
+    "service": "xr",
+    "method": "decider_screened",
+    "baseline": "service_rule",
+    "metric": "rx_duty",
+    "baseline_minus_method": -0.26000000000000006,
+    "ci95": [
+      -0.33333333333333337,
+      -0.1866666666666667
+    ]
+  },
+  {
+    "service": "xr",
+    "method": "decider_screened",
+    "baseline": "service_rule",
+    "metric": "scenario_violation",
+    "baseline_minus_method": 0.36666666666666664,
+    "ci95": [
+      0.2,
+      0.5333333333333333
+    ]
+  },
+  {
+    "service": "xr",
+    "method": "decider_screened",
+    "baseline": "calibrated_per_service",
+    "metric": "p99_ms",
+    "baseline_minus_method": -1.389114400313576,
+    "ci95": [
+      -2.0834679688042534,
+      -0.6581499284420887
+    ]
+  },
+  {
+    "service": "xr",
+    "method": "decider_screened",
+    "baseline": "calibrated_per_service",
+    "metric": "miss_rate",
+    "baseline_minus_method": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "service": "xr",
+    "method": "decider_screened",
+    "baseline": "calibrated_per_service",
+    "metric": "rx_duty",
+    "baseline_minus_method": 0.14,
+    "ci95": [
+      0.06666666666666667,
+      0.21333333333333335
+    ]
+  },
+  {
+    "service": "xr",
+    "method": "decider_screened",
+    "baseline": "calibrated_per_service",
+    "metric": "scenario_violation",
+    "baseline_minus_method": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "service": "xr",
+    "method": "decider_screened",
+    "baseline": "guard_only",
+    "metric": "p99_ms",
+    "baseline_minus_method": 0.8572796655628336,
+    "ci95": [
+      0.3383383635078203,
+      1.43814772700325
+    ]
+  },
+  {
+    "service": "xr",
+    "method": "decider_screened",
+    "baseline": "guard_only",
+    "metric": "miss_rate",
+    "baseline_minus_method": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "service": "xr",
+    "method": "decider_screened",
+    "baseline": "guard_only",
+    "metric": "rx_duty",
+    "baseline_minus_method": -0.08666666666666667,
+    "ci95": [
+      -0.14666666666666667,
+      -0.03333333333333333
+    ]
+  },
+  {
+    "service": "xr",
+    "method": "decider_screened",
+    "baseline": "guard_only",
+    "metric": "scenario_violation",
+    "baseline_minus_method": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "service": "xr",
+    "method": "guard_only",
+    "baseline": "fixed_balanced",
+    "metric": "p99_ms",
+    "baseline_minus_method": 224.85366611795564,
+    "ci95": [
+      111.80947455703823,
+      364.8804354318496
+    ]
+  },
+  {
+    "service": "xr",
+    "method": "guard_only",
+    "baseline": "fixed_balanced",
+    "metric": "miss_rate",
+    "baseline_minus_method": 0.8613664021164021,
+    "ci95": [
+      0.8199119543650795,
+      0.902728549382716
+    ]
+  },
+  {
+    "service": "xr",
+    "method": "guard_only",
+    "baseline": "fixed_balanced",
+    "metric": "rx_duty",
+    "baseline_minus_method": -0.4733333333333334,
+    "ci95": [
+      -0.5533333333333332,
+      -0.3933333333333334
+    ]
+  },
+  {
+    "service": "xr",
+    "method": "guard_only",
+    "baseline": "fixed_balanced",
+    "metric": "scenario_violation",
+    "baseline_minus_method": 1.0,
+    "ci95": [
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "service": "xr",
+    "method": "guard_only",
+    "baseline": "fixed_low_latency",
+    "metric": "p99_ms",
+    "baseline_minus_method": -2.2463940658764097,
+    "ci95": [
+      -3.040841176078826,
+      -1.4791373721232766
+    ]
+  },
+  {
+    "service": "xr",
+    "method": "guard_only",
+    "baseline": "fixed_low_latency",
+    "metric": "miss_rate",
+    "baseline_minus_method": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "service": "xr",
+    "method": "guard_only",
+    "baseline": "fixed_low_latency",
+    "metric": "rx_duty",
+    "baseline_minus_method": 0.22666666666666668,
+    "ci95": [
+      0.1466666666666667,
+      0.3066666666666667
+    ]
+  },
+  {
+    "service": "xr",
+    "method": "guard_only",
+    "baseline": "fixed_low_latency",
+    "metric": "scenario_violation",
+    "baseline_minus_method": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "service": "xr",
+    "method": "guard_only",
+    "baseline": "service_rule",
+    "metric": "p99_ms",
+    "baseline_minus_method": 1.7302467781492696,
+    "ci95": [
+      0.9334680524502329,
+      2.520958631212498
+    ]
+  },
+  {
+    "service": "xr",
+    "method": "guard_only",
+    "baseline": "service_rule",
+    "metric": "miss_rate",
+    "baseline_minus_method": 0.05469175217786328,
+    "ci95": [
+      0.024665803371011704,
+      0.08804192370129868
+    ]
+  },
+  {
+    "service": "xr",
+    "method": "guard_only",
+    "baseline": "service_rule",
+    "metric": "rx_duty",
+    "baseline_minus_method": -0.17333333333333337,
+    "ci95": [
+      -0.25333333333333335,
+      -0.09333333333333332
+    ]
+  },
+  {
+    "service": "xr",
+    "method": "guard_only",
+    "baseline": "service_rule",
+    "metric": "scenario_violation",
+    "baseline_minus_method": 0.36666666666666664,
+    "ci95": [
+      0.2,
+      0.5333333333333333
+    ]
+  },
+  {
+    "service": "xr",
+    "method": "guard_only",
+    "baseline": "calibrated_per_service",
+    "metric": "p99_ms",
+    "baseline_minus_method": -2.2463940658764097,
+    "ci95": [
+      -3.040841176078826,
+      -1.4791373721232766
+    ]
+  },
+  {
+    "service": "xr",
+    "method": "guard_only",
+    "baseline": "calibrated_per_service",
+    "metric": "miss_rate",
+    "baseline_minus_method": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "service": "xr",
+    "method": "guard_only",
+    "baseline": "calibrated_per_service",
+    "metric": "rx_duty",
+    "baseline_minus_method": 0.22666666666666668,
+    "ci95": [
+      0.1466666666666667,
+      0.3066666666666667
+    ]
+  },
+  {
+    "service": "xr",
+    "method": "guard_only",
+    "baseline": "calibrated_per_service",
+    "metric": "scenario_violation",
+    "baseline_minus_method": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "service": "gaming",
+    "method": "decider_raw",
+    "baseline": "fixed_balanced",
+    "metric": "p99_ms",
+    "baseline_minus_method": 28.069450744281927,
+    "ci95": [
+      26.205580002185034,
+      29.931176578806976
+    ]
+  },
+  {
+    "service": "gaming",
+    "method": "decider_raw",
+    "baseline": "fixed_balanced",
+    "metric": "miss_rate",
+    "baseline_minus_method": 0.5336904344864498,
+    "ci95": [
+      0.5066824028122416,
+      0.5628412425767798
+    ]
+  },
+  {
+    "service": "gaming",
+    "method": "decider_raw",
+    "baseline": "fixed_balanced",
+    "metric": "rx_duty",
+    "baseline_minus_method": -0.4400000000000001,
+    "ci95": [
+      -0.5133333333333334,
+      -0.3666666666666668
+    ]
+  },
+  {
+    "service": "gaming",
+    "method": "decider_raw",
+    "baseline": "fixed_balanced",
+    "metric": "scenario_violation",
+    "baseline_minus_method": 0.9666666666666667,
+    "ci95": [
+      0.9,
+      1.0
+    ]
+  },
+  {
+    "service": "gaming",
+    "method": "decider_raw",
+    "baseline": "fixed_low_latency",
+    "metric": "p99_ms",
+    "baseline_minus_method": -3.5802454701821245,
+    "ci95": [
+      -4.9019306491920664,
+      -2.3246330601530003
+    ]
+  },
+  {
+    "service": "gaming",
+    "method": "decider_raw",
+    "baseline": "fixed_low_latency",
+    "metric": "miss_rate",
+    "baseline_minus_method": -0.000625,
+    "ci95": [
+      -0.0018749999999999997,
+      0.0
+    ]
+  },
+  {
+    "service": "gaming",
+    "method": "decider_raw",
+    "baseline": "fixed_low_latency",
+    "metric": "rx_duty",
+    "baseline_minus_method": 0.26000000000000006,
+    "ci95": [
+      0.1866666666666667,
+      0.33333333333333337
+    ]
+  },
+  {
+    "service": "gaming",
+    "method": "decider_raw",
+    "baseline": "fixed_low_latency",
+    "metric": "scenario_violation",
+    "baseline_minus_method": -0.03333333333333333,
+    "ci95": [
+      -0.1,
+      0.0
+    ]
+  },
+  {
+    "service": "gaming",
+    "method": "decider_raw",
+    "baseline": "service_rule",
+    "metric": "p99_ms",
+    "baseline_minus_method": 4.964284059639152,
+    "ci95": [
+      3.4347354327176496,
+      6.521256590987836
+    ]
+  },
+  {
+    "service": "gaming",
+    "method": "decider_raw",
+    "baseline": "service_rule",
+    "metric": "miss_rate",
+    "baseline_minus_method": 0.00125,
+    "ci95": [
+      0.0,
+      0.0037499999999999994
+    ]
+  },
+  {
+    "service": "gaming",
+    "method": "decider_raw",
+    "baseline": "service_rule",
+    "metric": "rx_duty",
+    "baseline_minus_method": -0.14,
+    "ci95": [
+      -0.2133333333333334,
+      -0.06666666666666667
+    ]
+  },
+  {
+    "service": "gaming",
+    "method": "decider_raw",
+    "baseline": "service_rule",
+    "metric": "scenario_violation",
+    "baseline_minus_method": 0.03333333333333333,
+    "ci95": [
+      0.0,
+      0.1
+    ]
+  },
+  {
+    "service": "gaming",
+    "method": "decider_raw",
+    "baseline": "calibrated_per_service",
+    "metric": "p99_ms",
+    "baseline_minus_method": 1.9556443801118124,
+    "ci95": [
+      0.5769807711404715,
+      3.3221964279579037
+    ]
+  },
+  {
+    "service": "gaming",
+    "method": "decider_raw",
+    "baseline": "calibrated_per_service",
+    "metric": "miss_rate",
+    "baseline_minus_method": -0.000625,
+    "ci95": [
+      -0.0018749999999999997,
+      0.0
+    ]
+  },
+  {
+    "service": "gaming",
+    "method": "decider_raw",
+    "baseline": "calibrated_per_service",
+    "metric": "rx_duty",
+    "baseline_minus_method": -0.33999999999999986,
+    "ci95": [
+      -0.4133333333333333,
+      -0.2666666666666667
+    ]
+  },
+  {
+    "service": "gaming",
+    "method": "decider_raw",
+    "baseline": "calibrated_per_service",
+    "metric": "scenario_violation",
+    "baseline_minus_method": -0.03333333333333333,
+    "ci95": [
+      -0.1,
+      0.0
+    ]
+  },
+  {
+    "service": "gaming",
+    "method": "decider_raw",
+    "baseline": "guard_only",
+    "metric": "p99_ms",
+    "baseline_minus_method": 1.9556443801118124,
+    "ci95": [
+      0.5769807711404715,
+      3.3221964279579037
+    ]
+  },
+  {
+    "service": "gaming",
+    "method": "decider_raw",
+    "baseline": "guard_only",
+    "metric": "miss_rate",
+    "baseline_minus_method": -0.000625,
+    "ci95": [
+      -0.0018749999999999997,
+      0.0
+    ]
+  },
+  {
+    "service": "gaming",
+    "method": "decider_raw",
+    "baseline": "guard_only",
+    "metric": "rx_duty",
+    "baseline_minus_method": -0.33999999999999986,
+    "ci95": [
+      -0.4133333333333333,
+      -0.2666666666666667
+    ]
+  },
+  {
+    "service": "gaming",
+    "method": "decider_raw",
+    "baseline": "guard_only",
+    "metric": "scenario_violation",
+    "baseline_minus_method": -0.03333333333333333,
+    "ci95": [
+      -0.1,
+      0.0
+    ]
+  },
+  {
+    "service": "gaming",
+    "method": "decider_screened",
+    "baseline": "fixed_balanced",
+    "metric": "p99_ms",
+    "baseline_minus_method": 28.655771335104212,
+    "ci95": [
+      26.863908517098345,
+      30.407795887465646
+    ]
+  },
+  {
+    "service": "gaming",
+    "method": "decider_screened",
+    "baseline": "fixed_balanced",
+    "metric": "miss_rate",
+    "baseline_minus_method": 0.5343154344864497,
+    "ci95": [
+      0.5071444105213081,
+      0.5637905135672273
+    ]
+  },
+  {
+    "service": "gaming",
+    "method": "decider_screened",
+    "baseline": "fixed_balanced",
+    "metric": "rx_duty",
+    "baseline_minus_method": -0.46000000000000013,
+    "ci95": [
+      -0.5399999999999999,
+      -0.3933333333333334
+    ]
+  },
+  {
+    "service": "gaming",
+    "method": "decider_screened",
+    "baseline": "fixed_balanced",
+    "metric": "scenario_violation",
+    "baseline_minus_method": 1.0,
+    "ci95": [
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "service": "gaming",
+    "method": "decider_screened",
+    "baseline": "fixed_low_latency",
+    "metric": "p99_ms",
+    "baseline_minus_method": -2.993924879359833,
+    "ci95": [
+      -4.184280496852538,
+      -1.8650976175906684
+    ]
+  },
+  {
+    "service": "gaming",
+    "method": "decider_screened",
+    "baseline": "fixed_low_latency",
+    "metric": "miss_rate",
+    "baseline_minus_method": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "service": "gaming",
+    "method": "decider_screened",
+    "baseline": "fixed_low_latency",
+    "metric": "rx_duty",
+    "baseline_minus_method": 0.24000000000000007,
+    "ci95": [
+      0.16000000000000003,
+      0.3066666666666667
+    ]
+  },
+  {
+    "service": "gaming",
+    "method": "decider_screened",
+    "baseline": "fixed_low_latency",
+    "metric": "scenario_violation",
+    "baseline_minus_method": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "service": "gaming",
+    "method": "decider_screened",
+    "baseline": "service_rule",
+    "metric": "p99_ms",
+    "baseline_minus_method": 5.550604650461443,
+    "ci95": [
+      4.070671901991883,
+      7.056794715588204
+    ]
+  },
+  {
+    "service": "gaming",
+    "method": "decider_screened",
+    "baseline": "service_rule",
+    "metric": "miss_rate",
+    "baseline_minus_method": 0.0018749999999999997,
+    "ci95": [
+      0.0,
+      0.005
+    ]
+  },
+  {
+    "service": "gaming",
+    "method": "decider_screened",
+    "baseline": "service_rule",
+    "metric": "rx_duty",
+    "baseline_minus_method": -0.16000000000000003,
+    "ci95": [
+      -0.24000000000000005,
+      -0.09333333333333332
+    ]
+  },
+  {
+    "service": "gaming",
+    "method": "decider_screened",
+    "baseline": "service_rule",
+    "metric": "scenario_violation",
+    "baseline_minus_method": 0.06666666666666667,
+    "ci95": [
+      0.0,
+      0.16666666666666666
+    ]
+  },
+  {
+    "service": "gaming",
+    "method": "decider_screened",
+    "baseline": "calibrated_per_service",
+    "metric": "p99_ms",
+    "baseline_minus_method": 2.5419649709341035,
+    "ci95": [
+      1.4089790790512913,
+      3.7616730804753673
+    ]
+  },
+  {
+    "service": "gaming",
+    "method": "decider_screened",
+    "baseline": "calibrated_per_service",
+    "metric": "miss_rate",
+    "baseline_minus_method": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "service": "gaming",
+    "method": "decider_screened",
+    "baseline": "calibrated_per_service",
+    "metric": "rx_duty",
+    "baseline_minus_method": -0.35999999999999993,
+    "ci95": [
+      -0.4399999999999999,
+      -0.2933333333333333
+    ]
+  },
+  {
+    "service": "gaming",
+    "method": "decider_screened",
+    "baseline": "calibrated_per_service",
+    "metric": "scenario_violation",
+    "baseline_minus_method": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "service": "gaming",
+    "method": "decider_screened",
+    "baseline": "guard_only",
+    "metric": "p99_ms",
+    "baseline_minus_method": 2.5419649709341035,
+    "ci95": [
+      1.4089790790512913,
+      3.7616730804753673
+    ]
+  },
+  {
+    "service": "gaming",
+    "method": "decider_screened",
+    "baseline": "guard_only",
+    "metric": "miss_rate",
+    "baseline_minus_method": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "service": "gaming",
+    "method": "decider_screened",
+    "baseline": "guard_only",
+    "metric": "rx_duty",
+    "baseline_minus_method": -0.35999999999999993,
+    "ci95": [
+      -0.4399999999999999,
+      -0.2933333333333333
+    ]
+  },
+  {
+    "service": "gaming",
+    "method": "decider_screened",
+    "baseline": "guard_only",
+    "metric": "scenario_violation",
+    "baseline_minus_method": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "service": "gaming",
+    "method": "guard_only",
+    "baseline": "fixed_balanced",
+    "metric": "p99_ms",
+    "baseline_minus_method": 26.113806364170113,
+    "ci95": [
+      24.474928919060467,
+      27.50991409140844
+    ]
+  },
+  {
+    "service": "gaming",
+    "method": "guard_only",
+    "baseline": "fixed_balanced",
+    "metric": "miss_rate",
+    "baseline_minus_method": 0.5343154344864497,
+    "ci95": [
+      0.5071444105213081,
+      0.5637905135672273
+    ]
+  },
+  {
+    "service": "gaming",
+    "method": "guard_only",
+    "baseline": "fixed_balanced",
+    "metric": "rx_duty",
+    "baseline_minus_method": -0.10000000000000003,
+    "ci95": [
+      -0.10000000000000003,
+      -0.10000000000000003
+    ]
+  },
+  {
+    "service": "gaming",
+    "method": "guard_only",
+    "baseline": "fixed_balanced",
+    "metric": "scenario_violation",
+    "baseline_minus_method": 1.0,
+    "ci95": [
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "service": "gaming",
+    "method": "guard_only",
+    "baseline": "fixed_low_latency",
+    "metric": "p99_ms",
+    "baseline_minus_method": -5.5358898502939375,
+    "ci95": [
+      -6.0968663832569465,
+      -4.87747537294078
+    ]
+  },
+  {
+    "service": "gaming",
+    "method": "guard_only",
+    "baseline": "fixed_low_latency",
+    "metric": "miss_rate",
+    "baseline_minus_method": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "service": "gaming",
+    "method": "guard_only",
+    "baseline": "fixed_low_latency",
+    "metric": "rx_duty",
+    "baseline_minus_method": 0.6000000000000002,
+    "ci95": [
+      0.6000000000000002,
+      0.6000000000000002
+    ]
+  },
+  {
+    "service": "gaming",
+    "method": "guard_only",
+    "baseline": "fixed_low_latency",
+    "metric": "scenario_violation",
+    "baseline_minus_method": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "service": "gaming",
+    "method": "guard_only",
+    "baseline": "service_rule",
+    "metric": "p99_ms",
+    "baseline_minus_method": 3.008639679527341,
+    "ci95": [
+      1.7941158107386643,
+      4.075875235448757
+    ]
+  },
+  {
+    "service": "gaming",
+    "method": "guard_only",
+    "baseline": "service_rule",
+    "metric": "miss_rate",
+    "baseline_minus_method": 0.0018749999999999997,
+    "ci95": [
+      0.0,
+      0.005
+    ]
+  },
+  {
+    "service": "gaming",
+    "method": "guard_only",
+    "baseline": "service_rule",
+    "metric": "rx_duty",
+    "baseline_minus_method": 0.20000000000000007,
+    "ci95": [
+      0.20000000000000007,
+      0.20000000000000007
+    ]
+  },
+  {
+    "service": "gaming",
+    "method": "guard_only",
+    "baseline": "service_rule",
+    "metric": "scenario_violation",
+    "baseline_minus_method": 0.06666666666666667,
+    "ci95": [
+      0.0,
+      0.16666666666666666
+    ]
+  },
+  {
+    "service": "gaming",
+    "method": "guard_only",
+    "baseline": "calibrated_per_service",
+    "metric": "p99_ms",
+    "baseline_minus_method": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "service": "gaming",
+    "method": "guard_only",
+    "baseline": "calibrated_per_service",
+    "metric": "miss_rate",
+    "baseline_minus_method": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "service": "gaming",
+    "method": "guard_only",
+    "baseline": "calibrated_per_service",
+    "metric": "rx_duty",
+    "baseline_minus_method": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "service": "gaming",
+    "method": "guard_only",
+    "baseline": "calibrated_per_service",
+    "metric": "scenario_violation",
+    "baseline_minus_method": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  }
+]

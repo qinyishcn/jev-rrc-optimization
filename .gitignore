@@ -1,0 +1,13 @@
+.venv/
+external/
+models/
+data/rrc/
+__pycache__/
+.pytest_cache/
+*.pyc
+artifacts/*.log
+artifacts/*.err
+artifacts/pilot_baselines/
+**/*.interrupted
+artifacts/private/
+tmp/

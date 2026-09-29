@@ -1,0 +1,269 @@
+{
+  "model_identity": {
+    "files_sha256": {
+      "chat_template.jinja": "273d8e0e683b885071fb17e08d71e5f2a5ddfb5309756181681de4f5a1822d80",
+      "config.json": "6cb8daca9fb653c61485ff7452fc068bacd5c27cbee659ecd24b47186b0d1b52",
+      "decider_config.json": "6e4891f2754a1c18a10f8dadb0c04e439e7f79fab0333d56641491bd4a05e722",
+      "eval_results.json": "9a8e3939a9656a138c3852ce1902780fd329915bb7c5f2910c50914dfcd78102",
+      "generation_config.json": "62153eb6c69f2e1f426beaa8002b7186437e949c7588167085df14e10e9c0a73",
+      "model.safetensors": "acaef2228b134dcdc20cad4ee79219482c927ec819aa3687b9b8a575c338817f",
+      "tokenizer.json": "06b9509352d2af50381ab2247e083b80d32d5c0aba91c272ca9ff729b6a0e523",
+      "tokenizer_config.json": "171ecbe7ddae98d11840698f7df2b8d5b4722139db0f0620d3bbf429bd656250"
+    },
+    "inference_code_sha256": {
+      "infer.py": "97b9210718c61c99a4ff9dc43821e842e18f6015a897c5848e0688f08785e1dd",
+      "model.py": "165f18b7fb897a1fa744edf8c2b5f4120e0f6ca940501d010626b31f68b47dc1",
+      "prompt.py": "d8856e0d0dbc2e50a055b4037efb9bdff932eed7b2fd413ebf1e0eefd138935e",
+      "temperature.py": "ba71f43b2ec9ff4a941edeb415fc5f3918dbb837c7d789dc4520f4bc0ce04353"
+    },
+    "engine": "Decider torch eager, bfloat16, use_graphs=False",
+    "packages": {
+      "torch": "2.6.0+cu124",
+      "transformers": "5.6.2",
+      "numpy": "1.26.4",
+      "decider-ai": "1.6.0"
+    },
+    "python": "3.12.10",
+    "gpu": "NVIDIA GeForce RTX 3070"
+  },
+  "input_rows": 16,
+  "unique_ul_contexts": 7,
+  "matching_contexts": 5,
+  "scope": "Protocol sanity only: tiny repeated sample; stripped NAS creates ambiguity; no held-out generalization claim.",
+  "records": [
+    {
+      "ul_types": [
+        "rrcConnectionRequest"
+      ],
+      "observed_first_dl_options": [
+        "rrcConnectionSetup"
+      ],
+      "ambiguous_in_public_data": false,
+      "result": {
+        "choice": "rrcConnectionSetup",
+        "confidence": 0.8686333894729614,
+        "probs": {
+          "rrcConnectionSetup": 0.8686333894729614,
+          "dlInformationTransfer": 0.010077514685690403,
+          "paging": 0.013181013986468315,
+          "rrcConnectionRelease": 0.0050142426043748856,
+          "rrcConnectionReconfiguration": 0.015484812669456005,
+          "ueCapabilityEnquiry": 0.07753150165081024,
+          "securityModeCommand": 0.010077514685690403
+        },
+        "probs_list": [
+          0.8686333894729614,
+          0.010077514685690403,
+          0.013181013986468315,
+          0.0050142426043748856,
+          0.015484812669456005,
+          0.07753150165081024,
+          0.010077514685690403
+        ]
+      },
+      "matches_any_observed_first_dl": true,
+      "elapsed_ms_including_first_cold_call": 507.87480012513697
+    },
+    {
+      "ul_types": [
+        "rrcConnectionSetupComplete"
+      ],
+      "observed_first_dl_options": [
+        "dlInformationTransfer",
+        "securityModeCommand"
+      ],
+      "ambiguous_in_public_data": true,
+      "result": {
+        "choice": "securityModeCommand",
+        "confidence": 0.31629809737205505,
+        "probs": {
+          "paging": 0.12032429873943329,
+          "dlInformationTransfer": 0.17522132396697998,
+          "rrcConnectionRelease": 0.07421332597732544,
+          "ueCapabilityEnquiry": 0.029789114370942116,
+          "rrcConnectionSetup": 0.07830704003572464,
+          "securityModeCommand": 0.31629809737205505,
+          "rrcConnectionReconfiguration": 0.20584678649902344
+        },
+        "probs_list": [
+          0.12032429873943329,
+          0.17522132396697998,
+          0.07421332597732544,
+          0.029789114370942116,
+          0.07830704003572464,
+          0.31629809737205505,
+          0.20584678649902344
+        ]
+      },
+      "matches_any_observed_first_dl": true,
+      "elapsed_ms_including_first_cold_call": 177.15199990198016
+    },
+    {
+      "ul_types": [
+        "ulInformationTransfer"
+      ],
+      "observed_first_dl_options": [
+        "dlInformationTransfer",
+        "securityModeCommand"
+      ],
+      "ambiguous_in_public_data": true,
+      "result": {
+        "choice": "dlInformationTransfer",
+        "confidence": 0.795006513595581,
+        "probs": {
+          "rrcConnectionSetup": 0.018536832183599472,
+          "rrcConnectionRelease": 0.025582900270819664,
+          "paging": 0.03005431964993477,
+          "ueCapabilityEnquiry": 0.010835395194590092,
+          "dlInformationTransfer": 0.795006513595581,
+          "securityModeCommand": 0.01664934866130352,
+          "rrcConnectionReconfiguration": 0.10333464294672012
+        },
+        "probs_list": [
+          0.018536832183599472,
+          0.025582900270819664,
+          0.03005431964993477,
+          0.010835395194590092,
+          0.795006513595581,
+          0.01664934866130352,
+          0.10333464294672012
+        ]
+      },
+      "matches_any_observed_first_dl": true,
+      "elapsed_ms_including_first_cold_call": 190.7971000764519
+    },
+    {
+      "ul_types": [
+        "securityModeComplete"
+      ],
+      "observed_first_dl_options": [
+        "ueCapabilityEnquiry"
+      ],
+      "ambiguous_in_public_data": false,
+      "result": {
+        "choice": "rrcConnectionRelease",
+        "confidence": 0.30188921093940735,
+        "probs": {
+          "securityModeCommand": 0.04864059388637543,
+          "rrcConnectionSetup": 0.11484294384717941,
+          "paging": 0.15849611163139343,
+          "rrcConnectionRelease": 0.30188921093940735,
+          "rrcConnectionReconfiguration": 0.12117785215377808,
+          "ueCapabilityEnquiry": 0.011412589810788631,
+          "dlInformationTransfer": 0.2435406893491745
+        },
+        "probs_list": [
+          0.04864059388637543,
+          0.11484294384717941,
+          0.15849611163139343,
+          0.30188921093940735,
+          0.12117785215377808,
+          0.011412589810788631,
+          0.2435406893491745
+        ]
+      },
+      "matches_any_observed_first_dl": false,
+      "elapsed_ms_including_first_cold_call": 170.77629989944398
+    },
+    {
+      "ul_types": [
+        "ueCapabilityInformation"
+      ],
+      "observed_first_dl_options": [
+        "rrcConnectionReconfiguration"
+      ],
+      "ambiguous_in_public_data": false,
+      "result": {
+        "choice": "rrcConnectionSetup",
+        "confidence": 0.49746930599212646,
+        "probs": {
+          "dlInformationTransfer": 0.11061965674161911,
+          "rrcConnectionSetup": 0.49746930599212646,
+          "paging": 0.07199127227067947,
+          "ueCapabilityEnquiry": 0.06466087698936462,
+          "rrcConnectionReconfiguration": 0.1371224969625473,
+          "securityModeCommand": 0.08923923969268799,
+          "rrcConnectionRelease": 0.028897177428007126
+        },
+        "probs_list": [
+          0.11061965674161911,
+          0.49746930599212646,
+          0.07199127227067947,
+          0.06466087698936462,
+          0.1371224969625473,
+          0.08923923969268799,
+          0.028897177428007126
+        ]
+      },
+      "matches_any_observed_first_dl": false,
+      "elapsed_ms_including_first_cold_call": 179.32759993709624
+    },
+    {
+      "ul_types": [
+        "rrcConnectionReconfigurationComplete",
+        "ulInformationTransfer"
+      ],
+      "observed_first_dl_options": [
+        "dlInformationTransfer"
+      ],
+      "ambiguous_in_public_data": false,
+      "result": {
+        "choice": "dlInformationTransfer",
+        "confidence": 0.7910314202308655,
+        "probs": {
+          "dlInformationTransfer": 0.7910314202308655,
+          "rrcConnectionRelease": 0.043547533452510834,
+          "ueCapabilityEnquiry": 0.0056602912954986095,
+          "rrcConnectionSetup": 0.01844414696097374,
+          "paging": 0.025454983115196228,
+          "rrcConnectionReconfiguration": 0.08752091228961945,
+          "securityModeCommand": 0.02834072895348072
+        },
+        "probs_list": [
+          0.7910314202308655,
+          0.043547533452510834,
+          0.0056602912954986095,
+          0.01844414696097374,
+          0.025454983115196228,
+          0.08752091228961945,
+          0.02834072895348072
+        ]
+      },
+      "matches_any_observed_first_dl": true,
+      "elapsed_ms_including_first_cold_call": 203.4197999164462
+    },
+    {
+      "ul_types": [
+        "rrcConnectionReconfigurationComplete"
+      ],
+      "observed_first_dl_options": [
+        "rrcConnectionRelease"
+      ],
+      "ambiguous_in_public_data": false,
+      "result": {
+        "choice": "rrcConnectionRelease",
+        "confidence": 0.24413666129112244,
+        "probs": {
+          "rrcConnectionRelease": 0.24413666129112244,
+          "paging": 0.0880177915096283,
+          "ueCapabilityEnquiry": 0.010275606997311115,
+          "securityModeCommand": 0.1427060067653656,
+          "rrcConnectionSetup": 0.05144932493567467,
+          "rrcConnectionReconfiguration": 0.24413666129112244,
+          "dlInformationTransfer": 0.21927785873413086
+        },
+        "probs_list": [
+          0.24413666129112244,
+          0.0880177915096283,
+          0.010275606997311115,
+          0.1427060067653656,
+          0.05144932493567467,
+          0.24413666129112244,
+          0.21927785873413086
+        ]
+      },
+      "matches_any_observed_first_dl": true,
+      "elapsed_ms_including_first_cold_call": 197.57739990018308
+    }
+  ]
+}

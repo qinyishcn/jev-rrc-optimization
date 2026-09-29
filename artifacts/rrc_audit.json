@@ -1,0 +1,147 @@
+{
+  "audit_utc": "2026-09-29T04:11:03.673428+00:00",
+  "dataset": {
+    "url": "https://huggingface.co/datasets/EEzim/RRC",
+    "revision": "e473ea8b9891f608afb7d9ad89c412e2dda27e18",
+    "files": [
+      {
+        "path": ".gitattributes",
+        "bytes": 2461,
+        "sha256": "e7a120ab07b1bc5b486be249e9fc6c83d59448d0093e1dfebe95d1566d9cafc0",
+        "lfs_hash_verified": null
+      },
+      {
+        "path": "README.md",
+        "bytes": 1346,
+        "sha256": "2759d0e079ec1507bcfc82cd1e5bb9abc28250f5f50470a310574e2c71a6b8d2",
+        "lfs_hash_verified": null
+      },
+      {
+        "path": "demo.parquet",
+        "bytes": 21429,
+        "sha256": "530084af5436b544c4ab3c9e0090e503080ba403cc363c26d138b637c4091ccf",
+        "lfs_hash_verified": true
+      }
+    ],
+    "rows": 16,
+    "schema": {
+      "Q_Timestamp": "float64",
+      "Q_Content": "str",
+      "A_Timestamp": "float64",
+      "A_Content": "str"
+    },
+    "null_counts": {
+      "Q_Timestamp": 0,
+      "Q_Content": 0,
+      "A_Timestamp": 0,
+      "A_Content": 0
+    },
+    "duplicate_rows": 0,
+    "question_message_types": {
+      "rrcConnectionRequest": 3,
+      "rrcConnectionSetupComplete": 3,
+      "ulInformationTransfer": 3,
+      "securityModeComplete": 3,
+      "ueCapabilityInformation": 3,
+      "rrcConnectionReconfigurationComplete": 2
+    },
+    "answer_message_types": {
+      "rrcConnectionSetup": 3,
+      "dlInformationTransfer": 3,
+      "securityModeCommand": 3,
+      "ueCapabilityEnquiry": 3,
+      "rrcConnectionReconfiguration": 3,
+      "rrcConnectionRelease": 2,
+      "paging": 2
+    },
+    "configuration_values": {
+      "t-Reordering": {
+        "ms45 (9)": 3
+      },
+      "periodicBSR-Timer": {
+        "sf20 (3)": 3
+      },
+      "retxBSR-Timer": {
+        "sf320 (0)": 3
+      },
+      "timeAlignmentTimerDedicated": {
+        "infinity (7)": 3
+      },
+      "prioritisedBitRate": {
+        "infinity (7)": 3
+      },
+      "bucketSizeDuration": {
+        "ms100 (1)": 3
+      },
+      "logicalChannelGroup": {
+        "2": 3
+      },
+      "priority": {
+        "13": 3
+      }
+    },
+    "lte_text_count": 32,
+    "trace_text_count": 32,
+    "q_to_a_gap_ms": {
+      "min": 1.4939308166503906,
+      "median": 6.381988525390625,
+      "max": 39446.55084609985,
+      "p95": 9896.704018115997
+    },
+    "gap_interpretation": "Paired trace wall-clock gaps, NOT user-plane packet latency or action outcome labels",
+    "missing_required_labels": [
+      "packet latency",
+      "packet loss",
+      "traffic load",
+      "QoS target",
+      "configuration intervention outcome",
+      "counterfactual outcome"
+    ],
+    "license": "Dataset card states Apache 2.0; no separate LICENSE file in snapshot",
+    "card_schema_matches_actual": false,
+    "raw_trace_policy": "Downloaded locally; no raw trace, identities, or NAS payload in public artifact"
+  },
+  "upstream": {
+    "url": "https://github.com/EE-zim/nrRRC_Simulator",
+    "revision": "228ad4bc7ebce1093e215a9285ee126eb862ee95",
+    "license_files": [],
+    "dataset_demo_identical": true,
+    "core_files": {
+      "rrc_utils.py": "73183a4770322cabee660959e48d7285f199ea4f6543872e772bc51f100ef549",
+      "srsRAN_5G\\srsRAN_5G\\channel_models.py": "1ab0a2cf2967c9ecce85d670b249b7868b938d0e77fdc9f6d18c9334107f65fd",
+      "srsRAN_5G\\srsRAN_5G\\enhanced_performance_metrics_collector.py": "9319f961b20a8db85ce0229f9550aa9b17122a7179b12673abd6064388a8071e"
+    },
+    "finding": "Linux srsRAN orchestration, trace extraction, mobility helpers; no verified standalone packet-latency evaluator",
+    "random_latency_placeholder": "enhanced_performance_metrics_collector.py:1254-1258"
+  },
+  "smoke": {
+    "python_utf8_mode": 1,
+    "upstream_parser_demo_messages": 37,
+    "upstream_parser_demo_qa_pairs": 16,
+    "synthetic_pair_pass": true,
+    "channel_near_rsrp": -18.900524711171332,
+    "channel_far_rsrp": -58.90052471117133,
+    "channel_monotonic_with_fixed_fading": true,
+    "toolkit_help_exit_code": 1,
+    "toolkit_help_last_error": "ModuleNotFoundError: No module named 'pcap'",
+    "full_radio_stack_run": false,
+    "real_network_latency_measured": false
+  },
+  "paper": {
+    "url": "https://arxiv.org/pdf/2505.16821v5",
+    "version": "v5",
+    "date": "2026-01-15",
+    "sha256": "0e3161b170ab56c28d013e600bd51d91f746551714b596f93bafb9a364e411e7",
+    "bytes": 2493588,
+    "download_error": null,
+    "metrics": [
+      "semantic similarity",
+      "ASN.1 micro-schema round-trip",
+      "field coverage",
+      "UL-DL state machine conformance",
+      "DL message inference latency"
+    ],
+    "network_configuration_optimization_gain_measured": false,
+    "public_dataset_reproduces_full_paper": false
+  }
+}

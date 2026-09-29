@@ -1,0 +1,245 @@
+{
+  "model": "Mapika/decider-2b",
+  "revision": "533964dae8be954c5b5e19fa4948e48408094c1e",
+  "device": "NVIDIA GeForce RTX 3070",
+  "dtype": "bfloat16",
+  "engine": "torch eager",
+  "python": "3.12.10",
+  "packages": {
+    "torch": "2.6.0+cu124",
+    "transformers": "5.6.2",
+    "numpy": "1.26.4",
+    "huggingface_hub": "1.12.0",
+    "decider-ai": "1.6.0"
+  },
+  "load_s": 4.446312399813905,
+  "peak_allocated_gb": 3.888387072,
+  "warm_median_ms": 174.50770013965666,
+  "warm_p95_ms": 191.72170989913866,
+  "requests": [
+    {
+      "iteration": 0,
+      "elapsed_ms": 1288.844200083986,
+      "choice": "billing",
+      "confidence": 0.9479598999023438,
+      "probs": {
+        "billing": 0.9479598999023438,
+        "technical": 0.019852561876177788,
+        "sales": 0.032187554985284805
+      },
+      "probs_list": [
+        0.9479598999023438,
+        0.019852561876177788,
+        0.032187554985284805
+      ]
+    },
+    {
+      "iteration": 1,
+      "elapsed_ms": 173.44860010780394,
+      "choice": "billing",
+      "confidence": 0.9479598999023438,
+      "probs": {
+        "billing": 0.9479598999023438,
+        "technical": 0.019852561876177788,
+        "sales": 0.032187554985284805
+      },
+      "probs_list": [
+        0.9479598999023438,
+        0.019852561876177788,
+        0.032187554985284805
+      ]
+    },
+    {
+      "iteration": 2,
+      "elapsed_ms": 180.62160001136363,
+      "choice": "billing",
+      "confidence": 0.9479598999023438,
+      "probs": {
+        "billing": 0.9479598999023438,
+        "technical": 0.019852561876177788,
+        "sales": 0.032187554985284805
+      },
+      "probs_list": [
+        0.9479598999023438,
+        0.019852561876177788,
+        0.032187554985284805
+      ]
+    },
+    {
+      "iteration": 3,
+      "elapsed_ms": 171.25599994324148,
+      "choice": "billing",
+      "confidence": 0.9479598999023438,
+      "probs": {
+        "billing": 0.9479598999023438,
+        "technical": 0.019852561876177788,
+        "sales": 0.032187554985284805
+      },
+      "probs_list": [
+        0.9479598999023438,
+        0.019852561876177788,
+        0.032187554985284805
+      ]
+    },
+    {
+      "iteration": 4,
+      "elapsed_ms": 160.41200002655387,
+      "choice": "billing",
+      "confidence": 0.9479598999023438,
+      "probs": {
+        "billing": 0.9479598999023438,
+        "technical": 0.019852561876177788,
+        "sales": 0.032187554985284805
+      },
+      "probs_list": [
+        0.9479598999023438,
+        0.019852561876177788,
+        0.032187554985284805
+      ]
+    },
+    {
+      "iteration": 5,
+      "elapsed_ms": 149.92960006929934,
+      "choice": "billing",
+      "confidence": 0.9479598999023438,
+      "probs": {
+        "billing": 0.9479598999023438,
+        "technical": 0.019852561876177788,
+        "sales": 0.032187554985284805
+      },
+      "probs_list": [
+        0.9479598999023438,
+        0.019852561876177788,
+        0.032187554985284805
+      ]
+    },
+    {
+      "iteration": 6,
+      "elapsed_ms": 177.8728999197483,
+      "choice": "billing",
+      "confidence": 0.9479598999023438,
+      "probs": {
+        "billing": 0.9479598999023438,
+        "technical": 0.019852561876177788,
+        "sales": 0.032187554985284805
+      },
+      "probs_list": [
+        0.9479598999023438,
+        0.019852561876177788,
+        0.032187554985284805
+      ]
+    },
+    {
+      "iteration": 7,
+      "elapsed_ms": 175.56680017150939,
+      "choice": "billing",
+      "confidence": 0.9479598999023438,
+      "probs": {
+        "billing": 0.9479598999023438,
+        "technical": 0.019852561876177788,
+        "sales": 0.032187554985284805
+      },
+      "probs_list": [
+        0.9479598999023438,
+        0.019852561876177788,
+        0.032187554985284805
+      ]
+    },
+    {
+      "iteration": 8,
+      "elapsed_ms": 191.22659997083247,
+      "choice": "billing",
+      "confidence": 0.9479598999023438,
+      "probs": {
+        "billing": 0.9479598999023438,
+        "technical": 0.019852561876177788,
+        "sales": 0.032187554985284805
+      },
+      "probs_list": [
+        0.9479598999023438,
+        0.019852561876177788,
+        0.032187554985284805
+      ]
+    },
+    {
+      "iteration": 9,
+      "elapsed_ms": 171.84549989178777,
+      "choice": "billing",
+      "confidence": 0.9479598999023438,
+      "probs": {
+        "billing": 0.9479598999023438,
+        "technical": 0.019852561876177788,
+        "sales": 0.032187554985284805
+      },
+      "probs_list": [
+        0.9479598999023438,
+        0.019852561876177788,
+        0.032187554985284805
+      ]
+    },
+    {
+      "iteration": 10,
+      "elapsed_ms": 192.1267998404801,
+      "choice": "billing",
+      "confidence": 0.9479598999023438,
+      "probs": {
+        "billing": 0.9479598999023438,
+        "technical": 0.019852561876177788,
+        "sales": 0.032187554985284805
+      },
+      "probs_list": [
+        0.9479598999023438,
+        0.019852561876177788,
+        0.032187554985284805
+      ]
+    }
+  ],
+  "system_one": {
+    "model": "decider-2b-v11",
+    "answers": {
+      "team": {
+        "type": "choice",
+        "choice": "billing",
+        "confidence": 0.8657,
+        "x_p_max": 0.9328,
+        "certainty": 0.6447,
+        "probabilities": {
+          "billing": 0.9328,
+          "technical": 0.0672
+        }
+      },
+      "duplicate": {
+        "type": "noul",
+        "noul": 0.9096
+      },
+      "urgency": {
+        "type": "score",
+        "score": 1.2,
+        "confidence": 0.0,
+        "x_p_max": 0.4053,
+        "certainty": 0.0384,
+        "legend": {
+          "0": "low",
+          "1": "medium",
+          "2": "high"
+        },
+        "probabilities": {
+          "0": 0.2024,
+          "1": 0.3923,
+          "2": 0.4053
+        },
+        "level_fit": {
+          "0": 0.2084,
+          "1": 0.4039,
+          "2": 0.4174
+        },
+        "fit_mass": 1.0297
+      }
+    },
+    "usage": {
+      "input_tokens": 180,
+      "output_tokens": 0
+    }
+  },
+  "weights_sha256": "acaef2228b134dcdc20cad4ee79219482c927ec819aa3687b9b8a575c338817f"
+}

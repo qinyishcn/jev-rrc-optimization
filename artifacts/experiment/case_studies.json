@@ -1,0 +1,579 @@
+[
+  {
+    "scenario": {
+      "uid": "26092902-industrial_control-0000",
+      "service": "industrial_control",
+      "deadline_ms": 5,
+      "period_ms": 4.0,
+      "jitter_ms": 0.44671472923815614,
+      "burst_packets": 2,
+      "packet_service_ms": 0.10136101084936874,
+      "base_delay_ms": 3.403138965921103,
+      "duration_ms": 1000.0,
+      "seed": 4820360743937624578
+    },
+    "eligible": [
+      "off"
+    ],
+    "choices": {
+      "always_on": "off",
+      "fixed_balanced": "40/4",
+      "fixed_low_latency": "10/8",
+      "service_rule": "10/8",
+      "calibrated_fixed": "off",
+      "calibrated_per_service": "off",
+      "guard_only": "off",
+      "decider_raw": "10/4",
+      "decider_screened": "off",
+      "hindsight_oracle": "off"
+    },
+    "metrics": {
+      "always_on": {
+        "mean_ms": 3.5551804821951443,
+        "p95_ms": 3.605860987619836,
+        "p99_ms": 3.60586098761985,
+        "max_ms": 3.60586098761985,
+        "miss_rate": 0.0,
+        "rx_duty": 1.0,
+        "packets": 500,
+        "last_completion_ms": 998.1893621317726,
+        "drain_ms": 0.0,
+        "capacity_packets_per_ms": 9.865726393416566,
+        "utilization": 0.05068050542468437,
+        "overloaded": false
+      },
+      "fixed_balanced": {
+        "mean_ms": 20.673676980018072,
+        "p95_ms": 37.713948373649984,
+        "p99_ms": 38.076116853193916,
+        "max_ms": 38.17738392784983,
+        "miss_rate": 0.9,
+        "rx_duty": 0.1,
+        "packets": 500,
+        "last_completion_ms": 1001.8244981952885,
+        "drain_ms": 1.82449819528847,
+        "capacity_packets_per_ms": 0.975,
+        "utilization": 0.5128205128205129,
+        "overloaded": false
+      },
+      "fixed_low_latency": {
+        "mean_ms": 3.7728774095449067,
+        "p95_ms": 5.433349404729087,
+        "p99_ms": 5.609810347603016,
+        "max_ms": 5.66771042614022,
+        "miss_rate": 0.092,
+        "rx_duty": 0.8,
+        "packets": 500,
+        "last_completion_ms": 1000.2027220216987,
+        "drain_ms": 0.2027220216987189,
+        "capacity_packets_per_ms": 7.8,
+        "utilization": 0.06410256410256411,
+        "overloaded": false
+      },
+      "service_rule": {
+        "mean_ms": 3.7728774095449067,
+        "p95_ms": 5.433349404729087,
+        "p99_ms": 5.609810347603016,
+        "max_ms": 5.66771042614022,
+        "miss_rate": 0.092,
+        "rx_duty": 0.8,
+        "packets": 500,
+        "last_completion_ms": 1000.2027220216987,
+        "drain_ms": 0.2027220216987189,
+        "capacity_packets_per_ms": 7.8,
+        "utilization": 0.06410256410256411,
+        "overloaded": false
+      },
+      "calibrated_fixed": {
+        "mean_ms": 3.5551804821951443,
+        "p95_ms": 3.605860987619836,
+        "p99_ms": 3.60586098761985,
+        "max_ms": 3.60586098761985,
+        "miss_rate": 0.0,
+        "rx_duty": 1.0,
+        "packets": 500,
+        "last_completion_ms": 998.1893621317726,
+        "drain_ms": 0.0,
+        "capacity_packets_per_ms": 9.865726393416566,
+        "utilization": 0.05068050542468437,
+        "overloaded": false
+      },
+      "calibrated_per_service": {
+        "mean_ms": 3.5551804821951443,
+        "p95_ms": 3.605860987619836,
+        "p99_ms": 3.60586098761985,
+        "max_ms": 3.60586098761985,
+        "miss_rate": 0.0,
+        "rx_duty": 1.0,
+        "packets": 500,
+        "last_completion_ms": 998.1893621317726,
+        "drain_ms": 0.0,
+        "capacity_packets_per_ms": 9.865726393416566,
+        "utilization": 0.05068050542468437,
+        "overloaded": false
+      },
+      "guard_only": {
+        "mean_ms": 3.5551804821951443,
+        "p95_ms": 3.605860987619836,
+        "p99_ms": 3.60586098761985,
+        "max_ms": 3.60586098761985,
+        "miss_rate": 0.0,
+        "rx_duty": 1.0,
+        "packets": 500,
+        "last_completion_ms": 998.1893621317726,
+        "drain_ms": 0.0,
+        "capacity_packets_per_ms": 9.865726393416566,
+        "utilization": 0.05068050542468437,
+        "overloaded": false
+      },
+      "decider_raw": {
+        "mean_ms": 5.403286870010174,
+        "p95_ms": 9.458270465424599,
+        "p99_ms": 9.671201587834897,
+        "max_ms": 9.706995249447887,
+        "miss_rate": 0.482,
+        "rx_duty": 0.4,
+        "packets": 500,
+        "last_completion_ms": 1000.2027220216987,
+        "drain_ms": 0.2027220216987189,
+        "capacity_packets_per_ms": 3.9,
+        "utilization": 0.12820512820512822,
+        "overloaded": false
+      },
+      "decider_screened": {
+        "mean_ms": 3.5551804821951443,
+        "p95_ms": 3.605860987619836,
+        "p99_ms": 3.60586098761985,
+        "max_ms": 3.60586098761985,
+        "miss_rate": 0.0,
+        "rx_duty": 1.0,
+        "packets": 500,
+        "last_completion_ms": 998.1893621317726,
+        "drain_ms": 0.0,
+        "capacity_packets_per_ms": 9.865726393416566,
+        "utilization": 0.05068050542468437,
+        "overloaded": false
+      },
+      "hindsight_oracle": {
+        "mean_ms": 3.5551804821951443,
+        "p95_ms": 3.605860987619836,
+        "p99_ms": 3.60586098761985,
+        "max_ms": 3.60586098761985,
+        "miss_rate": 0.0,
+        "rx_duty": 1.0,
+        "packets": 500,
+        "last_completion_ms": 998.1893621317726,
+        "drain_ms": 0.0,
+        "capacity_packets_per_ms": 9.865726393416566,
+        "utilization": 0.05068050542468437,
+        "overloaded": false
+      }
+    },
+    "recommended_fragment": {
+      "protocol": "LTE",
+      "message": "rrcConnectionReconfiguration",
+      "radioResourceConfigDedicated": {
+        "mac-MainConfig": {
+          "periodicBSR-Timer": "sf20",
+          "retxBSR-Timer": "sf320",
+          "timeAlignmentTimerDedicated": "infinity",
+          "drx-Config": {
+            "release": null
+          }
+        }
+      },
+      "status": "configuration planning fragment; not ASN.1 encoded or transmitted"
+    }
+  },
+  {
+    "scenario": {
+      "uid": "26092902-xr-0000",
+      "service": "xr",
+      "deadline_ms": 10,
+      "period_ms": 11.11111111111111,
+      "jitter_ms": 2.020412735243255,
+      "burst_packets": 9,
+      "packet_service_ms": 0.16363310962752428,
+      "base_delay_ms": 0.7534112280652894,
+      "duration_ms": 1000.0,
+      "seed": 3546086998610854444
+    },
+    "eligible": [
+      "off",
+      "10/8"
+    ],
+    "choices": {
+      "always_on": "off",
+      "fixed_balanced": "40/4",
+      "fixed_low_latency": "10/8",
+      "service_rule": "10/4",
+      "calibrated_fixed": "off",
+      "calibrated_per_service": "10/8",
+      "guard_only": "10/8",
+      "decider_raw": "40/4",
+      "decider_screened": "10/8",
+      "hindsight_oracle": "10/4"
+    },
+    "metrics": {
+      "always_on": {
+        "mean_ms": 1.5715767762029609,
+        "p95_ms": 2.226109214713148,
+        "p99_ms": 2.226109214713148,
+        "max_ms": 2.226109214713148,
+        "miss_rate": 0.0,
+        "rx_duty": 1.0,
+        "packets": 810,
+        "last_completion_ms": 998.5091197247042,
+        "drain_ms": 0.0,
+        "capacity_packets_per_ms": 6.1112326366973395,
+        "utilization": 0.1325428187982947,
+        "overloaded": false
+      },
+      "fixed_balanced": {
+        "mean_ms": 194.18759855394663,
+        "p95_ms": 349.6972056337299,
+        "p99_ms": 372.063979662186,
+        "max_ms": 373.8807966557251,
+        "miss_rate": 1.0,
+        "rx_duty": 0.1,
+        "packets": 810,
+        "last_completion_ms": 1362.9453959732937,
+        "drain_ms": 362.94539597329367,
+        "capacity_packets_per_ms": 0.6,
+        "utilization": 1.35,
+        "overloaded": true
+      },
+      "fixed_low_latency": {
+        "mean_ms": 1.8844080369733045,
+        "p95_ms": 3.880718330485763,
+        "p99_ms": 4.288693445051441,
+        "max_ms": 4.388024558270473,
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "packets": 810,
+        "last_completion_ms": 1000.6545324385102,
+        "drain_ms": 0.6545324385101594,
+        "capacity_packets_per_ms": 4.8,
+        "utilization": 0.16875,
+        "overloaded": false
+      },
+      "service_rule": {
+        "mean_ms": 4.007085801996038,
+        "p95_ms": 7.59357691963281,
+        "p99_ms": 8.216991884391694,
+        "max_ms": 8.382353230432031,
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "packets": 810,
+        "last_completion_ms": 1001.4726979866479,
+        "drain_ms": 1.4726979866478587,
+        "capacity_packets_per_ms": 2.4,
+        "utilization": 0.3375,
+        "overloaded": false
+      },
+      "calibrated_fixed": {
+        "mean_ms": 1.5715767762029609,
+        "p95_ms": 2.226109214713148,
+        "p99_ms": 2.226109214713148,
+        "max_ms": 2.226109214713148,
+        "miss_rate": 0.0,
+        "rx_duty": 1.0,
+        "packets": 810,
+        "last_completion_ms": 998.5091197247042,
+        "drain_ms": 0.0,
+        "capacity_packets_per_ms": 6.1112326366973395,
+        "utilization": 0.1325428187982947,
+        "overloaded": false
+      },
+      "calibrated_per_service": {
+        "mean_ms": 1.8844080369733045,
+        "p95_ms": 3.880718330485763,
+        "p99_ms": 4.288693445051441,
+        "max_ms": 4.388024558270473,
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "packets": 810,
+        "last_completion_ms": 1000.6545324385102,
+        "drain_ms": 0.6545324385101594,
+        "capacity_packets_per_ms": 4.8,
+        "utilization": 0.16875,
+        "overloaded": false
+      },
+      "guard_only": {
+        "mean_ms": 1.8844080369733045,
+        "p95_ms": 3.880718330485763,
+        "p99_ms": 4.288693445051441,
+        "max_ms": 4.388024558270473,
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "packets": 810,
+        "last_completion_ms": 1000.6545324385102,
+        "drain_ms": 0.6545324385101594,
+        "capacity_packets_per_ms": 4.8,
+        "utilization": 0.16875,
+        "overloaded": false
+      },
+      "decider_raw": {
+        "mean_ms": 194.18759855394663,
+        "p95_ms": 349.6972056337299,
+        "p99_ms": 372.063979662186,
+        "max_ms": 373.8807966557251,
+        "miss_rate": 1.0,
+        "rx_duty": 0.1,
+        "packets": 810,
+        "last_completion_ms": 1362.9453959732937,
+        "drain_ms": 362.94539597329367,
+        "capacity_packets_per_ms": 0.6,
+        "utilization": 1.35,
+        "overloaded": true
+      },
+      "decider_screened": {
+        "mean_ms": 1.8844080369733045,
+        "p95_ms": 3.880718330485763,
+        "p99_ms": 4.288693445051441,
+        "max_ms": 4.388024558270473,
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "packets": 810,
+        "last_completion_ms": 1000.6545324385102,
+        "drain_ms": 0.6545324385101594,
+        "capacity_packets_per_ms": 4.8,
+        "utilization": 0.16875,
+        "overloaded": false
+      },
+      "hindsight_oracle": {
+        "mean_ms": 4.007085801996038,
+        "p95_ms": 7.59357691963281,
+        "p99_ms": 8.216991884391694,
+        "max_ms": 8.382353230432031,
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "packets": 810,
+        "last_completion_ms": 1001.4726979866479,
+        "drain_ms": 1.4726979866478587,
+        "capacity_packets_per_ms": 2.4,
+        "utilization": 0.3375,
+        "overloaded": false
+      }
+    },
+    "recommended_fragment": {
+      "protocol": "LTE",
+      "message": "rrcConnectionReconfiguration",
+      "radioResourceConfigDedicated": {
+        "mac-MainConfig": {
+          "periodicBSR-Timer": "sf20",
+          "retxBSR-Timer": "sf320",
+          "timeAlignmentTimerDedicated": "infinity",
+          "drx-Config": {
+            "setup": {
+              "onDurationTimer": "psf8",
+              "drx-InactivityTimer": "psf1",
+              "drx-RetransmissionTimer": "psf1",
+              "longDRX-CycleStartOffset": {
+                "sf10": 0
+              }
+            }
+          }
+        }
+      },
+      "status": "configuration planning fragment; not ASN.1 encoded or transmitted"
+    }
+  },
+  {
+    "scenario": {
+      "uid": "26092902-gaming-0000",
+      "service": "gaming",
+      "deadline_ms": 20,
+      "period_ms": 10.0,
+      "jitter_ms": 1.1779319267574828,
+      "burst_packets": 4,
+      "packet_service_ms": 0.09757436168795185,
+      "base_delay_ms": 7.210504901722966,
+      "duration_ms": 1000.0,
+      "seed": 4379238785693945692
+    },
+    "eligible": [
+      "off",
+      "10/8",
+      "10/4",
+      "10/2",
+      "20/8"
+    ],
+    "choices": {
+      "always_on": "off",
+      "fixed_balanced": "40/4",
+      "fixed_low_latency": "10/8",
+      "service_rule": "20/8",
+      "calibrated_fixed": "off",
+      "calibrated_per_service": "10/2",
+      "guard_only": "10/2",
+      "decider_raw": "20/8",
+      "decider_screened": "10/4",
+      "hindsight_oracle": "10/2"
+    },
+    "metrics": {
+      "always_on": {
+        "mean_ms": 7.4544408059428875,
+        "p95_ms": 7.6008023484748675,
+        "p99_ms": 7.6008023484748675,
+        "max_ms": 7.6008023484748675,
+        "miss_rate": 0.0,
+        "rx_duty": 1.0,
+        "packets": 400,
+        "last_completion_ms": 996.5753158985598,
+        "drain_ms": 0.0,
+        "capacity_packets_per_ms": 10.248593818097984,
+        "utilization": 0.03902974467518074,
+        "overloaded": false
+      },
+      "fixed_balanced": {
+        "mean_ms": 26.190277199790568,
+        "p95_ms": 41.23252500716895,
+        "p99_ms": 41.81566405836043,
+        "max_ms": 42.01001261754333,
+        "miss_rate": 0.75,
+        "rx_duty": 0.1,
+        "packets": 400,
+        "last_completion_ms": 1001.5611897870076,
+        "drain_ms": 1.5611897870076064,
+        "capacity_packets_per_ms": 1.0,
+        "utilization": 0.4,
+        "overloaded": false
+      },
+      "fixed_low_latency": {
+        "mean_ms": 7.536431037627939,
+        "p95_ms": 7.6008023484748675,
+        "p99_ms": 9.655580661791276,
+        "max_ms": 9.694766375816524,
+        "miss_rate": 0.0,
+        "rx_duty": 0.8,
+        "packets": 400,
+        "last_completion_ms": 996.5753158985598,
+        "drain_ms": 0.0,
+        "capacity_packets_per_ms": 8.1,
+        "utilization": 0.04938271604938272,
+        "overloaded": false
+      },
+      "service_rule": {
+        "mean_ms": 9.302793966674454,
+        "p95_ms": 11.622750822018594,
+        "p99_ms": 19.650064811454463,
+        "max_ms": 19.694766375816524,
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "packets": 400,
+        "last_completion_ms": 1000.3902974467519,
+        "drain_ms": 0.3902974467519016,
+        "capacity_packets_per_ms": 4.05,
+        "utilization": 0.09876543209876544,
+        "overloaded": false
+      },
+      "calibrated_fixed": {
+        "mean_ms": 7.4544408059428875,
+        "p95_ms": 7.6008023484748675,
+        "p99_ms": 7.6008023484748675,
+        "max_ms": 7.6008023484748675,
+        "miss_rate": 0.0,
+        "rx_duty": 1.0,
+        "packets": 400,
+        "last_completion_ms": 996.5753158985598,
+        "drain_ms": 0.0,
+        "capacity_packets_per_ms": 10.248593818097984,
+        "utilization": 0.03902974467518074,
+        "overloaded": false
+      },
+      "calibrated_per_service": {
+        "mean_ms": 10.604831029662755,
+        "p95_ms": 11.706767793199035,
+        "p99_ms": 11.901888695296766,
+        "max_ms": 12.010012617543335,
+        "miss_rate": 0.0,
+        "rx_duty": 0.2,
+        "packets": 400,
+        "last_completion_ms": 1000.3902974467519,
+        "drain_ms": 0.3902974467519016,
+        "capacity_packets_per_ms": 2.0,
+        "utilization": 0.2,
+        "overloaded": false
+      },
+      "guard_only": {
+        "mean_ms": 10.604831029662755,
+        "p95_ms": 11.706767793199035,
+        "p99_ms": 11.901888695296766,
+        "max_ms": 12.010012617543335,
+        "miss_rate": 0.0,
+        "rx_duty": 0.2,
+        "packets": 400,
+        "last_completion_ms": 1000.3902974467519,
+        "drain_ms": 0.3902974467519016,
+        "capacity_packets_per_ms": 2.0,
+        "utilization": 0.2,
+        "overloaded": false
+      },
+      "decider_raw": {
+        "mean_ms": 9.302793966674454,
+        "p95_ms": 11.622750822018594,
+        "p99_ms": 19.650064811454463,
+        "max_ms": 19.694766375816524,
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "packets": 400,
+        "last_completion_ms": 1000.3902974467519,
+        "drain_ms": 0.3902974467519016,
+        "capacity_packets_per_ms": 4.05,
+        "utilization": 0.09876543209876544,
+        "overloaded": false
+      },
+      "decider_screened": {
+        "mean_ms": 10.604831029662755,
+        "p95_ms": 11.706767793199035,
+        "p99_ms": 11.901888695296766,
+        "max_ms": 12.010012617543335,
+        "miss_rate": 0.0,
+        "rx_duty": 0.4,
+        "packets": 400,
+        "last_completion_ms": 1000.3902974467519,
+        "drain_ms": 0.3902974467519016,
+        "capacity_packets_per_ms": 4.0,
+        "utilization": 0.1,
+        "overloaded": false
+      },
+      "hindsight_oracle": {
+        "mean_ms": 10.604831029662755,
+        "p95_ms": 11.706767793199035,
+        "p99_ms": 11.901888695296766,
+        "max_ms": 12.010012617543335,
+        "miss_rate": 0.0,
+        "rx_duty": 0.2,
+        "packets": 400,
+        "last_completion_ms": 1000.3902974467519,
+        "drain_ms": 0.3902974467519016,
+        "capacity_packets_per_ms": 2.0,
+        "utilization": 0.2,
+        "overloaded": false
+      }
+    },
+    "recommended_fragment": {
+      "protocol": "LTE",
+      "message": "rrcConnectionReconfiguration",
+      "radioResourceConfigDedicated": {
+        "mac-MainConfig": {
+          "periodicBSR-Timer": "sf20",
+          "retxBSR-Timer": "sf320",
+          "timeAlignmentTimerDedicated": "infinity",
+          "drx-Config": {
+            "setup": {
+              "onDurationTimer": "psf4",
+              "drx-InactivityTimer": "psf1",
+              "drx-RetransmissionTimer": "psf1",
+              "longDRX-CycleStartOffset": {
+                "sf10": 0
+              }
+            }
+          }
+        }
+      },
+      "status": "configuration planning fragment; not ASN.1 encoded or transmitted"
+    }
+  }
+]

@@ -1,0 +1,604 @@
+[
+  {
+    "service": "industrial_control",
+    "method": "always_on",
+    "n_scenarios": 30,
+    "mean_delay_ms": 2.2523594005162,
+    "mean_scenario_p99_ms": 2.291270291700393,
+    "mean_miss_rate": 0.0,
+    "mean_rx_duty": 1.0,
+    "scenario_violation_rate": 0.0,
+    "mean_inference_ms": 0.0,
+    "profile_counts": {
+      "off": 30
+    }
+  },
+  {
+    "service": "all",
+    "method": "always_on",
+    "n_scenarios": 90,
+    "mean_delay_ms": 3.5211670988055874,
+    "mean_scenario_p99_ms": 3.7445376323633224,
+    "mean_miss_rate": 0.0,
+    "mean_rx_duty": 1.0,
+    "scenario_violation_rate": 0.0,
+    "mean_inference_ms": 0.0,
+    "profile_counts": {
+      "off": 90
+    }
+  },
+  {
+    "service": "industrial_control",
+    "method": "fixed_balanced",
+    "n_scenarios": 30,
+    "mean_delay_ms": 146.74035968774695,
+    "mean_scenario_p99_ms": 286.225397526343,
+    "mean_miss_rate": 0.8933109775105766,
+    "mean_rx_duty": 0.10000000000000003,
+    "scenario_violation_rate": 1.0,
+    "mean_inference_ms": 0.0,
+    "profile_counts": {
+      "40/4": 30
+    }
+  },
+  {
+    "service": "all",
+    "method": "fixed_balanced",
+    "n_scenarios": 90,
+    "mean_delay_ms": 96.30845876099595,
+    "mean_scenario_p99_ms": 185.79200176154563,
+    "mean_miss_rate": 0.7629976047044762,
+    "mean_rx_duty": 0.09999999999999998,
+    "scenario_violation_rate": 1.0,
+    "mean_inference_ms": 0.0,
+    "profile_counts": {
+      "40/4": 90
+    }
+  },
+  {
+    "service": "industrial_control",
+    "method": "fixed_low_latency",
+    "n_scenarios": 30,
+    "mean_delay_ms": 2.490846139680843,
+    "mean_scenario_p99_ms": 3.518298815392493,
+    "mean_miss_rate": 0.004044444444444444,
+    "mean_rx_duty": 0.8000000000000003,
+    "scenario_violation_rate": 0.06666666666666667,
+    "mean_inference_ms": 0.0,
+    "profile_counts": {
+      "10/8": 30
+    }
+  },
+  {
+    "service": "all",
+    "method": "fixed_low_latency",
+    "n_scenarios": 90,
+    "mean_delay_ms": 3.7914604563906815,
+    "mean_scenario_p99_ms": 5.306383391796785,
+    "mean_miss_rate": 0.0013481481481481482,
+    "mean_rx_duty": 0.7999999999999998,
+    "scenario_violation_rate": 0.022222222222222223,
+    "mean_inference_ms": 0.0,
+    "profile_counts": {
+      "10/8": 90
+    }
+  },
+  {
+    "service": "industrial_control",
+    "method": "service_rule",
+    "n_scenarios": 30,
+    "mean_delay_ms": 2.490846139680843,
+    "mean_scenario_p99_ms": 3.518298815392493,
+    "mean_miss_rate": 0.004044444444444444,
+    "mean_rx_duty": 0.8000000000000003,
+    "scenario_violation_rate": 0.06666666666666667,
+    "mean_inference_ms": 0.0,
+    "profile_counts": {
+      "10/8": 30
+    }
+  },
+  {
+    "service": "all",
+    "method": "service_rule",
+    "n_scenarios": 90,
+    "mean_delay_ms": 5.456779565144384,
+    "mean_scenario_p99_ms": 9.48010684974577,
+    "mean_miss_rate": 0.02020373220743591,
+    "mean_rx_duty": 0.5333333333333334,
+    "scenario_violation_rate": 0.16666666666666666,
+    "mean_inference_ms": 0.0,
+    "profile_counts": {
+      "10/8": 30,
+      "10/4": 30,
+      "20/8": 30
+    }
+  },
+  {
+    "service": "industrial_control",
+    "method": "calibrated_fixed",
+    "n_scenarios": 30,
+    "mean_delay_ms": 2.2523594005162,
+    "mean_scenario_p99_ms": 2.291270291700393,
+    "mean_miss_rate": 0.0,
+    "mean_rx_duty": 1.0,
+    "scenario_violation_rate": 0.0,
+    "mean_inference_ms": 0.0,
+    "profile_counts": {
+      "off": 30
+    }
+  },
+  {
+    "service": "all",
+    "method": "calibrated_fixed",
+    "n_scenarios": 90,
+    "mean_delay_ms": 3.5211670988055874,
+    "mean_scenario_p99_ms": 3.7445376323633224,
+    "mean_miss_rate": 0.0,
+    "mean_rx_duty": 1.0,
+    "scenario_violation_rate": 0.0,
+    "mean_inference_ms": 0.0,
+    "profile_counts": {
+      "off": 90
+    }
+  },
+  {
+    "service": "industrial_control",
+    "method": "calibrated_per_service",
+    "n_scenarios": 30,
+    "mean_delay_ms": 2.2523594005162,
+    "mean_scenario_p99_ms": 2.291270291700393,
+    "mean_miss_rate": 0.0,
+    "mean_rx_duty": 1.0,
+    "scenario_violation_rate": 0.0,
+    "mean_inference_ms": 0.0,
+    "profile_counts": {
+      "off": 30
+    }
+  },
+  {
+    "service": "all",
+    "method": "calibrated_per_service",
+    "n_scenarios": 90,
+    "mean_delay_ms": 4.792349680487705,
+    "mean_scenario_p99_ms": 6.742670500664064,
+    "mean_miss_rate": 0.0,
+    "mean_rx_duty": 0.6666666666666666,
+    "scenario_violation_rate": 0.0,
+    "mean_inference_ms": 0.0,
+    "profile_counts": {
+      "off": 30,
+      "10/8": 30,
+      "10/2": 30
+    }
+  },
+  {
+    "service": "industrial_control",
+    "method": "guard_only",
+    "n_scenarios": 30,
+    "mean_delay_ms": 2.399616192866006,
+    "mean_scenario_p99_ms": 3.134526036885531,
+    "mean_miss_rate": 0.0,
+    "mean_rx_duty": 0.8666666666666668,
+    "scenario_violation_rate": 0.0,
+    "mean_inference_ms": 0.0,
+    "profile_counts": {
+      "off": 10,
+      "10/8": 20
+    }
+  },
+  {
+    "service": "all",
+    "method": "guard_only",
+    "n_scenarios": 90,
+    "mean_delay_ms": 5.200284053167878,
+    "mean_scenario_p99_ms": 7.772553771017913,
+    "mean_miss_rate": 0.0,
+    "mean_rx_duty": 0.5466666666666669,
+    "scenario_violation_rate": 0.0,
+    "mean_inference_ms": 0.0,
+    "profile_counts": {
+      "off": 10,
+      "10/8": 34,
+      "10/4": 14,
+      "10/2": 32
+    }
+  },
+  {
+    "service": "industrial_control",
+    "method": "decider_raw",
+    "n_scenarios": 30,
+    "mean_delay_ms": 4.080285360254292,
+    "mean_scenario_p99_ms": 6.54625925294077,
+    "mean_miss_rate": 0.27445998663994653,
+    "mean_rx_duty": 0.5066666666666667,
+    "scenario_violation_rate": 0.5333333333333333,
+    "mean_inference_ms": 193.06005999290696,
+    "profile_counts": {
+      "10/4": 16,
+      "10/8": 10,
+      "20/4": 2,
+      "10/2": 2
+    }
+  },
+  {
+    "service": "all",
+    "method": "decider_raw",
+    "n_scenarios": 90,
+    "mean_delay_ms": 8.304129726046217,
+    "mean_scenario_p99_ms": 14.363308620889255,
+    "mean_miss_rate": 0.19198115743003297,
+    "mean_rx_duty": 0.46555555555555556,
+    "scenario_violation_rate": 0.4,
+    "mean_inference_ms": 189.86294221702136,
+    "profile_counts": {
+      "10/4": 38,
+      "10/8": 24,
+      "20/4": 15,
+      "10/2": 2,
+      "40/4": 1,
+      "20/8": 10
+    }
+  },
+  {
+    "service": "industrial_control",
+    "method": "decider_screened",
+    "n_scenarios": 30,
+    "mean_delay_ms": 2.399616192866006,
+    "mean_scenario_p99_ms": 3.134526036885531,
+    "mean_miss_rate": 0.0,
+    "mean_rx_duty": 0.8666666666666668,
+    "scenario_violation_rate": 0.0,
+    "mean_inference_ms": 193.06005999290696,
+    "profile_counts": {
+      "off": 10,
+      "10/8": 20
+    }
+  },
+  {
+    "service": "all",
+    "method": "decider_screened",
+    "n_scenarios": 90,
+    "mean_delay_ms": 4.489969316933455,
+    "mean_scenario_p99_ms": 6.639472225518932,
+    "mean_miss_rate": 0.0,
+    "mean_rx_duty": 0.6955555555555556,
+    "scenario_violation_rate": 0.0,
+    "mean_inference_ms": 189.86294221702136,
+    "profile_counts": {
+      "off": 11,
+      "10/8": 50,
+      "10/4": 25,
+      "20/8": 4
+    }
+  },
+  {
+    "service": "industrial_control",
+    "method": "hindsight_oracle",
+    "n_scenarios": 30,
+    "mean_delay_ms": 2.5038911068902014,
+    "mean_scenario_p99_ms": 3.4321571453781794,
+    "mean_miss_rate": 0.0,
+    "mean_rx_duty": 0.7200000000000001,
+    "scenario_violation_rate": 0.0,
+    "mean_inference_ms": 0.0,
+    "profile_counts": {
+      "off": 2,
+      "10/4": 7,
+      "10/8": 21
+    }
+  },
+  {
+    "service": "all",
+    "method": "hindsight_oracle",
+    "n_scenarios": 90,
+    "mean_delay_ms": 5.321800607114126,
+    "mean_scenario_p99_ms": 7.999461996788778,
+    "mean_miss_rate": 0.00033943268665490885,
+    "mean_rx_duty": 0.4755555555555557,
+    "scenario_violation_rate": 0.0,
+    "mean_inference_ms": 0.0,
+    "profile_counts": {
+      "off": 2,
+      "10/4": 20,
+      "10/8": 32,
+      "10/2": 35,
+      "20/4": 1
+    }
+  },
+  {
+    "service": "xr",
+    "method": "always_on",
+    "n_scenarios": 30,
+    "mean_delay_ms": 3.216677236282637,
+    "mean_scenario_p99_ms": 3.65272872381697,
+    "mean_miss_rate": 0.0,
+    "mean_rx_duty": 1.0,
+    "scenario_violation_rate": 0.0,
+    "mean_inference_ms": 0.0,
+    "profile_counts": {
+      "off": 30
+    }
+  },
+  {
+    "service": "xr",
+    "method": "fixed_balanced",
+    "n_scenarios": 30,
+    "mean_delay_ms": 120.90519304216781,
+    "mean_scenario_p99_ms": 232.75688851918633,
+    "mean_miss_rate": 0.8613664021164021,
+    "mean_rx_duty": 0.10000000000000003,
+    "scenario_violation_rate": 1.0,
+    "mean_inference_ms": 0.0,
+    "profile_counts": {
+      "40/4": 30
+    }
+  },
+  {
+    "service": "xr",
+    "method": "fixed_low_latency",
+    "n_scenarios": 30,
+    "mean_delay_ms": 3.5273979701189666,
+    "mean_scenario_p99_ms": 5.656828335354305,
+    "mean_miss_rate": 0.0,
+    "mean_rx_duty": 0.8000000000000003,
+    "scenario_violation_rate": 0.0,
+    "mean_inference_ms": 0.0,
+    "profile_counts": {
+      "10/8": 30
+    }
+  },
+  {
+    "service": "xr",
+    "method": "service_rule",
+    "n_scenarios": 30,
+    "mean_delay_ms": 5.371758853351924,
+    "mean_scenario_p99_ms": 9.633469179379983,
+    "mean_miss_rate": 0.05469175217786328,
+    "mean_rx_duty": 0.40000000000000013,
+    "scenario_violation_rate": 0.36666666666666664,
+    "mean_inference_ms": 0.0,
+    "profile_counts": {
+      "10/4": 30
+    }
+  },
+  {
+    "service": "xr",
+    "method": "calibrated_fixed",
+    "n_scenarios": 30,
+    "mean_delay_ms": 3.216677236282637,
+    "mean_scenario_p99_ms": 3.65272872381697,
+    "mean_miss_rate": 0.0,
+    "mean_rx_duty": 1.0,
+    "scenario_violation_rate": 0.0,
+    "mean_inference_ms": 0.0,
+    "profile_counts": {
+      "off": 30
+    }
+  },
+  {
+    "service": "xr",
+    "method": "calibrated_per_service",
+    "n_scenarios": 30,
+    "mean_delay_ms": 3.5273979701189666,
+    "mean_scenario_p99_ms": 5.656828335354305,
+    "mean_miss_rate": 0.0,
+    "mean_rx_duty": 0.8000000000000003,
+    "scenario_violation_rate": 0.0,
+    "mean_inference_ms": 0.0,
+    "profile_counts": {
+      "10/8": 30
+    }
+  },
+  {
+    "service": "xr",
+    "method": "guard_only",
+    "n_scenarios": 30,
+    "mean_delay_ms": 4.603944295809681,
+    "mean_scenario_p99_ms": 7.903222401230715,
+    "mean_miss_rate": 0.0,
+    "mean_rx_duty": 0.5733333333333334,
+    "scenario_violation_rate": 0.0,
+    "mean_inference_ms": 0.0,
+    "profile_counts": {
+      "10/8": 14,
+      "10/4": 14,
+      "10/2": 2
+    }
+  },
+  {
+    "service": "xr",
+    "method": "decider_raw",
+    "n_scenarios": 30,
+    "mean_delay_ms": 13.84291411070698,
+    "mean_scenario_p99_ms": 26.21939811490131,
+    "mean_miss_rate": 0.3008584856501523,
+    "mean_rx_duty": 0.3499999999999999,
+    "scenario_violation_rate": 0.6333333333333333,
+    "mean_inference_ms": 183.40992998952666,
+    "profile_counts": {
+      "40/4": 1,
+      "20/8": 4,
+      "10/4": 10,
+      "10/8": 3,
+      "20/4": 12
+    }
+  },
+  {
+    "service": "xr",
+    "method": "decider_screened",
+    "n_scenarios": 30,
+    "mean_delay_ms": 4.17170001476366,
+    "mean_scenario_p99_ms": 7.04594273566788,
+    "mean_miss_rate": 0.0,
+    "mean_rx_duty": 0.6599999999999999,
+    "scenario_violation_rate": 0.0,
+    "mean_inference_ms": 183.40992998952666,
+    "profile_counts": {
+      "10/8": 18,
+      "10/4": 11,
+      "off": 1
+    }
+  },
+  {
+    "service": "xr",
+    "method": "hindsight_oracle",
+    "n_scenarios": 30,
+    "mean_delay_ms": 4.983810558224868,
+    "mean_scenario_p99_ms": 8.540338634897674,
+    "mean_miss_rate": 0.0007960758377425044,
+    "mean_rx_duty": 0.5066666666666666,
+    "scenario_violation_rate": 0.0,
+    "mean_inference_ms": 0.0,
+    "profile_counts": {
+      "10/4": 13,
+      "10/8": 11,
+      "10/2": 6
+    }
+  },
+  {
+    "service": "gaming",
+    "method": "always_on",
+    "n_scenarios": 30,
+    "mean_delay_ms": 5.094464659617926,
+    "mean_scenario_p99_ms": 5.2896138815726035,
+    "mean_miss_rate": 0.0,
+    "mean_rx_duty": 1.0,
+    "scenario_violation_rate": 0.0,
+    "mean_inference_ms": 0.0,
+    "profile_counts": {
+      "off": 30
+    }
+  },
+  {
+    "service": "gaming",
+    "method": "fixed_balanced",
+    "n_scenarios": 30,
+    "mean_delay_ms": 21.279823553073083,
+    "mean_scenario_p99_ms": 38.3937192391076,
+    "mean_miss_rate": 0.5343154344864497,
+    "mean_rx_duty": 0.10000000000000003,
+    "scenario_violation_rate": 1.0,
+    "mean_inference_ms": 0.0,
+    "profile_counts": {
+      "40/4": 30
+    }
+  },
+  {
+    "service": "gaming",
+    "method": "fixed_low_latency",
+    "n_scenarios": 30,
+    "mean_delay_ms": 5.356137259372233,
+    "mean_scenario_p99_ms": 6.744023024643558,
+    "mean_miss_rate": 0.0,
+    "mean_rx_duty": 0.8000000000000003,
+    "scenario_violation_rate": 0.0,
+    "mean_inference_ms": 0.0,
+    "profile_counts": {
+      "10/8": 30
+    }
+  },
+  {
+    "service": "gaming",
+    "method": "service_rule",
+    "n_scenarios": 30,
+    "mean_delay_ms": 8.507733702400383,
+    "mean_scenario_p99_ms": 15.288552554464836,
+    "mean_miss_rate": 0.0018749999999999997,
+    "mean_rx_duty": 0.40000000000000013,
+    "scenario_violation_rate": 0.06666666666666667,
+    "mean_inference_ms": 0.0,
+    "profile_counts": {
+      "20/8": 30
+    }
+  },
+  {
+    "service": "gaming",
+    "method": "calibrated_fixed",
+    "n_scenarios": 30,
+    "mean_delay_ms": 5.094464659617926,
+    "mean_scenario_p99_ms": 5.2896138815726035,
+    "mean_miss_rate": 0.0,
+    "mean_rx_duty": 1.0,
+    "scenario_violation_rate": 0.0,
+    "mean_inference_ms": 0.0,
+    "profile_counts": {
+      "off": 30
+    }
+  },
+  {
+    "service": "gaming",
+    "method": "calibrated_per_service",
+    "n_scenarios": 30,
+    "mean_delay_ms": 8.597291670827952,
+    "mean_scenario_p99_ms": 12.279912874937496,
+    "mean_miss_rate": 0.0,
+    "mean_rx_duty": 0.20000000000000007,
+    "scenario_violation_rate": 0.0,
+    "mean_inference_ms": 0.0,
+    "profile_counts": {
+      "10/2": 30
+    }
+  },
+  {
+    "service": "gaming",
+    "method": "guard_only",
+    "n_scenarios": 30,
+    "mean_delay_ms": 8.597291670827952,
+    "mean_scenario_p99_ms": 12.279912874937496,
+    "mean_miss_rate": 0.0,
+    "mean_rx_duty": 0.20000000000000007,
+    "scenario_violation_rate": 0.0,
+    "mean_inference_ms": 0.0,
+    "profile_counts": {
+      "10/2": 30
+    }
+  },
+  {
+    "service": "gaming",
+    "method": "decider_raw",
+    "n_scenarios": 30,
+    "mean_delay_ms": 6.989189707177379,
+    "mean_scenario_p99_ms": 10.324268494825683,
+    "mean_miss_rate": 0.000625,
+    "mean_rx_duty": 0.5400000000000001,
+    "scenario_violation_rate": 0.03333333333333333,
+    "mean_inference_ms": 193.11883666863045,
+    "profile_counts": {
+      "20/8": 6,
+      "10/8": 11,
+      "10/4": 12,
+      "20/4": 1
+    }
+  },
+  {
+    "service": "gaming",
+    "method": "decider_screened",
+    "n_scenarios": 30,
+    "mean_delay_ms": 6.898591743170699,
+    "mean_scenario_p99_ms": 9.737947904003393,
+    "mean_miss_rate": 0.0,
+    "mean_rx_duty": 0.5600000000000002,
+    "scenario_violation_rate": 0.0,
+    "mean_inference_ms": 193.11883666863045,
+    "profile_counts": {
+      "10/4": 14,
+      "10/8": 12,
+      "20/8": 4
+    }
+  },
+  {
+    "service": "gaming",
+    "method": "hindsight_oracle",
+    "n_scenarios": 30,
+    "mean_delay_ms": 8.477700156227309,
+    "mean_scenario_p99_ms": 12.025890210090482,
+    "mean_miss_rate": 0.00022222222222222223,
+    "mean_rx_duty": 0.20000000000000007,
+    "scenario_violation_rate": 0.0,
+    "mean_inference_ms": 0.0,
+    "profile_counts": {
+      "10/2": 29,
+      "20/4": 1
+    }
+  }
+]
