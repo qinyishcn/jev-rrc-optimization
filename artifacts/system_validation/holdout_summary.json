@@ -1,0 +1,6802 @@
+{
+  "source": "artifacts\\system_validation\\holdout.jsonl",
+  "n_scenario_seed_pairs": 60,
+  "source_sha256": [
+    "ed1607a06002999a64a4583849b992e2d3b373ae71fb2b515414b7a8e2805fa6"
+  ],
+  "selection_rule": "oscillate & speed<=8 m/s & interval<=1 ms -> 1dB/80ms; else 0dB/0ms",
+  "summary": {
+    "3db_256ms_default": {
+      "cases": 60,
+      "sent": 891000,
+      "received": 887875,
+      "lost": 3125,
+      "late_received": 46744,
+      "deadline_miss_including_loss": 49869,
+      "deadline_miss_rate": 0.05596969696969697,
+      "handover_starts": 30,
+      "mean_of_case_p99_delay_ms": 67.517
+    },
+    "0db_0ms_calibrated_fixed": {
+      "cases": 60,
+      "sent": 891000,
+      "received": 887834,
+      "lost": 3166,
+      "late_received": 1400,
+      "deadline_miss_including_loss": 4566,
+      "deadline_miss_rate": 0.0051245791245791246,
+      "handover_starts": 350,
+      "mean_of_case_p99_delay_ms": 6.75
+    },
+    "descriptor_rule": {
+      "cases": 60,
+      "sent": 891000,
+      "received": 888789,
+      "lost": 2211,
+      "late_received": 920,
+      "deadline_miss_including_loss": 3131,
+      "deadline_miss_rate": 0.0035140291806958473,
+      "handover_starts": 290,
+      "mean_of_case_p99_delay_ms": 6.083333333333333
+    },
+    "hindsight_oracle": {
+      "cases": 60,
+      "sent": 891000,
+      "received": 888789,
+      "lost": 2211,
+      "late_received": 920,
+      "deadline_miss_including_loss": 3131,
+      "deadline_miss_rate": 0.0035140291806958473,
+      "handover_starts": 182,
+      "mean_of_case_p99_delay_ms": 5.933333333333334
+    },
+    "decider_base": {
+      "cases": 60,
+      "sent": 891000,
+      "received": 884947,
+      "lost": 6053,
+      "late_received": 31886,
+      "deadline_miss_including_loss": 37939,
+      "deadline_miss_rate": 0.04258024691358025,
+      "handover_starts": 110,
+      "mean_of_case_p99_delay_ms": 47.6375
+    },
+    "qwen_base": {
+      "cases": 60,
+      "sent": 891000,
+      "received": 887834,
+      "lost": 3166,
+      "late_received": 1400,
+      "deadline_miss_including_loss": 4566,
+      "deadline_miss_rate": 0.0051245791245791246,
+      "handover_starts": 350,
+      "mean_of_case_p99_delay_ms": 6.75
+    }
+  },
+  "valid_model_choices": {
+    "decider_base": 12,
+    "qwen_base": 12
+  },
+  "case_studies": [
+    {
+      "case": "cross_15_1",
+      "run": 11,
+      "chosen_profiles": {
+        "3db_256ms_default": [
+          3.0,
+          256
+        ],
+        "0db_0ms_calibrated_fixed": [
+          0.0,
+          0
+        ],
+        "descriptor_rule": [
+          0.0,
+          0
+        ],
+        "hindsight_oracle": [
+          0.0,
+          0
+        ],
+        "decider_base": [
+          2.0,
+          160
+        ],
+        "qwen_base": [
+          0.0,
+          0
+        ]
+      },
+      "by_profile": [
+        {
+          "hysteresis_db": 0.0,
+          "ttt_ms": 0,
+          "sent": 31000,
+          "received": 30985,
+          "lost": 15,
+          "late_received": 8,
+          "deadline_miss_including_loss": 23,
+          "mean_delay_ms": 5.01339,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 8417.0
+        },
+        {
+          "hysteresis_db": 1.0,
+          "ttt_ms": 80,
+          "sent": 31000,
+          "received": 30983,
+          "lost": 17,
+          "late_received": 192,
+          "deadline_miss_including_loss": 209,
+          "mean_delay_ms": 5.39041,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 6.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 9097.0
+        },
+        {
+          "hysteresis_db": 2.0,
+          "ttt_ms": 160,
+          "sent": 31000,
+          "received": 30939,
+          "lost": 61,
+          "late_received": 558,
+          "deadline_miss_including_loss": 619,
+          "mean_delay_ms": 6.36174,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 69.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 9777.0
+        },
+        {
+          "hysteresis_db": 3.0,
+          "ttt_ms": 256,
+          "sent": 31000,
+          "received": 30826,
+          "lost": 174,
+          "late_received": 1050,
+          "deadline_miss_including_loss": 1224,
+          "mean_delay_ms": 8.3534,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 131.75,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 10473.0
+        },
+        {
+          "hysteresis_db": 6.0,
+          "ttt_ms": 320,
+          "sent": 31000,
+          "received": 30558,
+          "lost": 442,
+          "late_received": 2467,
+          "deadline_miss_including_loss": 2909,
+          "mean_delay_ms": 14.86429,
+          "p95_delay_ms": 115.0,
+          "p99_delay_ms": 181.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 12158.0
+        }
+      ]
+    },
+    {
+      "case": "cross_15_1",
+      "run": 12,
+      "chosen_profiles": {
+        "3db_256ms_default": [
+          3.0,
+          256
+        ],
+        "0db_0ms_calibrated_fixed": [
+          0.0,
+          0
+        ],
+        "descriptor_rule": [
+          0.0,
+          0
+        ],
+        "hindsight_oracle": [
+          0.0,
+          0
+        ],
+        "decider_base": [
+          2.0,
+          160
+        ],
+        "qwen_base": [
+          0.0,
+          0
+        ]
+      },
+      "by_profile": [
+        {
+          "hysteresis_db": 0.0,
+          "ttt_ms": 0,
+          "sent": 31000,
+          "received": 30985,
+          "lost": 15,
+          "late_received": 8,
+          "deadline_miss_including_loss": 23,
+          "mean_delay_ms": 5.01339,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 8417.0
+        },
+        {
+          "hysteresis_db": 1.0,
+          "ttt_ms": 80,
+          "sent": 31000,
+          "received": 30984,
+          "lost": 16,
+          "late_received": 93,
+          "deadline_miss_including_loss": 109,
+          "mean_delay_ms": 5.17635,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 9097.0
+        },
+        {
+          "hysteresis_db": 2.0,
+          "ttt_ms": 160,
+          "sent": 31000,
+          "received": 30887,
+          "lost": 113,
+          "late_received": 263,
+          "deadline_miss_including_loss": 376,
+          "mean_delay_ms": 5.50866,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 13.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 9777.0
+        },
+        {
+          "hysteresis_db": 3.0,
+          "ttt_ms": 256,
+          "sent": 31000,
+          "received": 30814,
+          "lost": 186,
+          "late_received": 719,
+          "deadline_miss_including_loss": 905,
+          "mean_delay_ms": 6.65558,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 80.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 10473.0
+        },
+        {
+          "hysteresis_db": 6.0,
+          "ttt_ms": 320,
+          "sent": 31000,
+          "received": 30527,
+          "lost": 473,
+          "late_received": 2196,
+          "deadline_miss_including_loss": 2669,
+          "mean_delay_ms": 13.70469,
+          "p95_delay_ms": 104.0,
+          "p99_delay_ms": 180.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 12237.0
+        }
+      ]
+    },
+    {
+      "case": "cross_15_1",
+      "run": 13,
+      "chosen_profiles": {
+        "3db_256ms_default": [
+          3.0,
+          256
+        ],
+        "0db_0ms_calibrated_fixed": [
+          0.0,
+          0
+        ],
+        "descriptor_rule": [
+          0.0,
+          0
+        ],
+        "hindsight_oracle": [
+          0.0,
+          0
+        ],
+        "decider_base": [
+          2.0,
+          160
+        ],
+        "qwen_base": [
+          0.0,
+          0
+        ]
+      },
+      "by_profile": [
+        {
+          "hysteresis_db": 0.0,
+          "ttt_ms": 0,
+          "sent": 31000,
+          "received": 30985,
+          "lost": 15,
+          "late_received": 8,
+          "deadline_miss_including_loss": 23,
+          "mean_delay_ms": 5.01339,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 8417.0
+        },
+        {
+          "hysteresis_db": 1.0,
+          "ttt_ms": 80,
+          "sent": 31000,
+          "received": 30971,
+          "lost": 29,
+          "late_received": 8,
+          "deadline_miss_including_loss": 37,
+          "mean_delay_ms": 5.01333,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 9097.0
+        },
+        {
+          "hysteresis_db": 2.0,
+          "ttt_ms": 160,
+          "sent": 31000,
+          "received": 30880,
+          "lost": 120,
+          "late_received": 571,
+          "deadline_miss_including_loss": 691,
+          "mean_delay_ms": 6.70703,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 90.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 9797.0
+        },
+        {
+          "hysteresis_db": 3.0,
+          "ttt_ms": 256,
+          "sent": 31000,
+          "received": 30790,
+          "lost": 210,
+          "late_received": 1157,
+          "deadline_miss_including_loss": 1367,
+          "mean_delay_ms": 9.23868,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 147.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 10473.0
+        },
+        {
+          "hysteresis_db": 6.0,
+          "ttt_ms": 320,
+          "sent": 31000,
+          "received": 30560,
+          "lost": 440,
+          "late_received": 2591,
+          "deadline_miss_including_loss": 3031,
+          "mean_delay_ms": 15.96086,
+          "p95_delay_ms": 126.0,
+          "p99_delay_ms": 181.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 12137.0
+        }
+      ]
+    },
+    {
+      "case": "cross_15_1",
+      "run": 14,
+      "chosen_profiles": {
+        "3db_256ms_default": [
+          3.0,
+          256
+        ],
+        "0db_0ms_calibrated_fixed": [
+          0.0,
+          0
+        ],
+        "descriptor_rule": [
+          0.0,
+          0
+        ],
+        "hindsight_oracle": [
+          0.0,
+          0
+        ],
+        "decider_base": [
+          2.0,
+          160
+        ],
+        "qwen_base": [
+          0.0,
+          0
+        ]
+      },
+      "by_profile": [
+        {
+          "hysteresis_db": 0.0,
+          "ttt_ms": 0,
+          "sent": 31000,
+          "received": 30985,
+          "lost": 15,
+          "late_received": 8,
+          "deadline_miss_including_loss": 23,
+          "mean_delay_ms": 5.01339,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 8417.0
+        },
+        {
+          "hysteresis_db": 1.0,
+          "ttt_ms": 80,
+          "sent": 31000,
+          "received": 30984,
+          "lost": 16,
+          "late_received": 93,
+          "deadline_miss_including_loss": 109,
+          "mean_delay_ms": 5.17635,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 9097.0
+        },
+        {
+          "hysteresis_db": 2.0,
+          "ttt_ms": 160,
+          "sent": 31000,
+          "received": 30873,
+          "lost": 127,
+          "late_received": 302,
+          "deadline_miss_including_loss": 429,
+          "mean_delay_ms": 5.91024,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 15.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 9777.0
+        },
+        {
+          "hysteresis_db": 3.0,
+          "ttt_ms": 256,
+          "sent": 31000,
+          "received": 30851,
+          "lost": 149,
+          "late_received": 973,
+          "deadline_miss_including_loss": 1122,
+          "mean_delay_ms": 8.76801,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 146.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 10473.0
+        },
+        {
+          "hysteresis_db": 6.0,
+          "ttt_ms": 320,
+          "sent": 31000,
+          "received": 30524,
+          "lost": 476,
+          "late_received": 2311,
+          "deadline_miss_including_loss": 2787,
+          "mean_delay_ms": 15.03797,
+          "p95_delay_ms": 122.0,
+          "p99_delay_ms": 181.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 12138.0
+        }
+      ]
+    },
+    {
+      "case": "cross_15_1",
+      "run": 15,
+      "chosen_profiles": {
+        "3db_256ms_default": [
+          3.0,
+          256
+        ],
+        "0db_0ms_calibrated_fixed": [
+          0.0,
+          0
+        ],
+        "descriptor_rule": [
+          0.0,
+          0
+        ],
+        "hindsight_oracle": [
+          0.0,
+          0
+        ],
+        "decider_base": [
+          2.0,
+          160
+        ],
+        "qwen_base": [
+          0.0,
+          0
+        ]
+      },
+      "by_profile": [
+        {
+          "hysteresis_db": 0.0,
+          "ttt_ms": 0,
+          "sent": 31000,
+          "received": 30985,
+          "lost": 15,
+          "late_received": 8,
+          "deadline_miss_including_loss": 23,
+          "mean_delay_ms": 5.01339,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 8417.0
+        },
+        {
+          "hysteresis_db": 1.0,
+          "ttt_ms": 80,
+          "sent": 31000,
+          "received": 30973,
+          "lost": 27,
+          "late_received": 178,
+          "deadline_miss_including_loss": 205,
+          "mean_delay_ms": 5.33942,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 6.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 9097.0
+        },
+        {
+          "hysteresis_db": 2.0,
+          "ttt_ms": 160,
+          "sent": 31000,
+          "received": 30978,
+          "lost": 22,
+          "late_received": 348,
+          "deadline_miss_including_loss": 370,
+          "mean_delay_ms": 5.67025,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 28.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 9777.0
+        },
+        {
+          "hysteresis_db": 3.0,
+          "ttt_ms": 256,
+          "sent": 31000,
+          "received": 30781,
+          "lost": 219,
+          "late_received": 842,
+          "deadline_miss_including_loss": 1061,
+          "mean_delay_ms": 7.54888,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 109.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 10473.0
+        },
+        {
+          "hysteresis_db": 6.0,
+          "ttt_ms": 320,
+          "sent": 31000,
+          "received": 30534,
+          "lost": 466,
+          "late_received": 2259,
+          "deadline_miss_including_loss": 2725,
+          "mean_delay_ms": 14.00865,
+          "p95_delay_ms": 108.0,
+          "p99_delay_ms": 174.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 12137.0
+        }
+      ]
+    },
+    {
+      "case": "cross_15_10",
+      "run": 11,
+      "chosen_profiles": {
+        "3db_256ms_default": [
+          3.0,
+          256
+        ],
+        "0db_0ms_calibrated_fixed": [
+          0.0,
+          0
+        ],
+        "descriptor_rule": [
+          0.0,
+          0
+        ],
+        "hindsight_oracle": [
+          0.0,
+          0
+        ],
+        "decider_base": [
+          2.0,
+          160
+        ],
+        "qwen_base": [
+          0.0,
+          0
+        ]
+      },
+      "by_profile": [
+        {
+          "hysteresis_db": 0.0,
+          "ttt_ms": 0,
+          "sent": 3100,
+          "received": 3100,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.00387,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 8417.0
+        },
+        {
+          "hysteresis_db": 1.0,
+          "ttt_ms": 80,
+          "sent": 3100,
+          "received": 3080,
+          "lost": 20,
+          "late_received": 10,
+          "deadline_miss_including_loss": 30,
+          "mean_delay_ms": 5.44545,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 9097.0
+        },
+        {
+          "hysteresis_db": 2.0,
+          "ttt_ms": 160,
+          "sent": 3100,
+          "received": 3096,
+          "lost": 4,
+          "late_received": 36,
+          "deadline_miss_including_loss": 40,
+          "mean_delay_ms": 6.17313,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 45.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 9777.0
+        },
+        {
+          "hysteresis_db": 3.0,
+          "ttt_ms": 256,
+          "sent": 3100,
+          "received": 3087,
+          "lost": 13,
+          "late_received": 55,
+          "deadline_miss_including_loss": 68,
+          "mean_delay_ms": 6.53677,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 75.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 10473.0
+        },
+        {
+          "hysteresis_db": 6.0,
+          "ttt_ms": 320,
+          "sent": 3100,
+          "received": 3061,
+          "lost": 39,
+          "late_received": 154,
+          "deadline_miss_including_loss": 193,
+          "mean_delay_ms": 9.81999,
+          "p95_delay_ms": 25.0,
+          "p99_delay_ms": 145.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 12177.0
+        }
+      ]
+    },
+    {
+      "case": "cross_15_10",
+      "run": 12,
+      "chosen_profiles": {
+        "3db_256ms_default": [
+          3.0,
+          256
+        ],
+        "0db_0ms_calibrated_fixed": [
+          0.0,
+          0
+        ],
+        "descriptor_rule": [
+          0.0,
+          0
+        ],
+        "hindsight_oracle": [
+          0.0,
+          0
+        ],
+        "decider_base": [
+          2.0,
+          160
+        ],
+        "qwen_base": [
+          0.0,
+          0
+        ]
+      },
+      "by_profile": [
+        {
+          "hysteresis_db": 0.0,
+          "ttt_ms": 0,
+          "sent": 3100,
+          "received": 3100,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.00387,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 8417.0
+        },
+        {
+          "hysteresis_db": 1.0,
+          "ttt_ms": 80,
+          "sent": 3100,
+          "received": 3100,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.00387,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 9097.0
+        },
+        {
+          "hysteresis_db": 2.0,
+          "ttt_ms": 160,
+          "sent": 3100,
+          "received": 3100,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.00387,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 9777.0
+        },
+        {
+          "hysteresis_db": 3.0,
+          "ttt_ms": 256,
+          "sent": 3100,
+          "received": 3099,
+          "lost": 1,
+          "late_received": 10,
+          "deadline_miss_including_loss": 11,
+          "mean_delay_ms": 5.18522,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 10473.0
+        },
+        {
+          "hysteresis_db": 6.0,
+          "ttt_ms": 320,
+          "sent": 3100,
+          "received": 3063,
+          "lost": 37,
+          "late_received": 103,
+          "deadline_miss_including_loss": 140,
+          "mean_delay_ms": 8.30526,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 125.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 12177.0
+        }
+      ]
+    },
+    {
+      "case": "cross_15_10",
+      "run": 13,
+      "chosen_profiles": {
+        "3db_256ms_default": [
+          3.0,
+          256
+        ],
+        "0db_0ms_calibrated_fixed": [
+          0.0,
+          0
+        ],
+        "descriptor_rule": [
+          0.0,
+          0
+        ],
+        "hindsight_oracle": [
+          0.0,
+          0
+        ],
+        "decider_base": [
+          2.0,
+          160
+        ],
+        "qwen_base": [
+          0.0,
+          0
+        ]
+      },
+      "by_profile": [
+        {
+          "hysteresis_db": 0.0,
+          "ttt_ms": 0,
+          "sent": 3100,
+          "received": 3100,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.00387,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 8417.0
+        },
+        {
+          "hysteresis_db": 1.0,
+          "ttt_ms": 80,
+          "sent": 3100,
+          "received": 3100,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.00387,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 9097.0
+        },
+        {
+          "hysteresis_db": 2.0,
+          "ttt_ms": 160,
+          "sent": 3100,
+          "received": 3100,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.00387,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 9777.0
+        },
+        {
+          "hysteresis_db": 3.0,
+          "ttt_ms": 256,
+          "sent": 3100,
+          "received": 3092,
+          "lost": 8,
+          "late_received": 6,
+          "deadline_miss_including_loss": 14,
+          "mean_delay_ms": 5.13713,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 10473.0
+        },
+        {
+          "hysteresis_db": 6.0,
+          "ttt_ms": 320,
+          "sent": 3100,
+          "received": 3062,
+          "lost": 38,
+          "late_received": 98,
+          "deadline_miss_including_loss": 136,
+          "mean_delay_ms": 8.42325,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 135.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 12137.0
+        }
+      ]
+    },
+    {
+      "case": "cross_15_10",
+      "run": 14,
+      "chosen_profiles": {
+        "3db_256ms_default": [
+          3.0,
+          256
+        ],
+        "0db_0ms_calibrated_fixed": [
+          0.0,
+          0
+        ],
+        "descriptor_rule": [
+          0.0,
+          0
+        ],
+        "hindsight_oracle": [
+          0.0,
+          0
+        ],
+        "decider_base": [
+          2.0,
+          160
+        ],
+        "qwen_base": [
+          0.0,
+          0
+        ]
+      },
+      "by_profile": [
+        {
+          "hysteresis_db": 0.0,
+          "ttt_ms": 0,
+          "sent": 3100,
+          "received": 3100,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.00387,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 8417.0
+        },
+        {
+          "hysteresis_db": 1.0,
+          "ttt_ms": 80,
+          "sent": 3100,
+          "received": 3100,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.00387,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 9097.0
+        },
+        {
+          "hysteresis_db": 2.0,
+          "ttt_ms": 160,
+          "sent": 3100,
+          "received": 3099,
+          "lost": 1,
+          "late_received": 9,
+          "deadline_miss_including_loss": 10,
+          "mean_delay_ms": 5.18135,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 9777.0
+        },
+        {
+          "hysteresis_db": 3.0,
+          "ttt_ms": 256,
+          "sent": 3100,
+          "received": 3098,
+          "lost": 2,
+          "late_received": 19,
+          "deadline_miss_including_loss": 21,
+          "mean_delay_ms": 5.36281,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 10473.0
+        },
+        {
+          "hysteresis_db": 6.0,
+          "ttt_ms": 320,
+          "sent": 3100,
+          "received": 3070,
+          "lost": 30,
+          "late_received": 112,
+          "deadline_miss_including_loss": 142,
+          "mean_delay_ms": 8.77589,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 135.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 12137.0
+        }
+      ]
+    },
+    {
+      "case": "cross_15_10",
+      "run": 15,
+      "chosen_profiles": {
+        "3db_256ms_default": [
+          3.0,
+          256
+        ],
+        "0db_0ms_calibrated_fixed": [
+          0.0,
+          0
+        ],
+        "descriptor_rule": [
+          0.0,
+          0
+        ],
+        "hindsight_oracle": [
+          0.0,
+          0
+        ],
+        "decider_base": [
+          2.0,
+          160
+        ],
+        "qwen_base": [
+          0.0,
+          0
+        ]
+      },
+      "by_profile": [
+        {
+          "hysteresis_db": 0.0,
+          "ttt_ms": 0,
+          "sent": 3100,
+          "received": 3100,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.00387,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 8417.0
+        },
+        {
+          "hysteresis_db": 1.0,
+          "ttt_ms": 80,
+          "sent": 3100,
+          "received": 3100,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.00387,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 9097.0
+        },
+        {
+          "hysteresis_db": 2.0,
+          "ttt_ms": 160,
+          "sent": 3100,
+          "received": 3100,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.00387,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 9777.0
+        },
+        {
+          "hysteresis_db": 3.0,
+          "ttt_ms": 256,
+          "sent": 3100,
+          "received": 3097,
+          "lost": 3,
+          "late_received": 28,
+          "deadline_miss_including_loss": 31,
+          "mean_delay_ms": 5.54052,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 12.12,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 10473.0
+        },
+        {
+          "hysteresis_db": 6.0,
+          "ttt_ms": 320,
+          "sent": 3100,
+          "received": 3071,
+          "lost": 29,
+          "late_received": 125,
+          "deadline_miss_including_loss": 154,
+          "mean_delay_ms": 8.44578,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 115.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 12137.0
+        }
+      ]
+    },
+    {
+      "case": "cross_25_1",
+      "run": 11,
+      "chosen_profiles": {
+        "3db_256ms_default": [
+          3.0,
+          256
+        ],
+        "0db_0ms_calibrated_fixed": [
+          0.0,
+          0
+        ],
+        "descriptor_rule": [
+          0.0,
+          0
+        ],
+        "hindsight_oracle": [
+          0.0,
+          0
+        ],
+        "decider_base": [
+          2.0,
+          160
+        ],
+        "qwen_base": [
+          0.0,
+          0
+        ]
+      },
+      "by_profile": [
+        {
+          "hysteresis_db": 0.0,
+          "ttt_ms": 0,
+          "sent": 31000,
+          "received": 30985,
+          "lost": 15,
+          "late_received": 8,
+          "deadline_miss_including_loss": 23,
+          "mean_delay_ms": 5.01381,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 5217.0
+        },
+        {
+          "hysteresis_db": 1.0,
+          "ttt_ms": 80,
+          "sent": 31000,
+          "received": 30826,
+          "lost": 174,
+          "late_received": 233,
+          "deadline_miss_including_loss": 407,
+          "mean_delay_ms": 5.73853,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 6.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 5697.0
+        },
+        {
+          "hysteresis_db": 2.0,
+          "ttt_ms": 160,
+          "sent": 31000,
+          "received": 30846,
+          "lost": 154,
+          "late_received": 736,
+          "deadline_miss_including_loss": 890,
+          "mean_delay_ms": 7.35178,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 109.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 6177.0
+        },
+        {
+          "hysteresis_db": 3.0,
+          "ttt_ms": 256,
+          "sent": 31000,
+          "received": 30798,
+          "lost": 202,
+          "late_received": 981,
+          "deadline_miss_including_loss": 1183,
+          "mean_delay_ms": 8.43896,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 135.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 6473.0
+        },
+        {
+          "hysteresis_db": 6.0,
+          "ttt_ms": 320,
+          "sent": 31000,
+          "received": 30540,
+          "lost": 460,
+          "late_received": 1830,
+          "deadline_miss_including_loss": 2290,
+          "mean_delay_ms": 12.26719,
+          "p95_delay_ms": 82.0,
+          "p99_delay_ms": 172.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 7577.0
+        }
+      ]
+    },
+    {
+      "case": "cross_25_1",
+      "run": 12,
+      "chosen_profiles": {
+        "3db_256ms_default": [
+          3.0,
+          256
+        ],
+        "0db_0ms_calibrated_fixed": [
+          0.0,
+          0
+        ],
+        "descriptor_rule": [
+          0.0,
+          0
+        ],
+        "hindsight_oracle": [
+          0.0,
+          0
+        ],
+        "decider_base": [
+          2.0,
+          160
+        ],
+        "qwen_base": [
+          0.0,
+          0
+        ]
+      },
+      "by_profile": [
+        {
+          "hysteresis_db": 0.0,
+          "ttt_ms": 0,
+          "sent": 31000,
+          "received": 30985,
+          "lost": 15,
+          "late_received": 8,
+          "deadline_miss_including_loss": 23,
+          "mean_delay_ms": 5.01381,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 5217.0
+        },
+        {
+          "hysteresis_db": 1.0,
+          "ttt_ms": 80,
+          "sent": 31000,
+          "received": 30983,
+          "lost": 17,
+          "late_received": 178,
+          "deadline_miss_including_loss": 195,
+          "mean_delay_ms": 5.3398,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 6.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 5697.0
+        },
+        {
+          "hysteresis_db": 2.0,
+          "ttt_ms": 160,
+          "sent": 31000,
+          "received": 30855,
+          "lost": 145,
+          "late_received": 410,
+          "deadline_miss_including_loss": 555,
+          "mean_delay_ms": 6.22868,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 67.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 6177.0
+        },
+        {
+          "hysteresis_db": 3.0,
+          "ttt_ms": 256,
+          "sent": 31000,
+          "received": 30847,
+          "lost": 153,
+          "late_received": 695,
+          "deadline_miss_including_loss": 848,
+          "mean_delay_ms": 7.31951,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 111.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 6473.0
+        },
+        {
+          "hysteresis_db": 6.0,
+          "ttt_ms": 320,
+          "sent": 31000,
+          "received": 30567,
+          "lost": 433,
+          "late_received": 1499,
+          "deadline_miss_including_loss": 1932,
+          "mean_delay_ms": 11.16671,
+          "p95_delay_ms": 12.0,
+          "p99_delay_ms": 166.34,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 7557.0
+        }
+      ]
+    },
+    {
+      "case": "cross_25_1",
+      "run": 13,
+      "chosen_profiles": {
+        "3db_256ms_default": [
+          3.0,
+          256
+        ],
+        "0db_0ms_calibrated_fixed": [
+          0.0,
+          0
+        ],
+        "descriptor_rule": [
+          0.0,
+          0
+        ],
+        "hindsight_oracle": [
+          0.0,
+          0
+        ],
+        "decider_base": [
+          2.0,
+          160
+        ],
+        "qwen_base": [
+          0.0,
+          0
+        ]
+      },
+      "by_profile": [
+        {
+          "hysteresis_db": 0.0,
+          "ttt_ms": 0,
+          "sent": 31000,
+          "received": 30985,
+          "lost": 15,
+          "late_received": 8,
+          "deadline_miss_including_loss": 23,
+          "mean_delay_ms": 5.01381,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 5217.0
+        },
+        {
+          "hysteresis_db": 1.0,
+          "ttt_ms": 80,
+          "sent": 31000,
+          "received": 30984,
+          "lost": 16,
+          "late_received": 93,
+          "deadline_miss_including_loss": 109,
+          "mean_delay_ms": 5.1768,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 5697.0
+        },
+        {
+          "hysteresis_db": 2.0,
+          "ttt_ms": 160,
+          "sent": 31000,
+          "received": 30858,
+          "lost": 142,
+          "late_received": 344,
+          "deadline_miss_including_loss": 486,
+          "mean_delay_ms": 5.88927,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 34.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 6177.0
+        },
+        {
+          "hysteresis_db": 3.0,
+          "ttt_ms": 256,
+          "sent": 31000,
+          "received": 30867,
+          "lost": 133,
+          "late_received": 666,
+          "deadline_miss_including_loss": 799,
+          "mean_delay_ms": 7.13986,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 105.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 6493.0
+        },
+        {
+          "hysteresis_db": 6.0,
+          "ttt_ms": 320,
+          "sent": 31000,
+          "received": 30570,
+          "lost": 430,
+          "late_received": 1473,
+          "deadline_miss_including_loss": 1903,
+          "mean_delay_ms": 11.01747,
+          "p95_delay_ms": 6.0,
+          "p99_delay_ms": 171.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 7597.0
+        }
+      ]
+    },
+    {
+      "case": "cross_25_1",
+      "run": 14,
+      "chosen_profiles": {
+        "3db_256ms_default": [
+          3.0,
+          256
+        ],
+        "0db_0ms_calibrated_fixed": [
+          0.0,
+          0
+        ],
+        "descriptor_rule": [
+          0.0,
+          0
+        ],
+        "hindsight_oracle": [
+          0.0,
+          0
+        ],
+        "decider_base": [
+          2.0,
+          160
+        ],
+        "qwen_base": [
+          0.0,
+          0
+        ]
+      },
+      "by_profile": [
+        {
+          "hysteresis_db": 0.0,
+          "ttt_ms": 0,
+          "sent": 31000,
+          "received": 30985,
+          "lost": 15,
+          "late_received": 8,
+          "deadline_miss_including_loss": 23,
+          "mean_delay_ms": 5.01381,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 5217.0
+        },
+        {
+          "hysteresis_db": 1.0,
+          "ttt_ms": 80,
+          "sent": 31000,
+          "received": 30977,
+          "lost": 23,
+          "late_received": 277,
+          "deadline_miss_including_loss": 300,
+          "mean_delay_ms": 5.54711,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 11.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 5697.0
+        },
+        {
+          "hysteresis_db": 2.0,
+          "ttt_ms": 160,
+          "sent": 31000,
+          "received": 30810,
+          "lost": 190,
+          "late_received": 587,
+          "deadline_miss_including_loss": 777,
+          "mean_delay_ms": 6.47085,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 75.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 6177.0
+        },
+        {
+          "hysteresis_db": 3.0,
+          "ttt_ms": 256,
+          "sent": 31000,
+          "received": 30793,
+          "lost": 207,
+          "late_received": 883,
+          "deadline_miss_including_loss": 1090,
+          "mean_delay_ms": 7.56626,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 106.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 6493.0
+        },
+        {
+          "hysteresis_db": 6.0,
+          "ttt_ms": 320,
+          "sent": 31000,
+          "received": 30588,
+          "lost": 412,
+          "late_received": 1722,
+          "deadline_miss_including_loss": 2134,
+          "mean_delay_ms": 11.58647,
+          "p95_delay_ms": 57.0,
+          "p99_delay_ms": 169.13,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 7537.0
+        }
+      ]
+    },
+    {
+      "case": "cross_25_1",
+      "run": 15,
+      "chosen_profiles": {
+        "3db_256ms_default": [
+          3.0,
+          256
+        ],
+        "0db_0ms_calibrated_fixed": [
+          0.0,
+          0
+        ],
+        "descriptor_rule": [
+          0.0,
+          0
+        ],
+        "hindsight_oracle": [
+          0.0,
+          0
+        ],
+        "decider_base": [
+          2.0,
+          160
+        ],
+        "qwen_base": [
+          0.0,
+          0
+        ]
+      },
+      "by_profile": [
+        {
+          "hysteresis_db": 0.0,
+          "ttt_ms": 0,
+          "sent": 31000,
+          "received": 30985,
+          "lost": 15,
+          "late_received": 8,
+          "deadline_miss_including_loss": 23,
+          "mean_delay_ms": 5.01381,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 5217.0
+        },
+        {
+          "hysteresis_db": 1.0,
+          "ttt_ms": 80,
+          "sent": 31000,
+          "received": 30983,
+          "lost": 17,
+          "late_received": 178,
+          "deadline_miss_including_loss": 195,
+          "mean_delay_ms": 5.3398,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 6.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 5697.0
+        },
+        {
+          "hysteresis_db": 2.0,
+          "ttt_ms": 160,
+          "sent": 31000,
+          "received": 30882,
+          "lost": 118,
+          "late_received": 429,
+          "deadline_miss_including_loss": 547,
+          "mean_delay_ms": 6.2572,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 67.19,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 6197.0
+        },
+        {
+          "hysteresis_db": 3.0,
+          "ttt_ms": 256,
+          "sent": 31000,
+          "received": 30841,
+          "lost": 159,
+          "late_received": 664,
+          "deadline_miss_including_loss": 823,
+          "mean_delay_ms": 7.27736,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 114.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 6473.0
+        },
+        {
+          "hysteresis_db": 6.0,
+          "ttt_ms": 320,
+          "sent": 31000,
+          "received": 30588,
+          "lost": 412,
+          "late_received": 1496,
+          "deadline_miss_including_loss": 1908,
+          "mean_delay_ms": 11.28155,
+          "p95_delay_ms": 11.0,
+          "p99_delay_ms": 171.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 7558.0
+        }
+      ]
+    },
+    {
+      "case": "cross_25_10",
+      "run": 11,
+      "chosen_profiles": {
+        "3db_256ms_default": [
+          3.0,
+          256
+        ],
+        "0db_0ms_calibrated_fixed": [
+          0.0,
+          0
+        ],
+        "descriptor_rule": [
+          0.0,
+          0
+        ],
+        "hindsight_oracle": [
+          0.0,
+          0
+        ],
+        "decider_base": [
+          2.0,
+          160
+        ],
+        "qwen_base": [
+          0.0,
+          0
+        ]
+      },
+      "by_profile": [
+        {
+          "hysteresis_db": 0.0,
+          "ttt_ms": 0,
+          "sent": 3100,
+          "received": 3100,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.00387,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 5217.0
+        },
+        {
+          "hysteresis_db": 1.0,
+          "ttt_ms": 80,
+          "sent": 3100,
+          "received": 3100,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.00387,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 5697.0
+        },
+        {
+          "hysteresis_db": 2.0,
+          "ttt_ms": 160,
+          "sent": 3100,
+          "received": 3100,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.00387,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 6177.0
+        },
+        {
+          "hysteresis_db": 3.0,
+          "ttt_ms": 256,
+          "sent": 3100,
+          "received": 3091,
+          "lost": 9,
+          "late_received": 8,
+          "deadline_miss_including_loss": 17,
+          "mean_delay_ms": 5.16629,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 6473.0
+        },
+        {
+          "hysteresis_db": 6.0,
+          "ttt_ms": 320,
+          "sent": 3100,
+          "received": 3068,
+          "lost": 32,
+          "late_received": 80,
+          "deadline_miss_including_loss": 112,
+          "mean_delay_ms": 7.82008,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 125.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 7557.0
+        }
+      ]
+    },
+    {
+      "case": "cross_25_10",
+      "run": 12,
+      "chosen_profiles": {
+        "3db_256ms_default": [
+          3.0,
+          256
+        ],
+        "0db_0ms_calibrated_fixed": [
+          0.0,
+          0
+        ],
+        "descriptor_rule": [
+          0.0,
+          0
+        ],
+        "hindsight_oracle": [
+          0.0,
+          0
+        ],
+        "decider_base": [
+          2.0,
+          160
+        ],
+        "qwen_base": [
+          0.0,
+          0
+        ]
+      },
+      "by_profile": [
+        {
+          "hysteresis_db": 0.0,
+          "ttt_ms": 0,
+          "sent": 3100,
+          "received": 3100,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.00387,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 5217.0
+        },
+        {
+          "hysteresis_db": 1.0,
+          "ttt_ms": 80,
+          "sent": 3100,
+          "received": 3100,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.00387,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 5697.0
+        },
+        {
+          "hysteresis_db": 2.0,
+          "ttt_ms": 160,
+          "sent": 3100,
+          "received": 3092,
+          "lost": 8,
+          "late_received": 0,
+          "deadline_miss_including_loss": 8,
+          "mean_delay_ms": 5.00388,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 6177.0
+        },
+        {
+          "hysteresis_db": 3.0,
+          "ttt_ms": 256,
+          "sent": 3100,
+          "received": 3099,
+          "lost": 1,
+          "late_received": 10,
+          "deadline_miss_including_loss": 11,
+          "mean_delay_ms": 5.18522,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 6473.0
+        },
+        {
+          "hysteresis_db": 6.0,
+          "ttt_ms": 320,
+          "sent": 3100,
+          "received": 3064,
+          "lost": 36,
+          "late_received": 65,
+          "deadline_miss_including_loss": 101,
+          "mean_delay_ms": 7.33812,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 118.7,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 7557.0
+        }
+      ]
+    },
+    {
+      "case": "cross_25_10",
+      "run": 13,
+      "chosen_profiles": {
+        "3db_256ms_default": [
+          3.0,
+          256
+        ],
+        "0db_0ms_calibrated_fixed": [
+          0.0,
+          0
+        ],
+        "descriptor_rule": [
+          0.0,
+          0
+        ],
+        "hindsight_oracle": [
+          0.0,
+          0
+        ],
+        "decider_base": [
+          2.0,
+          160
+        ],
+        "qwen_base": [
+          0.0,
+          0
+        ]
+      },
+      "by_profile": [
+        {
+          "hysteresis_db": 0.0,
+          "ttt_ms": 0,
+          "sent": 3100,
+          "received": 3100,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.00387,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 5217.0
+        },
+        {
+          "hysteresis_db": 1.0,
+          "ttt_ms": 80,
+          "sent": 3100,
+          "received": 3100,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.00387,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 5697.0
+        },
+        {
+          "hysteresis_db": 2.0,
+          "ttt_ms": 160,
+          "sent": 3100,
+          "received": 3098,
+          "lost": 2,
+          "late_received": 0,
+          "deadline_miss_including_loss": 2,
+          "mean_delay_ms": 5.00387,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 6177.0
+        },
+        {
+          "hysteresis_db": 3.0,
+          "ttt_ms": 256,
+          "sent": 3100,
+          "received": 3088,
+          "lost": 12,
+          "late_received": 10,
+          "deadline_miss_including_loss": 22,
+          "mean_delay_ms": 5.18588,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 6473.0
+        },
+        {
+          "hysteresis_db": 6.0,
+          "ttt_ms": 320,
+          "sent": 3100,
+          "received": 3055,
+          "lost": 45,
+          "late_received": 85,
+          "deadline_miss_including_loss": 130,
+          "mean_delay_ms": 8.25499,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 145.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 7617.0
+        }
+      ]
+    },
+    {
+      "case": "cross_25_10",
+      "run": 14,
+      "chosen_profiles": {
+        "3db_256ms_default": [
+          3.0,
+          256
+        ],
+        "0db_0ms_calibrated_fixed": [
+          0.0,
+          0
+        ],
+        "descriptor_rule": [
+          0.0,
+          0
+        ],
+        "hindsight_oracle": [
+          0.0,
+          0
+        ],
+        "decider_base": [
+          2.0,
+          160
+        ],
+        "qwen_base": [
+          0.0,
+          0
+        ]
+      },
+      "by_profile": [
+        {
+          "hysteresis_db": 0.0,
+          "ttt_ms": 0,
+          "sent": 3100,
+          "received": 3100,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.00387,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 5217.0
+        },
+        {
+          "hysteresis_db": 1.0,
+          "ttt_ms": 80,
+          "sent": 3100,
+          "received": 3100,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.00387,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 5697.0
+        },
+        {
+          "hysteresis_db": 2.0,
+          "ttt_ms": 160,
+          "sent": 3100,
+          "received": 3099,
+          "lost": 1,
+          "late_received": 9,
+          "deadline_miss_including_loss": 10,
+          "mean_delay_ms": 5.18135,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 6177.0
+        },
+        {
+          "hysteresis_db": 3.0,
+          "ttt_ms": 256,
+          "sent": 3100,
+          "received": 3094,
+          "lost": 6,
+          "late_received": 19,
+          "deadline_miss_including_loss": 25,
+          "mean_delay_ms": 5.36328,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 6473.0
+        },
+        {
+          "hysteresis_db": 6.0,
+          "ttt_ms": 320,
+          "sent": 3100,
+          "received": 3059,
+          "lost": 41,
+          "late_received": 90,
+          "deadline_miss_including_loss": 131,
+          "mean_delay_ms": 8.19451,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 135.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 7537.0
+        }
+      ]
+    },
+    {
+      "case": "cross_25_10",
+      "run": 15,
+      "chosen_profiles": {
+        "3db_256ms_default": [
+          3.0,
+          256
+        ],
+        "0db_0ms_calibrated_fixed": [
+          0.0,
+          0
+        ],
+        "descriptor_rule": [
+          0.0,
+          0
+        ],
+        "hindsight_oracle": [
+          0.0,
+          0
+        ],
+        "decider_base": [
+          2.0,
+          160
+        ],
+        "qwen_base": [
+          0.0,
+          0
+        ]
+      },
+      "by_profile": [
+        {
+          "hysteresis_db": 0.0,
+          "ttt_ms": 0,
+          "sent": 3100,
+          "received": 3100,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.00387,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 5217.0
+        },
+        {
+          "hysteresis_db": 1.0,
+          "ttt_ms": 80,
+          "sent": 3100,
+          "received": 3100,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.00387,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 5697.0
+        },
+        {
+          "hysteresis_db": 2.0,
+          "ttt_ms": 160,
+          "sent": 3100,
+          "received": 3094,
+          "lost": 6,
+          "late_received": 0,
+          "deadline_miss_including_loss": 6,
+          "mean_delay_ms": 5.00388,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 6177.0
+        },
+        {
+          "hysteresis_db": 3.0,
+          "ttt_ms": 256,
+          "sent": 3100,
+          "received": 3093,
+          "lost": 7,
+          "late_received": 19,
+          "deadline_miss_including_loss": 26,
+          "mean_delay_ms": 5.3634,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 6473.0
+        },
+        {
+          "hysteresis_db": 6.0,
+          "ttt_ms": 320,
+          "sent": 3100,
+          "received": 3063,
+          "lost": 37,
+          "late_received": 89,
+          "deadline_miss_including_loss": 126,
+          "mean_delay_ms": 7.90956,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 125.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 7597.0
+        }
+      ]
+    },
+    {
+      "case": "cross_8_1",
+      "run": 11,
+      "chosen_profiles": {
+        "3db_256ms_default": [
+          3.0,
+          256
+        ],
+        "0db_0ms_calibrated_fixed": [
+          0.0,
+          0
+        ],
+        "descriptor_rule": [
+          0.0,
+          0
+        ],
+        "hindsight_oracle": [
+          0.0,
+          0
+        ],
+        "decider_base": [
+          2.0,
+          160
+        ],
+        "qwen_base": [
+          0.0,
+          0
+        ]
+      },
+      "by_profile": [
+        {
+          "hysteresis_db": 0.0,
+          "ttt_ms": 0,
+          "sent": 31000,
+          "received": 30985,
+          "lost": 15,
+          "late_received": 8,
+          "deadline_miss_including_loss": 23,
+          "mean_delay_ms": 5.01333,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 15417.0
+        },
+        {
+          "hysteresis_db": 1.0,
+          "ttt_ms": 80,
+          "sent": 31000,
+          "received": 30944,
+          "lost": 56,
+          "late_received": 93,
+          "deadline_miss_including_loss": 149,
+          "mean_delay_ms": 5.17648,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 16697.0
+        },
+        {
+          "hysteresis_db": 2.0,
+          "ttt_ms": 160,
+          "sent": 31000,
+          "received": 30892,
+          "lost": 108,
+          "late_received": 617,
+          "deadline_miss_including_loss": 725,
+          "mean_delay_ms": 6.22643,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 64.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 17777.0
+        },
+        {
+          "hysteresis_db": 3.0,
+          "ttt_ms": 256,
+          "sent": 31000,
+          "received": 30887,
+          "lost": 113,
+          "late_received": 1835,
+          "deadline_miss_including_loss": 1948,
+          "mean_delay_ms": 10.00016,
+          "p95_delay_ms": 44.0,
+          "p99_delay_ms": 130.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 19073.0
+        },
+        {
+          "hysteresis_db": 6.0,
+          "ttt_ms": 320,
+          "sent": 31000,
+          "received": 30473,
+          "lost": 527,
+          "late_received": 4487,
+          "deadline_miss_including_loss": 5014,
+          "mean_delay_ms": 21.84819,
+          "p95_delay_ms": 142.0,
+          "p99_delay_ms": 186.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 22157.0
+        }
+      ]
+    },
+    {
+      "case": "cross_8_1",
+      "run": 12,
+      "chosen_profiles": {
+        "3db_256ms_default": [
+          3.0,
+          256
+        ],
+        "0db_0ms_calibrated_fixed": [
+          0.0,
+          0
+        ],
+        "descriptor_rule": [
+          0.0,
+          0
+        ],
+        "hindsight_oracle": [
+          0.0,
+          0
+        ],
+        "decider_base": [
+          2.0,
+          160
+        ],
+        "qwen_base": [
+          0.0,
+          0
+        ]
+      },
+      "by_profile": [
+        {
+          "hysteresis_db": 0.0,
+          "ttt_ms": 0,
+          "sent": 31000,
+          "received": 30985,
+          "lost": 15,
+          "late_received": 8,
+          "deadline_miss_including_loss": 23,
+          "mean_delay_ms": 5.01333,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 15417.0
+        },
+        {
+          "hysteresis_db": 1.0,
+          "ttt_ms": 80,
+          "sent": 31000,
+          "received": 30982,
+          "lost": 18,
+          "late_received": 277,
+          "deadline_miss_including_loss": 295,
+          "mean_delay_ms": 5.58211,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 11.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 16697.0
+        },
+        {
+          "hysteresis_db": 2.0,
+          "ttt_ms": 160,
+          "sent": 31000,
+          "received": 30895,
+          "lost": 105,
+          "late_received": 642,
+          "deadline_miss_including_loss": 747,
+          "mean_delay_ms": 6.53064,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 76.06,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 17777.0
+        },
+        {
+          "hysteresis_db": 3.0,
+          "ttt_ms": 256,
+          "sent": 31000,
+          "received": 30848,
+          "lost": 152,
+          "late_received": 1496,
+          "deadline_miss_including_loss": 1648,
+          "mean_delay_ms": 9.71227,
+          "p95_delay_ms": 14.0,
+          "p99_delay_ms": 148.53,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 19073.0
+        },
+        {
+          "hysteresis_db": 6.0,
+          "ttt_ms": 320,
+          "sent": 31000,
+          "received": 30425,
+          "lost": 575,
+          "late_received": 4119,
+          "deadline_miss_including_loss": 4694,
+          "mean_delay_ms": 21.50123,
+          "p95_delay_ms": 146.8,
+          "p99_delay_ms": 186.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 22137.0
+        }
+      ]
+    },
+    {
+      "case": "cross_8_1",
+      "run": 13,
+      "chosen_profiles": {
+        "3db_256ms_default": [
+          3.0,
+          256
+        ],
+        "0db_0ms_calibrated_fixed": [
+          0.0,
+          0
+        ],
+        "descriptor_rule": [
+          0.0,
+          0
+        ],
+        "hindsight_oracle": [
+          0.0,
+          0
+        ],
+        "decider_base": [
+          2.0,
+          160
+        ],
+        "qwen_base": [
+          0.0,
+          0
+        ]
+      },
+      "by_profile": [
+        {
+          "hysteresis_db": 0.0,
+          "ttt_ms": 0,
+          "sent": 31000,
+          "received": 30985,
+          "lost": 15,
+          "late_received": 8,
+          "deadline_miss_including_loss": 23,
+          "mean_delay_ms": 5.01333,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 15417.0
+        },
+        {
+          "hysteresis_db": 1.0,
+          "ttt_ms": 80,
+          "sent": 31000,
+          "received": 30984,
+          "lost": 16,
+          "late_received": 93,
+          "deadline_miss_including_loss": 109,
+          "mean_delay_ms": 5.17628,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 16697.0
+        },
+        {
+          "hysteresis_db": 2.0,
+          "ttt_ms": 160,
+          "sent": 31000,
+          "received": 30976,
+          "lost": 24,
+          "late_received": 532,
+          "deadline_miss_including_loss": 556,
+          "mean_delay_ms": 6.07289,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 58.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 17777.0
+        },
+        {
+          "hysteresis_db": 3.0,
+          "ttt_ms": 256,
+          "sent": 31000,
+          "received": 30798,
+          "lost": 202,
+          "late_received": 1427,
+          "deadline_miss_including_loss": 1629,
+          "mean_delay_ms": 9.15261,
+          "p95_delay_ms": 6.0,
+          "p99_delay_ms": 128.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 19073.0
+        },
+        {
+          "hysteresis_db": 6.0,
+          "ttt_ms": 320,
+          "sent": 31000,
+          "received": 30474,
+          "lost": 526,
+          "late_received": 4167,
+          "deadline_miss_including_loss": 4693,
+          "mean_delay_ms": 21.67759,
+          "p95_delay_ms": 146.0,
+          "p99_delay_ms": 186.27,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 22137.0
+        }
+      ]
+    },
+    {
+      "case": "cross_8_1",
+      "run": 14,
+      "chosen_profiles": {
+        "3db_256ms_default": [
+          3.0,
+          256
+        ],
+        "0db_0ms_calibrated_fixed": [
+          0.0,
+          0
+        ],
+        "descriptor_rule": [
+          0.0,
+          0
+        ],
+        "hindsight_oracle": [
+          0.0,
+          0
+        ],
+        "decider_base": [
+          2.0,
+          160
+        ],
+        "qwen_base": [
+          0.0,
+          0
+        ]
+      },
+      "by_profile": [
+        {
+          "hysteresis_db": 0.0,
+          "ttt_ms": 0,
+          "sent": 31000,
+          "received": 30985,
+          "lost": 15,
+          "late_received": 8,
+          "deadline_miss_including_loss": 23,
+          "mean_delay_ms": 5.01333,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 15417.0
+        },
+        {
+          "hysteresis_db": 1.0,
+          "ttt_ms": 80,
+          "sent": 31000,
+          "received": 30801,
+          "lost": 199,
+          "late_received": 20,
+          "deadline_miss_including_loss": 219,
+          "mean_delay_ms": 5.05013,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 16697.0
+        },
+        {
+          "hysteresis_db": 2.0,
+          "ttt_ms": 160,
+          "sent": 31000,
+          "received": 30932,
+          "lost": 68,
+          "late_received": 1037,
+          "deadline_miss_including_loss": 1105,
+          "mean_delay_ms": 8.37133,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 130.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 17777.0
+        },
+        {
+          "hysteresis_db": 3.0,
+          "ttt_ms": 256,
+          "sent": 31000,
+          "received": 30842,
+          "lost": 158,
+          "late_received": 2181,
+          "deadline_miss_including_loss": 2339,
+          "mean_delay_ms": 12.33649,
+          "p95_delay_ms": 82.0,
+          "p99_delay_ms": 162.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 19073.0
+        },
+        {
+          "hysteresis_db": 6.0,
+          "ttt_ms": 320,
+          "sent": 31000,
+          "received": 30405,
+          "lost": 595,
+          "late_received": 4829,
+          "deadline_miss_including_loss": 5424,
+          "mean_delay_ms": 24.2027,
+          "p95_delay_ms": 150.0,
+          "p99_delay_ms": 188.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 22158.0
+        }
+      ]
+    },
+    {
+      "case": "cross_8_1",
+      "run": 15,
+      "chosen_profiles": {
+        "3db_256ms_default": [
+          3.0,
+          256
+        ],
+        "0db_0ms_calibrated_fixed": [
+          0.0,
+          0
+        ],
+        "descriptor_rule": [
+          0.0,
+          0
+        ],
+        "hindsight_oracle": [
+          0.0,
+          0
+        ],
+        "decider_base": [
+          2.0,
+          160
+        ],
+        "qwen_base": [
+          0.0,
+          0
+        ]
+      },
+      "by_profile": [
+        {
+          "hysteresis_db": 0.0,
+          "ttt_ms": 0,
+          "sent": 31000,
+          "received": 30985,
+          "lost": 15,
+          "late_received": 8,
+          "deadline_miss_including_loss": 23,
+          "mean_delay_ms": 5.01333,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 15417.0
+        },
+        {
+          "hysteresis_db": 1.0,
+          "ttt_ms": 80,
+          "sent": 31000,
+          "received": 30884,
+          "lost": 116,
+          "late_received": 93,
+          "deadline_miss_including_loss": 209,
+          "mean_delay_ms": 5.17682,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 16697.0
+        },
+        {
+          "hysteresis_db": 2.0,
+          "ttt_ms": 160,
+          "sent": 31000,
+          "received": 30919,
+          "lost": 81,
+          "late_received": 782,
+          "deadline_miss_including_loss": 863,
+          "mean_delay_ms": 6.93334,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 88.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 17777.0
+        },
+        {
+          "hysteresis_db": 3.0,
+          "ttt_ms": 256,
+          "sent": 31000,
+          "received": 30838,
+          "lost": 162,
+          "late_received": 1824,
+          "deadline_miss_including_loss": 1986,
+          "mean_delay_ms": 10.26655,
+          "p95_delay_ms": 52.0,
+          "p99_delay_ms": 135.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 19073.0
+        },
+        {
+          "hysteresis_db": 6.0,
+          "ttt_ms": 320,
+          "sent": 31000,
+          "received": 30410,
+          "lost": 590,
+          "late_received": 4480,
+          "deadline_miss_including_loss": 5070,
+          "mean_delay_ms": 22.15551,
+          "p95_delay_ms": 141.55,
+          "p99_delay_ms": 183.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 22157.0
+        }
+      ]
+    },
+    {
+      "case": "cross_8_10",
+      "run": 11,
+      "chosen_profiles": {
+        "3db_256ms_default": [
+          3.0,
+          256
+        ],
+        "0db_0ms_calibrated_fixed": [
+          0.0,
+          0
+        ],
+        "descriptor_rule": [
+          0.0,
+          0
+        ],
+        "hindsight_oracle": [
+          0.0,
+          0
+        ],
+        "decider_base": [
+          2.0,
+          160
+        ],
+        "qwen_base": [
+          0.0,
+          0
+        ]
+      },
+      "by_profile": [
+        {
+          "hysteresis_db": 0.0,
+          "ttt_ms": 0,
+          "sent": 3100,
+          "received": 3100,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.00387,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 15417.0
+        },
+        {
+          "hysteresis_db": 1.0,
+          "ttt_ms": 80,
+          "sent": 3100,
+          "received": 3100,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.00387,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 16697.0
+        },
+        {
+          "hysteresis_db": 2.0,
+          "ttt_ms": 160,
+          "sent": 3100,
+          "received": 3100,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.00387,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 17777.0
+        },
+        {
+          "hysteresis_db": 3.0,
+          "ttt_ms": 256,
+          "sent": 3100,
+          "received": 3090,
+          "lost": 10,
+          "late_received": 10,
+          "deadline_miss_including_loss": 20,
+          "mean_delay_ms": 5.18576,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 19073.0
+        },
+        {
+          "hysteresis_db": 6.0,
+          "ttt_ms": 320,
+          "sent": 3100,
+          "received": 3051,
+          "lost": 49,
+          "late_received": 215,
+          "deadline_miss_including_loss": 264,
+          "mean_delay_ms": 11.27073,
+          "p95_delay_ms": 65.0,
+          "p99_delay_ms": 145.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 22137.0
+        }
+      ]
+    },
+    {
+      "case": "cross_8_10",
+      "run": 12,
+      "chosen_profiles": {
+        "3db_256ms_default": [
+          3.0,
+          256
+        ],
+        "0db_0ms_calibrated_fixed": [
+          0.0,
+          0
+        ],
+        "descriptor_rule": [
+          0.0,
+          0
+        ],
+        "hindsight_oracle": [
+          0.0,
+          0
+        ],
+        "decider_base": [
+          2.0,
+          160
+        ],
+        "qwen_base": [
+          0.0,
+          0
+        ]
+      },
+      "by_profile": [
+        {
+          "hysteresis_db": 0.0,
+          "ttt_ms": 0,
+          "sent": 3100,
+          "received": 3100,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.00387,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 15417.0
+        },
+        {
+          "hysteresis_db": 1.0,
+          "ttt_ms": 80,
+          "sent": 3100,
+          "received": 3100,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.00387,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 16697.0
+        },
+        {
+          "hysteresis_db": 2.0,
+          "ttt_ms": 160,
+          "sent": 3100,
+          "received": 3098,
+          "lost": 2,
+          "late_received": 18,
+          "deadline_miss_including_loss": 20,
+          "mean_delay_ms": 5.35894,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 17777.0
+        },
+        {
+          "hysteresis_db": 3.0,
+          "ttt_ms": 256,
+          "sent": 3100,
+          "received": 3085,
+          "lost": 15,
+          "late_received": 55,
+          "deadline_miss_including_loss": 70,
+          "mean_delay_ms": 6.07747,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 55.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 19073.0
+        },
+        {
+          "hysteresis_db": 6.0,
+          "ttt_ms": 320,
+          "sent": 3100,
+          "received": 3054,
+          "lost": 46,
+          "late_received": 238,
+          "deadline_miss_including_loss": 284,
+          "mean_delay_ms": 11.85069,
+          "p95_delay_ms": 75.0,
+          "p99_delay_ms": 155.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 22137.0
+        }
+      ]
+    },
+    {
+      "case": "cross_8_10",
+      "run": 13,
+      "chosen_profiles": {
+        "3db_256ms_default": [
+          3.0,
+          256
+        ],
+        "0db_0ms_calibrated_fixed": [
+          0.0,
+          0
+        ],
+        "descriptor_rule": [
+          0.0,
+          0
+        ],
+        "hindsight_oracle": [
+          0.0,
+          0
+        ],
+        "decider_base": [
+          2.0,
+          160
+        ],
+        "qwen_base": [
+          0.0,
+          0
+        ]
+      },
+      "by_profile": [
+        {
+          "hysteresis_db": 0.0,
+          "ttt_ms": 0,
+          "sent": 3100,
+          "received": 3100,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.00387,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 15417.0
+        },
+        {
+          "hysteresis_db": 1.0,
+          "ttt_ms": 80,
+          "sent": 3100,
+          "received": 3100,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.00387,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 16697.0
+        },
+        {
+          "hysteresis_db": 2.0,
+          "ttt_ms": 160,
+          "sent": 3100,
+          "received": 3100,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.00387,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 17777.0
+        },
+        {
+          "hysteresis_db": 3.0,
+          "ttt_ms": 256,
+          "sent": 3100,
+          "received": 3098,
+          "lost": 2,
+          "late_received": 19,
+          "deadline_miss_including_loss": 21,
+          "mean_delay_ms": 5.53389,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 19073.0
+        },
+        {
+          "hysteresis_db": 6.0,
+          "ttt_ms": 320,
+          "sent": 3100,
+          "received": 3057,
+          "lost": 43,
+          "late_received": 162,
+          "deadline_miss_including_loss": 205,
+          "mean_delay_ms": 9.54759,
+          "p95_delay_ms": 27.0,
+          "p99_delay_ms": 125.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 22137.0
+        }
+      ]
+    },
+    {
+      "case": "cross_8_10",
+      "run": 14,
+      "chosen_profiles": {
+        "3db_256ms_default": [
+          3.0,
+          256
+        ],
+        "0db_0ms_calibrated_fixed": [
+          0.0,
+          0
+        ],
+        "descriptor_rule": [
+          0.0,
+          0
+        ],
+        "hindsight_oracle": [
+          0.0,
+          0
+        ],
+        "decider_base": [
+          2.0,
+          160
+        ],
+        "qwen_base": [
+          0.0,
+          0
+        ]
+      },
+      "by_profile": [
+        {
+          "hysteresis_db": 0.0,
+          "ttt_ms": 0,
+          "sent": 3100,
+          "received": 3100,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.00387,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 15417.0
+        },
+        {
+          "hysteresis_db": 1.0,
+          "ttt_ms": 80,
+          "sent": 3100,
+          "received": 3100,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.00387,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 16697.0
+        },
+        {
+          "hysteresis_db": 2.0,
+          "ttt_ms": 160,
+          "sent": 3100,
+          "received": 3100,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.00387,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 17777.0
+        },
+        {
+          "hysteresis_db": 3.0,
+          "ttt_ms": 256,
+          "sent": 3100,
+          "received": 3095,
+          "lost": 5,
+          "late_received": 46,
+          "deadline_miss_including_loss": 51,
+          "mean_delay_ms": 6.20646,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 65.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 19073.0
+        },
+        {
+          "hysteresis_db": 6.0,
+          "ttt_ms": 320,
+          "sent": 3100,
+          "received": 3045,
+          "lost": 55,
+          "late_received": 224,
+          "deadline_miss_including_loss": 279,
+          "mean_delay_ms": 12.8069,
+          "p95_delay_ms": 85.0,
+          "p99_delay_ms": 165.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 22137.0
+        }
+      ]
+    },
+    {
+      "case": "cross_8_10",
+      "run": 15,
+      "chosen_profiles": {
+        "3db_256ms_default": [
+          3.0,
+          256
+        ],
+        "0db_0ms_calibrated_fixed": [
+          0.0,
+          0
+        ],
+        "descriptor_rule": [
+          0.0,
+          0
+        ],
+        "hindsight_oracle": [
+          0.0,
+          0
+        ],
+        "decider_base": [
+          2.0,
+          160
+        ],
+        "qwen_base": [
+          0.0,
+          0
+        ]
+      },
+      "by_profile": [
+        {
+          "hysteresis_db": 0.0,
+          "ttt_ms": 0,
+          "sent": 3100,
+          "received": 3100,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.00387,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 15417.0
+        },
+        {
+          "hysteresis_db": 1.0,
+          "ttt_ms": 80,
+          "sent": 3100,
+          "received": 3100,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.00387,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 16697.0
+        },
+        {
+          "hysteresis_db": 2.0,
+          "ttt_ms": 160,
+          "sent": 3100,
+          "received": 3100,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.00387,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 17777.0
+        },
+        {
+          "hysteresis_db": 3.0,
+          "ttt_ms": 256,
+          "sent": 3100,
+          "received": 3095,
+          "lost": 5,
+          "late_received": 19,
+          "deadline_miss_including_loss": 24,
+          "mean_delay_ms": 5.50533,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 19093.0
+        },
+        {
+          "hysteresis_db": 6.0,
+          "ttt_ms": 320,
+          "sent": 3100,
+          "received": 3043,
+          "lost": 57,
+          "late_received": 199,
+          "deadline_miss_including_loss": 256,
+          "mean_delay_ms": 11.58955,
+          "p95_delay_ms": 65.0,
+          "p99_delay_ms": 165.0,
+          "handover_starts": 1,
+          "handover_ends": 1,
+          "handover_failures": 0,
+          "first_handover_start_ms": 22137.0
+        }
+      ]
+    },
+    {
+      "case": "oscillate_15_2_1",
+      "run": 11,
+      "chosen_profiles": {
+        "3db_256ms_default": [
+          3.0,
+          256
+        ],
+        "0db_0ms_calibrated_fixed": [
+          0.0,
+          0
+        ],
+        "descriptor_rule": [
+          0.0,
+          0
+        ],
+        "hindsight_oracle": [
+          0.0,
+          0
+        ],
+        "decider_base": [
+          2.0,
+          160
+        ],
+        "qwen_base": [
+          0.0,
+          0
+        ]
+      },
+      "by_profile": [
+        {
+          "hysteresis_db": 0.0,
+          "ttt_ms": 0,
+          "sent": 23000,
+          "received": 22809,
+          "lost": 191,
+          "late_received": 96,
+          "deadline_miss_including_loss": 287,
+          "mean_delay_ms": 5.17133,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 13.0,
+          "handover_starts": 12,
+          "handover_ends": 12,
+          "handover_failures": 0,
+          "first_handover_start_ms": 1417.0
+        },
+        {
+          "hysteresis_db": 1.0,
+          "ttt_ms": 80,
+          "sent": 23000,
+          "received": 22464,
+          "lost": 536,
+          "late_received": 1165,
+          "deadline_miss_including_loss": 1701,
+          "mean_delay_ms": 8.54051,
+          "p95_delay_ms": 25.0,
+          "p99_delay_ms": 98.0,
+          "handover_starts": 12,
+          "handover_ends": 11,
+          "handover_failures": 0,
+          "first_handover_start_ms": 2097.0
+        },
+        {
+          "hysteresis_db": 2.0,
+          "ttt_ms": 160,
+          "sent": 23000,
+          "received": 22988,
+          "lost": 12,
+          "late_received": 1053,
+          "deadline_miss_including_loss": 1065,
+          "mean_delay_ms": 7.9826,
+          "p95_delay_ms": 11.0,
+          "p99_delay_ms": 93.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        },
+        {
+          "hysteresis_db": 3.0,
+          "ttt_ms": 256,
+          "sent": 23000,
+          "received": 22988,
+          "lost": 12,
+          "late_received": 1053,
+          "deadline_miss_including_loss": 1065,
+          "mean_delay_ms": 7.9826,
+          "p95_delay_ms": 11.0,
+          "p99_delay_ms": 93.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        },
+        {
+          "hysteresis_db": 6.0,
+          "ttt_ms": 320,
+          "sent": 23000,
+          "received": 22988,
+          "lost": 12,
+          "late_received": 1053,
+          "deadline_miss_including_loss": 1065,
+          "mean_delay_ms": 7.9826,
+          "p95_delay_ms": 11.0,
+          "p99_delay_ms": 93.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        }
+      ]
+    },
+    {
+      "case": "oscillate_15_2_1",
+      "run": 12,
+      "chosen_profiles": {
+        "3db_256ms_default": [
+          3.0,
+          256
+        ],
+        "0db_0ms_calibrated_fixed": [
+          0.0,
+          0
+        ],
+        "descriptor_rule": [
+          0.0,
+          0
+        ],
+        "hindsight_oracle": [
+          0.0,
+          0
+        ],
+        "decider_base": [
+          2.0,
+          160
+        ],
+        "qwen_base": [
+          0.0,
+          0
+        ]
+      },
+      "by_profile": [
+        {
+          "hysteresis_db": 0.0,
+          "ttt_ms": 0,
+          "sent": 23000,
+          "received": 22809,
+          "lost": 191,
+          "late_received": 96,
+          "deadline_miss_including_loss": 287,
+          "mean_delay_ms": 5.17133,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 13.0,
+          "handover_starts": 12,
+          "handover_ends": 12,
+          "handover_failures": 0,
+          "first_handover_start_ms": 1417.0
+        },
+        {
+          "hysteresis_db": 1.0,
+          "ttt_ms": 80,
+          "sent": 23000,
+          "received": 22626,
+          "lost": 374,
+          "late_received": 992,
+          "deadline_miss_including_loss": 1366,
+          "mean_delay_ms": 7.57482,
+          "p95_delay_ms": 13.0,
+          "p99_delay_ms": 85.0,
+          "handover_starts": 12,
+          "handover_ends": 11,
+          "handover_failures": 0,
+          "first_handover_start_ms": 2097.0
+        },
+        {
+          "hysteresis_db": 2.0,
+          "ttt_ms": 160,
+          "sent": 23000,
+          "received": 22987,
+          "lost": 13,
+          "late_received": 1189,
+          "deadline_miss_including_loss": 1202,
+          "mean_delay_ms": 9.29177,
+          "p95_delay_ms": 26.0,
+          "p99_delay_ms": 123.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        },
+        {
+          "hysteresis_db": 3.0,
+          "ttt_ms": 256,
+          "sent": 23000,
+          "received": 22987,
+          "lost": 13,
+          "late_received": 1189,
+          "deadline_miss_including_loss": 1202,
+          "mean_delay_ms": 9.29177,
+          "p95_delay_ms": 26.0,
+          "p99_delay_ms": 123.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        },
+        {
+          "hysteresis_db": 6.0,
+          "ttt_ms": 320,
+          "sent": 23000,
+          "received": 22987,
+          "lost": 13,
+          "late_received": 1189,
+          "deadline_miss_including_loss": 1202,
+          "mean_delay_ms": 9.29177,
+          "p95_delay_ms": 26.0,
+          "p99_delay_ms": 123.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        }
+      ]
+    },
+    {
+      "case": "oscillate_15_2_1",
+      "run": 13,
+      "chosen_profiles": {
+        "3db_256ms_default": [
+          3.0,
+          256
+        ],
+        "0db_0ms_calibrated_fixed": [
+          0.0,
+          0
+        ],
+        "descriptor_rule": [
+          0.0,
+          0
+        ],
+        "hindsight_oracle": [
+          0.0,
+          0
+        ],
+        "decider_base": [
+          2.0,
+          160
+        ],
+        "qwen_base": [
+          0.0,
+          0
+        ]
+      },
+      "by_profile": [
+        {
+          "hysteresis_db": 0.0,
+          "ttt_ms": 0,
+          "sent": 23000,
+          "received": 22809,
+          "lost": 191,
+          "late_received": 96,
+          "deadline_miss_including_loss": 287,
+          "mean_delay_ms": 5.17133,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 13.0,
+          "handover_starts": 12,
+          "handover_ends": 12,
+          "handover_failures": 0,
+          "first_handover_start_ms": 1417.0
+        },
+        {
+          "hysteresis_db": 1.0,
+          "ttt_ms": 80,
+          "sent": 23000,
+          "received": 22631,
+          "lost": 369,
+          "late_received": 953,
+          "deadline_miss_including_loss": 1322,
+          "mean_delay_ms": 7.61721,
+          "p95_delay_ms": 13.0,
+          "p99_delay_ms": 88.0,
+          "handover_starts": 12,
+          "handover_ends": 11,
+          "handover_failures": 0,
+          "first_handover_start_ms": 2097.0
+        },
+        {
+          "hysteresis_db": 2.0,
+          "ttt_ms": 160,
+          "sent": 23000,
+          "received": 22985,
+          "lost": 15,
+          "late_received": 1340,
+          "deadline_miss_including_loss": 1355,
+          "mean_delay_ms": 9.53787,
+          "p95_delay_ms": 38.0,
+          "p99_delay_ms": 118.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        },
+        {
+          "hysteresis_db": 3.0,
+          "ttt_ms": 256,
+          "sent": 23000,
+          "received": 22985,
+          "lost": 15,
+          "late_received": 1340,
+          "deadline_miss_including_loss": 1355,
+          "mean_delay_ms": 9.53787,
+          "p95_delay_ms": 38.0,
+          "p99_delay_ms": 118.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        },
+        {
+          "hysteresis_db": 6.0,
+          "ttt_ms": 320,
+          "sent": 23000,
+          "received": 22985,
+          "lost": 15,
+          "late_received": 1340,
+          "deadline_miss_including_loss": 1355,
+          "mean_delay_ms": 9.53787,
+          "p95_delay_ms": 38.0,
+          "p99_delay_ms": 118.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        }
+      ]
+    },
+    {
+      "case": "oscillate_15_2_1",
+      "run": 14,
+      "chosen_profiles": {
+        "3db_256ms_default": [
+          3.0,
+          256
+        ],
+        "0db_0ms_calibrated_fixed": [
+          0.0,
+          0
+        ],
+        "descriptor_rule": [
+          0.0,
+          0
+        ],
+        "hindsight_oracle": [
+          0.0,
+          0
+        ],
+        "decider_base": [
+          2.0,
+          160
+        ],
+        "qwen_base": [
+          0.0,
+          0
+        ]
+      },
+      "by_profile": [
+        {
+          "hysteresis_db": 0.0,
+          "ttt_ms": 0,
+          "sent": 23000,
+          "received": 22809,
+          "lost": 191,
+          "late_received": 96,
+          "deadline_miss_including_loss": 287,
+          "mean_delay_ms": 5.17133,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 13.0,
+          "handover_starts": 12,
+          "handover_ends": 12,
+          "handover_failures": 0,
+          "first_handover_start_ms": 1417.0
+        },
+        {
+          "hysteresis_db": 1.0,
+          "ttt_ms": 80,
+          "sent": 23000,
+          "received": 22356,
+          "lost": 644,
+          "late_received": 1267,
+          "deadline_miss_including_loss": 1911,
+          "mean_delay_ms": 8.43881,
+          "p95_delay_ms": 26.0,
+          "p99_delay_ms": 92.0,
+          "handover_starts": 12,
+          "handover_ends": 11,
+          "handover_failures": 0,
+          "first_handover_start_ms": 2097.0
+        },
+        {
+          "hysteresis_db": 2.0,
+          "ttt_ms": 160,
+          "sent": 23000,
+          "received": 22989,
+          "lost": 11,
+          "late_received": 963,
+          "deadline_miss_including_loss": 974,
+          "mean_delay_ms": 7.95654,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 96.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        },
+        {
+          "hysteresis_db": 3.0,
+          "ttt_ms": 256,
+          "sent": 23000,
+          "received": 22989,
+          "lost": 11,
+          "late_received": 963,
+          "deadline_miss_including_loss": 974,
+          "mean_delay_ms": 7.95654,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 96.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        },
+        {
+          "hysteresis_db": 6.0,
+          "ttt_ms": 320,
+          "sent": 23000,
+          "received": 22989,
+          "lost": 11,
+          "late_received": 963,
+          "deadline_miss_including_loss": 974,
+          "mean_delay_ms": 7.95654,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 96.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        }
+      ]
+    },
+    {
+      "case": "oscillate_15_2_1",
+      "run": 15,
+      "chosen_profiles": {
+        "3db_256ms_default": [
+          3.0,
+          256
+        ],
+        "0db_0ms_calibrated_fixed": [
+          0.0,
+          0
+        ],
+        "descriptor_rule": [
+          0.0,
+          0
+        ],
+        "hindsight_oracle": [
+          0.0,
+          0
+        ],
+        "decider_base": [
+          2.0,
+          160
+        ],
+        "qwen_base": [
+          0.0,
+          0
+        ]
+      },
+      "by_profile": [
+        {
+          "hysteresis_db": 0.0,
+          "ttt_ms": 0,
+          "sent": 23000,
+          "received": 22809,
+          "lost": 191,
+          "late_received": 96,
+          "deadline_miss_including_loss": 287,
+          "mean_delay_ms": 5.17133,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 13.0,
+          "handover_starts": 12,
+          "handover_ends": 12,
+          "handover_failures": 0,
+          "first_handover_start_ms": 1417.0
+        },
+        {
+          "hysteresis_db": 1.0,
+          "ttt_ms": 80,
+          "sent": 23000,
+          "received": 22492,
+          "lost": 508,
+          "late_received": 1336,
+          "deadline_miss_including_loss": 1844,
+          "mean_delay_ms": 9.05784,
+          "p95_delay_ms": 31.0,
+          "p99_delay_ms": 100.0,
+          "handover_starts": 12,
+          "handover_ends": 11,
+          "handover_failures": 0,
+          "first_handover_start_ms": 2097.0
+        },
+        {
+          "hysteresis_db": 2.0,
+          "ttt_ms": 160,
+          "sent": 23000,
+          "received": 22987,
+          "lost": 13,
+          "late_received": 1130,
+          "deadline_miss_including_loss": 1143,
+          "mean_delay_ms": 8.15509,
+          "p95_delay_ms": 19.0,
+          "p99_delay_ms": 93.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        },
+        {
+          "hysteresis_db": 3.0,
+          "ttt_ms": 256,
+          "sent": 23000,
+          "received": 22987,
+          "lost": 13,
+          "late_received": 1130,
+          "deadline_miss_including_loss": 1143,
+          "mean_delay_ms": 8.15509,
+          "p95_delay_ms": 19.0,
+          "p99_delay_ms": 93.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        },
+        {
+          "hysteresis_db": 6.0,
+          "ttt_ms": 320,
+          "sent": 23000,
+          "received": 22987,
+          "lost": 13,
+          "late_received": 1130,
+          "deadline_miss_including_loss": 1143,
+          "mean_delay_ms": 8.15509,
+          "p95_delay_ms": 19.0,
+          "p99_delay_ms": 93.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        }
+      ]
+    },
+    {
+      "case": "oscillate_15_2_10",
+      "run": 11,
+      "chosen_profiles": {
+        "3db_256ms_default": [
+          3.0,
+          256
+        ],
+        "0db_0ms_calibrated_fixed": [
+          0.0,
+          0
+        ],
+        "descriptor_rule": [
+          0.0,
+          0
+        ],
+        "hindsight_oracle": [
+          2.0,
+          160
+        ],
+        "decider_base": [
+          2.0,
+          160
+        ],
+        "qwen_base": [
+          0.0,
+          0
+        ]
+      },
+      "by_profile": [
+        {
+          "hysteresis_db": 0.0,
+          "ttt_ms": 0,
+          "sent": 2300,
+          "received": 2300,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.06261,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 6.0,
+          "handover_starts": 12,
+          "handover_ends": 12,
+          "handover_failures": 0,
+          "first_handover_start_ms": 1417.0
+        },
+        {
+          "hysteresis_db": 1.0,
+          "ttt_ms": 80,
+          "sent": 2300,
+          "received": 2299,
+          "lost": 1,
+          "late_received": 9,
+          "deadline_miss_including_loss": 10,
+          "mean_delay_ms": 5.29665,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 6.0,
+          "handover_starts": 12,
+          "handover_ends": 11,
+          "handover_failures": 0,
+          "first_handover_start_ms": 2097.0
+        },
+        {
+          "hysteresis_db": 2.0,
+          "ttt_ms": 160,
+          "sent": 2300,
+          "received": 2300,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.0,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        },
+        {
+          "hysteresis_db": 3.0,
+          "ttt_ms": 256,
+          "sent": 2300,
+          "received": 2300,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.0,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        },
+        {
+          "hysteresis_db": 6.0,
+          "ttt_ms": 320,
+          "sent": 2300,
+          "received": 2300,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.0,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        }
+      ]
+    },
+    {
+      "case": "oscillate_15_2_10",
+      "run": 12,
+      "chosen_profiles": {
+        "3db_256ms_default": [
+          3.0,
+          256
+        ],
+        "0db_0ms_calibrated_fixed": [
+          0.0,
+          0
+        ],
+        "descriptor_rule": [
+          0.0,
+          0
+        ],
+        "hindsight_oracle": [
+          0.0,
+          0
+        ],
+        "decider_base": [
+          2.0,
+          160
+        ],
+        "qwen_base": [
+          0.0,
+          0
+        ]
+      },
+      "by_profile": [
+        {
+          "hysteresis_db": 0.0,
+          "ttt_ms": 0,
+          "sent": 2300,
+          "received": 2300,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.06261,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 6.0,
+          "handover_starts": 12,
+          "handover_ends": 12,
+          "handover_failures": 0,
+          "first_handover_start_ms": 1417.0
+        },
+        {
+          "hysteresis_db": 1.0,
+          "ttt_ms": 80,
+          "sent": 2300,
+          "received": 2299,
+          "lost": 1,
+          "late_received": 9,
+          "deadline_miss_including_loss": 10,
+          "mean_delay_ms": 5.29665,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 6.0,
+          "handover_starts": 12,
+          "handover_ends": 11,
+          "handover_failures": 0,
+          "first_handover_start_ms": 2097.0
+        },
+        {
+          "hysteresis_db": 2.0,
+          "ttt_ms": 160,
+          "sent": 2300,
+          "received": 2299,
+          "lost": 1,
+          "late_received": 9,
+          "deadline_miss_including_loss": 10,
+          "mean_delay_ms": 5.23923,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        },
+        {
+          "hysteresis_db": 3.0,
+          "ttt_ms": 256,
+          "sent": 2300,
+          "received": 2299,
+          "lost": 1,
+          "late_received": 9,
+          "deadline_miss_including_loss": 10,
+          "mean_delay_ms": 5.23923,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        },
+        {
+          "hysteresis_db": 6.0,
+          "ttt_ms": 320,
+          "sent": 2300,
+          "received": 2299,
+          "lost": 1,
+          "late_received": 9,
+          "deadline_miss_including_loss": 10,
+          "mean_delay_ms": 5.23923,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        }
+      ]
+    },
+    {
+      "case": "oscillate_15_2_10",
+      "run": 13,
+      "chosen_profiles": {
+        "3db_256ms_default": [
+          3.0,
+          256
+        ],
+        "0db_0ms_calibrated_fixed": [
+          0.0,
+          0
+        ],
+        "descriptor_rule": [
+          0.0,
+          0
+        ],
+        "hindsight_oracle": [
+          2.0,
+          160
+        ],
+        "decider_base": [
+          2.0,
+          160
+        ],
+        "qwen_base": [
+          0.0,
+          0
+        ]
+      },
+      "by_profile": [
+        {
+          "hysteresis_db": 0.0,
+          "ttt_ms": 0,
+          "sent": 2300,
+          "received": 2300,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.06261,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 6.0,
+          "handover_starts": 12,
+          "handover_ends": 12,
+          "handover_failures": 0,
+          "first_handover_start_ms": 1417.0
+        },
+        {
+          "hysteresis_db": 1.0,
+          "ttt_ms": 80,
+          "sent": 2300,
+          "received": 2299,
+          "lost": 1,
+          "late_received": 9,
+          "deadline_miss_including_loss": 10,
+          "mean_delay_ms": 5.29665,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 6.0,
+          "handover_starts": 12,
+          "handover_ends": 11,
+          "handover_failures": 0,
+          "first_handover_start_ms": 2097.0
+        },
+        {
+          "hysteresis_db": 2.0,
+          "ttt_ms": 160,
+          "sent": 2300,
+          "received": 2300,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.0,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        },
+        {
+          "hysteresis_db": 3.0,
+          "ttt_ms": 256,
+          "sent": 2300,
+          "received": 2300,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.0,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        },
+        {
+          "hysteresis_db": 6.0,
+          "ttt_ms": 320,
+          "sent": 2300,
+          "received": 2300,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.0,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        }
+      ]
+    },
+    {
+      "case": "oscillate_15_2_10",
+      "run": 14,
+      "chosen_profiles": {
+        "3db_256ms_default": [
+          3.0,
+          256
+        ],
+        "0db_0ms_calibrated_fixed": [
+          0.0,
+          0
+        ],
+        "descriptor_rule": [
+          0.0,
+          0
+        ],
+        "hindsight_oracle": [
+          2.0,
+          160
+        ],
+        "decider_base": [
+          2.0,
+          160
+        ],
+        "qwen_base": [
+          0.0,
+          0
+        ]
+      },
+      "by_profile": [
+        {
+          "hysteresis_db": 0.0,
+          "ttt_ms": 0,
+          "sent": 2300,
+          "received": 2300,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.06261,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 6.0,
+          "handover_starts": 12,
+          "handover_ends": 12,
+          "handover_failures": 0,
+          "first_handover_start_ms": 1417.0
+        },
+        {
+          "hysteresis_db": 1.0,
+          "ttt_ms": 80,
+          "sent": 2300,
+          "received": 2291,
+          "lost": 9,
+          "late_received": 27,
+          "deadline_miss_including_loss": 36,
+          "mean_delay_ms": 5.77783,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 35.0,
+          "handover_starts": 12,
+          "handover_ends": 11,
+          "handover_failures": 0,
+          "first_handover_start_ms": 2097.0
+        },
+        {
+          "hysteresis_db": 2.0,
+          "ttt_ms": 160,
+          "sent": 2300,
+          "received": 2300,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.0,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        },
+        {
+          "hysteresis_db": 3.0,
+          "ttt_ms": 256,
+          "sent": 2300,
+          "received": 2300,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.0,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        },
+        {
+          "hysteresis_db": 6.0,
+          "ttt_ms": 320,
+          "sent": 2300,
+          "received": 2300,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.0,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        }
+      ]
+    },
+    {
+      "case": "oscillate_15_2_10",
+      "run": 15,
+      "chosen_profiles": {
+        "3db_256ms_default": [
+          3.0,
+          256
+        ],
+        "0db_0ms_calibrated_fixed": [
+          0.0,
+          0
+        ],
+        "descriptor_rule": [
+          0.0,
+          0
+        ],
+        "hindsight_oracle": [
+          2.0,
+          160
+        ],
+        "decider_base": [
+          2.0,
+          160
+        ],
+        "qwen_base": [
+          0.0,
+          0
+        ]
+      },
+      "by_profile": [
+        {
+          "hysteresis_db": 0.0,
+          "ttt_ms": 0,
+          "sent": 2300,
+          "received": 2300,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.06261,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 6.0,
+          "handover_starts": 12,
+          "handover_ends": 12,
+          "handover_failures": 0,
+          "first_handover_start_ms": 1417.0
+        },
+        {
+          "hysteresis_db": 1.0,
+          "ttt_ms": 80,
+          "sent": 2300,
+          "received": 2290,
+          "lost": 10,
+          "late_received": 18,
+          "deadline_miss_including_loss": 28,
+          "mean_delay_ms": 5.53799,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 16.0,
+          "handover_starts": 12,
+          "handover_ends": 11,
+          "handover_failures": 0,
+          "first_handover_start_ms": 2097.0
+        },
+        {
+          "hysteresis_db": 2.0,
+          "ttt_ms": 160,
+          "sent": 2300,
+          "received": 2300,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.0,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        },
+        {
+          "hysteresis_db": 3.0,
+          "ttt_ms": 256,
+          "sent": 2300,
+          "received": 2300,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.0,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        },
+        {
+          "hysteresis_db": 6.0,
+          "ttt_ms": 320,
+          "sent": 2300,
+          "received": 2300,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.0,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        }
+      ]
+    },
+    {
+      "case": "oscillate_20_3_1",
+      "run": 11,
+      "chosen_profiles": {
+        "3db_256ms_default": [
+          3.0,
+          256
+        ],
+        "0db_0ms_calibrated_fixed": [
+          0.0,
+          0
+        ],
+        "descriptor_rule": [
+          0.0,
+          0
+        ],
+        "hindsight_oracle": [
+          0.0,
+          0
+        ],
+        "decider_base": [
+          2.0,
+          160
+        ],
+        "qwen_base": [
+          0.0,
+          0
+        ]
+      },
+      "by_profile": [
+        {
+          "hysteresis_db": 0.0,
+          "ttt_ms": 0,
+          "sent": 23000,
+          "received": 22764,
+          "lost": 236,
+          "late_received": 64,
+          "deadline_miss_including_loss": 300,
+          "mean_delay_ms": 5.11575,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 8.0,
+          "handover_starts": 8,
+          "handover_ends": 8,
+          "handover_failures": 0,
+          "first_handover_start_ms": 2017.0
+        },
+        {
+          "hysteresis_db": 1.0,
+          "ttt_ms": 80,
+          "sent": 23000,
+          "received": 22705,
+          "lost": 295,
+          "late_received": 1210,
+          "deadline_miss_including_loss": 1505,
+          "mean_delay_ms": 8.65937,
+          "p95_delay_ms": 25.0,
+          "p99_delay_ms": 99.96,
+          "handover_starts": 8,
+          "handover_ends": 8,
+          "handover_failures": 0,
+          "first_handover_start_ms": 2497.0
+        },
+        {
+          "hysteresis_db": 2.0,
+          "ttt_ms": 160,
+          "sent": 23000,
+          "received": 22202,
+          "lost": 798,
+          "late_received": 3543,
+          "deadline_miss_including_loss": 4341,
+          "mean_delay_ms": 18.03662,
+          "p95_delay_ms": 101.0,
+          "p99_delay_ms": 159.0,
+          "handover_starts": 8,
+          "handover_ends": 8,
+          "handover_failures": 0,
+          "first_handover_start_ms": 2977.0
+        },
+        {
+          "hysteresis_db": 3.0,
+          "ttt_ms": 256,
+          "sent": 23000,
+          "received": 22939,
+          "lost": 61,
+          "late_received": 4345,
+          "deadline_miss_including_loss": 4406,
+          "mean_delay_ms": 21.91399,
+          "p95_delay_ms": 120.0,
+          "p99_delay_ms": 172.62,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        },
+        {
+          "hysteresis_db": 6.0,
+          "ttt_ms": 320,
+          "sent": 23000,
+          "received": 22939,
+          "lost": 61,
+          "late_received": 4345,
+          "deadline_miss_including_loss": 4406,
+          "mean_delay_ms": 21.91399,
+          "p95_delay_ms": 120.0,
+          "p99_delay_ms": 172.62,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        }
+      ]
+    },
+    {
+      "case": "oscillate_20_3_1",
+      "run": 12,
+      "chosen_profiles": {
+        "3db_256ms_default": [
+          3.0,
+          256
+        ],
+        "0db_0ms_calibrated_fixed": [
+          0.0,
+          0
+        ],
+        "descriptor_rule": [
+          0.0,
+          0
+        ],
+        "hindsight_oracle": [
+          0.0,
+          0
+        ],
+        "decider_base": [
+          2.0,
+          160
+        ],
+        "qwen_base": [
+          0.0,
+          0
+        ]
+      },
+      "by_profile": [
+        {
+          "hysteresis_db": 0.0,
+          "ttt_ms": 0,
+          "sent": 23000,
+          "received": 22860,
+          "lost": 140,
+          "late_received": 64,
+          "deadline_miss_including_loss": 204,
+          "mean_delay_ms": 5.11527,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 8.0,
+          "handover_starts": 8,
+          "handover_ends": 8,
+          "handover_failures": 0,
+          "first_handover_start_ms": 2017.0
+        },
+        {
+          "hysteresis_db": 1.0,
+          "ttt_ms": 80,
+          "sent": 23000,
+          "received": 22441,
+          "lost": 559,
+          "late_received": 778,
+          "deadline_miss_including_loss": 1337,
+          "mean_delay_ms": 7.31135,
+          "p95_delay_ms": 6.0,
+          "p99_delay_ms": 88.0,
+          "handover_starts": 8,
+          "handover_ends": 8,
+          "handover_failures": 0,
+          "first_handover_start_ms": 2497.0
+        },
+        {
+          "hysteresis_db": 2.0,
+          "ttt_ms": 160,
+          "sent": 23000,
+          "received": 22113,
+          "lost": 887,
+          "late_received": 2647,
+          "deadline_miss_including_loss": 3534,
+          "mean_delay_ms": 14.55754,
+          "p95_delay_ms": 89.0,
+          "p99_delay_ms": 149.0,
+          "handover_starts": 8,
+          "handover_ends": 8,
+          "handover_failures": 0,
+          "first_handover_start_ms": 2977.0
+        },
+        {
+          "hysteresis_db": 3.0,
+          "ttt_ms": 256,
+          "sent": 23000,
+          "received": 22932,
+          "lost": 68,
+          "late_received": 4210,
+          "deadline_miss_including_loss": 4278,
+          "mean_delay_ms": 21.9014,
+          "p95_delay_ms": 125.0,
+          "p99_delay_ms": 177.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        },
+        {
+          "hysteresis_db": 6.0,
+          "ttt_ms": 320,
+          "sent": 23000,
+          "received": 22932,
+          "lost": 68,
+          "late_received": 4210,
+          "deadline_miss_including_loss": 4278,
+          "mean_delay_ms": 21.9014,
+          "p95_delay_ms": 125.0,
+          "p99_delay_ms": 177.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        }
+      ]
+    },
+    {
+      "case": "oscillate_20_3_1",
+      "run": 13,
+      "chosen_profiles": {
+        "3db_256ms_default": [
+          3.0,
+          256
+        ],
+        "0db_0ms_calibrated_fixed": [
+          0.0,
+          0
+        ],
+        "descriptor_rule": [
+          0.0,
+          0
+        ],
+        "hindsight_oracle": [
+          0.0,
+          0
+        ],
+        "decider_base": [
+          2.0,
+          160
+        ],
+        "qwen_base": [
+          0.0,
+          0
+        ]
+      },
+      "by_profile": [
+        {
+          "hysteresis_db": 0.0,
+          "ttt_ms": 0,
+          "sent": 23000,
+          "received": 22714,
+          "lost": 286,
+          "late_received": 64,
+          "deadline_miss_including_loss": 350,
+          "mean_delay_ms": 5.11596,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 8.0,
+          "handover_starts": 8,
+          "handover_ends": 8,
+          "handover_failures": 0,
+          "first_handover_start_ms": 2017.0
+        },
+        {
+          "hysteresis_db": 1.0,
+          "ttt_ms": 80,
+          "sent": 23000,
+          "received": 22549,
+          "lost": 451,
+          "late_received": 1205,
+          "deadline_miss_including_loss": 1656,
+          "mean_delay_ms": 8.99175,
+          "p95_delay_ms": 25.0,
+          "p99_delay_ms": 104.0,
+          "handover_starts": 8,
+          "handover_ends": 8,
+          "handover_failures": 0,
+          "first_handover_start_ms": 2497.0
+        },
+        {
+          "hysteresis_db": 2.0,
+          "ttt_ms": 160,
+          "sent": 23000,
+          "received": 22142,
+          "lost": 858,
+          "late_received": 3269,
+          "deadline_miss_including_loss": 4127,
+          "mean_delay_ms": 17.78222,
+          "p95_delay_ms": 103.0,
+          "p99_delay_ms": 157.0,
+          "handover_starts": 8,
+          "handover_ends": 8,
+          "handover_failures": 0,
+          "first_handover_start_ms": 2977.0
+        },
+        {
+          "hysteresis_db": 3.0,
+          "ttt_ms": 256,
+          "sent": 23000,
+          "received": 22926,
+          "lost": 74,
+          "late_received": 4746,
+          "deadline_miss_including_loss": 4820,
+          "mean_delay_ms": 24.41416,
+          "p95_delay_ms": 130.0,
+          "p99_delay_ms": 171.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        },
+        {
+          "hysteresis_db": 6.0,
+          "ttt_ms": 320,
+          "sent": 23000,
+          "received": 22926,
+          "lost": 74,
+          "late_received": 4746,
+          "deadline_miss_including_loss": 4820,
+          "mean_delay_ms": 24.41416,
+          "p95_delay_ms": 130.0,
+          "p99_delay_ms": 171.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        }
+      ]
+    },
+    {
+      "case": "oscillate_20_3_1",
+      "run": 14,
+      "chosen_profiles": {
+        "3db_256ms_default": [
+          3.0,
+          256
+        ],
+        "0db_0ms_calibrated_fixed": [
+          0.0,
+          0
+        ],
+        "descriptor_rule": [
+          0.0,
+          0
+        ],
+        "hindsight_oracle": [
+          0.0,
+          0
+        ],
+        "decider_base": [
+          2.0,
+          160
+        ],
+        "qwen_base": [
+          0.0,
+          0
+        ]
+      },
+      "by_profile": [
+        {
+          "hysteresis_db": 0.0,
+          "ttt_ms": 0,
+          "sent": 23000,
+          "received": 22833,
+          "lost": 167,
+          "late_received": 64,
+          "deadline_miss_including_loss": 231,
+          "mean_delay_ms": 5.1154,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 8.0,
+          "handover_starts": 8,
+          "handover_ends": 8,
+          "handover_failures": 0,
+          "first_handover_start_ms": 2017.0
+        },
+        {
+          "hysteresis_db": 1.0,
+          "ttt_ms": 80,
+          "sent": 23000,
+          "received": 22426,
+          "lost": 574,
+          "late_received": 1311,
+          "deadline_miss_including_loss": 1885,
+          "mean_delay_ms": 9.26652,
+          "p95_delay_ms": 32.0,
+          "p99_delay_ms": 105.0,
+          "handover_starts": 8,
+          "handover_ends": 8,
+          "handover_failures": 0,
+          "first_handover_start_ms": 2497.0
+        },
+        {
+          "hysteresis_db": 2.0,
+          "ttt_ms": 160,
+          "sent": 23000,
+          "received": 22269,
+          "lost": 731,
+          "late_received": 4264,
+          "deadline_miss_including_loss": 4995,
+          "mean_delay_ms": 22.58979,
+          "p95_delay_ms": 125.0,
+          "p99_delay_ms": 178.0,
+          "handover_starts": 8,
+          "handover_ends": 8,
+          "handover_failures": 0,
+          "first_handover_start_ms": 2977.0
+        },
+        {
+          "hysteresis_db": 3.0,
+          "ttt_ms": 256,
+          "sent": 23000,
+          "received": 22930,
+          "lost": 70,
+          "late_received": 4636,
+          "deadline_miss_including_loss": 4706,
+          "mean_delay_ms": 23.78024,
+          "p95_delay_ms": 129.0,
+          "p99_delay_ms": 176.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        },
+        {
+          "hysteresis_db": 6.0,
+          "ttt_ms": 320,
+          "sent": 23000,
+          "received": 22930,
+          "lost": 70,
+          "late_received": 4636,
+          "deadline_miss_including_loss": 4706,
+          "mean_delay_ms": 23.78024,
+          "p95_delay_ms": 129.0,
+          "p99_delay_ms": 176.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        }
+      ]
+    },
+    {
+      "case": "oscillate_20_3_1",
+      "run": 15,
+      "chosen_profiles": {
+        "3db_256ms_default": [
+          3.0,
+          256
+        ],
+        "0db_0ms_calibrated_fixed": [
+          0.0,
+          0
+        ],
+        "descriptor_rule": [
+          0.0,
+          0
+        ],
+        "hindsight_oracle": [
+          0.0,
+          0
+        ],
+        "decider_base": [
+          2.0,
+          160
+        ],
+        "qwen_base": [
+          0.0,
+          0
+        ]
+      },
+      "by_profile": [
+        {
+          "hysteresis_db": 0.0,
+          "ttt_ms": 0,
+          "sent": 23000,
+          "received": 22799,
+          "lost": 201,
+          "late_received": 64,
+          "deadline_miss_including_loss": 265,
+          "mean_delay_ms": 5.11557,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 8.0,
+          "handover_starts": 8,
+          "handover_ends": 8,
+          "handover_failures": 0,
+          "first_handover_start_ms": 2017.0
+        },
+        {
+          "hysteresis_db": 1.0,
+          "ttt_ms": 80,
+          "sent": 23000,
+          "received": 22511,
+          "lost": 489,
+          "late_received": 1043,
+          "deadline_miss_including_loss": 1532,
+          "mean_delay_ms": 8.33695,
+          "p95_delay_ms": 14.0,
+          "p99_delay_ms": 101.0,
+          "handover_starts": 8,
+          "handover_ends": 8,
+          "handover_failures": 0,
+          "first_handover_start_ms": 2497.0
+        },
+        {
+          "hysteresis_db": 2.0,
+          "ttt_ms": 160,
+          "sent": 23000,
+          "received": 22001,
+          "lost": 999,
+          "late_received": 3946,
+          "deadline_miss_including_loss": 4945,
+          "mean_delay_ms": 20.01682,
+          "p95_delay_ms": 106.0,
+          "p99_delay_ms": 164.0,
+          "handover_starts": 8,
+          "handover_ends": 8,
+          "handover_failures": 0,
+          "first_handover_start_ms": 2977.0
+        },
+        {
+          "hysteresis_db": 3.0,
+          "ttt_ms": 256,
+          "sent": 23000,
+          "received": 22929,
+          "lost": 71,
+          "late_received": 5055,
+          "deadline_miss_including_loss": 5126,
+          "mean_delay_ms": 25.05569,
+          "p95_delay_ms": 128.0,
+          "p99_delay_ms": 171.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        },
+        {
+          "hysteresis_db": 6.0,
+          "ttt_ms": 320,
+          "sent": 23000,
+          "received": 22929,
+          "lost": 71,
+          "late_received": 5055,
+          "deadline_miss_including_loss": 5126,
+          "mean_delay_ms": 25.05569,
+          "p95_delay_ms": 128.0,
+          "p99_delay_ms": 171.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        }
+      ]
+    },
+    {
+      "case": "oscillate_20_3_10",
+      "run": 11,
+      "chosen_profiles": {
+        "3db_256ms_default": [
+          3.0,
+          256
+        ],
+        "0db_0ms_calibrated_fixed": [
+          0.0,
+          0
+        ],
+        "descriptor_rule": [
+          0.0,
+          0
+        ],
+        "hindsight_oracle": [
+          0.0,
+          0
+        ],
+        "decider_base": [
+          2.0,
+          160
+        ],
+        "qwen_base": [
+          0.0,
+          0
+        ]
+      },
+      "by_profile": [
+        {
+          "hysteresis_db": 0.0,
+          "ttt_ms": 0,
+          "sent": 2300,
+          "received": 2300,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.04174,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 8,
+          "handover_ends": 8,
+          "handover_failures": 0,
+          "first_handover_start_ms": 2017.0
+        },
+        {
+          "hysteresis_db": 1.0,
+          "ttt_ms": 80,
+          "sent": 2300,
+          "received": 2300,
+          "lost": 0,
+          "late_received": 2,
+          "deadline_miss_including_loss": 2,
+          "mean_delay_ms": 5.06435,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 8,
+          "handover_ends": 8,
+          "handover_failures": 0,
+          "first_handover_start_ms": 2497.0
+        },
+        {
+          "hysteresis_db": 2.0,
+          "ttt_ms": 160,
+          "sent": 2300,
+          "received": 2281,
+          "lost": 19,
+          "late_received": 101,
+          "deadline_miss_including_loss": 120,
+          "mean_delay_ms": 8.20736,
+          "p95_delay_ms": 15.0,
+          "p99_delay_ms": 105.0,
+          "handover_starts": 8,
+          "handover_ends": 8,
+          "handover_failures": 0,
+          "first_handover_start_ms": 2977.0
+        },
+        {
+          "hysteresis_db": 3.0,
+          "ttt_ms": 256,
+          "sent": 2300,
+          "received": 2293,
+          "lost": 7,
+          "late_received": 63,
+          "deadline_miss_including_loss": 70,
+          "mean_delay_ms": 6.78805,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 85.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        },
+        {
+          "hysteresis_db": 6.0,
+          "ttt_ms": 320,
+          "sent": 2300,
+          "received": 2293,
+          "lost": 7,
+          "late_received": 63,
+          "deadline_miss_including_loss": 70,
+          "mean_delay_ms": 6.78805,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 85.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        }
+      ]
+    },
+    {
+      "case": "oscillate_20_3_10",
+      "run": 12,
+      "chosen_profiles": {
+        "3db_256ms_default": [
+          3.0,
+          256
+        ],
+        "0db_0ms_calibrated_fixed": [
+          0.0,
+          0
+        ],
+        "descriptor_rule": [
+          0.0,
+          0
+        ],
+        "hindsight_oracle": [
+          0.0,
+          0
+        ],
+        "decider_base": [
+          2.0,
+          160
+        ],
+        "qwen_base": [
+          0.0,
+          0
+        ]
+      },
+      "by_profile": [
+        {
+          "hysteresis_db": 0.0,
+          "ttt_ms": 0,
+          "sent": 2300,
+          "received": 2300,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.04174,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 8,
+          "handover_ends": 8,
+          "handover_failures": 0,
+          "first_handover_start_ms": 2017.0
+        },
+        {
+          "hysteresis_db": 1.0,
+          "ttt_ms": 80,
+          "sent": 2300,
+          "received": 2299,
+          "lost": 1,
+          "late_received": 9,
+          "deadline_miss_including_loss": 10,
+          "mean_delay_ms": 5.28099,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 6.0,
+          "handover_starts": 8,
+          "handover_ends": 8,
+          "handover_failures": 0,
+          "first_handover_start_ms": 2497.0
+        },
+        {
+          "hysteresis_db": 2.0,
+          "ttt_ms": 160,
+          "sent": 2300,
+          "received": 2279,
+          "lost": 21,
+          "late_received": 29,
+          "deadline_miss_including_loss": 50,
+          "mean_delay_ms": 5.78368,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 35.0,
+          "handover_starts": 8,
+          "handover_ends": 8,
+          "handover_failures": 0,
+          "first_handover_start_ms": 2977.0
+        },
+        {
+          "hysteresis_db": 3.0,
+          "ttt_ms": 256,
+          "sent": 2300,
+          "received": 2292,
+          "lost": 8,
+          "late_received": 72,
+          "deadline_miss_including_loss": 80,
+          "mean_delay_ms": 6.91972,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 85.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        },
+        {
+          "hysteresis_db": 6.0,
+          "ttt_ms": 320,
+          "sent": 2300,
+          "received": 2292,
+          "lost": 8,
+          "late_received": 72,
+          "deadline_miss_including_loss": 80,
+          "mean_delay_ms": 6.91972,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 85.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        }
+      ]
+    },
+    {
+      "case": "oscillate_20_3_10",
+      "run": 13,
+      "chosen_profiles": {
+        "3db_256ms_default": [
+          3.0,
+          256
+        ],
+        "0db_0ms_calibrated_fixed": [
+          0.0,
+          0
+        ],
+        "descriptor_rule": [
+          0.0,
+          0
+        ],
+        "hindsight_oracle": [
+          0.0,
+          0
+        ],
+        "decider_base": [
+          2.0,
+          160
+        ],
+        "qwen_base": [
+          0.0,
+          0
+        ]
+      },
+      "by_profile": [
+        {
+          "hysteresis_db": 0.0,
+          "ttt_ms": 0,
+          "sent": 2300,
+          "received": 2299,
+          "lost": 1,
+          "late_received": 0,
+          "deadline_miss_including_loss": 1,
+          "mean_delay_ms": 5.04176,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 8,
+          "handover_ends": 8,
+          "handover_failures": 0,
+          "first_handover_start_ms": 2017.0
+        },
+        {
+          "hysteresis_db": 1.0,
+          "ttt_ms": 80,
+          "sent": 2300,
+          "received": 2295,
+          "lost": 5,
+          "late_received": 18,
+          "deadline_miss_including_loss": 23,
+          "mean_delay_ms": 5.52113,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 16.0,
+          "handover_starts": 8,
+          "handover_ends": 8,
+          "handover_failures": 0,
+          "first_handover_start_ms": 2497.0
+        },
+        {
+          "hysteresis_db": 2.0,
+          "ttt_ms": 160,
+          "sent": 2300,
+          "received": 2281,
+          "lost": 19,
+          "late_received": 81,
+          "deadline_miss_including_loss": 100,
+          "mean_delay_ms": 7.36563,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 85.0,
+          "handover_starts": 8,
+          "handover_ends": 8,
+          "handover_failures": 0,
+          "first_handover_start_ms": 2977.0
+        },
+        {
+          "hysteresis_db": 3.0,
+          "ttt_ms": 256,
+          "sent": 2300,
+          "received": 2294,
+          "lost": 6,
+          "late_received": 54,
+          "deadline_miss_including_loss": 60,
+          "mean_delay_ms": 6.74804,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 85.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        },
+        {
+          "hysteresis_db": 6.0,
+          "ttt_ms": 320,
+          "sent": 2300,
+          "received": 2294,
+          "lost": 6,
+          "late_received": 54,
+          "deadline_miss_including_loss": 60,
+          "mean_delay_ms": 6.74804,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 85.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        }
+      ]
+    },
+    {
+      "case": "oscillate_20_3_10",
+      "run": 14,
+      "chosen_profiles": {
+        "3db_256ms_default": [
+          3.0,
+          256
+        ],
+        "0db_0ms_calibrated_fixed": [
+          0.0,
+          0
+        ],
+        "descriptor_rule": [
+          0.0,
+          0
+        ],
+        "hindsight_oracle": [
+          0.0,
+          0
+        ],
+        "decider_base": [
+          2.0,
+          160
+        ],
+        "qwen_base": [
+          0.0,
+          0
+        ]
+      },
+      "by_profile": [
+        {
+          "hysteresis_db": 0.0,
+          "ttt_ms": 0,
+          "sent": 2300,
+          "received": 2300,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.04174,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 8,
+          "handover_ends": 8,
+          "handover_failures": 0,
+          "first_handover_start_ms": 2017.0
+        },
+        {
+          "hysteresis_db": 1.0,
+          "ttt_ms": 80,
+          "sent": 2300,
+          "received": 2274,
+          "lost": 26,
+          "late_received": 11,
+          "deadline_miss_including_loss": 37,
+          "mean_delay_ms": 5.36763,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 6.0,
+          "handover_starts": 8,
+          "handover_ends": 8,
+          "handover_failures": 0,
+          "first_handover_start_ms": 2497.0
+        },
+        {
+          "hysteresis_db": 2.0,
+          "ttt_ms": 160,
+          "sent": 2300,
+          "received": 2268,
+          "lost": 32,
+          "late_received": 36,
+          "deadline_miss_including_loss": 68,
+          "mean_delay_ms": 6.00794,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 55.0,
+          "handover_starts": 8,
+          "handover_ends": 8,
+          "handover_failures": 0,
+          "first_handover_start_ms": 2977.0
+        },
+        {
+          "hysteresis_db": 3.0,
+          "ttt_ms": 256,
+          "sent": 2300,
+          "received": 2291,
+          "lost": 9,
+          "late_received": 81,
+          "deadline_miss_including_loss": 90,
+          "mean_delay_ms": 7.16063,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 85.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        },
+        {
+          "hysteresis_db": 6.0,
+          "ttt_ms": 320,
+          "sent": 2300,
+          "received": 2291,
+          "lost": 9,
+          "late_received": 81,
+          "deadline_miss_including_loss": 90,
+          "mean_delay_ms": 7.16063,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 85.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        }
+      ]
+    },
+    {
+      "case": "oscillate_20_3_10",
+      "run": 15,
+      "chosen_profiles": {
+        "3db_256ms_default": [
+          3.0,
+          256
+        ],
+        "0db_0ms_calibrated_fixed": [
+          0.0,
+          0
+        ],
+        "descriptor_rule": [
+          0.0,
+          0
+        ],
+        "hindsight_oracle": [
+          0.0,
+          0
+        ],
+        "decider_base": [
+          2.0,
+          160
+        ],
+        "qwen_base": [
+          0.0,
+          0
+        ]
+      },
+      "by_profile": [
+        {
+          "hysteresis_db": 0.0,
+          "ttt_ms": 0,
+          "sent": 2300,
+          "received": 2300,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.04174,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 8,
+          "handover_ends": 8,
+          "handover_failures": 0,
+          "first_handover_start_ms": 2017.0
+        },
+        {
+          "hysteresis_db": 1.0,
+          "ttt_ms": 80,
+          "sent": 2300,
+          "received": 2284,
+          "lost": 16,
+          "late_received": 0,
+          "deadline_miss_including_loss": 16,
+          "mean_delay_ms": 5.04203,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 8,
+          "handover_ends": 8,
+          "handover_failures": 0,
+          "first_handover_start_ms": 2497.0
+        },
+        {
+          "hysteresis_db": 2.0,
+          "ttt_ms": 160,
+          "sent": 2300,
+          "received": 2278,
+          "lost": 22,
+          "late_received": 56,
+          "deadline_miss_including_loss": 78,
+          "mean_delay_ms": 6.51361,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 75.0,
+          "handover_starts": 8,
+          "handover_ends": 8,
+          "handover_failures": 0,
+          "first_handover_start_ms": 2977.0
+        },
+        {
+          "hysteresis_db": 3.0,
+          "ttt_ms": 256,
+          "sent": 2300,
+          "received": 2292,
+          "lost": 8,
+          "late_received": 72,
+          "deadline_miss_including_loss": 80,
+          "mean_delay_ms": 7.22513,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 95.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        },
+        {
+          "hysteresis_db": 6.0,
+          "ttt_ms": 320,
+          "sent": 2300,
+          "received": 2292,
+          "lost": 8,
+          "late_received": 72,
+          "deadline_miss_including_loss": 80,
+          "mean_delay_ms": 7.22513,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 95.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        }
+      ]
+    },
+    {
+      "case": "oscillate_8_2_1",
+      "run": 11,
+      "chosen_profiles": {
+        "3db_256ms_default": [
+          3.0,
+          256
+        ],
+        "0db_0ms_calibrated_fixed": [
+          0.0,
+          0
+        ],
+        "descriptor_rule": [
+          1.0,
+          80
+        ],
+        "hindsight_oracle": [
+          1.0,
+          80
+        ],
+        "decider_base": [
+          2.0,
+          160
+        ],
+        "qwen_base": [
+          0.0,
+          0
+        ]
+      },
+      "by_profile": [
+        {
+          "hysteresis_db": 0.0,
+          "ttt_ms": 0,
+          "sent": 23000,
+          "received": 22809,
+          "lost": 191,
+          "late_received": 96,
+          "deadline_miss_including_loss": 287,
+          "mean_delay_ms": 5.17133,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 13.0,
+          "handover_starts": 12,
+          "handover_ends": 12,
+          "handover_failures": 0,
+          "first_handover_start_ms": 1417.0
+        },
+        {
+          "hysteresis_db": 1.0,
+          "ttt_ms": 80,
+          "sent": 23000,
+          "received": 23000,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.00209,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        },
+        {
+          "hysteresis_db": 2.0,
+          "ttt_ms": 160,
+          "sent": 23000,
+          "received": 23000,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.00209,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        },
+        {
+          "hysteresis_db": 3.0,
+          "ttt_ms": 256,
+          "sent": 23000,
+          "received": 23000,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.00209,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        },
+        {
+          "hysteresis_db": 6.0,
+          "ttt_ms": 320,
+          "sent": 23000,
+          "received": 23000,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.00209,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        }
+      ]
+    },
+    {
+      "case": "oscillate_8_2_1",
+      "run": 12,
+      "chosen_profiles": {
+        "3db_256ms_default": [
+          3.0,
+          256
+        ],
+        "0db_0ms_calibrated_fixed": [
+          0.0,
+          0
+        ],
+        "descriptor_rule": [
+          1.0,
+          80
+        ],
+        "hindsight_oracle": [
+          1.0,
+          80
+        ],
+        "decider_base": [
+          2.0,
+          160
+        ],
+        "qwen_base": [
+          0.0,
+          0
+        ]
+      },
+      "by_profile": [
+        {
+          "hysteresis_db": 0.0,
+          "ttt_ms": 0,
+          "sent": 23000,
+          "received": 22809,
+          "lost": 191,
+          "late_received": 96,
+          "deadline_miss_including_loss": 287,
+          "mean_delay_ms": 5.17133,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 13.0,
+          "handover_starts": 12,
+          "handover_ends": 12,
+          "handover_failures": 0,
+          "first_handover_start_ms": 1417.0
+        },
+        {
+          "hysteresis_db": 1.0,
+          "ttt_ms": 80,
+          "sent": 23000,
+          "received": 23000,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.00209,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        },
+        {
+          "hysteresis_db": 2.0,
+          "ttt_ms": 160,
+          "sent": 23000,
+          "received": 23000,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.00209,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        },
+        {
+          "hysteresis_db": 3.0,
+          "ttt_ms": 256,
+          "sent": 23000,
+          "received": 23000,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.00209,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        },
+        {
+          "hysteresis_db": 6.0,
+          "ttt_ms": 320,
+          "sent": 23000,
+          "received": 23000,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.00209,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        }
+      ]
+    },
+    {
+      "case": "oscillate_8_2_1",
+      "run": 13,
+      "chosen_profiles": {
+        "3db_256ms_default": [
+          3.0,
+          256
+        ],
+        "0db_0ms_calibrated_fixed": [
+          0.0,
+          0
+        ],
+        "descriptor_rule": [
+          1.0,
+          80
+        ],
+        "hindsight_oracle": [
+          1.0,
+          80
+        ],
+        "decider_base": [
+          2.0,
+          160
+        ],
+        "qwen_base": [
+          0.0,
+          0
+        ]
+      },
+      "by_profile": [
+        {
+          "hysteresis_db": 0.0,
+          "ttt_ms": 0,
+          "sent": 23000,
+          "received": 22809,
+          "lost": 191,
+          "late_received": 96,
+          "deadline_miss_including_loss": 287,
+          "mean_delay_ms": 5.17133,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 13.0,
+          "handover_starts": 12,
+          "handover_ends": 12,
+          "handover_failures": 0,
+          "first_handover_start_ms": 1417.0
+        },
+        {
+          "hysteresis_db": 1.0,
+          "ttt_ms": 80,
+          "sent": 23000,
+          "received": 23000,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.00209,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        },
+        {
+          "hysteresis_db": 2.0,
+          "ttt_ms": 160,
+          "sent": 23000,
+          "received": 23000,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.00209,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        },
+        {
+          "hysteresis_db": 3.0,
+          "ttt_ms": 256,
+          "sent": 23000,
+          "received": 23000,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.00209,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        },
+        {
+          "hysteresis_db": 6.0,
+          "ttt_ms": 320,
+          "sent": 23000,
+          "received": 23000,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.00209,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        }
+      ]
+    },
+    {
+      "case": "oscillate_8_2_1",
+      "run": 14,
+      "chosen_profiles": {
+        "3db_256ms_default": [
+          3.0,
+          256
+        ],
+        "0db_0ms_calibrated_fixed": [
+          0.0,
+          0
+        ],
+        "descriptor_rule": [
+          1.0,
+          80
+        ],
+        "hindsight_oracle": [
+          1.0,
+          80
+        ],
+        "decider_base": [
+          2.0,
+          160
+        ],
+        "qwen_base": [
+          0.0,
+          0
+        ]
+      },
+      "by_profile": [
+        {
+          "hysteresis_db": 0.0,
+          "ttt_ms": 0,
+          "sent": 23000,
+          "received": 22809,
+          "lost": 191,
+          "late_received": 96,
+          "deadline_miss_including_loss": 287,
+          "mean_delay_ms": 5.17133,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 13.0,
+          "handover_starts": 12,
+          "handover_ends": 12,
+          "handover_failures": 0,
+          "first_handover_start_ms": 1417.0
+        },
+        {
+          "hysteresis_db": 1.0,
+          "ttt_ms": 80,
+          "sent": 23000,
+          "received": 23000,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.00209,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        },
+        {
+          "hysteresis_db": 2.0,
+          "ttt_ms": 160,
+          "sent": 23000,
+          "received": 23000,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.00209,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        },
+        {
+          "hysteresis_db": 3.0,
+          "ttt_ms": 256,
+          "sent": 23000,
+          "received": 23000,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.00209,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        },
+        {
+          "hysteresis_db": 6.0,
+          "ttt_ms": 320,
+          "sent": 23000,
+          "received": 23000,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.00209,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        }
+      ]
+    },
+    {
+      "case": "oscillate_8_2_1",
+      "run": 15,
+      "chosen_profiles": {
+        "3db_256ms_default": [
+          3.0,
+          256
+        ],
+        "0db_0ms_calibrated_fixed": [
+          0.0,
+          0
+        ],
+        "descriptor_rule": [
+          1.0,
+          80
+        ],
+        "hindsight_oracle": [
+          1.0,
+          80
+        ],
+        "decider_base": [
+          2.0,
+          160
+        ],
+        "qwen_base": [
+          0.0,
+          0
+        ]
+      },
+      "by_profile": [
+        {
+          "hysteresis_db": 0.0,
+          "ttt_ms": 0,
+          "sent": 23000,
+          "received": 22809,
+          "lost": 191,
+          "late_received": 96,
+          "deadline_miss_including_loss": 287,
+          "mean_delay_ms": 5.17133,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 13.0,
+          "handover_starts": 12,
+          "handover_ends": 12,
+          "handover_failures": 0,
+          "first_handover_start_ms": 1417.0
+        },
+        {
+          "hysteresis_db": 1.0,
+          "ttt_ms": 80,
+          "sent": 23000,
+          "received": 23000,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.00209,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        },
+        {
+          "hysteresis_db": 2.0,
+          "ttt_ms": 160,
+          "sent": 23000,
+          "received": 23000,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.00209,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        },
+        {
+          "hysteresis_db": 3.0,
+          "ttt_ms": 256,
+          "sent": 23000,
+          "received": 23000,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.00209,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        },
+        {
+          "hysteresis_db": 6.0,
+          "ttt_ms": 320,
+          "sent": 23000,
+          "received": 23000,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.00209,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        }
+      ]
+    },
+    {
+      "case": "oscillate_8_2_10",
+      "run": 11,
+      "chosen_profiles": {
+        "3db_256ms_default": [
+          3.0,
+          256
+        ],
+        "0db_0ms_calibrated_fixed": [
+          0.0,
+          0
+        ],
+        "descriptor_rule": [
+          0.0,
+          0
+        ],
+        "hindsight_oracle": [
+          1.0,
+          80
+        ],
+        "decider_base": [
+          2.0,
+          160
+        ],
+        "qwen_base": [
+          0.0,
+          0
+        ]
+      },
+      "by_profile": [
+        {
+          "hysteresis_db": 0.0,
+          "ttt_ms": 0,
+          "sent": 2300,
+          "received": 2300,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.06261,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 6.0,
+          "handover_starts": 12,
+          "handover_ends": 12,
+          "handover_failures": 0,
+          "first_handover_start_ms": 1417.0
+        },
+        {
+          "hysteresis_db": 1.0,
+          "ttt_ms": 80,
+          "sent": 2300,
+          "received": 2300,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.0,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        },
+        {
+          "hysteresis_db": 2.0,
+          "ttt_ms": 160,
+          "sent": 2300,
+          "received": 2300,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.0,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        },
+        {
+          "hysteresis_db": 3.0,
+          "ttt_ms": 256,
+          "sent": 2300,
+          "received": 2300,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.0,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        },
+        {
+          "hysteresis_db": 6.0,
+          "ttt_ms": 320,
+          "sent": 2300,
+          "received": 2300,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.0,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        }
+      ]
+    },
+    {
+      "case": "oscillate_8_2_10",
+      "run": 12,
+      "chosen_profiles": {
+        "3db_256ms_default": [
+          3.0,
+          256
+        ],
+        "0db_0ms_calibrated_fixed": [
+          0.0,
+          0
+        ],
+        "descriptor_rule": [
+          0.0,
+          0
+        ],
+        "hindsight_oracle": [
+          1.0,
+          80
+        ],
+        "decider_base": [
+          2.0,
+          160
+        ],
+        "qwen_base": [
+          0.0,
+          0
+        ]
+      },
+      "by_profile": [
+        {
+          "hysteresis_db": 0.0,
+          "ttt_ms": 0,
+          "sent": 2300,
+          "received": 2300,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.06261,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 6.0,
+          "handover_starts": 12,
+          "handover_ends": 12,
+          "handover_failures": 0,
+          "first_handover_start_ms": 1417.0
+        },
+        {
+          "hysteresis_db": 1.0,
+          "ttt_ms": 80,
+          "sent": 2300,
+          "received": 2300,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.0,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        },
+        {
+          "hysteresis_db": 2.0,
+          "ttt_ms": 160,
+          "sent": 2300,
+          "received": 2300,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.0,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        },
+        {
+          "hysteresis_db": 3.0,
+          "ttt_ms": 256,
+          "sent": 2300,
+          "received": 2300,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.0,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        },
+        {
+          "hysteresis_db": 6.0,
+          "ttt_ms": 320,
+          "sent": 2300,
+          "received": 2300,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.0,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        }
+      ]
+    },
+    {
+      "case": "oscillate_8_2_10",
+      "run": 13,
+      "chosen_profiles": {
+        "3db_256ms_default": [
+          3.0,
+          256
+        ],
+        "0db_0ms_calibrated_fixed": [
+          0.0,
+          0
+        ],
+        "descriptor_rule": [
+          0.0,
+          0
+        ],
+        "hindsight_oracle": [
+          1.0,
+          80
+        ],
+        "decider_base": [
+          2.0,
+          160
+        ],
+        "qwen_base": [
+          0.0,
+          0
+        ]
+      },
+      "by_profile": [
+        {
+          "hysteresis_db": 0.0,
+          "ttt_ms": 0,
+          "sent": 2300,
+          "received": 2300,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.06261,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 6.0,
+          "handover_starts": 12,
+          "handover_ends": 12,
+          "handover_failures": 0,
+          "first_handover_start_ms": 1417.0
+        },
+        {
+          "hysteresis_db": 1.0,
+          "ttt_ms": 80,
+          "sent": 2300,
+          "received": 2300,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.0,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        },
+        {
+          "hysteresis_db": 2.0,
+          "ttt_ms": 160,
+          "sent": 2300,
+          "received": 2300,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.0,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        },
+        {
+          "hysteresis_db": 3.0,
+          "ttt_ms": 256,
+          "sent": 2300,
+          "received": 2300,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.0,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        },
+        {
+          "hysteresis_db": 6.0,
+          "ttt_ms": 320,
+          "sent": 2300,
+          "received": 2300,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.0,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        }
+      ]
+    },
+    {
+      "case": "oscillate_8_2_10",
+      "run": 14,
+      "chosen_profiles": {
+        "3db_256ms_default": [
+          3.0,
+          256
+        ],
+        "0db_0ms_calibrated_fixed": [
+          0.0,
+          0
+        ],
+        "descriptor_rule": [
+          0.0,
+          0
+        ],
+        "hindsight_oracle": [
+          1.0,
+          80
+        ],
+        "decider_base": [
+          2.0,
+          160
+        ],
+        "qwen_base": [
+          0.0,
+          0
+        ]
+      },
+      "by_profile": [
+        {
+          "hysteresis_db": 0.0,
+          "ttt_ms": 0,
+          "sent": 2300,
+          "received": 2300,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.06261,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 6.0,
+          "handover_starts": 12,
+          "handover_ends": 12,
+          "handover_failures": 0,
+          "first_handover_start_ms": 1417.0
+        },
+        {
+          "hysteresis_db": 1.0,
+          "ttt_ms": 80,
+          "sent": 2300,
+          "received": 2300,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.0,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        },
+        {
+          "hysteresis_db": 2.0,
+          "ttt_ms": 160,
+          "sent": 2300,
+          "received": 2300,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.0,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        },
+        {
+          "hysteresis_db": 3.0,
+          "ttt_ms": 256,
+          "sent": 2300,
+          "received": 2300,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.0,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        },
+        {
+          "hysteresis_db": 6.0,
+          "ttt_ms": 320,
+          "sent": 2300,
+          "received": 2300,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.0,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        }
+      ]
+    },
+    {
+      "case": "oscillate_8_2_10",
+      "run": 15,
+      "chosen_profiles": {
+        "3db_256ms_default": [
+          3.0,
+          256
+        ],
+        "0db_0ms_calibrated_fixed": [
+          0.0,
+          0
+        ],
+        "descriptor_rule": [
+          0.0,
+          0
+        ],
+        "hindsight_oracle": [
+          1.0,
+          80
+        ],
+        "decider_base": [
+          2.0,
+          160
+        ],
+        "qwen_base": [
+          0.0,
+          0
+        ]
+      },
+      "by_profile": [
+        {
+          "hysteresis_db": 0.0,
+          "ttt_ms": 0,
+          "sent": 2300,
+          "received": 2300,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.06261,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 6.0,
+          "handover_starts": 12,
+          "handover_ends": 12,
+          "handover_failures": 0,
+          "first_handover_start_ms": 1417.0
+        },
+        {
+          "hysteresis_db": 1.0,
+          "ttt_ms": 80,
+          "sent": 2300,
+          "received": 2300,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.0,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        },
+        {
+          "hysteresis_db": 2.0,
+          "ttt_ms": 160,
+          "sent": 2300,
+          "received": 2300,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.0,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        },
+        {
+          "hysteresis_db": 3.0,
+          "ttt_ms": 256,
+          "sent": 2300,
+          "received": 2300,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.0,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        },
+        {
+          "hysteresis_db": 6.0,
+          "ttt_ms": 320,
+          "sent": 2300,
+          "received": 2300,
+          "lost": 0,
+          "late_received": 0,
+          "deadline_miss_including_loss": 0,
+          "mean_delay_ms": 5.0,
+          "p95_delay_ms": 5.0,
+          "p99_delay_ms": 5.0,
+          "handover_starts": 0,
+          "handover_ends": 0,
+          "handover_failures": 0,
+          "first_handover_start_ms": -1.0
+        }
+      ]
+    }
+  ]
+}

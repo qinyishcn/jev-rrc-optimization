@@ -2,7 +2,9 @@
 
 用 [Mapika/Decider](https://github.com/Mapika/decider) 的真实 2B 权重实现类型化 RRC 参数选择，接入 [EEzim/RRC](https://huggingface.co/datasets/EEzim/RRC) 与 [nrRRC_Simulator](https://github.com/EE-zim/nrRRC_Simulator) 的协议解析，并进行可复现的紧时延业务对照实验。
 
-**当前结论：技术链路已跑通，领域微调改善了 Decider 原始选择，但仍未证明优于强传统基线。** 业务效果来自明确假设下的合成分组队列，不是真实无线网络测量，也不是闭源 Jev 的测试结果。
+**当前结论：技术链路已跑通，领域微调改善了 Decider 原始选择，但仍未证明优于强传统基线。** 原 DRX 业务效果来自明确假设下的合成分组队列，不是真实无线网络测量，也不是闭源 Jev 的测试结果。
+
+📄 **[新增阶段性系统验证：ns-3 LTE/EPC 的 RRC A3 切换配置与逐包指标](docs/ns3_lte_system_validation.md)**。该实验把配置选择放进 LTE 协议栈，传统描述符规则在已测场景仍优于未适配 Decider；A3 切换与下方 DRX 优化是两个不同问题，结果不可混用。
 
 📄 **[新版中文报告：Qwen 对照、温度和微调](docs/report_v2.md)** · [完整样例](docs/example_v2.md) · [逐条推理和仿真时间](artifacts/temperature/per_scenario_timing.csv) · [第一版报告](docs/report.md) · [复现步骤](docs/reproduce.md)
 
