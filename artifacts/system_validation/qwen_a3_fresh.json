@@ -1,0 +1,137 @@
+[
+  {
+    "case": "fresh_oscillate_250_5",
+    "prompt": "LTE RRC Event A3 handover configuration selection.\nSelect one LTE RRC Event A3 handover configuration before this session starts. Hysteresis is the RSRP margin required before switching to a neighbour; time-to-trigger is how long that condition must hold. Prioritize the lowest fraction of UDP packets arriving after the 20 ms deadline or lost; repeated unnecessary handovers may also disrupt packets. Which configuration?\nCandidates:\nP0: A3 hysteresis 0 dB, time-to-trigger 0 ms\nP1: A3 hysteresis 1 dB, time-to-trigger 80 ms\nP2: A3 hysteresis 2 dB, time-to-trigger 160 ms\nP3: A3 hysteresis 3 dB, time-to-trigger 256 ms\nP4: A3 hysteresis 6 dB, time-to-trigger 320 ms\nReply with exactly one candidate ID (P0 to P4), with no explanation.\nScenario: LTE FDD, two eNBs with X2 and EPC, one moving UE and downlink UDP. The initial serving eNB is left of the origin; the other is right. Cross means the UE moves left to right; oscillate means its direction reverses every turnPeriodS. The packet stream runs after attachment. Choose from the fixed A3 configurations using only these pre-session descriptors: {\"trajectory\":\"oscillate\",\"speedMps\":5,\"startX\":-5.75,\"turnPeriodS\":2.3,\"cellSpacingM\":250,\"durationS\":24,\"packetIntervalMs\":1,\"packetBytes\":1200,\"deadlineMs\":20}\nAnswer: P",
+    "raw": "0\n",
+    "parsed_choice": "A3 hysteresis 0 dB, time-to-trigger 0 ms",
+    "valid": true,
+    "inference_ms": 3397.346500074491,
+    "generated_tokens": 2
+  },
+  {
+    "case": "fresh_oscillate_250_8",
+    "prompt": "LTE RRC Event A3 handover configuration selection.\nSelect one LTE RRC Event A3 handover configuration before this session starts. Hysteresis is the RSRP margin required before switching to a neighbour; time-to-trigger is how long that condition must hold. Prioritize the lowest fraction of UDP packets arriving after the 20 ms deadline or lost; repeated unnecessary handovers may also disrupt packets. Which configuration?\nCandidates:\nP0: A3 hysteresis 0 dB, time-to-trigger 0 ms\nP1: A3 hysteresis 1 dB, time-to-trigger 80 ms\nP2: A3 hysteresis 2 dB, time-to-trigger 160 ms\nP3: A3 hysteresis 3 dB, time-to-trigger 256 ms\nP4: A3 hysteresis 6 dB, time-to-trigger 320 ms\nReply with exactly one candidate ID (P0 to P4), with no explanation.\nScenario: LTE FDD, two eNBs with X2 and EPC, one moving UE and downlink UDP. The initial serving eNB is left of the origin; the other is right. Cross means the UE moves left to right; oscillate means its direction reverses every turnPeriodS. The packet stream runs after attachment. Choose from the fixed A3 configurations using only these pre-session descriptors: {\"trajectory\":\"oscillate\",\"speedMps\":8,\"startX\":-9.2,\"turnPeriodS\":2.3,\"cellSpacingM\":250,\"durationS\":24,\"packetIntervalMs\":1,\"packetBytes\":1200,\"deadlineMs\":20}\nAnswer: P",
+    "raw": "0\n",
+    "parsed_choice": "A3 hysteresis 0 dB, time-to-trigger 0 ms",
+    "valid": true,
+    "inference_ms": 5173.924200003967,
+    "generated_tokens": 2
+  },
+  {
+    "case": "fresh_oscillate_250_11",
+    "prompt": "LTE RRC Event A3 handover configuration selection.\nSelect one LTE RRC Event A3 handover configuration before this session starts. Hysteresis is the RSRP margin required before switching to a neighbour; time-to-trigger is how long that condition must hold. Prioritize the lowest fraction of UDP packets arriving after the 20 ms deadline or lost; repeated unnecessary handovers may also disrupt packets. Which configuration?\nCandidates:\nP0: A3 hysteresis 0 dB, time-to-trigger 0 ms\nP1: A3 hysteresis 1 dB, time-to-trigger 80 ms\nP2: A3 hysteresis 2 dB, time-to-trigger 160 ms\nP3: A3 hysteresis 3 dB, time-to-trigger 256 ms\nP4: A3 hysteresis 6 dB, time-to-trigger 320 ms\nReply with exactly one candidate ID (P0 to P4), with no explanation.\nScenario: LTE FDD, two eNBs with X2 and EPC, one moving UE and downlink UDP. The initial serving eNB is left of the origin; the other is right. Cross means the UE moves left to right; oscillate means its direction reverses every turnPeriodS. The packet stream runs after attachment. Choose from the fixed A3 configurations using only these pre-session descriptors: {\"trajectory\":\"oscillate\",\"speedMps\":11,\"startX\":-12.649999999999999,\"turnPeriodS\":2.3,\"cellSpacingM\":250,\"durationS\":24,\"packetIntervalMs\":1,\"packetBytes\":1200,\"deadlineMs\":20}\nAnswer: P",
+    "raw": "0\n",
+    "parsed_choice": "A3 hysteresis 0 dB, time-to-trigger 0 ms",
+    "valid": true,
+    "inference_ms": 3399.7979001142085,
+    "generated_tokens": 2
+  },
+  {
+    "case": "fresh_oscillate_250_15",
+    "prompt": "LTE RRC Event A3 handover configuration selection.\nSelect one LTE RRC Event A3 handover configuration before this session starts. Hysteresis is the RSRP margin required before switching to a neighbour; time-to-trigger is how long that condition must hold. Prioritize the lowest fraction of UDP packets arriving after the 20 ms deadline or lost; repeated unnecessary handovers may also disrupt packets. Which configuration?\nCandidates:\nP0: A3 hysteresis 0 dB, time-to-trigger 0 ms\nP1: A3 hysteresis 1 dB, time-to-trigger 80 ms\nP2: A3 hysteresis 2 dB, time-to-trigger 160 ms\nP3: A3 hysteresis 3 dB, time-to-trigger 256 ms\nP4: A3 hysteresis 6 dB, time-to-trigger 320 ms\nReply with exactly one candidate ID (P0 to P4), with no explanation.\nScenario: LTE FDD, two eNBs with X2 and EPC, one moving UE and downlink UDP. The initial serving eNB is left of the origin; the other is right. Cross means the UE moves left to right; oscillate means its direction reverses every turnPeriodS. The packet stream runs after attachment. Choose from the fixed A3 configurations using only these pre-session descriptors: {\"trajectory\":\"oscillate\",\"speedMps\":15,\"startX\":-17.25,\"turnPeriodS\":2.3,\"cellSpacingM\":250,\"durationS\":24,\"packetIntervalMs\":1,\"packetBytes\":1200,\"deadlineMs\":20}\nAnswer: P",
+    "raw": "0\n",
+    "parsed_choice": "A3 hysteresis 0 dB, time-to-trigger 0 ms",
+    "valid": true,
+    "inference_ms": 4184.362600091845,
+    "generated_tokens": 2
+  },
+  {
+    "case": "fresh_oscillate_250_20",
+    "prompt": "LTE RRC Event A3 handover configuration selection.\nSelect one LTE RRC Event A3 handover configuration before this session starts. Hysteresis is the RSRP margin required before switching to a neighbour; time-to-trigger is how long that condition must hold. Prioritize the lowest fraction of UDP packets arriving after the 20 ms deadline or lost; repeated unnecessary handovers may also disrupt packets. Which configuration?\nCandidates:\nP0: A3 hysteresis 0 dB, time-to-trigger 0 ms\nP1: A3 hysteresis 1 dB, time-to-trigger 80 ms\nP2: A3 hysteresis 2 dB, time-to-trigger 160 ms\nP3: A3 hysteresis 3 dB, time-to-trigger 256 ms\nP4: A3 hysteresis 6 dB, time-to-trigger 320 ms\nReply with exactly one candidate ID (P0 to P4), with no explanation.\nScenario: LTE FDD, two eNBs with X2 and EPC, one moving UE and downlink UDP. The initial serving eNB is left of the origin; the other is right. Cross means the UE moves left to right; oscillate means its direction reverses every turnPeriodS. The packet stream runs after attachment. Choose from the fixed A3 configurations using only these pre-session descriptors: {\"trajectory\":\"oscillate\",\"speedMps\":20,\"startX\":-23.0,\"turnPeriodS\":2.3,\"cellSpacingM\":250,\"durationS\":24,\"packetIntervalMs\":1,\"packetBytes\":1200,\"deadlineMs\":20}\nAnswer: P",
+    "raw": "0\n",
+    "parsed_choice": "A3 hysteresis 0 dB, time-to-trigger 0 ms",
+    "valid": true,
+    "inference_ms": 2518.431399948895,
+    "generated_tokens": 2
+  },
+  {
+    "case": "fresh_oscillate_375_5",
+    "prompt": "LTE RRC Event A3 handover configuration selection.\nSelect one LTE RRC Event A3 handover configuration before this session starts. Hysteresis is the RSRP margin required before switching to a neighbour; time-to-trigger is how long that condition must hold. Prioritize the lowest fraction of UDP packets arriving after the 20 ms deadline or lost; repeated unnecessary handovers may also disrupt packets. Which configuration?\nCandidates:\nP0: A3 hysteresis 0 dB, time-to-trigger 0 ms\nP1: A3 hysteresis 1 dB, time-to-trigger 80 ms\nP2: A3 hysteresis 2 dB, time-to-trigger 160 ms\nP3: A3 hysteresis 3 dB, time-to-trigger 256 ms\nP4: A3 hysteresis 6 dB, time-to-trigger 320 ms\nReply with exactly one candidate ID (P0 to P4), with no explanation.\nScenario: LTE FDD, two eNBs with X2 and EPC, one moving UE and downlink UDP. The initial serving eNB is left of the origin; the other is right. Cross means the UE moves left to right; oscillate means its direction reverses every turnPeriodS. The packet stream runs after attachment. Choose from the fixed A3 configurations using only these pre-session descriptors: {\"trajectory\":\"oscillate\",\"speedMps\":5,\"startX\":-5.75,\"turnPeriodS\":2.3,\"cellSpacingM\":375,\"durationS\":24,\"packetIntervalMs\":1,\"packetBytes\":1200,\"deadlineMs\":20}\nAnswer: P",
+    "raw": "0\n",
+    "parsed_choice": "A3 hysteresis 0 dB, time-to-trigger 0 ms",
+    "valid": true,
+    "inference_ms": 2556.4786000177264,
+    "generated_tokens": 2
+  },
+  {
+    "case": "fresh_oscillate_375_8",
+    "prompt": "LTE RRC Event A3 handover configuration selection.\nSelect one LTE RRC Event A3 handover configuration before this session starts. Hysteresis is the RSRP margin required before switching to a neighbour; time-to-trigger is how long that condition must hold. Prioritize the lowest fraction of UDP packets arriving after the 20 ms deadline or lost; repeated unnecessary handovers may also disrupt packets. Which configuration?\nCandidates:\nP0: A3 hysteresis 0 dB, time-to-trigger 0 ms\nP1: A3 hysteresis 1 dB, time-to-trigger 80 ms\nP2: A3 hysteresis 2 dB, time-to-trigger 160 ms\nP3: A3 hysteresis 3 dB, time-to-trigger 256 ms\nP4: A3 hysteresis 6 dB, time-to-trigger 320 ms\nReply with exactly one candidate ID (P0 to P4), with no explanation.\nScenario: LTE FDD, two eNBs with X2 and EPC, one moving UE and downlink UDP. The initial serving eNB is left of the origin; the other is right. Cross means the UE moves left to right; oscillate means its direction reverses every turnPeriodS. The packet stream runs after attachment. Choose from the fixed A3 configurations using only these pre-session descriptors: {\"trajectory\":\"oscillate\",\"speedMps\":8,\"startX\":-9.2,\"turnPeriodS\":2.3,\"cellSpacingM\":375,\"durationS\":24,\"packetIntervalMs\":1,\"packetBytes\":1200,\"deadlineMs\":20}\nAnswer: P",
+    "raw": "0\n",
+    "parsed_choice": "A3 hysteresis 0 dB, time-to-trigger 0 ms",
+    "valid": true,
+    "inference_ms": 2644.8361000511795,
+    "generated_tokens": 2
+  },
+  {
+    "case": "fresh_oscillate_375_11",
+    "prompt": "LTE RRC Event A3 handover configuration selection.\nSelect one LTE RRC Event A3 handover configuration before this session starts. Hysteresis is the RSRP margin required before switching to a neighbour; time-to-trigger is how long that condition must hold. Prioritize the lowest fraction of UDP packets arriving after the 20 ms deadline or lost; repeated unnecessary handovers may also disrupt packets. Which configuration?\nCandidates:\nP0: A3 hysteresis 0 dB, time-to-trigger 0 ms\nP1: A3 hysteresis 1 dB, time-to-trigger 80 ms\nP2: A3 hysteresis 2 dB, time-to-trigger 160 ms\nP3: A3 hysteresis 3 dB, time-to-trigger 256 ms\nP4: A3 hysteresis 6 dB, time-to-trigger 320 ms\nReply with exactly one candidate ID (P0 to P4), with no explanation.\nScenario: LTE FDD, two eNBs with X2 and EPC, one moving UE and downlink UDP. The initial serving eNB is left of the origin; the other is right. Cross means the UE moves left to right; oscillate means its direction reverses every turnPeriodS. The packet stream runs after attachment. Choose from the fixed A3 configurations using only these pre-session descriptors: {\"trajectory\":\"oscillate\",\"speedMps\":11,\"startX\":-12.649999999999999,\"turnPeriodS\":2.3,\"cellSpacingM\":375,\"durationS\":24,\"packetIntervalMs\":1,\"packetBytes\":1200,\"deadlineMs\":20}\nAnswer: P",
+    "raw": "0\n",
+    "parsed_choice": "A3 hysteresis 0 dB, time-to-trigger 0 ms",
+    "valid": true,
+    "inference_ms": 2639.941900037229,
+    "generated_tokens": 2
+  },
+  {
+    "case": "fresh_oscillate_375_15",
+    "prompt": "LTE RRC Event A3 handover configuration selection.\nSelect one LTE RRC Event A3 handover configuration before this session starts. Hysteresis is the RSRP margin required before switching to a neighbour; time-to-trigger is how long that condition must hold. Prioritize the lowest fraction of UDP packets arriving after the 20 ms deadline or lost; repeated unnecessary handovers may also disrupt packets. Which configuration?\nCandidates:\nP0: A3 hysteresis 0 dB, time-to-trigger 0 ms\nP1: A3 hysteresis 1 dB, time-to-trigger 80 ms\nP2: A3 hysteresis 2 dB, time-to-trigger 160 ms\nP3: A3 hysteresis 3 dB, time-to-trigger 256 ms\nP4: A3 hysteresis 6 dB, time-to-trigger 320 ms\nReply with exactly one candidate ID (P0 to P4), with no explanation.\nScenario: LTE FDD, two eNBs with X2 and EPC, one moving UE and downlink UDP. The initial serving eNB is left of the origin; the other is right. Cross means the UE moves left to right; oscillate means its direction reverses every turnPeriodS. The packet stream runs after attachment. Choose from the fixed A3 configurations using only these pre-session descriptors: {\"trajectory\":\"oscillate\",\"speedMps\":15,\"startX\":-17.25,\"turnPeriodS\":2.3,\"cellSpacingM\":375,\"durationS\":24,\"packetIntervalMs\":1,\"packetBytes\":1200,\"deadlineMs\":20}\nAnswer: P",
+    "raw": "0\n",
+    "parsed_choice": "A3 hysteresis 0 dB, time-to-trigger 0 ms",
+    "valid": true,
+    "inference_ms": 3232.0640000980347,
+    "generated_tokens": 2
+  },
+  {
+    "case": "fresh_oscillate_375_20",
+    "prompt": "LTE RRC Event A3 handover configuration selection.\nSelect one LTE RRC Event A3 handover configuration before this session starts. Hysteresis is the RSRP margin required before switching to a neighbour; time-to-trigger is how long that condition must hold. Prioritize the lowest fraction of UDP packets arriving after the 20 ms deadline or lost; repeated unnecessary handovers may also disrupt packets. Which configuration?\nCandidates:\nP0: A3 hysteresis 0 dB, time-to-trigger 0 ms\nP1: A3 hysteresis 1 dB, time-to-trigger 80 ms\nP2: A3 hysteresis 2 dB, time-to-trigger 160 ms\nP3: A3 hysteresis 3 dB, time-to-trigger 256 ms\nP4: A3 hysteresis 6 dB, time-to-trigger 320 ms\nReply with exactly one candidate ID (P0 to P4), with no explanation.\nScenario: LTE FDD, two eNBs with X2 and EPC, one moving UE and downlink UDP. The initial serving eNB is left of the origin; the other is right. Cross means the UE moves left to right; oscillate means its direction reverses every turnPeriodS. The packet stream runs after attachment. Choose from the fixed A3 configurations using only these pre-session descriptors: {\"trajectory\":\"oscillate\",\"speedMps\":20,\"startX\":-23.0,\"turnPeriodS\":2.3,\"cellSpacingM\":375,\"durationS\":24,\"packetIntervalMs\":1,\"packetBytes\":1200,\"deadlineMs\":20}\nAnswer: P",
+    "raw": "0\n",
+    "parsed_choice": "A3 hysteresis 0 dB, time-to-trigger 0 ms",
+    "valid": true,
+    "inference_ms": 3770.6402000039816,
+    "generated_tokens": 2
+  },
+  {
+    "case": "fresh_oscillate_550_5",
+    "prompt": "LTE RRC Event A3 handover configuration selection.\nSelect one LTE RRC Event A3 handover configuration before this session starts. Hysteresis is the RSRP margin required before switching to a neighbour; time-to-trigger is how long that condition must hold. Prioritize the lowest fraction of UDP packets arriving after the 20 ms deadline or lost; repeated unnecessary handovers may also disrupt packets. Which configuration?\nCandidates:\nP0: A3 hysteresis 0 dB, time-to-trigger 0 ms\nP1: A3 hysteresis 1 dB, time-to-trigger 80 ms\nP2: A3 hysteresis 2 dB, time-to-trigger 160 ms\nP3: A3 hysteresis 3 dB, time-to-trigger 256 ms\nP4: A3 hysteresis 6 dB, time-to-trigger 320 ms\nReply with exactly one candidate ID (P0 to P4), with no explanation.\nScenario: LTE FDD, two eNBs with X2 and EPC, one moving UE and downlink UDP. The initial serving eNB is left of the origin; the other is right. Cross means the UE moves left to right; oscillate means its direction reverses every turnPeriodS. The packet stream runs after attachment. Choose from the fixed A3 configurations using only these pre-session descriptors: {\"trajectory\":\"oscillate\",\"speedMps\":5,\"startX\":-5.75,\"turnPeriodS\":2.3,\"cellSpacingM\":550,\"durationS\":24,\"packetIntervalMs\":1,\"packetBytes\":1200,\"deadlineMs\":20}\nAnswer: P",
+    "raw": "0\n",
+    "parsed_choice": "A3 hysteresis 0 dB, time-to-trigger 0 ms",
+    "valid": true,
+    "inference_ms": 2544.864600058645,
+    "generated_tokens": 2
+  },
+  {
+    "case": "fresh_oscillate_550_8",
+    "prompt": "LTE RRC Event A3 handover configuration selection.\nSelect one LTE RRC Event A3 handover configuration before this session starts. Hysteresis is the RSRP margin required before switching to a neighbour; time-to-trigger is how long that condition must hold. Prioritize the lowest fraction of UDP packets arriving after the 20 ms deadline or lost; repeated unnecessary handovers may also disrupt packets. Which configuration?\nCandidates:\nP0: A3 hysteresis 0 dB, time-to-trigger 0 ms\nP1: A3 hysteresis 1 dB, time-to-trigger 80 ms\nP2: A3 hysteresis 2 dB, time-to-trigger 160 ms\nP3: A3 hysteresis 3 dB, time-to-trigger 256 ms\nP4: A3 hysteresis 6 dB, time-to-trigger 320 ms\nReply with exactly one candidate ID (P0 to P4), with no explanation.\nScenario: LTE FDD, two eNBs with X2 and EPC, one moving UE and downlink UDP. The initial serving eNB is left of the origin; the other is right. Cross means the UE moves left to right; oscillate means its direction reverses every turnPeriodS. The packet stream runs after attachment. Choose from the fixed A3 configurations using only these pre-session descriptors: {\"trajectory\":\"oscillate\",\"speedMps\":8,\"startX\":-9.2,\"turnPeriodS\":2.3,\"cellSpacingM\":550,\"durationS\":24,\"packetIntervalMs\":1,\"packetBytes\":1200,\"deadlineMs\":20}\nAnswer: P",
+    "raw": "0\n",
+    "parsed_choice": "A3 hysteresis 0 dB, time-to-trigger 0 ms",
+    "valid": true,
+    "inference_ms": 2775.694999843836,
+    "generated_tokens": 2
+  },
+  {
+    "case": "fresh_oscillate_550_11",
+    "prompt": "LTE RRC Event A3 handover configuration selection.\nSelect one LTE RRC Event A3 handover configuration before this session starts. Hysteresis is the RSRP margin required before switching to a neighbour; time-to-trigger is how long that condition must hold. Prioritize the lowest fraction of UDP packets arriving after the 20 ms deadline or lost; repeated unnecessary handovers may also disrupt packets. Which configuration?\nCandidates:\nP0: A3 hysteresis 0 dB, time-to-trigger 0 ms\nP1: A3 hysteresis 1 dB, time-to-trigger 80 ms\nP2: A3 hysteresis 2 dB, time-to-trigger 160 ms\nP3: A3 hysteresis 3 dB, time-to-trigger 256 ms\nP4: A3 hysteresis 6 dB, time-to-trigger 320 ms\nReply with exactly one candidate ID (P0 to P4), with no explanation.\nScenario: LTE FDD, two eNBs with X2 and EPC, one moving UE and downlink UDP. The initial serving eNB is left of the origin; the other is right. Cross means the UE moves left to right; oscillate means its direction reverses every turnPeriodS. The packet stream runs after attachment. Choose from the fixed A3 configurations using only these pre-session descriptors: {\"trajectory\":\"oscillate\",\"speedMps\":11,\"startX\":-12.649999999999999,\"turnPeriodS\":2.3,\"cellSpacingM\":550,\"durationS\":24,\"packetIntervalMs\":1,\"packetBytes\":1200,\"deadlineMs\":20}\nAnswer: P",
+    "raw": "0\n",
+    "parsed_choice": "A3 hysteresis 0 dB, time-to-trigger 0 ms",
+    "valid": true,
+    "inference_ms": 2571.640099864453,
+    "generated_tokens": 2
+  },
+  {
+    "case": "fresh_oscillate_550_15",
+    "prompt": "LTE RRC Event A3 handover configuration selection.\nSelect one LTE RRC Event A3 handover configuration before this session starts. Hysteresis is the RSRP margin required before switching to a neighbour; time-to-trigger is how long that condition must hold. Prioritize the lowest fraction of UDP packets arriving after the 20 ms deadline or lost; repeated unnecessary handovers may also disrupt packets. Which configuration?\nCandidates:\nP0: A3 hysteresis 0 dB, time-to-trigger 0 ms\nP1: A3 hysteresis 1 dB, time-to-trigger 80 ms\nP2: A3 hysteresis 2 dB, time-to-trigger 160 ms\nP3: A3 hysteresis 3 dB, time-to-trigger 256 ms\nP4: A3 hysteresis 6 dB, time-to-trigger 320 ms\nReply with exactly one candidate ID (P0 to P4), with no explanation.\nScenario: LTE FDD, two eNBs with X2 and EPC, one moving UE and downlink UDP. The initial serving eNB is left of the origin; the other is right. Cross means the UE moves left to right; oscillate means its direction reverses every turnPeriodS. The packet stream runs after attachment. Choose from the fixed A3 configurations using only these pre-session descriptors: {\"trajectory\":\"oscillate\",\"speedMps\":15,\"startX\":-17.25,\"turnPeriodS\":2.3,\"cellSpacingM\":550,\"durationS\":24,\"packetIntervalMs\":1,\"packetBytes\":1200,\"deadlineMs\":20}\nAnswer: P",
+    "raw": "0\n",
+    "parsed_choice": "A3 hysteresis 0 dB, time-to-trigger 0 ms",
+    "valid": true,
+    "inference_ms": 2549.567600013688,
+    "generated_tokens": 2
+  },
+  {
+    "case": "fresh_oscillate_550_20",
+    "prompt": "LTE RRC Event A3 handover configuration selection.\nSelect one LTE RRC Event A3 handover configuration before this session starts. Hysteresis is the RSRP margin required before switching to a neighbour; time-to-trigger is how long that condition must hold. Prioritize the lowest fraction of UDP packets arriving after the 20 ms deadline or lost; repeated unnecessary handovers may also disrupt packets. Which configuration?\nCandidates:\nP0: A3 hysteresis 0 dB, time-to-trigger 0 ms\nP1: A3 hysteresis 1 dB, time-to-trigger 80 ms\nP2: A3 hysteresis 2 dB, time-to-trigger 160 ms\nP3: A3 hysteresis 3 dB, time-to-trigger 256 ms\nP4: A3 hysteresis 6 dB, time-to-trigger 320 ms\nReply with exactly one candidate ID (P0 to P4), with no explanation.\nScenario: LTE FDD, two eNBs with X2 and EPC, one moving UE and downlink UDP. The initial serving eNB is left of the origin; the other is right. Cross means the UE moves left to right; oscillate means its direction reverses every turnPeriodS. The packet stream runs after attachment. Choose from the fixed A3 configurations using only these pre-session descriptors: {\"trajectory\":\"oscillate\",\"speedMps\":20,\"startX\":-23.0,\"turnPeriodS\":2.3,\"cellSpacingM\":550,\"durationS\":24,\"packetIntervalMs\":1,\"packetBytes\":1200,\"deadlineMs\":20}\nAnswer: P",
+    "raw": "0\n",
+    "parsed_choice": "A3 hysteresis 0 dB, time-to-trigger 0 ms",
+    "valid": true,
+    "inference_ms": 2685.148400021717,
+    "generated_tokens": 2
+  }
+]

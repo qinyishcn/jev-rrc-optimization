@@ -1,0 +1,43 @@
+{
+  "base": "Mapika/decider-2b",
+  "base_weights_sha256": "acaef2228b134dcdc20cad4ee79219482c927ec819aa3687b9b8a575c338817f",
+  "rank": 4,
+  "alpha": 8,
+  "targets": [
+    "lm.model.layers.3.self_attn.q_proj",
+    "lm.model.layers.3.self_attn.v_proj",
+    "lm.model.layers.7.self_attn.q_proj",
+    "lm.model.layers.7.self_attn.v_proj",
+    "lm.model.layers.11.self_attn.q_proj",
+    "lm.model.layers.11.self_attn.v_proj",
+    "lm.model.layers.15.self_attn.q_proj",
+    "lm.model.layers.15.self_attn.v_proj",
+    "lm.model.layers.19.self_attn.q_proj",
+    "lm.model.layers.19.self_attn.v_proj",
+    "lm.model.layers.23.self_attn.q_proj",
+    "lm.model.layers.23.self_attn.v_proj"
+  ],
+  "trainable_parameters": 208896,
+  "train_source_sha256": "6225efb0f2f66ea2701765160498027e617f7480c3c9c02429b81834121c04aa",
+  "validation_source_sha256": "2e2996abfcc178cfbc7d657e5145a6a5c020b489b3c40f3f4b0f386093c7a567",
+  "train_scenario_count": 32,
+  "validation_scenario_count": 12,
+  "train_label_counts": {
+    "A3 hysteresis 1 dB, time-to-trigger 80 ms": 14,
+    "A3 hysteresis 0 dB, time-to-trigger 0 ms": 18
+  },
+  "validation_label_counts": {
+    "A3 hysteresis 0 dB, time-to-trigger 0 ms": 10,
+    "A3 hysteresis 1 dB, time-to-trigger 80 ms": 2
+  },
+  "epochs": 2,
+  "learning_rate": 0.0002,
+  "gradient_accumulation": 4,
+  "base_validation_loss": 2.0891276697317758,
+  "trained_validation_loss": 0.5616039161880811,
+  "train_loss_mean": 1.0498376293107867,
+  "elapsed_s": 428.27954900008626,
+  "device": "NVIDIA GeForce RTX 3070",
+  "peak_allocated_gb": 3.980250112,
+  "adapter_sha256": "709f9999bf5f1eac5758d7011d594ceba105416ff9ec2ec64a6aa1ae6126f8a6"
+}

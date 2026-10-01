@@ -20,6 +20,16 @@ def frozen_rule(descriptor: dict) -> tuple[float, int]:
     return CALIBRATED_FIXED
 
 
+def normalized_geometry_rule(descriptor: dict) -> tuple[float, int]:
+    """Frozen after inspecting transfer grid, before fresh_geometry runs."""
+    excursion = descriptor["speed_mps"] * descriptor["turn_period_s"] / 2
+    if (descriptor["trajectory"] == "oscillate"
+            and descriptor["packet_interval_ms"] <= 1
+            and excursion / descriptor["cell_spacing_m"] <= 0.033):
+        return (1.0, 80)
+    return CALIBRATED_FIXED
+
+
 def summarize(rows: list[dict]) -> dict:
     sent = sum(x["sent"] for x in rows)
     return {
@@ -39,6 +49,7 @@ def main() -> None:
     parser.add_argument("input", type=Path)
     parser.add_argument("output", type=Path)
     parser.add_argument("--decider", type=Path)
+    parser.add_argument("--decider-adapted", type=Path)
     parser.add_argument("--qwen", type=Path)
     args = parser.parse_args()
     records = [json.loads(line) for line in args.input.read_text(encoding="utf-8").splitlines()]
@@ -57,6 +68,7 @@ def main() -> None:
     }
     model_choices = {}
     for name, path, field in (("decider_base", args.decider, "choice"),
+                              ("decider_a3_adapter", args.decider_adapted, "choice"),
                               ("qwen_base", args.qwen, "parsed_choice")):
         if path:
             model_choices[name] = {}
@@ -76,6 +88,7 @@ def main() -> None:
             "3db_256ms_default": by_profile[DEFAULT],
             "0db_0ms_calibrated_fixed": by_profile[CALIBRATED_FIXED],
             "descriptor_rule": by_profile[frozen_rule(descriptor)],
+            "geometry_rule_v2": by_profile[normalized_geometry_rule(descriptor)],
             "hindsight_oracle": oracle,
         }
         for name, choices in model_choices.items():
@@ -99,6 +112,7 @@ def main() -> None:
         "n_scenario_seed_pairs": len(groups),
         "source_sha256": sorted({r["source_sha256"] for r in records}),
         "selection_rule": "oscillate & speed<=8 m/s & interval<=1 ms -> 1dB/80ms; else 0dB/0ms",
+        "geometry_rule_v2": "oscillate & interval<=1 ms & (speed*turnPeriod/2)/cellSpacing<=0.033 -> 1dB/80ms; else 0dB/0ms",
         "summary": {name: summarize(rows) for name, rows in selections.items()},
         "valid_model_choices": {name: sum(x is not None for x in choices.values())
                                 for name, choices in model_choices.items()},

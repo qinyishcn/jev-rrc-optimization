@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import json
+import argparse
 import sys
 from pathlib import Path
 
@@ -9,7 +10,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 from rrcopt.qwen_baseline import QwenGenerator
 from system_validation.decider_a3 import OPTIONS, QUESTION, state
-from system_validation.run_sweep import scenarios
+from system_validation.run_sweep import fresh_geometry_scenarios, generalization_scenarios, scenarios
 
 
 def prompt_for(case: dict) -> str:
@@ -25,9 +26,15 @@ def prompt_for(case: dict) -> str:
 
 
 def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--suite", choices=("core", "generalization", "fresh_geometry"), default="core")
+    parser.add_argument("--output", type=Path)
+    args = parser.parse_args()
     model = QwenGenerator("models/qwen3.5-2b-base")
     result = []
-    for case in scenarios():
+    cases = {"core": scenarios, "generalization": generalization_scenarios,
+             "fresh_geometry": fresh_geometry_scenarios}[args.suite]()
+    for case in cases:
         prompt = prompt_for(case)
         raw, elapsed, tokens = model.generate(prompt, max_new_tokens=16)
         parsed = "P" + raw.strip()
@@ -36,7 +43,7 @@ def main() -> None:
                        "parsed_choice": OPTIONS[int(parsed[1:])] if valid else None,
                        "valid": valid, "inference_ms": elapsed, "generated_tokens": tokens})
         print(case["name"], repr(raw), round(elapsed, 1), flush=True)
-    dest = Path("artifacts/system_validation/qwen_a3_base.json")
+    dest = args.output or Path("artifacts/system_validation/qwen_a3_base.json")
     dest.parent.mkdir(parents=True, exist_ok=True)
     dest.write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
     print(dest)

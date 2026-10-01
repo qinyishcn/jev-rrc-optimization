@@ -2,13 +2,14 @@
 from __future__ import annotations
 
 import json
+import argparse
 import sys
 import time
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from system_validation.run_sweep import PROFILES, scenarios
+from system_validation.run_sweep import PROFILES, fresh_geometry_scenarios, generalization_scenarios, scenarios
 
 OPTIONS = [f"A3 hysteresis {h} dB, time-to-trigger {ttt} ms" for h, ttt in PROFILES]
 QUESTION = (
@@ -36,11 +37,23 @@ def main() -> None:
     import torch
     from decider.infer import Decider
 
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--adapter", type=Path)
+    parser.add_argument("--suite", choices=("core", "generalization", "fresh_geometry"), default="core")
+    parser.add_argument("--output", type=Path)
+    args = parser.parse_args()
+
     model = Decider("models/decider-2b", device="cuda", use_graphs=False)
+    if args.adapter:
+        from rrcopt.domain_training import load_adapter
+        load_adapter(model.m, args.adapter)
+        model.m.eval()
     model.decide("Warmup.", [{"question": "Which?", "options": ["a", "b"]}])
     torch.cuda.synchronize()
     output = []
-    for case in scenarios():
+    cases = {"core": scenarios, "generalization": generalization_scenarios,
+             "fresh_geometry": fresh_geometry_scenarios}[args.suite]()
+    for case in cases:
         start = time.perf_counter()
         answer = model.decide(state(case), [{"question": QUESTION, "options": OPTIONS}])[0]
         torch.cuda.synchronize()
@@ -50,7 +63,7 @@ def main() -> None:
             "inference_ms": (time.perf_counter() - start) * 1000,
         })
         print(case["name"], answer["choice"], flush=True)
-    dest = Path("artifacts/system_validation/decider_a3_base.json")
+    dest = args.output or Path("artifacts/system_validation/decider_a3_base.json")
     dest.parent.mkdir(parents=True, exist_ok=True)
     dest.write_text(json.dumps(output, ensure_ascii=False, indent=2), encoding="utf-8")
     print(dest)
