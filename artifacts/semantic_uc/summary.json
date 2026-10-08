@@ -1,0 +1,1779 @@
+{
+  "counts": {
+    "train_text_rows": 36,
+    "dev_text_rows": 18,
+    "test_text_rows": 60,
+    "unique_physics_cases": 6,
+    "calibration_runs": 60,
+    "holdout_runs": 150,
+    "test_language_families": 10,
+    "rng_runs": 5
+  },
+  "calibrated_fixed": [
+    1,
+    80
+  ],
+  "source_sha256": "ed1607a06002999a64a4583849b992e2d3b373ae71fb2b515414b7a8e2805fa6",
+  "metrics": {
+    "default": {
+      "cases": 300,
+      "sent": 6900000,
+      "received": 6876120,
+      "lost": 23880,
+      "late_received": 258350,
+      "deadline_miss_including_loss": 282230,
+      "deadline_miss_rate": 0.04090289855072464,
+      "handover_starts": 150,
+      "mean_of_case_p99_delay_ms": 75.825,
+      "mean_handovers_per_session": 0.5
+    },
+    "calibrated_fixed": {
+      "cases": 300,
+      "sent": 6900000,
+      "received": 6893340,
+      "lost": 6660,
+      "late_received": 15050,
+      "deadline_miss_including_loss": 21710,
+      "deadline_miss_rate": 0.003146376811594203,
+      "handover_starts": 150,
+      "mean_of_case_p99_delay_ms": 6.966666666666667,
+      "mean_handovers_per_session": 0.5
+    },
+    "numeric_only": {
+      "cases": 300,
+      "sent": 6900000,
+      "received": 6893340,
+      "lost": 6660,
+      "late_received": 15050,
+      "deadline_miss_including_loss": 21710,
+      "deadline_miss_rate": 0.003146376811594203,
+      "handover_starts": 150,
+      "mean_of_case_p99_delay_ms": 6.966666666666667,
+      "mean_handovers_per_session": 0.5
+    },
+    "known_intent": {
+      "cases": 300,
+      "sent": 6900000,
+      "received": 6897750,
+      "lost": 2250,
+      "late_received": 1200,
+      "deadline_miss_including_loss": 3450,
+      "deadline_miss_rate": 0.0005,
+      "handover_starts": 150,
+      "mean_of_case_p99_delay_ms": 5.0,
+      "mean_handovers_per_session": 0.5
+    },
+    "keyword": {
+      "cases": 300,
+      "sent": 6900000,
+      "received": 6880560,
+      "lost": 19440,
+      "late_received": 9840,
+      "deadline_miss_including_loss": 29280,
+      "deadline_miss_rate": 0.004243478260869565,
+      "handover_starts": 1230,
+      "mean_of_case_p99_delay_ms": 7.4,
+      "mean_handovers_per_session": 4.1,
+      "intent_accuracy": 0.7,
+      "invalid": 0,
+      "inference_ms": {
+        "n": 300,
+        "p50": 0.005500158295035362,
+        "p95": 0.007600057870149612
+      }
+    },
+    "tfidf": {
+      "cases": 300,
+      "sent": 6900000,
+      "received": 6891579,
+      "lost": 8421,
+      "late_received": 5465,
+      "deadline_miss_including_loss": 13886,
+      "deadline_miss_rate": 0.002012463768115942,
+      "handover_starts": 510,
+      "mean_of_case_p99_delay_ms": 5.996666666666667,
+      "mean_handovers_per_session": 1.7,
+      "intent_accuracy": 0.85,
+      "invalid": 0,
+      "inference_ms": {
+        "n": 300,
+        "p50": 0.6125499494373798,
+        "p95": 1.0124449152499437
+      }
+    },
+    "decider": {
+      "cases": 300,
+      "sent": 6900000,
+      "received": 6897750,
+      "lost": 2250,
+      "late_received": 1200,
+      "deadline_miss_including_loss": 3450,
+      "deadline_miss_rate": 0.0005,
+      "handover_starts": 150,
+      "mean_of_case_p99_delay_ms": 5.0,
+      "mean_handovers_per_session": 0.5,
+      "intent_accuracy": 1.0,
+      "invalid": 0,
+      "inference_ms": {
+        "n": 60,
+        "p50": 167.87474998272955,
+        "p95": 183.51912515936417
+      }
+    },
+    "decider_reversed": {
+      "cases": 300,
+      "sent": 6900000,
+      "received": 6897750,
+      "lost": 2250,
+      "late_received": 1200,
+      "deadline_miss_including_loss": 3450,
+      "deadline_miss_rate": 0.0005,
+      "handover_starts": 150,
+      "mean_of_case_p99_delay_ms": 5.0,
+      "mean_handovers_per_session": 0.5,
+      "intent_accuracy": 1.0,
+      "invalid": 0,
+      "inference_ms": {
+        "n": 60,
+        "p50": 168.16344996914268,
+        "p95": 182.53713991725817
+      }
+    },
+    "decider_direct": {
+      "cases": 300,
+      "sent": 6900000,
+      "received": 6891820,
+      "lost": 8180,
+      "late_received": 107490,
+      "deadline_miss_including_loss": 115670,
+      "deadline_miss_rate": 0.01676376811594203,
+      "handover_starts": 150,
+      "mean_of_case_p99_delay_ms": 49.409,
+      "mean_handovers_per_session": 0.5,
+      "inference_ms": {
+        "n": 60,
+        "p50": 182.37344990484416,
+        "p95": 191.07253489783034
+      }
+    },
+    "qwen_fewshot": {
+      "cases": 300,
+      "sent": 6900000,
+      "received": 6897750,
+      "lost": 2250,
+      "late_received": 1200,
+      "deadline_miss_including_loss": 3450,
+      "deadline_miss_rate": 0.0005,
+      "handover_starts": 150,
+      "mean_of_case_p99_delay_ms": 5.0,
+      "mean_handovers_per_session": 0.5,
+      "intent_accuracy": 1.0,
+      "invalid": 0,
+      "inference_ms": {
+        "n": 60,
+        "p50": 1025.0405000988394,
+        "p95": 1132.1435401099732
+      }
+    },
+    "qwen_fewshot_reversed": {
+      "cases": 300,
+      "sent": 6900000,
+      "received": 6897750,
+      "lost": 2250,
+      "late_received": 1200,
+      "deadline_miss_including_loss": 3450,
+      "deadline_miss_rate": 0.0005,
+      "handover_starts": 150,
+      "mean_of_case_p99_delay_ms": 5.0,
+      "mean_handovers_per_session": 0.5,
+      "intent_accuracy": 1.0,
+      "invalid": 0,
+      "inference_ms": {
+        "n": 60,
+        "p50": 1011.8649998912588,
+        "p95": 1103.3392200479284
+      }
+    },
+    "qwen_matched": {
+      "cases": 300,
+      "sent": 6900000,
+      "received": 6897750,
+      "lost": 2250,
+      "late_received": 1200,
+      "deadline_miss_including_loss": 3450,
+      "deadline_miss_rate": 0.0005,
+      "handover_starts": 150,
+      "mean_of_case_p99_delay_ms": 5.0,
+      "mean_handovers_per_session": 0.5,
+      "intent_accuracy": 1.0,
+      "invalid": 0,
+      "inference_ms": {
+        "n": 60,
+        "p50": 1057.7598499367014,
+        "p95": 1152.3896901053376
+      }
+    },
+    "qwen_matched_reversed": {
+      "cases": 300,
+      "sent": 6900000,
+      "received": 6889155,
+      "lost": 10845,
+      "late_received": 5520,
+      "deadline_miss_including_loss": 16365,
+      "deadline_miss_rate": 0.0023717391304347826,
+      "handover_starts": 690,
+      "mean_of_case_p99_delay_ms": 6.2,
+      "mean_handovers_per_session": 2.3,
+      "intent_accuracy": 0.85,
+      "invalid": 0,
+      "inference_ms": {
+        "n": 60,
+        "p50": 1049.6507501229644,
+        "p95": 1126.5692799119279
+      }
+    }
+  },
+  "tfidf": {
+    "unique_train_texts": 12,
+    "C": 1,
+    "dev_accuracy": 1.0,
+    "sklearn_version": "1.8.0"
+  },
+  "comparisons_decider_minus_baseline": {
+    "default": {
+      "difference": -0.04040289855072463,
+      "ci95": [
+        -0.04326666666666666,
+        -0.03748985507246376
+      ],
+      "bootstrap_unit": "paired text family x common RNG run; fixed geometries",
+      "repetitions": 10000
+    },
+    "calibrated_fixed": {
+      "difference": -0.002646376811594203,
+      "ci95": [
+        -0.004214492753623188,
+        -0.0010956521739130434
+      ],
+      "bootstrap_unit": "paired text family x common RNG run; fixed geometries",
+      "repetitions": 10000
+    },
+    "numeric_only": {
+      "difference": -0.002646376811594203,
+      "ci95": [
+        -0.004214492753623189,
+        -0.0010579710144927538
+      ],
+      "bootstrap_unit": "paired text family x common RNG run; fixed geometries",
+      "repetitions": 10000
+    },
+    "known_intent": {
+      "difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "bootstrap_unit": "paired text family x common RNG run; fixed geometries",
+      "repetitions": 10000
+    },
+    "keyword": {
+      "difference": -0.003743478260869565,
+      "ci95": [
+        -0.005615217391304348,
+        -0.0018717391304347824
+      ],
+      "bootstrap_unit": "paired text family x common RNG run; fixed geometries",
+      "repetitions": 10000
+    },
+    "tfidf": {
+      "difference": -0.0015124637681159419,
+      "ci95": [
+        -0.0031237536231884053,
+        0.0
+      ],
+      "bootstrap_unit": "paired text family x common RNG run; fixed geometries",
+      "repetitions": 10000
+    },
+    "decider_reversed": {
+      "difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "bootstrap_unit": "paired text family x common RNG run; fixed geometries",
+      "repetitions": 10000
+    },
+    "decider_direct": {
+      "difference": -0.016263768115942028,
+      "ci95": [
+        -0.018155072463768112,
+        -0.014279710144927538
+      ],
+      "bootstrap_unit": "paired text family x common RNG run; fixed geometries",
+      "repetitions": 10000
+    },
+    "qwen_fewshot": {
+      "difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "bootstrap_unit": "paired text family x common RNG run; fixed geometries",
+      "repetitions": 10000
+    },
+    "qwen_fewshot_reversed": {
+      "difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "bootstrap_unit": "paired text family x common RNG run; fixed geometries",
+      "repetitions": 10000
+    },
+    "qwen_matched": {
+      "difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "bootstrap_unit": "paired text family x common RNG run; fixed geometries",
+      "repetitions": 10000
+    },
+    "qwen_matched_reversed": {
+      "difference": -0.0018717391304347824,
+      "ci95": [
+        -0.003743478260869565,
+        0.0
+      ],
+      "bootstrap_unit": "paired text family x common RNG run; fixed geometries",
+      "repetitions": 10000
+    }
+  },
+  "diagnosis": {
+    "base": {
+      "raw": {
+        "n": 60,
+        "counts": {
+          "2": 60
+        },
+        "order_consistent_cases": 12,
+        "orders": {
+          "0": {
+            "cases": 60,
+            "sent": 891000,
+            "received": 884947,
+            "lost": 6053,
+            "late_received": 31886,
+            "deadline_miss_including_loss": 37939,
+            "deadline_miss_rate": 0.04258024691358025,
+            "handover_starts": 110,
+            "mean_of_case_p99_delay_ms": 47.6375
+          },
+          "1": {
+            "cases": 60,
+            "sent": 891000,
+            "received": 884947,
+            "lost": 6053,
+            "late_received": 31886,
+            "deadline_miss_including_loss": 37939,
+            "deadline_miss_rate": 0.04258024691358025,
+            "handover_starts": 110,
+            "mean_of_case_p99_delay_ms": 47.6375
+          },
+          "2": {
+            "cases": 60,
+            "sent": 891000,
+            "received": 884947,
+            "lost": 6053,
+            "late_received": 31886,
+            "deadline_miss_including_loss": 37939,
+            "deadline_miss_rate": 0.04258024691358025,
+            "handover_starts": 110,
+            "mean_of_case_p99_delay_ms": 47.6375
+          },
+          "3": {
+            "cases": 60,
+            "sent": 891000,
+            "received": 884947,
+            "lost": 6053,
+            "late_received": 31886,
+            "deadline_miss_including_loss": 37939,
+            "deadline_miss_rate": 0.04258024691358025,
+            "handover_starts": 110,
+            "mean_of_case_p99_delay_ms": 47.6375
+          },
+          "4": {
+            "cases": 60,
+            "sent": 891000,
+            "received": 884947,
+            "lost": 6053,
+            "late_received": 31886,
+            "deadline_miss_including_loss": 37939,
+            "deadline_miss_rate": 0.04258024691358025,
+            "handover_starts": 110,
+            "mean_of_case_p99_delay_ms": 47.6375
+          }
+        },
+        "context_token_range": [
+          142,
+          146
+        ]
+      },
+      "derived": {
+        "n": 60,
+        "counts": {
+          "2": 52,
+          "1": 8
+        },
+        "order_consistent_cases": 4,
+        "orders": {
+          "0": {
+            "cases": 60,
+            "sent": 891000,
+            "received": 884947,
+            "lost": 6053,
+            "late_received": 31886,
+            "deadline_miss_including_loss": 37939,
+            "deadline_miss_rate": 0.04258024691358025,
+            "handover_starts": 110,
+            "mean_of_case_p99_delay_ms": 47.6375
+          },
+          "1": {
+            "cases": 60,
+            "sent": 891000,
+            "received": 884947,
+            "lost": 6053,
+            "late_received": 31886,
+            "deadline_miss_including_loss": 37939,
+            "deadline_miss_rate": 0.04258024691358025,
+            "handover_starts": 110,
+            "mean_of_case_p99_delay_ms": 47.6375
+          },
+          "2": {
+            "cases": 60,
+            "sent": 891000,
+            "received": 885350,
+            "lost": 5650,
+            "late_received": 13543,
+            "deadline_miss_including_loss": 19193,
+            "deadline_miss_rate": 0.021540965207631876,
+            "handover_starts": 230,
+            "mean_of_case_p99_delay_ms": 22.082666666666668
+          },
+          "3": {
+            "cases": 60,
+            "sent": 891000,
+            "received": 884947,
+            "lost": 6053,
+            "late_received": 31886,
+            "deadline_miss_including_loss": 37939,
+            "deadline_miss_rate": 0.04258024691358025,
+            "handover_starts": 110,
+            "mean_of_case_p99_delay_ms": 47.6375
+          },
+          "4": {
+            "cases": 60,
+            "sent": 891000,
+            "received": 884947,
+            "lost": 6053,
+            "late_received": 31886,
+            "deadline_miss_including_loss": 37939,
+            "deadline_miss_rate": 0.04258024691358025,
+            "handover_starts": 110,
+            "mean_of_case_p99_delay_ms": 47.6375
+          }
+        },
+        "context_token_range": [
+          169,
+          186
+        ]
+      },
+      "knowledge": {
+        "n": 60,
+        "counts": {
+          "1": 60
+        },
+        "order_consistent_cases": 12,
+        "orders": {
+          "0": {
+            "cases": 60,
+            "sent": 891000,
+            "received": 885354,
+            "lost": 5646,
+            "late_received": 13481,
+            "deadline_miss_including_loss": 19127,
+            "deadline_miss_rate": 0.0214668911335578,
+            "handover_starts": 230,
+            "mean_of_case_p99_delay_ms": 21.416
+          },
+          "1": {
+            "cases": 60,
+            "sent": 891000,
+            "received": 885354,
+            "lost": 5646,
+            "late_received": 13481,
+            "deadline_miss_including_loss": 19127,
+            "deadline_miss_rate": 0.0214668911335578,
+            "handover_starts": 230,
+            "mean_of_case_p99_delay_ms": 21.416
+          },
+          "2": {
+            "cases": 60,
+            "sent": 891000,
+            "received": 885354,
+            "lost": 5646,
+            "late_received": 13481,
+            "deadline_miss_including_loss": 19127,
+            "deadline_miss_rate": 0.0214668911335578,
+            "handover_starts": 230,
+            "mean_of_case_p99_delay_ms": 21.416
+          },
+          "3": {
+            "cases": 60,
+            "sent": 891000,
+            "received": 885354,
+            "lost": 5646,
+            "late_received": 13481,
+            "deadline_miss_including_loss": 19127,
+            "deadline_miss_rate": 0.0214668911335578,
+            "handover_starts": 230,
+            "mean_of_case_p99_delay_ms": 21.416
+          },
+          "4": {
+            "cases": 60,
+            "sent": 891000,
+            "received": 885354,
+            "lost": 5646,
+            "late_received": 13481,
+            "deadline_miss_including_loss": 19127,
+            "deadline_miss_rate": 0.0214668911335578,
+            "handover_starts": 230,
+            "mean_of_case_p99_delay_ms": 21.416
+          }
+        },
+        "context_token_range": [
+          227,
+          231
+        ]
+      },
+      "route_control": {
+        "n": 24,
+        "counts": {
+          "patrol": 24
+        },
+        "order_consistent_cases": 12,
+        "orders": {
+          "0": {
+            "accuracy": 0.5
+          },
+          "1": {
+            "accuracy": 0.5
+          }
+        },
+        "context_token_range": [
+          142,
+          146
+        ]
+      }
+    },
+    "adapter": {
+      "raw": {
+        "n": 60,
+        "counts": {
+          "0": 12,
+          "1": 39,
+          "2": 9
+        },
+        "order_consistent_cases": 0,
+        "orders": {
+          "0": {
+            "cases": 60,
+            "sent": 891000,
+            "received": 887834,
+            "lost": 3166,
+            "late_received": 1400,
+            "deadline_miss_including_loss": 4566,
+            "deadline_miss_rate": 0.0051245791245791246,
+            "handover_starts": 350,
+            "mean_of_case_p99_delay_ms": 6.75
+          },
+          "1": {
+            "cases": 60,
+            "sent": 891000,
+            "received": 885354,
+            "lost": 5646,
+            "late_received": 13481,
+            "deadline_miss_including_loss": 19127,
+            "deadline_miss_rate": 0.0214668911335578,
+            "handover_starts": 230,
+            "mean_of_case_p99_delay_ms": 21.416
+          },
+          "2": {
+            "cases": 60,
+            "sent": 891000,
+            "received": 885354,
+            "lost": 5646,
+            "late_received": 13481,
+            "deadline_miss_including_loss": 19127,
+            "deadline_miss_rate": 0.0214668911335578,
+            "handover_starts": 230,
+            "mean_of_case_p99_delay_ms": 21.416
+          },
+          "3": {
+            "cases": 60,
+            "sent": 891000,
+            "received": 884999,
+            "lost": 6001,
+            "late_received": 14968,
+            "deadline_miss_including_loss": 20969,
+            "deadline_miss_rate": 0.023534231200897867,
+            "handover_starts": 230,
+            "mean_of_case_p99_delay_ms": 24.549333333333333
+          },
+          "4": {
+            "cases": 60,
+            "sent": 891000,
+            "received": 884995,
+            "lost": 6005,
+            "late_received": 28571,
+            "deadline_miss_including_loss": 34576,
+            "deadline_miss_rate": 0.03880583613916947,
+            "handover_starts": 110,
+            "mean_of_case_p99_delay_ms": 35.9365
+          }
+        },
+        "context_token_range": [
+          142,
+          146
+        ]
+      },
+      "derived": {
+        "n": 60,
+        "counts": {
+          "0": 15,
+          "1": 44,
+          "2": 1
+        },
+        "order_consistent_cases": 0,
+        "orders": {
+          "0": {
+            "cases": 60,
+            "sent": 891000,
+            "received": 887834,
+            "lost": 3166,
+            "late_received": 1400,
+            "deadline_miss_including_loss": 4566,
+            "deadline_miss_rate": 0.0051245791245791246,
+            "handover_starts": 350,
+            "mean_of_case_p99_delay_ms": 6.75
+          },
+          "1": {
+            "cases": 60,
+            "sent": 891000,
+            "received": 885354,
+            "lost": 5646,
+            "late_received": 13481,
+            "deadline_miss_including_loss": 19127,
+            "deadline_miss_rate": 0.0214668911335578,
+            "handover_starts": 230,
+            "mean_of_case_p99_delay_ms": 21.416
+          },
+          "2": {
+            "cases": 60,
+            "sent": 891000,
+            "received": 885354,
+            "lost": 5646,
+            "late_received": 13481,
+            "deadline_miss_including_loss": 19127,
+            "deadline_miss_rate": 0.0214668911335578,
+            "handover_starts": 230,
+            "mean_of_case_p99_delay_ms": 21.416
+          },
+          "3": {
+            "cases": 60,
+            "sent": 891000,
+            "received": 885354,
+            "lost": 5646,
+            "late_received": 13481,
+            "deadline_miss_including_loss": 19127,
+            "deadline_miss_rate": 0.0214668911335578,
+            "handover_starts": 230,
+            "mean_of_case_p99_delay_ms": 21.416
+          },
+          "4": {
+            "cases": 60,
+            "sent": 891000,
+            "received": 885232,
+            "lost": 5768,
+            "late_received": 13958,
+            "deadline_miss_including_loss": 19726,
+            "deadline_miss_rate": 0.022139169472502804,
+            "handover_starts": 230,
+            "mean_of_case_p99_delay_ms": 26.585833333333333
+          }
+        },
+        "context_token_range": [
+          169,
+          186
+        ]
+      },
+      "knowledge": {
+        "n": 60,
+        "counts": {
+          "1": 60
+        },
+        "order_consistent_cases": 12,
+        "orders": {
+          "0": {
+            "cases": 60,
+            "sent": 891000,
+            "received": 885354,
+            "lost": 5646,
+            "late_received": 13481,
+            "deadline_miss_including_loss": 19127,
+            "deadline_miss_rate": 0.0214668911335578,
+            "handover_starts": 230,
+            "mean_of_case_p99_delay_ms": 21.416
+          },
+          "1": {
+            "cases": 60,
+            "sent": 891000,
+            "received": 885354,
+            "lost": 5646,
+            "late_received": 13481,
+            "deadline_miss_including_loss": 19127,
+            "deadline_miss_rate": 0.0214668911335578,
+            "handover_starts": 230,
+            "mean_of_case_p99_delay_ms": 21.416
+          },
+          "2": {
+            "cases": 60,
+            "sent": 891000,
+            "received": 885354,
+            "lost": 5646,
+            "late_received": 13481,
+            "deadline_miss_including_loss": 19127,
+            "deadline_miss_rate": 0.0214668911335578,
+            "handover_starts": 230,
+            "mean_of_case_p99_delay_ms": 21.416
+          },
+          "3": {
+            "cases": 60,
+            "sent": 891000,
+            "received": 885354,
+            "lost": 5646,
+            "late_received": 13481,
+            "deadline_miss_including_loss": 19127,
+            "deadline_miss_rate": 0.0214668911335578,
+            "handover_starts": 230,
+            "mean_of_case_p99_delay_ms": 21.416
+          },
+          "4": {
+            "cases": 60,
+            "sent": 891000,
+            "received": 885354,
+            "lost": 5646,
+            "late_received": 13481,
+            "deadline_miss_including_loss": 19127,
+            "deadline_miss_rate": 0.0214668911335578,
+            "handover_starts": 230,
+            "mean_of_case_p99_delay_ms": 21.416
+          }
+        },
+        "context_token_range": [
+          227,
+          231
+        ]
+      },
+      "route_control": {
+        "n": 24,
+        "counts": {
+          "patrol": 24
+        },
+        "order_consistent_cases": 12,
+        "orders": {
+          "0": {
+            "accuracy": 0.5
+          },
+          "1": {
+            "accuracy": 0.5
+          }
+        },
+        "context_token_range": [
+          142,
+          146
+        ]
+      }
+    },
+    "representation": {
+      "definitions_json": {
+        "route_correct": 12,
+        "route_n": 24,
+        "a3_counts": {
+          "2": 12
+        }
+      },
+      "json_only": {
+        "route_correct": 24,
+        "route_n": 24,
+        "a3_counts": {
+          "2": 12
+        }
+      },
+      "plain_movement": {
+        "route_correct": 24,
+        "route_n": 24,
+        "a3_counts": {
+          "2": 12
+        }
+      },
+      "plain_with_rule": {
+        "route_correct": 24,
+        "route_n": 24,
+        "a3_counts": {
+          "1": 12
+        }
+      }
+    },
+    "old_descriptor_bounds": {
+      "holdout": {
+        "descriptor_hindsight_misses": 3131,
+        "per_seed_hindsight_misses": 3131,
+        "rule_misses": 3131
+      },
+      "generalization": {
+        "descriptor_hindsight_misses": 4377,
+        "per_seed_hindsight_misses": 4377,
+        "rule_misses": 4377
+      },
+      "fresh_geometry": {
+        "descriptor_hindsight_misses": 9887,
+        "per_seed_hindsight_misses": 9495,
+        "rule_misses": 10136
+      }
+    },
+    "training": {
+      "primary_objective_tie_counts": {
+        "4": 14,
+        "1": 16,
+        "3": 2
+      },
+      "metadata": {
+        "base": "Mapika/decider-2b",
+        "base_weights_sha256": "acaef2228b134dcdc20cad4ee79219482c927ec819aa3687b9b8a575c338817f",
+        "rank": 4,
+        "alpha": 8,
+        "targets": [
+          "lm.model.layers.3.self_attn.q_proj",
+          "lm.model.layers.3.self_attn.v_proj",
+          "lm.model.layers.7.self_attn.q_proj",
+          "lm.model.layers.7.self_attn.v_proj",
+          "lm.model.layers.11.self_attn.q_proj",
+          "lm.model.layers.11.self_attn.v_proj",
+          "lm.model.layers.15.self_attn.q_proj",
+          "lm.model.layers.15.self_attn.v_proj",
+          "lm.model.layers.19.self_attn.q_proj",
+          "lm.model.layers.19.self_attn.v_proj",
+          "lm.model.layers.23.self_attn.q_proj",
+          "lm.model.layers.23.self_attn.v_proj"
+        ],
+        "trainable_parameters": 208896,
+        "train_source_sha256": "6225efb0f2f66ea2701765160498027e617f7480c3c9c02429b81834121c04aa",
+        "validation_source_sha256": "2e2996abfcc178cfbc7d657e5145a6a5c020b489b3c40f3f4b0f386093c7a567",
+        "train_scenario_count": 32,
+        "validation_scenario_count": 12,
+        "train_label_counts": {
+          "A3 hysteresis 1 dB, time-to-trigger 80 ms": 14,
+          "A3 hysteresis 0 dB, time-to-trigger 0 ms": 18
+        },
+        "validation_label_counts": {
+          "A3 hysteresis 0 dB, time-to-trigger 0 ms": 10,
+          "A3 hysteresis 1 dB, time-to-trigger 80 ms": 2
+        },
+        "epochs": 2,
+        "learning_rate": 0.0002,
+        "gradient_accumulation": 4,
+        "base_validation_loss": 2.0891276697317758,
+        "trained_validation_loss": 0.5616039161880811,
+        "train_loss_mean": 1.0498376293107867,
+        "elapsed_s": 428.27954900008626,
+        "device": "NVIDIA GeForce RTX 3070",
+        "peak_allocated_gb": 3.980250112,
+        "adapter_sha256": "709f9999bf5f1eac5758d7011d594ceba105416ff9ec2ec64a6aa1ae6126f8a6"
+      },
+      "optimizer_updates": 16
+    }
+  },
+  "example": {
+    "row": {
+      "id": "test_7_1_cross",
+      "family": "test_7",
+      "geometry": 1,
+      "label": "cross",
+      "text": "Advance into the other cell toward packaging. The itinerary includes no turnaround in this area.",
+      "case": "agv_g1_cross"
+    },
+    "input": {
+      "initial_x_m": -8,
+      "initial_velocity_mps": 8,
+      "cell_spacing_m": 300,
+      "initial_serving_cell": "west",
+      "packet_interval_ms": 1,
+      "packet_bytes": 1200,
+      "deadline_ms": 20,
+      "session_duration_s": 24,
+      "dispatch_text": "Advance into the other cell toward packaging. The itinerary includes no turnaround in this area."
+    },
+    "profiles": {
+      "default": [
+        3,
+        256
+      ],
+      "calibrated_fixed": [
+        1,
+        80
+      ],
+      "numeric_only": [
+        1,
+        80
+      ],
+      "known_intent": [
+        0,
+        0
+      ],
+      "keyword": [
+        0,
+        0
+      ],
+      "tfidf": [
+        1,
+        80
+      ],
+      "decider": [
+        0,
+        0
+      ],
+      "decider_reversed": [
+        0,
+        0
+      ],
+      "decider_direct": [
+        2,
+        160
+      ],
+      "qwen_fewshot": [
+        0,
+        0
+      ],
+      "qwen_fewshot_reversed": [
+        0,
+        0
+      ],
+      "qwen_matched": [
+        0,
+        0
+      ],
+      "qwen_matched_reversed": [
+        0,
+        0
+      ]
+    },
+    "simulations": [
+      {
+        "case": "agv_g1_cross",
+        "cell_spacing_m": 300.0,
+        "deadline_miss_including_loss": 23,
+        "deadline_ms": 20.0,
+        "duplicate_packets": 0,
+        "duration_s": 24.0,
+        "first_handover_end_ms": 1420.21429,
+        "first_handover_start_ms": 1417.0,
+        "handover_ends": 1,
+        "handover_failures": 0,
+        "handover_starts": 1,
+        "hysteresis_db": 0.0,
+        "late_received": 8,
+        "lost": 15,
+        "mean_delay_ms": 5.01671,
+        "p95_delay_ms": 5.0,
+        "p99_delay_ms": 5.0,
+        "packet_bytes": 1200,
+        "packet_interval_ms": 1.0,
+        "received": 22985,
+        "run": 101,
+        "sent": 23000,
+        "source_sha256": "ed1607a06002999a64a4583849b992e2d3b373ae71fb2b515414b7a8e2805fa6",
+        "speed_mps": 8.0,
+        "start_x_m": -8.0,
+        "trajectory": "cross",
+        "ttt_ms": 0,
+        "turn_period_s": 2.0,
+        "wall_s": 1.145940324999998
+      },
+      {
+        "case": "agv_g1_cross",
+        "cell_spacing_m": 300.0,
+        "deadline_miss_including_loss": 381,
+        "deadline_ms": 20.0,
+        "duplicate_packets": 0,
+        "duration_s": 24.0,
+        "first_handover_end_ms": 2700.21429,
+        "first_handover_start_ms": 2697.0,
+        "handover_ends": 1,
+        "handover_failures": 0,
+        "handover_starts": 1,
+        "hysteresis_db": 1.0,
+        "late_received": 362,
+        "lost": 19,
+        "mean_delay_ms": 6.16696,
+        "p95_delay_ms": 5.0,
+        "p99_delay_ms": 62.0,
+        "packet_bytes": 1200,
+        "packet_interval_ms": 1.0,
+        "received": 22981,
+        "run": 101,
+        "sent": 23000,
+        "source_sha256": "ed1607a06002999a64a4583849b992e2d3b373ae71fb2b515414b7a8e2805fa6",
+        "speed_mps": 8.0,
+        "start_x_m": -8.0,
+        "trajectory": "cross",
+        "ttt_ms": 80,
+        "turn_period_s": 2.0,
+        "wall_s": 1.2180845590000047
+      },
+      {
+        "case": "agv_g1_cross",
+        "cell_spacing_m": 300.0,
+        "deadline_miss_including_loss": 691,
+        "deadline_ms": 20.0,
+        "duplicate_packets": 0,
+        "duration_s": 24.0,
+        "first_handover_end_ms": 3780.21429,
+        "first_handover_start_ms": 3777.0,
+        "handover_ends": 1,
+        "handover_failures": 0,
+        "handover_starts": 1,
+        "hysteresis_db": 2.0,
+        "late_received": 617,
+        "lost": 74,
+        "mean_delay_ms": 6.837,
+        "p95_delay_ms": 5.0,
+        "p99_delay_ms": 82.0,
+        "packet_bytes": 1200,
+        "packet_interval_ms": 1.0,
+        "received": 22926,
+        "run": 101,
+        "sent": 23000,
+        "source_sha256": "ed1607a06002999a64a4583849b992e2d3b373ae71fb2b515414b7a8e2805fa6",
+        "speed_mps": 8.0,
+        "start_x_m": -8.0,
+        "trajectory": "cross",
+        "ttt_ms": 160,
+        "turn_period_s": 2.0,
+        "wall_s": 0.9541289010000185
+      },
+      {
+        "case": "agv_g1_cross",
+        "cell_spacing_m": 300.0,
+        "deadline_miss_including_loss": 1674,
+        "deadline_ms": 20.0,
+        "duplicate_packets": 0,
+        "duration_s": 24.0,
+        "first_handover_end_ms": 5076.21429,
+        "first_handover_start_ms": 5073.0,
+        "handover_ends": 1,
+        "handover_failures": 0,
+        "handover_starts": 1,
+        "hysteresis_db": 3.0,
+        "late_received": 1456,
+        "lost": 218,
+        "mean_delay_ms": 9.9342,
+        "p95_delay_ms": 47.0,
+        "p99_delay_ms": 119.0,
+        "packet_bytes": 1200,
+        "packet_interval_ms": 1.0,
+        "received": 22782,
+        "run": 101,
+        "sent": 23000,
+        "source_sha256": "ed1607a06002999a64a4583849b992e2d3b373ae71fb2b515414b7a8e2805fa6",
+        "speed_mps": 8.0,
+        "start_x_m": -8.0,
+        "trajectory": "cross",
+        "ttt_ms": 256,
+        "turn_period_s": 2.0,
+        "wall_s": 0.9882000899999923
+      },
+      {
+        "case": "agv_g1_cross",
+        "cell_spacing_m": 300.0,
+        "deadline_miss_including_loss": 4758,
+        "deadline_ms": 20.0,
+        "duplicate_packets": 0,
+        "duration_s": 24.0,
+        "first_handover_end_ms": 8160.21429,
+        "first_handover_start_ms": 8157.0,
+        "handover_ends": 1,
+        "handover_failures": 0,
+        "handover_starts": 1,
+        "hysteresis_db": 6.0,
+        "late_received": 4218,
+        "lost": 540,
+        "mean_delay_ms": 26.702,
+        "p95_delay_ms": 153.0,
+        "p99_delay_ms": 188.0,
+        "packet_bytes": 1200,
+        "packet_interval_ms": 1.0,
+        "received": 22460,
+        "run": 101,
+        "sent": 23000,
+        "source_sha256": "ed1607a06002999a64a4583849b992e2d3b373ae71fb2b515414b7a8e2805fa6",
+        "speed_mps": 8.0,
+        "start_x_m": -8.0,
+        "trajectory": "cross",
+        "ttt_ms": 320,
+        "turn_period_s": 2.0,
+        "wall_s": 0.9841435609999962
+      }
+    ],
+    "model_records": {
+      "decider": [
+        {
+          "id": "test_7_1_cross",
+          "variant": "semantic",
+          "order": 0,
+          "input": "{\"initial_x_m\":-8,\"initial_velocity_mps\":8,\"cell_spacing_m\":300,\"initial_serving_cell\":\"west\",\"packet_interval_ms\":1,\"packet_bytes\":1200,\"deadline_ms\":20,\"session_duration_s\":24,\"dispatch_text\":\"Advance into the other cell toward packaging. The itinerary includes no turnaround in this area.\"}",
+          "question": "What future movement does the currently active AGV dispatch order describe?",
+          "options": [
+            [
+              "cross",
+              "One-way transit: continue across the cell boundary toward the destination without returning."
+            ],
+            [
+              "patrol",
+              "Local patrol: repeatedly move back and forth near the cell boundary, reversing direction."
+            ]
+          ],
+          "prediction": "cross",
+          "answer": {
+            "choice": "One-way transit: continue across the cell boundary toward the destination without returning.",
+            "confidence": 0.9978088736534119,
+            "probs": {
+              "One-way transit: continue across the cell boundary toward the destination without returning.": 0.9978088736534119,
+              "Local patrol: repeatedly move back and forth near the cell boundary, reversing direction.": 0.0021911540534347296
+            },
+            "probs_list": [
+              0.9978088736534119,
+              0.0021911540534347296
+            ]
+          },
+          "inference_ms": 178.83999994955957,
+          "context_tokens": 80
+        },
+        {
+          "id": "test_7_1_cross",
+          "variant": "direct",
+          "order": 0,
+          "input": "{\"initial_x_m\":-8,\"initial_velocity_mps\":8,\"cell_spacing_m\":300,\"initial_serving_cell\":\"west\",\"packet_interval_ms\":1,\"packet_bytes\":1200,\"deadline_ms\":20,\"session_duration_s\":24,\"dispatch_text\":\"Advance into the other cell toward packaging. The itinerary includes no turnaround in this area.\"}",
+          "question": "Select one LTE RRC Event A3 handover configuration before this session starts. Hysteresis is the RSRP margin required before switching to a neighbour; time-to-trigger is how long that condition must hold. Prioritize the lowest fraction of UDP packets arriving after the 20 ms deadline or lost; repeated unnecessary handovers may also disrupt packets. Which configuration?",
+          "options": [
+            [
+              0,
+              "A3 hysteresis 0 dB, time-to-trigger 0 ms"
+            ],
+            [
+              1,
+              "A3 hysteresis 1 dB, time-to-trigger 80 ms"
+            ],
+            [
+              2,
+              "A3 hysteresis 2 dB, time-to-trigger 160 ms"
+            ],
+            [
+              3,
+              "A3 hysteresis 3 dB, time-to-trigger 256 ms"
+            ],
+            [
+              4,
+              "A3 hysteresis 6 dB, time-to-trigger 320 ms"
+            ]
+          ],
+          "prediction": 2,
+          "answer": {
+            "choice": "A3 hysteresis 2 dB, time-to-trigger 160 ms",
+            "confidence": 0.29850834608078003,
+            "probs": {
+              "A3 hysteresis 0 dB, time-to-trigger 0 ms": 0.22822389006614685,
+              "A3 hysteresis 1 dB, time-to-trigger 80 ms": 0.16536623239517212,
+              "A3 hysteresis 2 dB, time-to-trigger 160 ms": 0.29850834608078003,
+              "A3 hysteresis 3 dB, time-to-trigger 256 ms": 0.2162928730249405,
+              "A3 hysteresis 6 dB, time-to-trigger 320 ms": 0.09160870313644409
+            },
+            "probs_list": [
+              0.22822389006614685,
+              0.16536623239517212,
+              0.29850834608078003,
+              0.2162928730249405,
+              0.09160870313644409
+            ]
+          },
+          "inference_ms": 188.1748999003321,
+          "context_tokens": 80
+        }
+      ],
+      "qwen_generation": [
+        {
+          "id": "test_7_1_cross",
+          "variant": "fewshot",
+          "order": 0,
+          "input": "What future movement does the currently active AGV dispatch order describe?\nRead the ACTIVE order, not a cancelled or negated one.\n0: One-way transit: continue across the cell boundary toward the destination without returning.\n1: Local patrol: repeatedly move back and forth near the cell boundary, reversing direction.\nState: {\"initial_x_m\": -6, \"initial_velocity_mps\": 6, \"cell_spacing_m\": 250, \"initial_serving_cell\": \"west\", \"packet_interval_ms\": 1, \"packet_bytes\": 1200, \"deadline_ms\": 20, \"session_duration_s\": 24, \"dispatch_text\": \"Drive east through the handoff area and continue to the far loading dock.\"}\nAnswer: 0\nState: {\"initial_x_m\": -6, \"initial_velocity_mps\": 6, \"cell_spacing_m\": 250, \"initial_serving_cell\": \"west\", \"packet_interval_ms\": 1, \"packet_bytes\": 1200, \"deadline_ms\": 20, \"session_duration_s\": 24, \"dispatch_text\": \"Patrol the handoff area: drive east, reverse, drive west, and repeat.\"}\nAnswer: 1\nState: {\"initial_x_m\": -6, \"initial_velocity_mps\": 6, \"cell_spacing_m\": 250, \"initial_serving_cell\": \"west\", \"packet_interval_ms\": 1, \"packet_bytes\": 1200, \"deadline_ms\": 20, \"session_duration_s\": 24, \"dispatch_text\": \"Deliver the crate to the warehouse beyond the boundary. Do not come back during this job.\"}\nAnswer: 0\nState: {\"initial_x_m\": -6, \"initial_velocity_mps\": 6, \"cell_spacing_m\": 250, \"initial_serving_cell\": \"west\", \"packet_interval_ms\": 1, \"packet_bytes\": 1200, \"deadline_ms\": 20, \"session_duration_s\": 24, \"dispatch_text\": \"Inspect the local boundary segment by shuttling between its two ends.\"}\nAnswer: 1\nState: {\"initial_x_m\": -8, \"initial_velocity_mps\": 8, \"cell_spacing_m\": 300, \"initial_serving_cell\": \"west\", \"packet_interval_ms\": 1, \"packet_bytes\": 1200, \"deadline_ms\": 20, \"session_duration_s\": 24, \"dispatch_text\": \"Advance into the other cell toward packaging. The itinerary includes no turnaround in this area.\"}\nAnswer: ",
+          "raw": "0\n",
+          "prediction": "cross",
+          "inference_ms": 1093.880700180307,
+          "output_tokens": 2,
+          "input_tokens": 571
+        },
+        {
+          "id": "test_7_1_cross",
+          "variant": "matched",
+          "order": 0,
+          "input": "Context:\n{\"initial_x_m\":-8,\"initial_velocity_mps\":8,\"cell_spacing_m\":300,\"initial_serving_cell\":\"west\",\"packet_interval_ms\":1,\"packet_bytes\":1200,\"deadline_ms\":20,\"session_duration_s\":24,\"dispatch_text\":\"Advance into the other cell toward packaging. The itinerary includes no turnaround in this area.\"}\n\nQuestion: What future movement does the currently active AGV dispatch order describe?\nOptions:\n(A) One-way transit: continue across the cell boundary toward the destination without returning.\n(B) Local patrol: repeatedly move back and forth near the cell boundary, reversing direction.\nAnswer: (",
+          "raw": "A) One-way",
+          "prediction": null,
+          "inference_ms": 1112.0238997973502,
+          "output_tokens": 4,
+          "input_tokens": 140
+        }
+      ],
+      "qwen_onepass": [
+        {
+          "id": "test_7_1_cross",
+          "suite": "pilot",
+          "order": 0,
+          "model": "models\\qwen3.5-2b-base",
+          "input": "{\"initial_x_m\":-8,\"initial_velocity_mps\":8,\"cell_spacing_m\":300,\"initial_serving_cell\":\"west\",\"packet_interval_ms\":1,\"packet_bytes\":1200,\"deadline_ms\":20,\"session_duration_s\":24,\"dispatch_text\":\"Advance into the other cell toward packaging. The itinerary includes no turnaround in this area.\"}",
+          "question": "What future movement does the currently active AGV dispatch order describe?",
+          "options": [
+            [
+              "cross",
+              "One-way transit: continue across the cell boundary toward the destination without returning."
+            ],
+            [
+              "patrol",
+              "Local patrol: repeatedly move back and forth near the cell boundary, reversing direction."
+            ]
+          ],
+          "prediction": "cross",
+          "answer": {
+            "choice": "One-way transit: continue across the cell boundary toward the destination without returning.",
+            "confidence": 0.851952850818634,
+            "probs": {
+              "One-way transit: continue across the cell boundary toward the destination without returning.": 0.851952850818634,
+              "Local patrol: repeatedly move back and forth near the cell boundary, reversing direction.": 0.14804719388484955
+            },
+            "probs_list": [
+              0.851952850818634,
+              0.14804719388484955
+            ]
+          },
+          "inference_ms": 216.7664000298828,
+          "prompt_tokens": 140
+        }
+      ]
+    }
+  },
+  "confirmation": {
+    "counts": {
+      "text_rows": 144,
+      "unique_texts": 48,
+      "language_families": 24,
+      "unique_train_texts": 32
+    },
+    "metrics": {
+      "calibrated_fixed": {
+        "cases": 720,
+        "sent": 16560000,
+        "received": 16544016,
+        "lost": 15984,
+        "late_received": 36120,
+        "deadline_miss_including_loss": 52104,
+        "deadline_miss_rate": 0.003146376811594203,
+        "handover_starts": 360,
+        "mean_of_case_p99_delay_ms": 6.966666666666667,
+        "mean_handovers_per_session": 0.5
+      },
+      "known_intent": {
+        "cases": 720,
+        "sent": 16560000,
+        "received": 16554600,
+        "lost": 5400,
+        "late_received": 2880,
+        "deadline_miss_including_loss": 8280,
+        "deadline_miss_rate": 0.0005,
+        "handover_starts": 360,
+        "mean_of_case_p99_delay_ms": 5.0,
+        "mean_handovers_per_session": 0.5
+      },
+      "keyword": {
+        "cases": 720,
+        "sent": 16560000,
+        "received": 16494213,
+        "lost": 65787,
+        "late_received": 41375,
+        "deadline_miss_including_loss": 107162,
+        "deadline_miss_rate": 0.006471135265700483,
+        "handover_starts": 3960,
+        "mean_of_case_p99_delay_ms": 8.906944444444445,
+        "mean_handovers_per_session": 5.5,
+        "intent_accuracy": 0.4375,
+        "inference_ms": {
+          "n": 720,
+          "p50": 0.006200047209858894,
+          "p95": 0.00850516371428966
+        }
+      },
+      "tfidf": {
+        "cases": 720,
+        "sent": 16560000,
+        "received": 16536087,
+        "lost": 23913,
+        "late_received": 15675,
+        "deadline_miss_including_loss": 39588,
+        "deadline_miss_rate": 0.0023905797101449276,
+        "handover_starts": 1440,
+        "mean_of_case_p99_delay_ms": 6.245833333333334,
+        "mean_handovers_per_session": 2.0,
+        "intent_accuracy": 0.8125,
+        "inference_ms": {
+          "n": 720,
+          "p50": 0.6301499670371413,
+          "p95": 1.0105251218192275
+        }
+      },
+      "improved_keyword": {
+        "cases": 720,
+        "sent": 16560000,
+        "received": 16508097,
+        "lost": 51903,
+        "late_received": 35560,
+        "deadline_miss_including_loss": 87463,
+        "deadline_miss_rate": 0.005281582125603865,
+        "handover_starts": 3060,
+        "mean_of_case_p99_delay_ms": 8.155555555555555,
+        "mean_handovers_per_session": 4.25,
+        "intent_accuracy": 0.5208333333333333
+      },
+      "decider": {
+        "cases": 720,
+        "sent": 16560000,
+        "received": 16554159,
+        "lost": 5841,
+        "late_received": 4265,
+        "deadline_miss_including_loss": 10106,
+        "deadline_miss_rate": 0.0006102657004830918,
+        "handover_starts": 360,
+        "mean_of_case_p99_delay_ms": 5.081944444444445,
+        "mean_handovers_per_session": 0.5,
+        "intent_accuracy": 0.9791666666666666,
+        "inference_ms": {
+          "n": 144,
+          "p50": 183.5020500002429,
+          "p95": 210.62953497748822
+        }
+      },
+      "decider_reversed": {
+        "cases": 720,
+        "sent": 16560000,
+        "received": 16554600,
+        "lost": 5400,
+        "late_received": 2880,
+        "deadline_miss_including_loss": 8280,
+        "deadline_miss_rate": 0.0005,
+        "handover_starts": 360,
+        "mean_of_case_p99_delay_ms": 5.0,
+        "mean_handovers_per_session": 0.5,
+        "intent_accuracy": 1.0,
+        "inference_ms": {
+          "n": 144,
+          "p50": 183.13605000730604,
+          "p95": 213.34307503420857
+        }
+      },
+      "qwen_onepass": {
+        "cases": 720,
+        "sent": 16560000,
+        "received": 16552836,
+        "lost": 7164,
+        "late_received": 8420,
+        "deadline_miss_including_loss": 15584,
+        "deadline_miss_rate": 0.0009410628019323672,
+        "handover_starts": 360,
+        "mean_of_case_p99_delay_ms": 5.3277777777777775,
+        "mean_handovers_per_session": 0.5,
+        "intent_accuracy": 0.9166666666666666,
+        "inference_ms": {
+          "n": 144,
+          "p50": 191.9860999332741,
+          "p95": 233.4121850086376
+        }
+      },
+      "qwen_onepass_reversed": {
+        "cases": 720,
+        "sent": 16560000,
+        "received": 16503985,
+        "lost": 56015,
+        "late_received": 28320,
+        "deadline_miss_including_loss": 84335,
+        "deadline_miss_rate": 0.0050926932367149754,
+        "handover_starts": 3540,
+        "mean_of_case_p99_delay_ms": 7.944444444444445,
+        "mean_handovers_per_session": 4.916666666666667,
+        "intent_accuracy": 0.6319444444444444,
+        "inference_ms": {
+          "n": 144,
+          "p50": 191.45645014941692,
+          "p95": 235.59459508396685
+        }
+      }
+    },
+    "errors": {
+      "keyword": [
+        "confirm_0_0_patrol",
+        "confirm_0_1_patrol",
+        "confirm_0_2_patrol",
+        "confirm_2_0_patrol",
+        "confirm_2_1_patrol",
+        "confirm_2_2_patrol",
+        "confirm_3_0_cross",
+        "confirm_3_0_patrol",
+        "confirm_3_1_cross",
+        "confirm_3_1_patrol",
+        "confirm_3_2_cross",
+        "confirm_3_2_patrol",
+        "confirm_4_0_patrol",
+        "confirm_4_1_patrol",
+        "confirm_4_2_patrol",
+        "confirm_5_0_cross",
+        "confirm_5_1_cross",
+        "confirm_5_2_cross",
+        "confirm_6_0_patrol",
+        "confirm_6_1_patrol",
+        "confirm_6_2_patrol",
+        "confirm_7_0_patrol",
+        "confirm_7_1_patrol",
+        "confirm_7_2_patrol",
+        "confirm_8_0_patrol",
+        "confirm_8_1_patrol",
+        "confirm_8_2_patrol",
+        "confirm_9_0_patrol",
+        "confirm_9_1_patrol",
+        "confirm_9_2_patrol",
+        "confirm_10_0_cross",
+        "confirm_10_0_patrol",
+        "confirm_10_1_cross",
+        "confirm_10_1_patrol",
+        "confirm_10_2_cross",
+        "confirm_10_2_patrol",
+        "confirm_11_0_patrol",
+        "confirm_11_1_patrol",
+        "confirm_11_2_patrol",
+        "confirm_12_0_patrol",
+        "confirm_12_1_patrol",
+        "confirm_12_2_patrol",
+        "confirm_13_0_patrol",
+        "confirm_13_1_patrol",
+        "confirm_13_2_patrol",
+        "confirm_14_0_cross",
+        "confirm_14_1_cross",
+        "confirm_14_2_cross",
+        "confirm_15_0_patrol",
+        "confirm_15_1_patrol",
+        "confirm_15_2_patrol",
+        "confirm_16_0_patrol",
+        "confirm_16_1_patrol",
+        "confirm_16_2_patrol",
+        "confirm_17_0_patrol",
+        "confirm_17_1_patrol",
+        "confirm_17_2_patrol",
+        "confirm_18_0_cross",
+        "confirm_18_0_patrol",
+        "confirm_18_1_cross",
+        "confirm_18_1_patrol",
+        "confirm_18_2_cross",
+        "confirm_18_2_patrol",
+        "confirm_19_0_patrol",
+        "confirm_19_1_patrol",
+        "confirm_19_2_patrol",
+        "confirm_20_0_patrol",
+        "confirm_20_1_patrol",
+        "confirm_20_2_patrol",
+        "confirm_21_0_cross",
+        "confirm_21_0_patrol",
+        "confirm_21_1_cross",
+        "confirm_21_1_patrol",
+        "confirm_21_2_cross",
+        "confirm_21_2_patrol",
+        "confirm_22_0_cross",
+        "confirm_22_1_cross",
+        "confirm_22_2_cross",
+        "confirm_23_0_patrol",
+        "confirm_23_1_patrol",
+        "confirm_23_2_patrol"
+      ],
+      "tfidf": [
+        "confirm_0_0_patrol",
+        "confirm_0_1_patrol",
+        "confirm_0_2_patrol",
+        "confirm_4_0_patrol",
+        "confirm_4_1_patrol",
+        "confirm_4_2_patrol",
+        "confirm_8_0_cross",
+        "confirm_8_0_patrol",
+        "confirm_8_1_cross",
+        "confirm_8_1_patrol",
+        "confirm_8_2_cross",
+        "confirm_8_2_patrol",
+        "confirm_12_0_cross",
+        "confirm_12_1_cross",
+        "confirm_12_2_cross",
+        "confirm_18_0_patrol",
+        "confirm_18_1_patrol",
+        "confirm_18_2_patrol",
+        "confirm_19_0_patrol",
+        "confirm_19_1_patrol",
+        "confirm_19_2_patrol",
+        "confirm_22_0_cross",
+        "confirm_22_1_cross",
+        "confirm_22_2_cross",
+        "confirm_23_0_patrol",
+        "confirm_23_1_patrol",
+        "confirm_23_2_patrol"
+      ],
+      "improved_keyword": [
+        "confirm_2_0_patrol",
+        "confirm_2_1_patrol",
+        "confirm_2_2_patrol",
+        "confirm_3_0_cross",
+        "confirm_3_0_patrol",
+        "confirm_3_1_cross",
+        "confirm_3_1_patrol",
+        "confirm_3_2_cross",
+        "confirm_3_2_patrol",
+        "confirm_4_0_patrol",
+        "confirm_4_1_patrol",
+        "confirm_4_2_patrol",
+        "confirm_5_0_cross",
+        "confirm_5_1_cross",
+        "confirm_5_2_cross",
+        "confirm_7_0_patrol",
+        "confirm_7_1_patrol",
+        "confirm_7_2_patrol",
+        "confirm_8_0_cross",
+        "confirm_8_1_cross",
+        "confirm_8_2_cross",
+        "confirm_9_0_patrol",
+        "confirm_9_1_patrol",
+        "confirm_9_2_patrol",
+        "confirm_10_0_cross",
+        "confirm_10_0_patrol",
+        "confirm_10_1_cross",
+        "confirm_10_1_patrol",
+        "confirm_10_2_cross",
+        "confirm_10_2_patrol",
+        "confirm_11_0_patrol",
+        "confirm_11_1_patrol",
+        "confirm_11_2_patrol",
+        "confirm_12_0_patrol",
+        "confirm_12_1_patrol",
+        "confirm_12_2_patrol",
+        "confirm_13_0_patrol",
+        "confirm_13_1_patrol",
+        "confirm_13_2_patrol",
+        "confirm_14_0_cross",
+        "confirm_14_1_cross",
+        "confirm_14_2_cross",
+        "confirm_16_0_patrol",
+        "confirm_16_1_patrol",
+        "confirm_16_2_patrol",
+        "confirm_17_0_patrol",
+        "confirm_17_1_patrol",
+        "confirm_17_2_patrol",
+        "confirm_18_0_cross",
+        "confirm_18_0_patrol",
+        "confirm_18_1_cross",
+        "confirm_18_1_patrol",
+        "confirm_18_2_cross",
+        "confirm_18_2_patrol",
+        "confirm_19_0_patrol",
+        "confirm_19_1_patrol",
+        "confirm_19_2_patrol",
+        "confirm_20_0_patrol",
+        "confirm_20_1_patrol",
+        "confirm_20_2_patrol",
+        "confirm_21_0_cross",
+        "confirm_21_0_patrol",
+        "confirm_21_1_cross",
+        "confirm_21_1_patrol",
+        "confirm_21_2_cross",
+        "confirm_21_2_patrol",
+        "confirm_22_0_cross",
+        "confirm_22_1_cross",
+        "confirm_22_2_cross"
+      ],
+      "decider": [
+        "confirm_22_0_cross",
+        "confirm_22_1_cross",
+        "confirm_22_2_cross"
+      ],
+      "decider_reversed": [],
+      "qwen_onepass": [
+        "confirm_4_0_cross",
+        "confirm_4_1_cross",
+        "confirm_4_2_cross",
+        "confirm_20_0_cross",
+        "confirm_20_1_cross",
+        "confirm_20_2_cross",
+        "confirm_21_0_cross",
+        "confirm_21_1_cross",
+        "confirm_21_2_cross",
+        "confirm_22_0_cross",
+        "confirm_22_1_cross",
+        "confirm_22_2_cross"
+      ],
+      "qwen_onepass_reversed": [
+        "confirm_0_0_patrol",
+        "confirm_0_1_patrol",
+        "confirm_0_2_patrol",
+        "confirm_1_0_patrol",
+        "confirm_1_1_patrol",
+        "confirm_1_2_patrol",
+        "confirm_3_0_patrol",
+        "confirm_3_1_patrol",
+        "confirm_3_2_patrol",
+        "confirm_4_0_patrol",
+        "confirm_4_1_patrol",
+        "confirm_4_2_patrol",
+        "confirm_6_0_patrol",
+        "confirm_6_1_patrol",
+        "confirm_6_2_patrol",
+        "confirm_7_0_patrol",
+        "confirm_7_1_patrol",
+        "confirm_7_2_patrol",
+        "confirm_8_0_patrol",
+        "confirm_8_1_patrol",
+        "confirm_8_2_patrol",
+        "confirm_9_0_patrol",
+        "confirm_9_1_patrol",
+        "confirm_9_2_patrol",
+        "confirm_11_0_patrol",
+        "confirm_11_1_patrol",
+        "confirm_11_2_patrol",
+        "confirm_12_0_patrol",
+        "confirm_12_1_patrol",
+        "confirm_12_2_patrol",
+        "confirm_13_1_patrol",
+        "confirm_13_2_patrol",
+        "confirm_14_0_patrol",
+        "confirm_14_1_patrol",
+        "confirm_14_2_patrol",
+        "confirm_15_0_patrol",
+        "confirm_15_1_patrol",
+        "confirm_15_2_patrol",
+        "confirm_18_0_patrol",
+        "confirm_18_1_patrol",
+        "confirm_18_2_patrol",
+        "confirm_19_0_patrol",
+        "confirm_19_1_patrol",
+        "confirm_19_2_patrol",
+        "confirm_20_0_patrol",
+        "confirm_20_1_patrol",
+        "confirm_20_2_patrol",
+        "confirm_21_0_patrol",
+        "confirm_21_1_patrol",
+        "confirm_21_2_patrol",
+        "confirm_22_0_patrol",
+        "confirm_22_1_patrol",
+        "confirm_22_2_patrol"
+      ]
+    },
+    "tfidf": {
+      "unique_train_texts": 32,
+      "C": 1,
+      "dev_accuracy": 1.0,
+      "sklearn_version": "1.8.0"
+    },
+    "comparisons_decider_minus_baseline": {
+      "calibrated_fixed": {
+        "difference": -0.0025361111111111114,
+        "ci95": [
+          -0.003977536231884058,
+          -0.00105
+        ],
+        "bootstrap_unit": "paired text family x common RNG run; fixed geometries",
+        "repetitions": 10000
+      },
+      "known_intent": {
+        "difference": 0.00011026570048309178,
+        "ci95": [
+          0.0,
+          0.00040003623188405746
+        ],
+        "bootstrap_unit": "paired text family x common RNG run; fixed geometries",
+        "repetitions": 10000
+      },
+      "keyword": {
+        "difference": -0.005860869565217391,
+        "ci95": [
+          -0.006840881642512077,
+          -0.004810862016908213
+        ],
+        "bootstrap_unit": "paired text family x common RNG run; fixed geometries",
+        "repetitions": 10000
+      },
+      "tfidf": {
+        "difference": -0.0017803140096618356,
+        "ci95": [
+          -0.003014716183574879,
+          -0.0006933393719806766
+        ],
+        "bootstrap_unit": "paired text family x common RNG run; fixed geometries",
+        "repetitions": 10000
+      },
+      "improved_keyword": {
+        "difference": -0.004671316425120773,
+        "ci95": [
+          -0.006019569746376811,
+          -0.003313944746376811
+        ],
+        "bootstrap_unit": "paired text family x common RNG run; fixed geometries",
+        "repetitions": 10000
+      },
+      "decider_reversed": {
+        "difference": 0.00011026570048309178,
+        "ci95": [
+          0.0,
+          0.0003945652173913044
+        ],
+        "bootstrap_unit": "paired text family x common RNG run; fixed geometries",
+        "repetitions": 10000
+      },
+      "qwen_onepass": {
+        "difference": -0.0003307971014492754,
+        "ci95": [
+          -0.000820289855072464,
+          0.0
+        ],
+        "bootstrap_unit": "paired text family x common RNG run; fixed geometries",
+        "repetitions": 10000
+      },
+      "qwen_onepass_reversed": {
+        "difference": -0.004482427536231884,
+        "ci95": [
+          -0.005459239130434782,
+          -0.0033795289855072463
+        ],
+        "bootstrap_unit": "paired text family x common RNG run; fixed geometries",
+        "repetitions": 10000
+      }
+    }
+  }
+}

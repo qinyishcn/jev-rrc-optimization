@@ -1,0 +1,81 @@
+{
+  "recorded_at_utc": "2026-10-08T15:42:10.171888+00:00",
+  "experiment_date": "2026-10-08",
+  "python": "3.12.10",
+  "packages": {
+    "torch": "2.6.0+cu124",
+    "transformers": "5.6.2",
+    "numpy": "1.26.4",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.8.0",
+    "decider-ai": "1.6.0"
+  },
+  "device": "NVIDIA GeForce RTX 3070",
+  "cuda_runtime": "12.4",
+  "decider_source_commit": "23579f7a7e8f10e1045be492af3c1c05a005d67c",
+  "base_repository_commit": "956535edef7c587b7d11c16678a11cdf940bb8f2",
+  "ns3_version": "3.46",
+  "binary_hashes": {
+    "/home/qinyi/rrc-ns3/rrc-handover": "fa6961ee33ed32b8694d0c90c54d7fc6a9b797f5313aaa64dac24da178583b8b",
+    "/home/qinyi/rrc-ns3/rrc-handover-confirm": "fa6961ee33ed32b8694d0c90c54d7fc6a9b797f5313aaa64dac24da178583b8b"
+  },
+  "checkpoint_sha256": {
+    "decider_2b": "acaef2228b134dcdc20cad4ee79219482c927ec819aa3687b9b8a575c338817f",
+    "qwen_3_5_2b_base": "928acbf11878c32185bbd863514d191769285065ab9ea14fbfe431303f5fdf2d",
+    "old_a3_adapter_diagnostics_only": "709f9999bf5f1eac5758d7011d594ceba105416ff9ec2ec64a6aa1ae6126f8a6"
+  },
+  "model_revisions": {
+    "decider": "533964dae8be954c5b5e19fa4948e48408094c1e",
+    "qwen": "b1485b2fa6dfa1287294f269f5fb618e03d52d7c"
+  },
+  "sha256": {
+    "artifacts/semantic_uc/calibration.jsonl": "0530ddedf5834e3ea60941cfdcebea152d058708ed82d4c5560e03a2a5e1295c",
+    "artifacts/semantic_uc/confirmation_dataset.json": "edcedc6b835d0bde816ec4665970ce33e0991c01dbeba2efa40b74dd1dbc8787",
+    "artifacts/semantic_uc/confirmation_decider.json": "07a51213aa4d03235916b73a17da45592b3af50410ef5231fd27159728d4d57d",
+    "artifacts/semantic_uc/confirmation_qwen_onepass.json": "c4f2dcd8d90bfe87f48ee6a53a6cbbaf16fb83be16320062bc0adf8aa1d98bb2",
+    "artifacts/semantic_uc/confirmation_selected_results.json": "69a27ef94e1f96398c5288d1a4d45cdb546a9709ea427bb9637a8cf76989b7bc",
+    "artifacts/semantic_uc/decider.json": "d5fd9e5a336b7d9459489b1e1b3a2d683351e4ff556959b7349fb38e1f528e92",
+    "artifacts/semantic_uc/diagnose_adapter.json": "617dc3b787fe02fa5f3869a104e31a02447be25cc0a858e4e670f0ba880a3d18",
+    "artifacts/semantic_uc/diagnose_base.json": "bb32b8b0a32ec0c11a7423033ef4ab82997d6e57b9bc1bd6d3a380f8333f228c",
+    "artifacts/semantic_uc/example.json": "557a743d598b9025004f8a26a442179225008d8d9cb7e533f270e0793333db15",
+    "artifacts/semantic_uc/frozen_dataset.json": "c8ee61e0279c589f69703109c7fb1bd2bd780d72e75cf6a8e0db3172e49ea388",
+    "artifacts/semantic_uc/holdout.jsonl": "5be2a8c7efe0cba74fb6f30b8003ed3c4935e756daef1bc0359a8ef08edc30e5",
+    "artifacts/semantic_uc/qwen.json": "d7ee66221e041550622b59ed47ec8e9495e9c1affaf4935989ac26593df9d952",
+    "artifacts/semantic_uc/representation.json": "0338750210881274d93d721b0ac606891a757e62b0ce9687deeaa623dbdf62be",
+    "artifacts/semantic_uc/selected_results.json": "ada0ed1a2730fe7e48aa779d4ae6e321f1ec003a339f83aa95b385e5813863dc",
+    "artifacts/semantic_uc/summary.json": "fb251b903e45544e9e73d4aa1df3d76b798a05bf6455d886bca53bf79d4be696",
+    "docs/figures/semantic_uc_comparison.png": "8a5fba00efe9ad794eb62de355fd6be46f69c032ce89e3f703563fdce9de11d2",
+    "docs/rrc_cause_semantic_uc.md": "e0741b62d40b2e52d7dd0ba25e8d3f09826c8af064a978ab784091d9dbf7c50e",
+    "docs/superpowers/plans/2026-10-08-rrc-cause-semantic-uc.md": "1e77083d7b959c220dd3c18b211365176164e54274faf67c8aad8bc4ea48729e",
+    "docs/superpowers/specs/2026-10-08-rrc-cause-semantic-uc-design.md": "0263886ea6a622f1d5b6c3292f00abb600fc0f2f3ac06c26ad03044b5c365fae",
+    "README.md": "60bed447d51f813aad8cc213ea984548477766b86eda1be37a93b5ddf52104b4",
+    "requirements_semantic_uc.txt": "758c3ff91c2bb950c84bdefa7207a756d6a50c5add78ee002dfdc8ebb5261b27",
+    "system_validation/analyze_semantic_uc.py": "2ab6308dd3fda820b4520ff7589ba09d4a096392c4be0b6c25d3377c32b777bf",
+    "system_validation/confirm_semantic_uc.py": "4f128d3784df6db57b8c024e268c661325e146708853f32cbecc1d59f3354be6",
+    "system_validation/diagnose_a3.py": "cfbdda636084d7cdb521837941e441d7677db9fee43872efc10c6c47bf44c1a6",
+    "system_validation/ns3_lte_handover.cc": "ed1607a06002999a64a4583849b992e2d3b373ae71fb2b515414b7a8e2805fa6",
+    "system_validation/plot_semantic_uc.py": "d21e075ba236634c0b5536ba08277d4e22998acce08274dd10caa47be762359d",
+    "system_validation/probe_representation.py": "beae3214c01fdd002b4530b8eec6725c85bf2bf55efa310a1b61b23a624357d1",
+    "system_validation/semantic_uc.py": "4c708d080586da50707cbc6c5bf3c4048bc951d80d09f3ff1926ccfcfd801bbd",
+    "system_validation/verify_semantic_uc.py": "347b5bb6e4b16b99e5867856e0dde0f806687ebb63d8de27aeafc84ed028b459",
+    "system_validation/write_semantic_provenance.py": "e86bd9638670e5a613e3e7633b6f1937c1b5b32a6b024d3053876122546d7406",
+    "tests/test_semantic_uc.py": "9a8ec1f1683a3aea28e1627a3abb2807b1163c0cfaa7d574dbdb486198fadf45"
+  },
+  "timing_notes": [
+    "GPU batch=1 bf16 eager; no CUDA graphs or fused FLA; 8 torch CPU threads.",
+    "Model loading excluded; at least 3 warmup calls before measurements.",
+    "Confirmation head timers include a second CPU prompt-size tokenization after GPU synchronization, identically for both models.",
+    "Pilot Decider ran alongside CPU simulation; confirmation GPU models ran sequentially; timings are not randomized interleaved trials.",
+    "CPU timing is five batch-one repeats per sample; values may vary on analysis recomputation."
+  ],
+  "evidence_notes": [
+    "210 actual ns-3 simulations; 1794 stored model requests excluding warmups.",
+    "Text variants reuse 6 physics cases and 5 evaluation RNG runs; never count replayed packets as independent trials.",
+    "Confirmation template families frozen before either model's confirmation inference; pilot labels are allowed training for its classical baseline.",
+    "Qwen matched raw prediction fields reflect initial strict parser; analysis recomputes legal letter prefixes from preserved raw strings."
+  ],
+  "verification": {
+    "unit_tests": "59 passed; 39 subtests passed",
+    "accounting": "verify_semantic_uc.py passed"
+  }
+}

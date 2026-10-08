@@ -1,0 +1,2072 @@
+{
+  "train": [
+    {
+      "id": "train_0_0_cross",
+      "family": "train_0",
+      "geometry": 0,
+      "label": "cross",
+      "text": "Drive east through the handoff area and continue to the far loading dock.",
+      "case": "agv_g0_cross"
+    },
+    {
+      "id": "train_0_0_patrol",
+      "family": "train_0",
+      "geometry": 0,
+      "label": "patrol",
+      "text": "Patrol the handoff area: drive east, reverse, drive west, and repeat.",
+      "case": "agv_g0_patrol"
+    },
+    {
+      "id": "train_0_1_cross",
+      "family": "train_0",
+      "geometry": 1,
+      "label": "cross",
+      "text": "Drive east through the handoff area and continue to the far loading dock.",
+      "case": "agv_g1_cross"
+    },
+    {
+      "id": "train_0_1_patrol",
+      "family": "train_0",
+      "geometry": 1,
+      "label": "patrol",
+      "text": "Patrol the handoff area: drive east, reverse, drive west, and repeat.",
+      "case": "agv_g1_patrol"
+    },
+    {
+      "id": "train_0_2_cross",
+      "family": "train_0",
+      "geometry": 2,
+      "label": "cross",
+      "text": "Drive east through the handoff area and continue to the far loading dock.",
+      "case": "agv_g2_cross"
+    },
+    {
+      "id": "train_0_2_patrol",
+      "family": "train_0",
+      "geometry": 2,
+      "label": "patrol",
+      "text": "Patrol the handoff area: drive east, reverse, drive west, and repeat.",
+      "case": "agv_g2_patrol"
+    },
+    {
+      "id": "train_1_0_cross",
+      "family": "train_1",
+      "geometry": 0,
+      "label": "cross",
+      "text": "Deliver the crate to the warehouse beyond the boundary. Do not come back during this job.",
+      "case": "agv_g0_cross"
+    },
+    {
+      "id": "train_1_0_patrol",
+      "family": "train_1",
+      "geometry": 0,
+      "label": "patrol",
+      "text": "Inspect the local boundary segment by shuttling between its two ends.",
+      "case": "agv_g0_patrol"
+    },
+    {
+      "id": "train_1_1_cross",
+      "family": "train_1",
+      "geometry": 1,
+      "label": "cross",
+      "text": "Deliver the crate to the warehouse beyond the boundary. Do not come back during this job.",
+      "case": "agv_g1_cross"
+    },
+    {
+      "id": "train_1_1_patrol",
+      "family": "train_1",
+      "geometry": 1,
+      "label": "patrol",
+      "text": "Inspect the local boundary segment by shuttling between its two ends.",
+      "case": "agv_g1_patrol"
+    },
+    {
+      "id": "train_1_2_cross",
+      "family": "train_1",
+      "geometry": 2,
+      "label": "cross",
+      "text": "Deliver the crate to the warehouse beyond the boundary. Do not come back during this job.",
+      "case": "agv_g2_cross"
+    },
+    {
+      "id": "train_1_2_patrol",
+      "family": "train_1",
+      "geometry": 2,
+      "label": "patrol",
+      "text": "Inspect the local boundary segment by shuttling between its two ends.",
+      "case": "agv_g2_patrol"
+    },
+    {
+      "id": "train_2_0_cross",
+      "family": "train_2",
+      "geometry": 0,
+      "label": "cross",
+      "text": "Proceed across the boundary to the next destination in one direction.",
+      "case": "agv_g0_cross"
+    },
+    {
+      "id": "train_2_0_patrol",
+      "family": "train_2",
+      "geometry": 0,
+      "label": "patrol",
+      "text": "Move back and forth around the boundary for the whole inspection.",
+      "case": "agv_g0_patrol"
+    },
+    {
+      "id": "train_2_1_cross",
+      "family": "train_2",
+      "geometry": 1,
+      "label": "cross",
+      "text": "Proceed across the boundary to the next destination in one direction.",
+      "case": "agv_g1_cross"
+    },
+    {
+      "id": "train_2_1_patrol",
+      "family": "train_2",
+      "geometry": 1,
+      "label": "patrol",
+      "text": "Move back and forth around the boundary for the whole inspection.",
+      "case": "agv_g1_patrol"
+    },
+    {
+      "id": "train_2_2_cross",
+      "family": "train_2",
+      "geometry": 2,
+      "label": "cross",
+      "text": "Proceed across the boundary to the next destination in one direction.",
+      "case": "agv_g2_cross"
+    },
+    {
+      "id": "train_2_2_patrol",
+      "family": "train_2",
+      "geometry": 2,
+      "label": "patrol",
+      "text": "Move back and forth around the boundary for the whole inspection.",
+      "case": "agv_g2_patrol"
+    },
+    {
+      "id": "train_3_0_cross",
+      "family": "train_3",
+      "geometry": 0,
+      "label": "cross",
+      "text": "Cross the boundary once, then keep moving east for the rest of the shift segment.",
+      "case": "agv_g0_cross"
+    },
+    {
+      "id": "train_3_0_patrol",
+      "family": "train_3",
+      "geometry": 0,
+      "label": "patrol",
+      "text": "Repeat short east-west passes near the boundary, reversing at each endpoint.",
+      "case": "agv_g0_patrol"
+    },
+    {
+      "id": "train_3_1_cross",
+      "family": "train_3",
+      "geometry": 1,
+      "label": "cross",
+      "text": "Cross the boundary once, then keep moving east for the rest of the shift segment.",
+      "case": "agv_g1_cross"
+    },
+    {
+      "id": "train_3_1_patrol",
+      "family": "train_3",
+      "geometry": 1,
+      "label": "patrol",
+      "text": "Repeat short east-west passes near the boundary, reversing at each endpoint.",
+      "case": "agv_g1_patrol"
+    },
+    {
+      "id": "train_3_2_cross",
+      "family": "train_3",
+      "geometry": 2,
+      "label": "cross",
+      "text": "Cross the boundary once, then keep moving east for the rest of the shift segment.",
+      "case": "agv_g2_cross"
+    },
+    {
+      "id": "train_3_2_patrol",
+      "family": "train_3",
+      "geometry": 2,
+      "label": "patrol",
+      "text": "Repeat short east-west passes near the boundary, reversing at each endpoint.",
+      "case": "agv_g2_patrol"
+    },
+    {
+      "id": "train_4_0_cross",
+      "family": "train_4",
+      "geometry": 0,
+      "label": "cross",
+      "text": "Leave this area, pass the boundary and finish the delivery at the east dock.",
+      "case": "agv_g0_cross"
+    },
+    {
+      "id": "train_4_0_patrol",
+      "family": "train_4",
+      "geometry": 0,
+      "label": "patrol",
+      "text": "Stay in this area and repeatedly reverse direction around the boundary.",
+      "case": "agv_g0_patrol"
+    },
+    {
+      "id": "train_4_1_cross",
+      "family": "train_4",
+      "geometry": 1,
+      "label": "cross",
+      "text": "Leave this area, pass the boundary and finish the delivery at the east dock.",
+      "case": "agv_g1_cross"
+    },
+    {
+      "id": "train_4_1_patrol",
+      "family": "train_4",
+      "geometry": 1,
+      "label": "patrol",
+      "text": "Stay in this area and repeatedly reverse direction around the boundary.",
+      "case": "agv_g1_patrol"
+    },
+    {
+      "id": "train_4_2_cross",
+      "family": "train_4",
+      "geometry": 2,
+      "label": "cross",
+      "text": "Leave this area, pass the boundary and finish the delivery at the east dock.",
+      "case": "agv_g2_cross"
+    },
+    {
+      "id": "train_4_2_patrol",
+      "family": "train_4",
+      "geometry": 2,
+      "label": "patrol",
+      "text": "Stay in this area and repeatedly reverse direction around the boundary.",
+      "case": "agv_g2_patrol"
+    },
+    {
+      "id": "train_5_0_cross",
+      "family": "train_5",
+      "geometry": 0,
+      "label": "cross",
+      "text": "This is a one-way transit to the next station. Continue east after the boundary.",
+      "case": "agv_g0_cross"
+    },
+    {
+      "id": "train_5_0_patrol",
+      "family": "train_5",
+      "geometry": 0,
+      "label": "patrol",
+      "text": "This is a recurring patrol. Return over the same short boundary segment each time.",
+      "case": "agv_g0_patrol"
+    },
+    {
+      "id": "train_5_1_cross",
+      "family": "train_5",
+      "geometry": 1,
+      "label": "cross",
+      "text": "This is a one-way transit to the next station. Continue east after the boundary.",
+      "case": "agv_g1_cross"
+    },
+    {
+      "id": "train_5_1_patrol",
+      "family": "train_5",
+      "geometry": 1,
+      "label": "patrol",
+      "text": "This is a recurring patrol. Return over the same short boundary segment each time.",
+      "case": "agv_g1_patrol"
+    },
+    {
+      "id": "train_5_2_cross",
+      "family": "train_5",
+      "geometry": 2,
+      "label": "cross",
+      "text": "This is a one-way transit to the next station. Continue east after the boundary.",
+      "case": "agv_g2_cross"
+    },
+    {
+      "id": "train_5_2_patrol",
+      "family": "train_5",
+      "geometry": 2,
+      "label": "patrol",
+      "text": "This is a recurring patrol. Return over the same short boundary segment each time.",
+      "case": "agv_g2_patrol"
+    },
+    {
+      "id": "test_0_0_cross",
+      "family": "test_0",
+      "geometry": 0,
+      "label": "cross",
+      "text": "Carry the parcel through the seam to dispatch at the eastern building. Remain there after arrival.",
+      "case": "agv_g0_cross"
+    },
+    {
+      "id": "test_0_0_patrol",
+      "family": "test_0",
+      "geometry": 0,
+      "label": "patrol",
+      "text": "Spend this job sweeping the seam: reach one end, turn around, reach the other, then do it again.",
+      "case": "agv_g0_patrol"
+    },
+    {
+      "id": "test_0_1_cross",
+      "family": "test_0",
+      "geometry": 1,
+      "label": "cross",
+      "text": "Carry the parcel through the seam to dispatch at the eastern building. Remain there after arrival.",
+      "case": "agv_g1_cross"
+    },
+    {
+      "id": "test_0_1_patrol",
+      "family": "test_0",
+      "geometry": 1,
+      "label": "patrol",
+      "text": "Spend this job sweeping the seam: reach one end, turn around, reach the other, then do it again.",
+      "case": "agv_g1_patrol"
+    },
+    {
+      "id": "test_0_2_cross",
+      "family": "test_0",
+      "geometry": 2,
+      "label": "cross",
+      "text": "Carry the parcel through the seam to dispatch at the eastern building. Remain there after arrival.",
+      "case": "agv_g2_cross"
+    },
+    {
+      "id": "test_0_2_patrol",
+      "family": "test_0",
+      "geometry": 2,
+      "label": "patrol",
+      "text": "Spend this job sweeping the seam: reach one end, turn around, reach the other, then do it again.",
+      "case": "agv_g2_patrol"
+    },
+    {
+      "id": "test_1_0_cross",
+      "family": "test_1",
+      "geometry": 0,
+      "label": "cross",
+      "text": "Navigate to the eastern depot via the seam; it is the final stop of this assignment.",
+      "case": "agv_g0_cross"
+    },
+    {
+      "id": "test_1_0_patrol",
+      "family": "test_1",
+      "geometry": 0,
+      "label": "patrol",
+      "text": "Alternate between the two nearby seam markers until the assignment expires.",
+      "case": "agv_g0_patrol"
+    },
+    {
+      "id": "test_1_1_cross",
+      "family": "test_1",
+      "geometry": 1,
+      "label": "cross",
+      "text": "Navigate to the eastern depot via the seam; it is the final stop of this assignment.",
+      "case": "agv_g1_cross"
+    },
+    {
+      "id": "test_1_1_patrol",
+      "family": "test_1",
+      "geometry": 1,
+      "label": "patrol",
+      "text": "Alternate between the two nearby seam markers until the assignment expires.",
+      "case": "agv_g1_patrol"
+    },
+    {
+      "id": "test_1_2_cross",
+      "family": "test_1",
+      "geometry": 2,
+      "label": "cross",
+      "text": "Navigate to the eastern depot via the seam; it is the final stop of this assignment.",
+      "case": "agv_g2_cross"
+    },
+    {
+      "id": "test_1_2_patrol",
+      "family": "test_1",
+      "geometry": 2,
+      "label": "patrol",
+      "text": "Alternate between the two nearby seam markers until the assignment expires.",
+      "case": "agv_g2_patrol"
+    },
+    {
+      "id": "test_2_0_cross",
+      "family": "test_2",
+      "geometry": 0,
+      "label": "cross",
+      "text": "A delivery to the far-side workshop is active. Keep advancing after leaving this local area.",
+      "case": "agv_g0_cross"
+    },
+    {
+      "id": "test_2_0_patrol",
+      "family": "test_2",
+      "geometry": 0,
+      "label": "patrol",
+      "text": "A local inspection is active. Retrace the short path in both directions for its entire duration.",
+      "case": "agv_g0_patrol"
+    },
+    {
+      "id": "test_2_1_cross",
+      "family": "test_2",
+      "geometry": 1,
+      "label": "cross",
+      "text": "A delivery to the far-side workshop is active. Keep advancing after leaving this local area.",
+      "case": "agv_g1_cross"
+    },
+    {
+      "id": "test_2_1_patrol",
+      "family": "test_2",
+      "geometry": 1,
+      "label": "patrol",
+      "text": "A local inspection is active. Retrace the short path in both directions for its entire duration.",
+      "case": "agv_g1_patrol"
+    },
+    {
+      "id": "test_2_2_cross",
+      "family": "test_2",
+      "geometry": 2,
+      "label": "cross",
+      "text": "A delivery to the far-side workshop is active. Keep advancing after leaving this local area.",
+      "case": "agv_g2_cross"
+    },
+    {
+      "id": "test_2_2_patrol",
+      "family": "test_2",
+      "geometry": 2,
+      "label": "patrol",
+      "text": "A local inspection is active. Retrace the short path in both directions for its entire duration.",
+      "case": "agv_g2_patrol"
+    },
+    {
+      "id": "test_3_0_cross",
+      "family": "test_3",
+      "geometry": 0,
+      "label": "cross",
+      "text": "Old order: local patrol. CANCELLED. Active order: cross the seam and continue to the eastern dock.",
+      "case": "agv_g0_cross"
+    },
+    {
+      "id": "test_3_0_patrol",
+      "family": "test_3",
+      "geometry": 0,
+      "label": "patrol",
+      "text": "Old order: eastbound delivery. CANCELLED. Active order: shuttle repeatedly around the seam.",
+      "case": "agv_g0_patrol"
+    },
+    {
+      "id": "test_3_1_cross",
+      "family": "test_3",
+      "geometry": 1,
+      "label": "cross",
+      "text": "Old order: local patrol. CANCELLED. Active order: cross the seam and continue to the eastern dock.",
+      "case": "agv_g1_cross"
+    },
+    {
+      "id": "test_3_1_patrol",
+      "family": "test_3",
+      "geometry": 1,
+      "label": "patrol",
+      "text": "Old order: eastbound delivery. CANCELLED. Active order: shuttle repeatedly around the seam.",
+      "case": "agv_g1_patrol"
+    },
+    {
+      "id": "test_3_2_cross",
+      "family": "test_3",
+      "geometry": 2,
+      "label": "cross",
+      "text": "Old order: local patrol. CANCELLED. Active order: cross the seam and continue to the eastern dock.",
+      "case": "agv_g2_cross"
+    },
+    {
+      "id": "test_3_2_patrol",
+      "family": "test_3",
+      "geometry": 2,
+      "label": "patrol",
+      "text": "Old order: eastbound delivery. CANCELLED. Active order: shuttle repeatedly around the seam.",
+      "case": "agv_g2_patrol"
+    },
+    {
+      "id": "test_4_0_cross",
+      "family": "test_4",
+      "geometry": 0,
+      "label": "cross",
+      "text": "Do not shuttle here. Take the cargo across to the remote destination and stay on that side.",
+      "case": "agv_g0_cross"
+    },
+    {
+      "id": "test_4_0_patrol",
+      "family": "test_4",
+      "geometry": 0,
+      "label": "patrol",
+      "text": "Do not depart for the remote dock. Keep making short out-and-back trips in this area.",
+      "case": "agv_g0_patrol"
+    },
+    {
+      "id": "test_4_1_cross",
+      "family": "test_4",
+      "geometry": 1,
+      "label": "cross",
+      "text": "Do not shuttle here. Take the cargo across to the remote destination and stay on that side.",
+      "case": "agv_g1_cross"
+    },
+    {
+      "id": "test_4_1_patrol",
+      "family": "test_4",
+      "geometry": 1,
+      "label": "patrol",
+      "text": "Do not depart for the remote dock. Keep making short out-and-back trips in this area.",
+      "case": "agv_g1_patrol"
+    },
+    {
+      "id": "test_4_2_cross",
+      "family": "test_4",
+      "geometry": 2,
+      "label": "cross",
+      "text": "Do not shuttle here. Take the cargo across to the remote destination and stay on that side.",
+      "case": "agv_g2_cross"
+    },
+    {
+      "id": "test_4_2_patrol",
+      "family": "test_4",
+      "geometry": 2,
+      "label": "patrol",
+      "text": "Do not depart for the remote dock. Keep making short out-and-back trips in this area.",
+      "case": "agv_g2_patrol"
+    },
+    {
+      "id": "test_5_0_cross",
+      "family": "test_5",
+      "geometry": 0,
+      "label": "cross",
+      "text": "The robot's job finishes on the far side; after passing the seam it will not revisit this strip.",
+      "case": "agv_g0_cross"
+    },
+    {
+      "id": "test_5_0_patrol",
+      "family": "test_5",
+      "geometry": 0,
+      "label": "patrol",
+      "text": "The robot's job stays on this strip; after each short leg it heads back to the opposite endpoint.",
+      "case": "agv_g0_patrol"
+    },
+    {
+      "id": "test_5_1_cross",
+      "family": "test_5",
+      "geometry": 1,
+      "label": "cross",
+      "text": "The robot's job finishes on the far side; after passing the seam it will not revisit this strip.",
+      "case": "agv_g1_cross"
+    },
+    {
+      "id": "test_5_1_patrol",
+      "family": "test_5",
+      "geometry": 1,
+      "label": "patrol",
+      "text": "The robot's job stays on this strip; after each short leg it heads back to the opposite endpoint.",
+      "case": "agv_g1_patrol"
+    },
+    {
+      "id": "test_5_2_cross",
+      "family": "test_5",
+      "geometry": 2,
+      "label": "cross",
+      "text": "The robot's job finishes on the far side; after passing the seam it will not revisit this strip.",
+      "case": "agv_g2_cross"
+    },
+    {
+      "id": "test_5_2_patrol",
+      "family": "test_5",
+      "geometry": 2,
+      "label": "patrol",
+      "text": "The robot's job stays on this strip; after each short leg it heads back to the opposite endpoint.",
+      "case": "agv_g2_patrol"
+    },
+    {
+      "id": "test_6_0_cross",
+      "family": "test_6",
+      "geometry": 0,
+      "label": "cross",
+      "text": "Inspection mode is disabled. Current task: a single passage to the facility east of the seam.",
+      "case": "agv_g0_cross"
+    },
+    {
+      "id": "test_6_0_patrol",
+      "family": "test_6",
+      "geometry": 0,
+      "label": "patrol",
+      "text": "Delivery mode is disabled. Current task: repeated sweeps of the local seam in alternating directions.",
+      "case": "agv_g0_patrol"
+    },
+    {
+      "id": "test_6_1_cross",
+      "family": "test_6",
+      "geometry": 1,
+      "label": "cross",
+      "text": "Inspection mode is disabled. Current task: a single passage to the facility east of the seam.",
+      "case": "agv_g1_cross"
+    },
+    {
+      "id": "test_6_1_patrol",
+      "family": "test_6",
+      "geometry": 1,
+      "label": "patrol",
+      "text": "Delivery mode is disabled. Current task: repeated sweeps of the local seam in alternating directions.",
+      "case": "agv_g1_patrol"
+    },
+    {
+      "id": "test_6_2_cross",
+      "family": "test_6",
+      "geometry": 2,
+      "label": "cross",
+      "text": "Inspection mode is disabled. Current task: a single passage to the facility east of the seam.",
+      "case": "agv_g2_cross"
+    },
+    {
+      "id": "test_6_2_patrol",
+      "family": "test_6",
+      "geometry": 2,
+      "label": "patrol",
+      "text": "Delivery mode is disabled. Current task: repeated sweeps of the local seam in alternating directions.",
+      "case": "agv_g2_patrol"
+    },
+    {
+      "id": "test_7_0_cross",
+      "family": "test_7",
+      "geometry": 0,
+      "label": "cross",
+      "text": "Advance into the other cell toward packaging. The itinerary includes no turnaround in this area.",
+      "case": "agv_g0_cross"
+    },
+    {
+      "id": "test_7_0_patrol",
+      "family": "test_7",
+      "geometry": 0,
+      "label": "patrol",
+      "text": "Oscillate between the near-side and far-side markers; neither endpoint is a final destination.",
+      "case": "agv_g0_patrol"
+    },
+    {
+      "id": "test_7_1_cross",
+      "family": "test_7",
+      "geometry": 1,
+      "label": "cross",
+      "text": "Advance into the other cell toward packaging. The itinerary includes no turnaround in this area.",
+      "case": "agv_g1_cross"
+    },
+    {
+      "id": "test_7_1_patrol",
+      "family": "test_7",
+      "geometry": 1,
+      "label": "patrol",
+      "text": "Oscillate between the near-side and far-side markers; neither endpoint is a final destination.",
+      "case": "agv_g1_patrol"
+    },
+    {
+      "id": "test_7_2_cross",
+      "family": "test_7",
+      "geometry": 2,
+      "label": "cross",
+      "text": "Advance into the other cell toward packaging. The itinerary includes no turnaround in this area.",
+      "case": "agv_g2_cross"
+    },
+    {
+      "id": "test_7_2_patrol",
+      "family": "test_7",
+      "geometry": 2,
+      "label": "patrol",
+      "text": "Oscillate between the near-side and far-side markers; neither endpoint is a final destination.",
+      "case": "agv_g2_patrol"
+    },
+    {
+      "id": "test_8_0_cross",
+      "family": "test_8",
+      "geometry": 0,
+      "label": "cross",
+      "text": "Supervisor revision: stop repeating the inspection. Now head through the seam to the far dock.",
+      "case": "agv_g0_cross"
+    },
+    {
+      "id": "test_8_0_patrol",
+      "family": "test_8",
+      "geometry": 0,
+      "label": "patrol",
+      "text": "Supervisor revision: stop the trip to the far dock. Now reverse at the local markers over and over.",
+      "case": "agv_g0_patrol"
+    },
+    {
+      "id": "test_8_1_cross",
+      "family": "test_8",
+      "geometry": 1,
+      "label": "cross",
+      "text": "Supervisor revision: stop repeating the inspection. Now head through the seam to the far dock.",
+      "case": "agv_g1_cross"
+    },
+    {
+      "id": "test_8_1_patrol",
+      "family": "test_8",
+      "geometry": 1,
+      "label": "patrol",
+      "text": "Supervisor revision: stop the trip to the far dock. Now reverse at the local markers over and over.",
+      "case": "agv_g1_patrol"
+    },
+    {
+      "id": "test_8_2_cross",
+      "family": "test_8",
+      "geometry": 2,
+      "label": "cross",
+      "text": "Supervisor revision: stop repeating the inspection. Now head through the seam to the far dock.",
+      "case": "agv_g2_cross"
+    },
+    {
+      "id": "test_8_2_patrol",
+      "family": "test_8",
+      "geometry": 2,
+      "label": "patrol",
+      "text": "Supervisor revision: stop the trip to the far dock. Now reverse at the local markers over and over.",
+      "case": "agv_g2_patrol"
+    },
+    {
+      "id": "test_9_0_cross",
+      "family": "test_9",
+      "geometry": 0,
+      "label": "cross",
+      "text": "For this run, the waypoint sequence goes west, seam, east depot, end of job.",
+      "case": "agv_g0_cross"
+    },
+    {
+      "id": "test_9_0_patrol",
+      "family": "test_9",
+      "geometry": 0,
+      "label": "patrol",
+      "text": "For this run, the waypoint sequence goes west marker, east marker, west marker, east marker, repeatedly.",
+      "case": "agv_g0_patrol"
+    },
+    {
+      "id": "test_9_1_cross",
+      "family": "test_9",
+      "geometry": 1,
+      "label": "cross",
+      "text": "For this run, the waypoint sequence goes west, seam, east depot, end of job.",
+      "case": "agv_g1_cross"
+    },
+    {
+      "id": "test_9_1_patrol",
+      "family": "test_9",
+      "geometry": 1,
+      "label": "patrol",
+      "text": "For this run, the waypoint sequence goes west marker, east marker, west marker, east marker, repeatedly.",
+      "case": "agv_g1_patrol"
+    },
+    {
+      "id": "test_9_2_cross",
+      "family": "test_9",
+      "geometry": 2,
+      "label": "cross",
+      "text": "For this run, the waypoint sequence goes west, seam, east depot, end of job.",
+      "case": "agv_g2_cross"
+    },
+    {
+      "id": "test_9_2_patrol",
+      "family": "test_9",
+      "geometry": 2,
+      "label": "patrol",
+      "text": "For this run, the waypoint sequence goes west marker, east marker, west marker, east marker, repeatedly.",
+      "case": "agv_g2_patrol"
+    }
+  ],
+  "dev": [
+    {
+      "id": "dev_0_0_cross",
+      "family": "dev_0",
+      "geometry": 0,
+      "label": "cross",
+      "text": "Take the pallet past the coverage boundary and onward to receiving; the journey ends there.",
+      "case": "agv_g0_cross"
+    },
+    {
+      "id": "dev_0_0_patrol",
+      "family": "dev_0",
+      "geometry": 0,
+      "label": "patrol",
+      "text": "Survey this short coverage-boundary stretch repeatedly in alternating directions.",
+      "case": "agv_g0_patrol"
+    },
+    {
+      "id": "dev_0_1_cross",
+      "family": "dev_0",
+      "geometry": 1,
+      "label": "cross",
+      "text": "Take the pallet past the coverage boundary and onward to receiving; the journey ends there.",
+      "case": "agv_g1_cross"
+    },
+    {
+      "id": "dev_0_1_patrol",
+      "family": "dev_0",
+      "geometry": 1,
+      "label": "patrol",
+      "text": "Survey this short coverage-boundary stretch repeatedly in alternating directions.",
+      "case": "agv_g1_patrol"
+    },
+    {
+      "id": "dev_0_2_cross",
+      "family": "dev_0",
+      "geometry": 2,
+      "label": "cross",
+      "text": "Take the pallet past the coverage boundary and onward to receiving; the journey ends there.",
+      "case": "agv_g2_cross"
+    },
+    {
+      "id": "dev_0_2_patrol",
+      "family": "dev_0",
+      "geometry": 2,
+      "label": "patrol",
+      "text": "Survey this short coverage-boundary stretch repeatedly in alternating directions.",
+      "case": "agv_g2_patrol"
+    },
+    {
+      "id": "dev_1_0_cross",
+      "family": "dev_1",
+      "geometry": 0,
+      "label": "cross",
+      "text": "The assigned route carries the robot from the west side to the east depot with no return leg.",
+      "case": "agv_g0_cross"
+    },
+    {
+      "id": "dev_1_0_patrol",
+      "family": "dev_1",
+      "geometry": 0,
+      "label": "patrol",
+      "text": "The assigned route is a loop of short out-and-back movements straddling the boundary.",
+      "case": "agv_g0_patrol"
+    },
+    {
+      "id": "dev_1_1_cross",
+      "family": "dev_1",
+      "geometry": 1,
+      "label": "cross",
+      "text": "The assigned route carries the robot from the west side to the east depot with no return leg.",
+      "case": "agv_g1_cross"
+    },
+    {
+      "id": "dev_1_1_patrol",
+      "family": "dev_1",
+      "geometry": 1,
+      "label": "patrol",
+      "text": "The assigned route is a loop of short out-and-back movements straddling the boundary.",
+      "case": "agv_g1_patrol"
+    },
+    {
+      "id": "dev_1_2_cross",
+      "family": "dev_1",
+      "geometry": 2,
+      "label": "cross",
+      "text": "The assigned route carries the robot from the west side to the east depot with no return leg.",
+      "case": "agv_g2_cross"
+    },
+    {
+      "id": "dev_1_2_patrol",
+      "family": "dev_1",
+      "geometry": 2,
+      "label": "patrol",
+      "text": "The assigned route is a loop of short out-and-back movements straddling the boundary.",
+      "case": "agv_g2_patrol"
+    },
+    {
+      "id": "dev_2_0_cross",
+      "family": "dev_2",
+      "geometry": 0,
+      "label": "cross",
+      "text": "Keep going east when reaching the cell seam. This job has a remote final stop.",
+      "case": "agv_g0_cross"
+    },
+    {
+      "id": "dev_2_0_patrol",
+      "family": "dev_2",
+      "geometry": 0,
+      "label": "patrol",
+      "text": "At each end of the local cell-seam inspection strip, turn around and traverse it again.",
+      "case": "agv_g0_patrol"
+    },
+    {
+      "id": "dev_2_1_cross",
+      "family": "dev_2",
+      "geometry": 1,
+      "label": "cross",
+      "text": "Keep going east when reaching the cell seam. This job has a remote final stop.",
+      "case": "agv_g1_cross"
+    },
+    {
+      "id": "dev_2_1_patrol",
+      "family": "dev_2",
+      "geometry": 1,
+      "label": "patrol",
+      "text": "At each end of the local cell-seam inspection strip, turn around and traverse it again.",
+      "case": "agv_g1_patrol"
+    },
+    {
+      "id": "dev_2_2_cross",
+      "family": "dev_2",
+      "geometry": 2,
+      "label": "cross",
+      "text": "Keep going east when reaching the cell seam. This job has a remote final stop.",
+      "case": "agv_g2_cross"
+    },
+    {
+      "id": "dev_2_2_patrol",
+      "family": "dev_2",
+      "geometry": 2,
+      "label": "patrol",
+      "text": "At each end of the local cell-seam inspection strip, turn around and traverse it again.",
+      "case": "agv_g2_patrol"
+    }
+  ],
+  "test": [
+    {
+      "id": "confirm_0_0_cross",
+      "family": "confirm_0",
+      "geometry": 0,
+      "text": "Transport the package to the building east of the coverage seam and terminate the mission there.",
+      "label": "cross",
+      "case": "agv_g0_cross"
+    },
+    {
+      "id": "confirm_0_0_patrol",
+      "family": "confirm_0",
+      "geometry": 0,
+      "text": "Measure coverage along the seam by retracing this local strip continuously from end to end.",
+      "label": "patrol",
+      "case": "agv_g0_patrol"
+    },
+    {
+      "id": "confirm_0_1_cross",
+      "family": "confirm_0",
+      "geometry": 1,
+      "text": "Transport the package to the building east of the coverage seam and terminate the mission there.",
+      "label": "cross",
+      "case": "agv_g1_cross"
+    },
+    {
+      "id": "confirm_0_1_patrol",
+      "family": "confirm_0",
+      "geometry": 1,
+      "text": "Measure coverage along the seam by retracing this local strip continuously from end to end.",
+      "label": "patrol",
+      "case": "agv_g1_patrol"
+    },
+    {
+      "id": "confirm_0_2_cross",
+      "family": "confirm_0",
+      "geometry": 2,
+      "text": "Transport the package to the building east of the coverage seam and terminate the mission there.",
+      "label": "cross",
+      "case": "agv_g2_cross"
+    },
+    {
+      "id": "confirm_0_2_patrol",
+      "family": "confirm_0",
+      "geometry": 2,
+      "text": "Measure coverage along the seam by retracing this local strip continuously from end to end.",
+      "label": "patrol",
+      "case": "agv_g2_patrol"
+    },
+    {
+      "id": "confirm_1_0_cross",
+      "family": "confirm_1",
+      "geometry": 0,
+      "text": "Only the eastbound leg is scheduled; the vehicle will remain at the receiving station afterwards.",
+      "label": "cross",
+      "case": "agv_g0_cross"
+    },
+    {
+      "id": "confirm_1_0_patrol",
+      "family": "confirm_1",
+      "geometry": 0,
+      "text": "Both eastbound and westbound legs are scheduled repeatedly inside this small inspection strip.",
+      "label": "patrol",
+      "case": "agv_g0_patrol"
+    },
+    {
+      "id": "confirm_1_1_cross",
+      "family": "confirm_1",
+      "geometry": 1,
+      "text": "Only the eastbound leg is scheduled; the vehicle will remain at the receiving station afterwards.",
+      "label": "cross",
+      "case": "agv_g1_cross"
+    },
+    {
+      "id": "confirm_1_1_patrol",
+      "family": "confirm_1",
+      "geometry": 1,
+      "text": "Both eastbound and westbound legs are scheduled repeatedly inside this small inspection strip.",
+      "label": "patrol",
+      "case": "agv_g1_patrol"
+    },
+    {
+      "id": "confirm_1_2_cross",
+      "family": "confirm_1",
+      "geometry": 2,
+      "text": "Only the eastbound leg is scheduled; the vehicle will remain at the receiving station afterwards.",
+      "label": "cross",
+      "case": "agv_g2_cross"
+    },
+    {
+      "id": "confirm_1_2_patrol",
+      "family": "confirm_1",
+      "geometry": 2,
+      "text": "Both eastbound and westbound legs are scheduled repeatedly inside this small inspection strip.",
+      "label": "patrol",
+      "case": "agv_g2_patrol"
+    },
+    {
+      "id": "confirm_2_0_cross",
+      "family": "confirm_2",
+      "geometry": 0,
+      "text": "The local inspection has finished. The remaining task is to travel across to the eastern warehouse.",
+      "label": "cross",
+      "case": "agv_g0_cross"
+    },
+    {
+      "id": "confirm_2_0_patrol",
+      "family": "confirm_2",
+      "geometry": 0,
+      "text": "The distant delivery has been withdrawn. The remaining task is to traverse the local strip in alternating directions.",
+      "label": "patrol",
+      "case": "agv_g0_patrol"
+    },
+    {
+      "id": "confirm_2_1_cross",
+      "family": "confirm_2",
+      "geometry": 1,
+      "text": "The local inspection has finished. The remaining task is to travel across to the eastern warehouse.",
+      "label": "cross",
+      "case": "agv_g1_cross"
+    },
+    {
+      "id": "confirm_2_1_patrol",
+      "family": "confirm_2",
+      "geometry": 1,
+      "text": "The distant delivery has been withdrawn. The remaining task is to traverse the local strip in alternating directions.",
+      "label": "patrol",
+      "case": "agv_g1_patrol"
+    },
+    {
+      "id": "confirm_2_2_cross",
+      "family": "confirm_2",
+      "geometry": 2,
+      "text": "The local inspection has finished. The remaining task is to travel across to the eastern warehouse.",
+      "label": "cross",
+      "case": "agv_g2_cross"
+    },
+    {
+      "id": "confirm_2_2_patrol",
+      "family": "confirm_2",
+      "geometry": 2,
+      "text": "The distant delivery has been withdrawn. The remaining task is to traverse the local strip in alternating directions.",
+      "label": "patrol",
+      "case": "agv_g2_patrol"
+    },
+    {
+      "id": "confirm_3_0_cross",
+      "family": "confirm_3",
+      "geometry": 0,
+      "text": "Although this robot normally patrols locally, today's assignment sends it onward into the eastern cell.",
+      "label": "cross",
+      "case": "agv_g0_cross"
+    },
+    {
+      "id": "confirm_3_0_patrol",
+      "family": "confirm_3",
+      "geometry": 0,
+      "text": "Although this robot normally serves the distant dock, today's assignment keeps it pacing around the seam.",
+      "label": "patrol",
+      "case": "agv_g0_patrol"
+    },
+    {
+      "id": "confirm_3_1_cross",
+      "family": "confirm_3",
+      "geometry": 1,
+      "text": "Although this robot normally patrols locally, today's assignment sends it onward into the eastern cell.",
+      "label": "cross",
+      "case": "agv_g1_cross"
+    },
+    {
+      "id": "confirm_3_1_patrol",
+      "family": "confirm_3",
+      "geometry": 1,
+      "text": "Although this robot normally serves the distant dock, today's assignment keeps it pacing around the seam.",
+      "label": "patrol",
+      "case": "agv_g1_patrol"
+    },
+    {
+      "id": "confirm_3_2_cross",
+      "family": "confirm_3",
+      "geometry": 2,
+      "text": "Although this robot normally patrols locally, today's assignment sends it onward into the eastern cell.",
+      "label": "cross",
+      "case": "agv_g2_cross"
+    },
+    {
+      "id": "confirm_3_2_patrol",
+      "family": "confirm_3",
+      "geometry": 2,
+      "text": "Although this robot normally serves the distant dock, today's assignment keeps it pacing around the seam.",
+      "label": "patrol",
+      "case": "agv_g2_patrol"
+    },
+    {
+      "id": "confirm_4_0_cross",
+      "family": "confirm_4",
+      "geometry": 0,
+      "text": "If inspection were requested it would reverse here, but inspection is not requested. It must proceed to the far depot.",
+      "label": "cross",
+      "case": "agv_g0_cross"
+    },
+    {
+      "id": "confirm_4_0_patrol",
+      "family": "confirm_4",
+      "geometry": 0,
+      "text": "If delivery were requested it would leave this area, but delivery is not requested. It must shuttle on this strip.",
+      "label": "patrol",
+      "case": "agv_g0_patrol"
+    },
+    {
+      "id": "confirm_4_1_cross",
+      "family": "confirm_4",
+      "geometry": 1,
+      "text": "If inspection were requested it would reverse here, but inspection is not requested. It must proceed to the far depot.",
+      "label": "cross",
+      "case": "agv_g1_cross"
+    },
+    {
+      "id": "confirm_4_1_patrol",
+      "family": "confirm_4",
+      "geometry": 1,
+      "text": "If delivery were requested it would leave this area, but delivery is not requested. It must shuttle on this strip.",
+      "label": "patrol",
+      "case": "agv_g1_patrol"
+    },
+    {
+      "id": "confirm_4_2_cross",
+      "family": "confirm_4",
+      "geometry": 2,
+      "text": "If inspection were requested it would reverse here, but inspection is not requested. It must proceed to the far depot.",
+      "label": "cross",
+      "case": "agv_g2_cross"
+    },
+    {
+      "id": "confirm_4_2_patrol",
+      "family": "confirm_4",
+      "geometry": 2,
+      "text": "If delivery were requested it would leave this area, but delivery is not requested. It must shuttle on this strip.",
+      "label": "patrol",
+      "case": "agv_g2_patrol"
+    },
+    {
+      "id": "confirm_5_0_cross",
+      "family": "confirm_5",
+      "geometry": 0,
+      "text": "New instruction superseding the earlier shuttle plan: make a single trip to the east-side packing station.",
+      "label": "cross",
+      "case": "agv_g0_cross"
+    },
+    {
+      "id": "confirm_5_0_patrol",
+      "family": "confirm_5",
+      "geometry": 0,
+      "text": "New instruction superseding the earlier depot trip: repeatedly turn around at the two nearby seam markers.",
+      "label": "patrol",
+      "case": "agv_g0_patrol"
+    },
+    {
+      "id": "confirm_5_1_cross",
+      "family": "confirm_5",
+      "geometry": 1,
+      "text": "New instruction superseding the earlier shuttle plan: make a single trip to the east-side packing station.",
+      "label": "cross",
+      "case": "agv_g1_cross"
+    },
+    {
+      "id": "confirm_5_1_patrol",
+      "family": "confirm_5",
+      "geometry": 1,
+      "text": "New instruction superseding the earlier depot trip: repeatedly turn around at the two nearby seam markers.",
+      "label": "patrol",
+      "case": "agv_g1_patrol"
+    },
+    {
+      "id": "confirm_5_2_cross",
+      "family": "confirm_5",
+      "geometry": 2,
+      "text": "New instruction superseding the earlier shuttle plan: make a single trip to the east-side packing station.",
+      "label": "cross",
+      "case": "agv_g2_cross"
+    },
+    {
+      "id": "confirm_5_2_patrol",
+      "family": "confirm_5",
+      "geometry": 2,
+      "text": "New instruction superseding the earlier depot trip: repeatedly turn around at the two nearby seam markers.",
+      "label": "patrol",
+      "case": "agv_g2_patrol"
+    },
+    {
+      "id": "confirm_6_0_cross",
+      "family": "confirm_6",
+      "geometry": 0,
+      "text": "The route has one terminal waypoint beyond the cell seam, with no scheduled movement back into this area.",
+      "label": "cross",
+      "case": "agv_g0_cross"
+    },
+    {
+      "id": "confirm_6_0_patrol",
+      "family": "confirm_6",
+      "geometry": 0,
+      "text": "The route has alternating local waypoints on opposite sides of the seam, with neither designated as terminal.",
+      "label": "patrol",
+      "case": "agv_g0_patrol"
+    },
+    {
+      "id": "confirm_6_1_cross",
+      "family": "confirm_6",
+      "geometry": 1,
+      "text": "The route has one terminal waypoint beyond the cell seam, with no scheduled movement back into this area.",
+      "label": "cross",
+      "case": "agv_g1_cross"
+    },
+    {
+      "id": "confirm_6_1_patrol",
+      "family": "confirm_6",
+      "geometry": 1,
+      "text": "The route has alternating local waypoints on opposite sides of the seam, with neither designated as terminal.",
+      "label": "patrol",
+      "case": "agv_g1_patrol"
+    },
+    {
+      "id": "confirm_6_2_cross",
+      "family": "confirm_6",
+      "geometry": 2,
+      "text": "The route has one terminal waypoint beyond the cell seam, with no scheduled movement back into this area.",
+      "label": "cross",
+      "case": "agv_g2_cross"
+    },
+    {
+      "id": "confirm_6_2_patrol",
+      "family": "confirm_6",
+      "geometry": 2,
+      "text": "The route has alternating local waypoints on opposite sides of the seam, with neither designated as terminal.",
+      "label": "patrol",
+      "case": "agv_g2_patrol"
+    },
+    {
+      "id": "confirm_7_0_cross",
+      "family": "confirm_7",
+      "geometry": 0,
+      "text": "Finish carrying the tote across the boundary and wait in the east depot once the trip is complete.",
+      "label": "cross",
+      "case": "agv_g0_cross"
+    },
+    {
+      "id": "confirm_7_0_patrol",
+      "family": "confirm_7",
+      "geometry": 0,
+      "text": "Keep inspecting the boundary by traversing the same short stretch first eastward and then westward.",
+      "label": "patrol",
+      "case": "agv_g0_patrol"
+    },
+    {
+      "id": "confirm_7_1_cross",
+      "family": "confirm_7",
+      "geometry": 1,
+      "text": "Finish carrying the tote across the boundary and wait in the east depot once the trip is complete.",
+      "label": "cross",
+      "case": "agv_g1_cross"
+    },
+    {
+      "id": "confirm_7_1_patrol",
+      "family": "confirm_7",
+      "geometry": 1,
+      "text": "Keep inspecting the boundary by traversing the same short stretch first eastward and then westward.",
+      "label": "patrol",
+      "case": "agv_g1_patrol"
+    },
+    {
+      "id": "confirm_7_2_cross",
+      "family": "confirm_7",
+      "geometry": 2,
+      "text": "Finish carrying the tote across the boundary and wait in the east depot once the trip is complete.",
+      "label": "cross",
+      "case": "agv_g2_cross"
+    },
+    {
+      "id": "confirm_7_2_patrol",
+      "family": "confirm_7",
+      "geometry": 2,
+      "text": "Keep inspecting the boundary by traversing the same short stretch first eastward and then westward.",
+      "label": "patrol",
+      "case": "agv_g2_patrol"
+    },
+    {
+      "id": "confirm_8_0_cross",
+      "family": "confirm_8",
+      "geometry": 0,
+      "text": "Delivery to the remote station remains enabled; local return sweeps have been disabled for this session.",
+      "label": "cross",
+      "case": "agv_g0_cross"
+    },
+    {
+      "id": "confirm_8_0_patrol",
+      "family": "confirm_8",
+      "geometry": 0,
+      "text": "Local return sweeps remain enabled; delivery to the remote station has been disabled for this session.",
+      "label": "patrol",
+      "case": "agv_g0_patrol"
+    },
+    {
+      "id": "confirm_8_1_cross",
+      "family": "confirm_8",
+      "geometry": 1,
+      "text": "Delivery to the remote station remains enabled; local return sweeps have been disabled for this session.",
+      "label": "cross",
+      "case": "agv_g1_cross"
+    },
+    {
+      "id": "confirm_8_1_patrol",
+      "family": "confirm_8",
+      "geometry": 1,
+      "text": "Local return sweeps remain enabled; delivery to the remote station has been disabled for this session.",
+      "label": "patrol",
+      "case": "agv_g1_patrol"
+    },
+    {
+      "id": "confirm_8_2_cross",
+      "family": "confirm_8",
+      "geometry": 2,
+      "text": "Delivery to the remote station remains enabled; local return sweeps have been disabled for this session.",
+      "label": "cross",
+      "case": "agv_g2_cross"
+    },
+    {
+      "id": "confirm_8_2_patrol",
+      "family": "confirm_8",
+      "geometry": 2,
+      "text": "Local return sweeps remain enabled; delivery to the remote station has been disabled for this session.",
+      "label": "patrol",
+      "case": "agv_g2_patrol"
+    },
+    {
+      "id": "confirm_9_0_cross",
+      "family": "confirm_9",
+      "geometry": 0,
+      "text": "Proceed beyond the seam. References to reversing in the archived route are obsolete.",
+      "label": "cross",
+      "case": "agv_g0_cross"
+    },
+    {
+      "id": "confirm_9_0_patrol",
+      "family": "confirm_9",
+      "geometry": 0,
+      "text": "Reverse at the nearby markers. References to proceeding to a remote dock in the archived route are obsolete.",
+      "label": "patrol",
+      "case": "agv_g0_patrol"
+    },
+    {
+      "id": "confirm_9_1_cross",
+      "family": "confirm_9",
+      "geometry": 1,
+      "text": "Proceed beyond the seam. References to reversing in the archived route are obsolete.",
+      "label": "cross",
+      "case": "agv_g1_cross"
+    },
+    {
+      "id": "confirm_9_1_patrol",
+      "family": "confirm_9",
+      "geometry": 1,
+      "text": "Reverse at the nearby markers. References to proceeding to a remote dock in the archived route are obsolete.",
+      "label": "patrol",
+      "case": "agv_g1_patrol"
+    },
+    {
+      "id": "confirm_9_2_cross",
+      "family": "confirm_9",
+      "geometry": 2,
+      "text": "Proceed beyond the seam. References to reversing in the archived route are obsolete.",
+      "label": "cross",
+      "case": "agv_g2_cross"
+    },
+    {
+      "id": "confirm_9_2_patrol",
+      "family": "confirm_9",
+      "geometry": 2,
+      "text": "Reverse at the nearby markers. References to proceeding to a remote dock in the archived route are obsolete.",
+      "label": "patrol",
+      "case": "agv_g2_patrol"
+    },
+    {
+      "id": "confirm_10_0_cross",
+      "family": "confirm_10",
+      "geometry": 0,
+      "text": "For the next twenty-four seconds keep moving east beyond this cell junction, without a local return journey.",
+      "label": "cross",
+      "case": "agv_g0_cross"
+    },
+    {
+      "id": "confirm_10_0_patrol",
+      "family": "confirm_10",
+      "geometry": 0,
+      "text": "For the next twenty-four seconds keep moving in alternating directions across this short cell junction.",
+      "label": "patrol",
+      "case": "agv_g0_patrol"
+    },
+    {
+      "id": "confirm_10_1_cross",
+      "family": "confirm_10",
+      "geometry": 1,
+      "text": "For the next twenty-four seconds keep moving east beyond this cell junction, without a local return journey.",
+      "label": "cross",
+      "case": "agv_g1_cross"
+    },
+    {
+      "id": "confirm_10_1_patrol",
+      "family": "confirm_10",
+      "geometry": 1,
+      "text": "For the next twenty-four seconds keep moving in alternating directions across this short cell junction.",
+      "label": "patrol",
+      "case": "agv_g1_patrol"
+    },
+    {
+      "id": "confirm_10_2_cross",
+      "family": "confirm_10",
+      "geometry": 2,
+      "text": "For the next twenty-four seconds keep moving east beyond this cell junction, without a local return journey.",
+      "label": "cross",
+      "case": "agv_g2_cross"
+    },
+    {
+      "id": "confirm_10_2_patrol",
+      "family": "confirm_10",
+      "geometry": 2,
+      "text": "For the next twenty-four seconds keep moving in alternating directions across this short cell junction.",
+      "label": "patrol",
+      "case": "agv_g2_patrol"
+    },
+    {
+      "id": "confirm_11_0_cross",
+      "family": "confirm_11",
+      "geometry": 0,
+      "text": "The active waypoint list ends at the east warehouse after passing the cell junction exactly once.",
+      "label": "cross",
+      "case": "agv_g0_cross"
+    },
+    {
+      "id": "confirm_11_0_patrol",
+      "family": "confirm_11",
+      "geometry": 0,
+      "text": "The active waypoint list cycles between the west and east ends of a short junction segment.",
+      "label": "patrol",
+      "case": "agv_g0_patrol"
+    },
+    {
+      "id": "confirm_11_1_cross",
+      "family": "confirm_11",
+      "geometry": 1,
+      "text": "The active waypoint list ends at the east warehouse after passing the cell junction exactly once.",
+      "label": "cross",
+      "case": "agv_g1_cross"
+    },
+    {
+      "id": "confirm_11_1_patrol",
+      "family": "confirm_11",
+      "geometry": 1,
+      "text": "The active waypoint list cycles between the west and east ends of a short junction segment.",
+      "label": "patrol",
+      "case": "agv_g1_patrol"
+    },
+    {
+      "id": "confirm_11_2_cross",
+      "family": "confirm_11",
+      "geometry": 2,
+      "text": "The active waypoint list ends at the east warehouse after passing the cell junction exactly once.",
+      "label": "cross",
+      "case": "agv_g2_cross"
+    },
+    {
+      "id": "confirm_11_2_patrol",
+      "family": "confirm_11",
+      "geometry": 2,
+      "text": "The active waypoint list cycles between the west and east ends of a short junction segment.",
+      "label": "patrol",
+      "case": "agv_g2_patrol"
+    },
+    {
+      "id": "confirm_12_0_cross",
+      "family": "confirm_12",
+      "geometry": 0,
+      "text": "Pass the junction toward the distant workshop. The mission never instructs a turn back at a local marker.",
+      "label": "cross",
+      "case": "agv_g0_cross"
+    },
+    {
+      "id": "confirm_12_0_patrol",
+      "family": "confirm_12",
+      "geometry": 0,
+      "text": "Turn back at every local endpoint around the junction. The mission never instructs leaving for the distant workshop.",
+      "label": "patrol",
+      "case": "agv_g0_patrol"
+    },
+    {
+      "id": "confirm_12_1_cross",
+      "family": "confirm_12",
+      "geometry": 1,
+      "text": "Pass the junction toward the distant workshop. The mission never instructs a turn back at a local marker.",
+      "label": "cross",
+      "case": "agv_g1_cross"
+    },
+    {
+      "id": "confirm_12_1_patrol",
+      "family": "confirm_12",
+      "geometry": 1,
+      "text": "Turn back at every local endpoint around the junction. The mission never instructs leaving for the distant workshop.",
+      "label": "patrol",
+      "case": "agv_g1_patrol"
+    },
+    {
+      "id": "confirm_12_2_cross",
+      "family": "confirm_12",
+      "geometry": 2,
+      "text": "Pass the junction toward the distant workshop. The mission never instructs a turn back at a local marker.",
+      "label": "cross",
+      "case": "agv_g2_cross"
+    },
+    {
+      "id": "confirm_12_2_patrol",
+      "family": "confirm_12",
+      "geometry": 2,
+      "text": "Turn back at every local endpoint around the junction. The mission never instructs leaving for the distant workshop.",
+      "label": "patrol",
+      "case": "agv_g2_patrol"
+    },
+    {
+      "id": "confirm_13_0_cross",
+      "family": "confirm_13",
+      "geometry": 0,
+      "text": "This shift segment transfers material out of the current area into the eastern facility.",
+      "label": "cross",
+      "case": "agv_g0_cross"
+    },
+    {
+      "id": "confirm_13_0_patrol",
+      "family": "confirm_13",
+      "geometry": 0,
+      "text": "This shift segment surveys the current area using recurring short passes in opposing directions.",
+      "label": "patrol",
+      "case": "agv_g0_patrol"
+    },
+    {
+      "id": "confirm_13_1_cross",
+      "family": "confirm_13",
+      "geometry": 1,
+      "text": "This shift segment transfers material out of the current area into the eastern facility.",
+      "label": "cross",
+      "case": "agv_g1_cross"
+    },
+    {
+      "id": "confirm_13_1_patrol",
+      "family": "confirm_13",
+      "geometry": 1,
+      "text": "This shift segment surveys the current area using recurring short passes in opposing directions.",
+      "label": "patrol",
+      "case": "agv_g1_patrol"
+    },
+    {
+      "id": "confirm_13_2_cross",
+      "family": "confirm_13",
+      "geometry": 2,
+      "text": "This shift segment transfers material out of the current area into the eastern facility.",
+      "label": "cross",
+      "case": "agv_g2_cross"
+    },
+    {
+      "id": "confirm_13_2_patrol",
+      "family": "confirm_13",
+      "geometry": 2,
+      "text": "This shift segment surveys the current area using recurring short passes in opposing directions.",
+      "label": "patrol",
+      "case": "agv_g2_patrol"
+    },
+    {
+      "id": "confirm_14_0_cross",
+      "family": "confirm_14",
+      "geometry": 0,
+      "text": "Carry out the final leg to the far receiving area; the formerly repeated inspection is complete.",
+      "label": "cross",
+      "case": "agv_g0_cross"
+    },
+    {
+      "id": "confirm_14_0_patrol",
+      "family": "confirm_14",
+      "geometry": 0,
+      "text": "Carry out repeated local inspection legs; the formerly planned final trip to receiving is cancelled.",
+      "label": "patrol",
+      "case": "agv_g0_patrol"
+    },
+    {
+      "id": "confirm_14_1_cross",
+      "family": "confirm_14",
+      "geometry": 1,
+      "text": "Carry out the final leg to the far receiving area; the formerly repeated inspection is complete.",
+      "label": "cross",
+      "case": "agv_g1_cross"
+    },
+    {
+      "id": "confirm_14_1_patrol",
+      "family": "confirm_14",
+      "geometry": 1,
+      "text": "Carry out repeated local inspection legs; the formerly planned final trip to receiving is cancelled.",
+      "label": "patrol",
+      "case": "agv_g1_patrol"
+    },
+    {
+      "id": "confirm_14_2_cross",
+      "family": "confirm_14",
+      "geometry": 2,
+      "text": "Carry out the final leg to the far receiving area; the formerly repeated inspection is complete.",
+      "label": "cross",
+      "case": "agv_g2_cross"
+    },
+    {
+      "id": "confirm_14_2_patrol",
+      "family": "confirm_14",
+      "geometry": 2,
+      "text": "Carry out repeated local inspection legs; the formerly planned final trip to receiving is cancelled.",
+      "label": "patrol",
+      "case": "agv_g2_patrol"
+    },
+    {
+      "id": "confirm_15_0_cross",
+      "family": "confirm_15",
+      "geometry": 0,
+      "text": "Advance east after the seam and stay away from this strip until the session is over.",
+      "label": "cross",
+      "case": "agv_g0_cross"
+    },
+    {
+      "id": "confirm_15_0_patrol",
+      "family": "confirm_15",
+      "geometry": 0,
+      "text": "Stay near the seam and alternate your heading after every short leg until the session is over.",
+      "label": "patrol",
+      "case": "agv_g0_patrol"
+    },
+    {
+      "id": "confirm_15_1_cross",
+      "family": "confirm_15",
+      "geometry": 1,
+      "text": "Advance east after the seam and stay away from this strip until the session is over.",
+      "label": "cross",
+      "case": "agv_g1_cross"
+    },
+    {
+      "id": "confirm_15_1_patrol",
+      "family": "confirm_15",
+      "geometry": 1,
+      "text": "Stay near the seam and alternate your heading after every short leg until the session is over.",
+      "label": "patrol",
+      "case": "agv_g1_patrol"
+    },
+    {
+      "id": "confirm_15_2_cross",
+      "family": "confirm_15",
+      "geometry": 2,
+      "text": "Advance east after the seam and stay away from this strip until the session is over.",
+      "label": "cross",
+      "case": "agv_g2_cross"
+    },
+    {
+      "id": "confirm_15_2_patrol",
+      "family": "confirm_15",
+      "geometry": 2,
+      "text": "Stay near the seam and alternate your heading after every short leg until the session is over.",
+      "label": "patrol",
+      "case": "agv_g2_patrol"
+    },
+    {
+      "id": "confirm_16_0_cross",
+      "family": "confirm_16",
+      "geometry": 0,
+      "text": "The supervisor confirms a one-direction relocation past the boundary into the adjacent cell.",
+      "label": "cross",
+      "case": "agv_g0_cross"
+    },
+    {
+      "id": "confirm_16_0_patrol",
+      "family": "confirm_16",
+      "geometry": 0,
+      "text": "The supervisor confirms recurring traversals in both directions around the boundary of the adjacent cells.",
+      "label": "patrol",
+      "case": "agv_g0_patrol"
+    },
+    {
+      "id": "confirm_16_1_cross",
+      "family": "confirm_16",
+      "geometry": 1,
+      "text": "The supervisor confirms a one-direction relocation past the boundary into the adjacent cell.",
+      "label": "cross",
+      "case": "agv_g1_cross"
+    },
+    {
+      "id": "confirm_16_1_patrol",
+      "family": "confirm_16",
+      "geometry": 1,
+      "text": "The supervisor confirms recurring traversals in both directions around the boundary of the adjacent cells.",
+      "label": "patrol",
+      "case": "agv_g1_patrol"
+    },
+    {
+      "id": "confirm_16_2_cross",
+      "family": "confirm_16",
+      "geometry": 2,
+      "text": "The supervisor confirms a one-direction relocation past the boundary into the adjacent cell.",
+      "label": "cross",
+      "case": "agv_g2_cross"
+    },
+    {
+      "id": "confirm_16_2_patrol",
+      "family": "confirm_16",
+      "geometry": 2,
+      "text": "The supervisor confirms recurring traversals in both directions around the boundary of the adjacent cells.",
+      "label": "patrol",
+      "case": "agv_g2_patrol"
+    },
+    {
+      "id": "confirm_17_0_cross",
+      "family": "confirm_17",
+      "geometry": 0,
+      "text": "Take the load over the seam and conclude the route on the opposite side.",
+      "label": "cross",
+      "case": "agv_g0_cross"
+    },
+    {
+      "id": "confirm_17_0_patrol",
+      "family": "confirm_17",
+      "geometry": 0,
+      "text": "Take successive short trips over the seam in opposite directions without concluding at either end.",
+      "label": "patrol",
+      "case": "agv_g0_patrol"
+    },
+    {
+      "id": "confirm_17_1_cross",
+      "family": "confirm_17",
+      "geometry": 1,
+      "text": "Take the load over the seam and conclude the route on the opposite side.",
+      "label": "cross",
+      "case": "agv_g1_cross"
+    },
+    {
+      "id": "confirm_17_1_patrol",
+      "family": "confirm_17",
+      "geometry": 1,
+      "text": "Take successive short trips over the seam in opposite directions without concluding at either end.",
+      "label": "patrol",
+      "case": "agv_g1_patrol"
+    },
+    {
+      "id": "confirm_17_2_cross",
+      "family": "confirm_17",
+      "geometry": 2,
+      "text": "Take the load over the seam and conclude the route on the opposite side.",
+      "label": "cross",
+      "case": "agv_g2_cross"
+    },
+    {
+      "id": "confirm_17_2_patrol",
+      "family": "confirm_17",
+      "geometry": 2,
+      "text": "Take successive short trips over the seam in opposite directions without concluding at either end.",
+      "label": "patrol",
+      "case": "agv_g2_patrol"
+    },
+    {
+      "id": "confirm_18_0_cross",
+      "family": "confirm_18",
+      "geometry": 0,
+      "text": "Return to the western marker is prohibited; keep travelling toward the eastern receiving bay.",
+      "label": "cross",
+      "case": "agv_g0_cross"
+    },
+    {
+      "id": "confirm_18_0_patrol",
+      "family": "confirm_18",
+      "geometry": 0,
+      "text": "Departure for the eastern receiving bay is prohibited; keep returning across the local inspection strip.",
+      "label": "patrol",
+      "case": "agv_g0_patrol"
+    },
+    {
+      "id": "confirm_18_1_cross",
+      "family": "confirm_18",
+      "geometry": 1,
+      "text": "Return to the western marker is prohibited; keep travelling toward the eastern receiving bay.",
+      "label": "cross",
+      "case": "agv_g1_cross"
+    },
+    {
+      "id": "confirm_18_1_patrol",
+      "family": "confirm_18",
+      "geometry": 1,
+      "text": "Departure for the eastern receiving bay is prohibited; keep returning across the local inspection strip.",
+      "label": "patrol",
+      "case": "agv_g1_patrol"
+    },
+    {
+      "id": "confirm_18_2_cross",
+      "family": "confirm_18",
+      "geometry": 2,
+      "text": "Return to the western marker is prohibited; keep travelling toward the eastern receiving bay.",
+      "label": "cross",
+      "case": "agv_g2_cross"
+    },
+    {
+      "id": "confirm_18_2_patrol",
+      "family": "confirm_18",
+      "geometry": 2,
+      "text": "Departure for the eastern receiving bay is prohibited; keep returning across the local inspection strip.",
+      "label": "patrol",
+      "case": "agv_g2_patrol"
+    },
+    {
+      "id": "confirm_19_0_cross",
+      "family": "confirm_19",
+      "geometry": 0,
+      "text": "The next leg is west-to-east through the seam, followed by termination at the eastern facility.",
+      "label": "cross",
+      "case": "agv_g0_cross"
+    },
+    {
+      "id": "confirm_19_0_patrol",
+      "family": "confirm_19",
+      "geometry": 0,
+      "text": "The next legs are west-to-east, east-to-west, and so on, all confined to this short seam segment.",
+      "label": "patrol",
+      "case": "agv_g0_patrol"
+    },
+    {
+      "id": "confirm_19_1_cross",
+      "family": "confirm_19",
+      "geometry": 1,
+      "text": "The next leg is west-to-east through the seam, followed by termination at the eastern facility.",
+      "label": "cross",
+      "case": "agv_g1_cross"
+    },
+    {
+      "id": "confirm_19_1_patrol",
+      "family": "confirm_19",
+      "geometry": 1,
+      "text": "The next legs are west-to-east, east-to-west, and so on, all confined to this short seam segment.",
+      "label": "patrol",
+      "case": "agv_g1_patrol"
+    },
+    {
+      "id": "confirm_19_2_cross",
+      "family": "confirm_19",
+      "geometry": 2,
+      "text": "The next leg is west-to-east through the seam, followed by termination at the eastern facility.",
+      "label": "cross",
+      "case": "agv_g2_cross"
+    },
+    {
+      "id": "confirm_19_2_patrol",
+      "family": "confirm_19",
+      "geometry": 2,
+      "text": "The next legs are west-to-east, east-to-west, and so on, all confined to this short seam segment.",
+      "label": "patrol",
+      "case": "agv_g2_patrol"
+    },
+    {
+      "id": "confirm_20_0_cross",
+      "family": "confirm_20",
+      "geometry": 0,
+      "text": "Continue to the other cell's destination. The note about shuttling describes a different robot.",
+      "label": "cross",
+      "case": "agv_g0_cross"
+    },
+    {
+      "id": "confirm_20_0_patrol",
+      "family": "confirm_20",
+      "geometry": 0,
+      "text": "Continue shuttling between the local endpoints. The note about the remote destination describes a different robot.",
+      "label": "patrol",
+      "case": "agv_g0_patrol"
+    },
+    {
+      "id": "confirm_20_1_cross",
+      "family": "confirm_20",
+      "geometry": 1,
+      "text": "Continue to the other cell's destination. The note about shuttling describes a different robot.",
+      "label": "cross",
+      "case": "agv_g1_cross"
+    },
+    {
+      "id": "confirm_20_1_patrol",
+      "family": "confirm_20",
+      "geometry": 1,
+      "text": "Continue shuttling between the local endpoints. The note about the remote destination describes a different robot.",
+      "label": "patrol",
+      "case": "agv_g1_patrol"
+    },
+    {
+      "id": "confirm_20_2_cross",
+      "family": "confirm_20",
+      "geometry": 2,
+      "text": "Continue to the other cell's destination. The note about shuttling describes a different robot.",
+      "label": "cross",
+      "case": "agv_g2_cross"
+    },
+    {
+      "id": "confirm_20_2_patrol",
+      "family": "confirm_20",
+      "geometry": 2,
+      "text": "Continue shuttling between the local endpoints. The note about the remote destination describes a different robot.",
+      "label": "patrol",
+      "case": "agv_g2_patrol"
+    },
+    {
+      "id": "confirm_21_0_cross",
+      "family": "confirm_21",
+      "geometry": 0,
+      "text": "Despite the word patrol in the job title, the operative order sends this AGV through to the eastern depot.",
+      "label": "cross",
+      "case": "agv_g0_cross"
+    },
+    {
+      "id": "confirm_21_0_patrol",
+      "family": "confirm_21",
+      "geometry": 0,
+      "text": "Despite the word delivery in the job title, the operative order sends this AGV back across the same short strip repeatedly.",
+      "label": "patrol",
+      "case": "agv_g0_patrol"
+    },
+    {
+      "id": "confirm_21_1_cross",
+      "family": "confirm_21",
+      "geometry": 1,
+      "text": "Despite the word patrol in the job title, the operative order sends this AGV through to the eastern depot.",
+      "label": "cross",
+      "case": "agv_g1_cross"
+    },
+    {
+      "id": "confirm_21_1_patrol",
+      "family": "confirm_21",
+      "geometry": 1,
+      "text": "Despite the word delivery in the job title, the operative order sends this AGV back across the same short strip repeatedly.",
+      "label": "patrol",
+      "case": "agv_g1_patrol"
+    },
+    {
+      "id": "confirm_21_2_cross",
+      "family": "confirm_21",
+      "geometry": 2,
+      "text": "Despite the word patrol in the job title, the operative order sends this AGV through to the eastern depot.",
+      "label": "cross",
+      "case": "agv_g2_cross"
+    },
+    {
+      "id": "confirm_21_2_patrol",
+      "family": "confirm_21",
+      "geometry": 2,
+      "text": "Despite the word delivery in the job title, the operative order sends this AGV back across the same short strip repeatedly.",
+      "label": "patrol",
+      "case": "agv_g2_patrol"
+    },
+    {
+      "id": "confirm_22_0_cross",
+      "family": "confirm_22",
+      "geometry": 0,
+      "text": "This AGV has a terminal eastward route. Another AGV handles the recurring boundary patrol.",
+      "label": "cross",
+      "case": "agv_g0_cross"
+    },
+    {
+      "id": "confirm_22_0_patrol",
+      "family": "confirm_22",
+      "geometry": 0,
+      "text": "This AGV has a recurring boundary patrol. Another AGV handles the terminal eastward route.",
+      "label": "patrol",
+      "case": "agv_g0_patrol"
+    },
+    {
+      "id": "confirm_22_1_cross",
+      "family": "confirm_22",
+      "geometry": 1,
+      "text": "This AGV has a terminal eastward route. Another AGV handles the recurring boundary patrol.",
+      "label": "cross",
+      "case": "agv_g1_cross"
+    },
+    {
+      "id": "confirm_22_1_patrol",
+      "family": "confirm_22",
+      "geometry": 1,
+      "text": "This AGV has a recurring boundary patrol. Another AGV handles the terminal eastward route.",
+      "label": "patrol",
+      "case": "agv_g1_patrol"
+    },
+    {
+      "id": "confirm_22_2_cross",
+      "family": "confirm_22",
+      "geometry": 2,
+      "text": "This AGV has a terminal eastward route. Another AGV handles the recurring boundary patrol.",
+      "label": "cross",
+      "case": "agv_g2_cross"
+    },
+    {
+      "id": "confirm_22_2_patrol",
+      "family": "confirm_22",
+      "geometry": 2,
+      "text": "This AGV has a recurring boundary patrol. Another AGV handles the terminal eastward route.",
+      "label": "patrol",
+      "case": "agv_g2_patrol"
+    },
+    {
+      "id": "confirm_23_0_cross",
+      "family": "confirm_23",
+      "geometry": 0,
+      "text": "Cross the seam to the distant station. Do not execute the obsolete back-and-forth inspection.",
+      "label": "cross",
+      "case": "agv_g0_cross"
+    },
+    {
+      "id": "confirm_23_0_patrol",
+      "family": "confirm_23",
+      "geometry": 0,
+      "text": "Inspect back and forth at the seam. Do not execute the obsolete crossing to the distant station.",
+      "label": "patrol",
+      "case": "agv_g0_patrol"
+    },
+    {
+      "id": "confirm_23_1_cross",
+      "family": "confirm_23",
+      "geometry": 1,
+      "text": "Cross the seam to the distant station. Do not execute the obsolete back-and-forth inspection.",
+      "label": "cross",
+      "case": "agv_g1_cross"
+    },
+    {
+      "id": "confirm_23_1_patrol",
+      "family": "confirm_23",
+      "geometry": 1,
+      "text": "Inspect back and forth at the seam. Do not execute the obsolete crossing to the distant station.",
+      "label": "patrol",
+      "case": "agv_g1_patrol"
+    },
+    {
+      "id": "confirm_23_2_cross",
+      "family": "confirm_23",
+      "geometry": 2,
+      "text": "Cross the seam to the distant station. Do not execute the obsolete back-and-forth inspection.",
+      "label": "cross",
+      "case": "agv_g2_cross"
+    },
+    {
+      "id": "confirm_23_2_patrol",
+      "family": "confirm_23",
+      "geometry": 2,
+      "text": "Inspect back and forth at the seam. Do not execute the obsolete crossing to the distant station.",
+      "label": "patrol",
+      "case": "agv_g2_patrol"
+    }
+  ]
+}

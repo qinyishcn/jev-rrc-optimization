@@ -1,0 +1,756 @@
+{
+  "cross": {
+    "row": {
+      "id": "test_7_1_cross",
+      "family": "test_7",
+      "geometry": 1,
+      "label": "cross",
+      "text": "Advance into the other cell toward packaging. The itinerary includes no turnaround in this area.",
+      "case": "agv_g1_cross"
+    },
+    "input": {
+      "initial_x_m": -8,
+      "initial_velocity_mps": 8,
+      "cell_spacing_m": 300,
+      "initial_serving_cell": "west",
+      "packet_interval_ms": 1,
+      "packet_bytes": 1200,
+      "deadline_ms": 20,
+      "session_duration_s": 24,
+      "dispatch_text": "Advance into the other cell toward packaging. The itinerary includes no turnaround in this area."
+    },
+    "profiles": {
+      "default": [
+        3,
+        256
+      ],
+      "calibrated_fixed": [
+        1,
+        80
+      ],
+      "numeric_only": [
+        1,
+        80
+      ],
+      "known_intent": [
+        0,
+        0
+      ],
+      "keyword": [
+        0,
+        0
+      ],
+      "tfidf": [
+        1,
+        80
+      ],
+      "decider": [
+        0,
+        0
+      ],
+      "decider_reversed": [
+        0,
+        0
+      ],
+      "decider_direct": [
+        2,
+        160
+      ],
+      "qwen_fewshot": [
+        0,
+        0
+      ],
+      "qwen_fewshot_reversed": [
+        0,
+        0
+      ],
+      "qwen_matched": [
+        0,
+        0
+      ],
+      "qwen_matched_reversed": [
+        0,
+        0
+      ]
+    },
+    "simulations": [
+      {
+        "case": "agv_g1_cross",
+        "cell_spacing_m": 300.0,
+        "deadline_miss_including_loss": 23,
+        "deadline_ms": 20.0,
+        "duplicate_packets": 0,
+        "duration_s": 24.0,
+        "first_handover_end_ms": 1420.21429,
+        "first_handover_start_ms": 1417.0,
+        "handover_ends": 1,
+        "handover_failures": 0,
+        "handover_starts": 1,
+        "hysteresis_db": 0.0,
+        "late_received": 8,
+        "lost": 15,
+        "mean_delay_ms": 5.01671,
+        "p95_delay_ms": 5.0,
+        "p99_delay_ms": 5.0,
+        "packet_bytes": 1200,
+        "packet_interval_ms": 1.0,
+        "received": 22985,
+        "run": 101,
+        "sent": 23000,
+        "source_sha256": "ed1607a06002999a64a4583849b992e2d3b373ae71fb2b515414b7a8e2805fa6",
+        "speed_mps": 8.0,
+        "start_x_m": -8.0,
+        "trajectory": "cross",
+        "ttt_ms": 0,
+        "turn_period_s": 2.0,
+        "wall_s": 1.145940324999998
+      },
+      {
+        "case": "agv_g1_cross",
+        "cell_spacing_m": 300.0,
+        "deadline_miss_including_loss": 381,
+        "deadline_ms": 20.0,
+        "duplicate_packets": 0,
+        "duration_s": 24.0,
+        "first_handover_end_ms": 2700.21429,
+        "first_handover_start_ms": 2697.0,
+        "handover_ends": 1,
+        "handover_failures": 0,
+        "handover_starts": 1,
+        "hysteresis_db": 1.0,
+        "late_received": 362,
+        "lost": 19,
+        "mean_delay_ms": 6.16696,
+        "p95_delay_ms": 5.0,
+        "p99_delay_ms": 62.0,
+        "packet_bytes": 1200,
+        "packet_interval_ms": 1.0,
+        "received": 22981,
+        "run": 101,
+        "sent": 23000,
+        "source_sha256": "ed1607a06002999a64a4583849b992e2d3b373ae71fb2b515414b7a8e2805fa6",
+        "speed_mps": 8.0,
+        "start_x_m": -8.0,
+        "trajectory": "cross",
+        "ttt_ms": 80,
+        "turn_period_s": 2.0,
+        "wall_s": 1.2180845590000047
+      },
+      {
+        "case": "agv_g1_cross",
+        "cell_spacing_m": 300.0,
+        "deadline_miss_including_loss": 691,
+        "deadline_ms": 20.0,
+        "duplicate_packets": 0,
+        "duration_s": 24.0,
+        "first_handover_end_ms": 3780.21429,
+        "first_handover_start_ms": 3777.0,
+        "handover_ends": 1,
+        "handover_failures": 0,
+        "handover_starts": 1,
+        "hysteresis_db": 2.0,
+        "late_received": 617,
+        "lost": 74,
+        "mean_delay_ms": 6.837,
+        "p95_delay_ms": 5.0,
+        "p99_delay_ms": 82.0,
+        "packet_bytes": 1200,
+        "packet_interval_ms": 1.0,
+        "received": 22926,
+        "run": 101,
+        "sent": 23000,
+        "source_sha256": "ed1607a06002999a64a4583849b992e2d3b373ae71fb2b515414b7a8e2805fa6",
+        "speed_mps": 8.0,
+        "start_x_m": -8.0,
+        "trajectory": "cross",
+        "ttt_ms": 160,
+        "turn_period_s": 2.0,
+        "wall_s": 0.9541289010000185
+      },
+      {
+        "case": "agv_g1_cross",
+        "cell_spacing_m": 300.0,
+        "deadline_miss_including_loss": 1674,
+        "deadline_ms": 20.0,
+        "duplicate_packets": 0,
+        "duration_s": 24.0,
+        "first_handover_end_ms": 5076.21429,
+        "first_handover_start_ms": 5073.0,
+        "handover_ends": 1,
+        "handover_failures": 0,
+        "handover_starts": 1,
+        "hysteresis_db": 3.0,
+        "late_received": 1456,
+        "lost": 218,
+        "mean_delay_ms": 9.9342,
+        "p95_delay_ms": 47.0,
+        "p99_delay_ms": 119.0,
+        "packet_bytes": 1200,
+        "packet_interval_ms": 1.0,
+        "received": 22782,
+        "run": 101,
+        "sent": 23000,
+        "source_sha256": "ed1607a06002999a64a4583849b992e2d3b373ae71fb2b515414b7a8e2805fa6",
+        "speed_mps": 8.0,
+        "start_x_m": -8.0,
+        "trajectory": "cross",
+        "ttt_ms": 256,
+        "turn_period_s": 2.0,
+        "wall_s": 0.9882000899999923
+      },
+      {
+        "case": "agv_g1_cross",
+        "cell_spacing_m": 300.0,
+        "deadline_miss_including_loss": 4758,
+        "deadline_ms": 20.0,
+        "duplicate_packets": 0,
+        "duration_s": 24.0,
+        "first_handover_end_ms": 8160.21429,
+        "first_handover_start_ms": 8157.0,
+        "handover_ends": 1,
+        "handover_failures": 0,
+        "handover_starts": 1,
+        "hysteresis_db": 6.0,
+        "late_received": 4218,
+        "lost": 540,
+        "mean_delay_ms": 26.702,
+        "p95_delay_ms": 153.0,
+        "p99_delay_ms": 188.0,
+        "packet_bytes": 1200,
+        "packet_interval_ms": 1.0,
+        "received": 22460,
+        "run": 101,
+        "sent": 23000,
+        "source_sha256": "ed1607a06002999a64a4583849b992e2d3b373ae71fb2b515414b7a8e2805fa6",
+        "speed_mps": 8.0,
+        "start_x_m": -8.0,
+        "trajectory": "cross",
+        "ttt_ms": 320,
+        "turn_period_s": 2.0,
+        "wall_s": 0.9841435609999962
+      }
+    ],
+    "model_records": {
+      "decider": [
+        {
+          "id": "test_7_1_cross",
+          "variant": "semantic",
+          "order": 0,
+          "input": "{\"initial_x_m\":-8,\"initial_velocity_mps\":8,\"cell_spacing_m\":300,\"initial_serving_cell\":\"west\",\"packet_interval_ms\":1,\"packet_bytes\":1200,\"deadline_ms\":20,\"session_duration_s\":24,\"dispatch_text\":\"Advance into the other cell toward packaging. The itinerary includes no turnaround in this area.\"}",
+          "question": "What future movement does the currently active AGV dispatch order describe?",
+          "options": [
+            [
+              "cross",
+              "One-way transit: continue across the cell boundary toward the destination without returning."
+            ],
+            [
+              "patrol",
+              "Local patrol: repeatedly move back and forth near the cell boundary, reversing direction."
+            ]
+          ],
+          "prediction": "cross",
+          "answer": {
+            "choice": "One-way transit: continue across the cell boundary toward the destination without returning.",
+            "confidence": 0.9978088736534119,
+            "probs": {
+              "One-way transit: continue across the cell boundary toward the destination without returning.": 0.9978088736534119,
+              "Local patrol: repeatedly move back and forth near the cell boundary, reversing direction.": 0.0021911540534347296
+            },
+            "probs_list": [
+              0.9978088736534119,
+              0.0021911540534347296
+            ]
+          },
+          "inference_ms": 178.83999994955957,
+          "context_tokens": 80
+        },
+        {
+          "id": "test_7_1_cross",
+          "variant": "direct",
+          "order": 0,
+          "input": "{\"initial_x_m\":-8,\"initial_velocity_mps\":8,\"cell_spacing_m\":300,\"initial_serving_cell\":\"west\",\"packet_interval_ms\":1,\"packet_bytes\":1200,\"deadline_ms\":20,\"session_duration_s\":24,\"dispatch_text\":\"Advance into the other cell toward packaging. The itinerary includes no turnaround in this area.\"}",
+          "question": "Select one LTE RRC Event A3 handover configuration before this session starts. Hysteresis is the RSRP margin required before switching to a neighbour; time-to-trigger is how long that condition must hold. Prioritize the lowest fraction of UDP packets arriving after the 20 ms deadline or lost; repeated unnecessary handovers may also disrupt packets. Which configuration?",
+          "options": [
+            [
+              0,
+              "A3 hysteresis 0 dB, time-to-trigger 0 ms"
+            ],
+            [
+              1,
+              "A3 hysteresis 1 dB, time-to-trigger 80 ms"
+            ],
+            [
+              2,
+              "A3 hysteresis 2 dB, time-to-trigger 160 ms"
+            ],
+            [
+              3,
+              "A3 hysteresis 3 dB, time-to-trigger 256 ms"
+            ],
+            [
+              4,
+              "A3 hysteresis 6 dB, time-to-trigger 320 ms"
+            ]
+          ],
+          "prediction": 2,
+          "answer": {
+            "choice": "A3 hysteresis 2 dB, time-to-trigger 160 ms",
+            "confidence": 0.29850834608078003,
+            "probs": {
+              "A3 hysteresis 0 dB, time-to-trigger 0 ms": 0.22822389006614685,
+              "A3 hysteresis 1 dB, time-to-trigger 80 ms": 0.16536623239517212,
+              "A3 hysteresis 2 dB, time-to-trigger 160 ms": 0.29850834608078003,
+              "A3 hysteresis 3 dB, time-to-trigger 256 ms": 0.2162928730249405,
+              "A3 hysteresis 6 dB, time-to-trigger 320 ms": 0.09160870313644409
+            },
+            "probs_list": [
+              0.22822389006614685,
+              0.16536623239517212,
+              0.29850834608078003,
+              0.2162928730249405,
+              0.09160870313644409
+            ]
+          },
+          "inference_ms": 188.1748999003321,
+          "context_tokens": 80
+        }
+      ],
+      "qwen_generation": [
+        {
+          "id": "test_7_1_cross",
+          "variant": "fewshot",
+          "order": 0,
+          "input": "What future movement does the currently active AGV dispatch order describe?\nRead the ACTIVE order, not a cancelled or negated one.\n0: One-way transit: continue across the cell boundary toward the destination without returning.\n1: Local patrol: repeatedly move back and forth near the cell boundary, reversing direction.\nState: {\"initial_x_m\": -6, \"initial_velocity_mps\": 6, \"cell_spacing_m\": 250, \"initial_serving_cell\": \"west\", \"packet_interval_ms\": 1, \"packet_bytes\": 1200, \"deadline_ms\": 20, \"session_duration_s\": 24, \"dispatch_text\": \"Drive east through the handoff area and continue to the far loading dock.\"}\nAnswer: 0\nState: {\"initial_x_m\": -6, \"initial_velocity_mps\": 6, \"cell_spacing_m\": 250, \"initial_serving_cell\": \"west\", \"packet_interval_ms\": 1, \"packet_bytes\": 1200, \"deadline_ms\": 20, \"session_duration_s\": 24, \"dispatch_text\": \"Patrol the handoff area: drive east, reverse, drive west, and repeat.\"}\nAnswer: 1\nState: {\"initial_x_m\": -6, \"initial_velocity_mps\": 6, \"cell_spacing_m\": 250, \"initial_serving_cell\": \"west\", \"packet_interval_ms\": 1, \"packet_bytes\": 1200, \"deadline_ms\": 20, \"session_duration_s\": 24, \"dispatch_text\": \"Deliver the crate to the warehouse beyond the boundary. Do not come back during this job.\"}\nAnswer: 0\nState: {\"initial_x_m\": -6, \"initial_velocity_mps\": 6, \"cell_spacing_m\": 250, \"initial_serving_cell\": \"west\", \"packet_interval_ms\": 1, \"packet_bytes\": 1200, \"deadline_ms\": 20, \"session_duration_s\": 24, \"dispatch_text\": \"Inspect the local boundary segment by shuttling between its two ends.\"}\nAnswer: 1\nState: {\"initial_x_m\": -8, \"initial_velocity_mps\": 8, \"cell_spacing_m\": 300, \"initial_serving_cell\": \"west\", \"packet_interval_ms\": 1, \"packet_bytes\": 1200, \"deadline_ms\": 20, \"session_duration_s\": 24, \"dispatch_text\": \"Advance into the other cell toward packaging. The itinerary includes no turnaround in this area.\"}\nAnswer: ",
+          "raw": "0\n",
+          "prediction": "cross",
+          "inference_ms": 1093.880700180307,
+          "output_tokens": 2,
+          "input_tokens": 571
+        },
+        {
+          "id": "test_7_1_cross",
+          "variant": "matched",
+          "order": 0,
+          "input": "Context:\n{\"initial_x_m\":-8,\"initial_velocity_mps\":8,\"cell_spacing_m\":300,\"initial_serving_cell\":\"west\",\"packet_interval_ms\":1,\"packet_bytes\":1200,\"deadline_ms\":20,\"session_duration_s\":24,\"dispatch_text\":\"Advance into the other cell toward packaging. The itinerary includes no turnaround in this area.\"}\n\nQuestion: What future movement does the currently active AGV dispatch order describe?\nOptions:\n(A) One-way transit: continue across the cell boundary toward the destination without returning.\n(B) Local patrol: repeatedly move back and forth near the cell boundary, reversing direction.\nAnswer: (",
+          "raw": "A) One-way",
+          "prediction": null,
+          "inference_ms": 1112.0238997973502,
+          "output_tokens": 4,
+          "input_tokens": 140
+        }
+      ],
+      "qwen_onepass": [
+        {
+          "id": "test_7_1_cross",
+          "suite": "pilot",
+          "order": 0,
+          "model": "models\\qwen3.5-2b-base",
+          "input": "{\"initial_x_m\":-8,\"initial_velocity_mps\":8,\"cell_spacing_m\":300,\"initial_serving_cell\":\"west\",\"packet_interval_ms\":1,\"packet_bytes\":1200,\"deadline_ms\":20,\"session_duration_s\":24,\"dispatch_text\":\"Advance into the other cell toward packaging. The itinerary includes no turnaround in this area.\"}",
+          "question": "What future movement does the currently active AGV dispatch order describe?",
+          "options": [
+            [
+              "cross",
+              "One-way transit: continue across the cell boundary toward the destination without returning."
+            ],
+            [
+              "patrol",
+              "Local patrol: repeatedly move back and forth near the cell boundary, reversing direction."
+            ]
+          ],
+          "prediction": "cross",
+          "answer": {
+            "choice": "One-way transit: continue across the cell boundary toward the destination without returning.",
+            "confidence": 0.851952850818634,
+            "probs": {
+              "One-way transit: continue across the cell boundary toward the destination without returning.": 0.851952850818634,
+              "Local patrol: repeatedly move back and forth near the cell boundary, reversing direction.": 0.14804719388484955
+            },
+            "probs_list": [
+              0.851952850818634,
+              0.14804719388484955
+            ]
+          },
+          "inference_ms": 216.7664000298828,
+          "prompt_tokens": 140
+        }
+      ]
+    }
+  },
+  "patrol": {
+    "row": {
+      "id": "test_7_1_patrol",
+      "family": "test_7",
+      "geometry": 1,
+      "label": "patrol",
+      "text": "Oscillate between the near-side and far-side markers; neither endpoint is a final destination.",
+      "case": "agv_g1_patrol"
+    },
+    "input": {
+      "initial_x_m": -8,
+      "initial_velocity_mps": 8,
+      "cell_spacing_m": 300,
+      "initial_serving_cell": "west",
+      "packet_interval_ms": 1,
+      "packet_bytes": 1200,
+      "deadline_ms": 20,
+      "session_duration_s": 24,
+      "dispatch_text": "Oscillate between the near-side and far-side markers; neither endpoint is a final destination."
+    },
+    "profiles": {
+      "default": [
+        3,
+        256
+      ],
+      "calibrated_fixed": [
+        1,
+        80
+      ],
+      "numeric_only": [
+        1,
+        80
+      ],
+      "known_intent": [
+        1,
+        80
+      ],
+      "keyword": [
+        0,
+        0
+      ],
+      "tfidf": [
+        1,
+        80
+      ],
+      "decider": [
+        1,
+        80
+      ],
+      "decider_reversed": [
+        1,
+        80
+      ],
+      "decider_direct": [
+        2,
+        160
+      ],
+      "qwen_fewshot": [
+        1,
+        80
+      ],
+      "qwen_fewshot_reversed": [
+        1,
+        80
+      ],
+      "qwen_matched": [
+        1,
+        80
+      ],
+      "qwen_matched_reversed": [
+        1,
+        80
+      ]
+    },
+    "simulations": [
+      {
+        "case": "agv_g1_patrol",
+        "cell_spacing_m": 300.0,
+        "deadline_miss_including_loss": 287,
+        "deadline_ms": 20.0,
+        "duplicate_packets": 0,
+        "duration_s": 24.0,
+        "first_handover_end_ms": 1420.21429,
+        "first_handover_start_ms": 1417.0,
+        "handover_ends": 12,
+        "handover_failures": 0,
+        "handover_starts": 12,
+        "hysteresis_db": 0.0,
+        "late_received": 96,
+        "lost": 191,
+        "mean_delay_ms": 5.17133,
+        "p95_delay_ms": 5.0,
+        "p99_delay_ms": 13.0,
+        "packet_bytes": 1200,
+        "packet_interval_ms": 1.0,
+        "received": 22809,
+        "run": 101,
+        "sent": 23000,
+        "source_sha256": "ed1607a06002999a64a4583849b992e2d3b373ae71fb2b515414b7a8e2805fa6",
+        "speed_mps": 8.0,
+        "start_x_m": -8.0,
+        "trajectory": "oscillate",
+        "ttt_ms": 0,
+        "turn_period_s": 2.0,
+        "wall_s": 0.9703735900000083
+      },
+      {
+        "case": "agv_g1_patrol",
+        "cell_spacing_m": 300.0,
+        "deadline_miss_including_loss": 0,
+        "deadline_ms": 20.0,
+        "duplicate_packets": 0,
+        "duration_s": 24.0,
+        "first_handover_end_ms": -1.0,
+        "first_handover_start_ms": -1.0,
+        "handover_ends": 0,
+        "handover_failures": 0,
+        "handover_starts": 0,
+        "hysteresis_db": 1.0,
+        "late_received": 0,
+        "lost": 0,
+        "mean_delay_ms": 5.00209,
+        "p95_delay_ms": 5.0,
+        "p99_delay_ms": 5.0,
+        "packet_bytes": 1200,
+        "packet_interval_ms": 1.0,
+        "received": 23000,
+        "run": 101,
+        "sent": 23000,
+        "source_sha256": "ed1607a06002999a64a4583849b992e2d3b373ae71fb2b515414b7a8e2805fa6",
+        "speed_mps": 8.0,
+        "start_x_m": -8.0,
+        "trajectory": "oscillate",
+        "ttt_ms": 80,
+        "turn_period_s": 2.0,
+        "wall_s": 0.9631134659999816
+      },
+      {
+        "case": "agv_g1_patrol",
+        "cell_spacing_m": 300.0,
+        "deadline_miss_including_loss": 0,
+        "deadline_ms": 20.0,
+        "duplicate_packets": 0,
+        "duration_s": 24.0,
+        "first_handover_end_ms": -1.0,
+        "first_handover_start_ms": -1.0,
+        "handover_ends": 0,
+        "handover_failures": 0,
+        "handover_starts": 0,
+        "hysteresis_db": 2.0,
+        "late_received": 0,
+        "lost": 0,
+        "mean_delay_ms": 5.00209,
+        "p95_delay_ms": 5.0,
+        "p99_delay_ms": 5.0,
+        "packet_bytes": 1200,
+        "packet_interval_ms": 1.0,
+        "received": 23000,
+        "run": 101,
+        "sent": 23000,
+        "source_sha256": "ed1607a06002999a64a4583849b992e2d3b373ae71fb2b515414b7a8e2805fa6",
+        "speed_mps": 8.0,
+        "start_x_m": -8.0,
+        "trajectory": "oscillate",
+        "ttt_ms": 160,
+        "turn_period_s": 2.0,
+        "wall_s": 0.9773541480000176
+      },
+      {
+        "case": "agv_g1_patrol",
+        "cell_spacing_m": 300.0,
+        "deadline_miss_including_loss": 0,
+        "deadline_ms": 20.0,
+        "duplicate_packets": 0,
+        "duration_s": 24.0,
+        "first_handover_end_ms": -1.0,
+        "first_handover_start_ms": -1.0,
+        "handover_ends": 0,
+        "handover_failures": 0,
+        "handover_starts": 0,
+        "hysteresis_db": 3.0,
+        "late_received": 0,
+        "lost": 0,
+        "mean_delay_ms": 5.00209,
+        "p95_delay_ms": 5.0,
+        "p99_delay_ms": 5.0,
+        "packet_bytes": 1200,
+        "packet_interval_ms": 1.0,
+        "received": 23000,
+        "run": 101,
+        "sent": 23000,
+        "source_sha256": "ed1607a06002999a64a4583849b992e2d3b373ae71fb2b515414b7a8e2805fa6",
+        "speed_mps": 8.0,
+        "start_x_m": -8.0,
+        "trajectory": "oscillate",
+        "ttt_ms": 256,
+        "turn_period_s": 2.0,
+        "wall_s": 0.9608114170000022
+      },
+      {
+        "case": "agv_g1_patrol",
+        "cell_spacing_m": 300.0,
+        "deadline_miss_including_loss": 0,
+        "deadline_ms": 20.0,
+        "duplicate_packets": 0,
+        "duration_s": 24.0,
+        "first_handover_end_ms": -1.0,
+        "first_handover_start_ms": -1.0,
+        "handover_ends": 0,
+        "handover_failures": 0,
+        "handover_starts": 0,
+        "hysteresis_db": 6.0,
+        "late_received": 0,
+        "lost": 0,
+        "mean_delay_ms": 5.00209,
+        "p95_delay_ms": 5.0,
+        "p99_delay_ms": 5.0,
+        "packet_bytes": 1200,
+        "packet_interval_ms": 1.0,
+        "received": 23000,
+        "run": 101,
+        "sent": 23000,
+        "source_sha256": "ed1607a06002999a64a4583849b992e2d3b373ae71fb2b515414b7a8e2805fa6",
+        "speed_mps": 8.0,
+        "start_x_m": -8.0,
+        "trajectory": "oscillate",
+        "ttt_ms": 320,
+        "turn_period_s": 2.0,
+        "wall_s": 0.9977666259999864
+      }
+    ],
+    "model_records": {
+      "decider": [
+        {
+          "id": "test_7_1_patrol",
+          "variant": "semantic",
+          "order": 0,
+          "input": "{\"initial_x_m\":-8,\"initial_velocity_mps\":8,\"cell_spacing_m\":300,\"initial_serving_cell\":\"west\",\"packet_interval_ms\":1,\"packet_bytes\":1200,\"deadline_ms\":20,\"session_duration_s\":24,\"dispatch_text\":\"Oscillate between the near-side and far-side markers; neither endpoint is a final destination.\"}",
+          "question": "What future movement does the currently active AGV dispatch order describe?",
+          "options": [
+            [
+              "cross",
+              "One-way transit: continue across the cell boundary toward the destination without returning."
+            ],
+            [
+              "patrol",
+              "Local patrol: repeatedly move back and forth near the cell boundary, reversing direction."
+            ]
+          ],
+          "prediction": "patrol",
+          "answer": {
+            "choice": "Local patrol: repeatedly move back and forth near the cell boundary, reversing direction.",
+            "confidence": 0.9976882934570312,
+            "probs": {
+              "One-way transit: continue across the cell boundary toward the destination without returning.": 0.0023117419332265854,
+              "Local patrol: repeatedly move back and forth near the cell boundary, reversing direction.": 0.9976882934570312
+            },
+            "probs_list": [
+              0.0023117419332265854,
+              0.9976882934570312
+            ]
+          },
+          "inference_ms": 163.92270009964705,
+          "context_tokens": 83
+        },
+        {
+          "id": "test_7_1_patrol",
+          "variant": "direct",
+          "order": 0,
+          "input": "{\"initial_x_m\":-8,\"initial_velocity_mps\":8,\"cell_spacing_m\":300,\"initial_serving_cell\":\"west\",\"packet_interval_ms\":1,\"packet_bytes\":1200,\"deadline_ms\":20,\"session_duration_s\":24,\"dispatch_text\":\"Oscillate between the near-side and far-side markers; neither endpoint is a final destination.\"}",
+          "question": "Select one LTE RRC Event A3 handover configuration before this session starts. Hysteresis is the RSRP margin required before switching to a neighbour; time-to-trigger is how long that condition must hold. Prioritize the lowest fraction of UDP packets arriving after the 20 ms deadline or lost; repeated unnecessary handovers may also disrupt packets. Which configuration?",
+          "options": [
+            [
+              0,
+              "A3 hysteresis 0 dB, time-to-trigger 0 ms"
+            ],
+            [
+              1,
+              "A3 hysteresis 1 dB, time-to-trigger 80 ms"
+            ],
+            [
+              2,
+              "A3 hysteresis 2 dB, time-to-trigger 160 ms"
+            ],
+            [
+              3,
+              "A3 hysteresis 3 dB, time-to-trigger 256 ms"
+            ],
+            [
+              4,
+              "A3 hysteresis 6 dB, time-to-trigger 320 ms"
+            ]
+          ],
+          "prediction": 2,
+          "answer": {
+            "choice": "A3 hysteresis 2 dB, time-to-trigger 160 ms",
+            "confidence": 0.3566053807735443,
+            "probs": {
+              "A3 hysteresis 0 dB, time-to-trigger 0 ms": 0.12184463441371918,
+              "A3 hysteresis 1 dB, time-to-trigger 80 ms": 0.20844770967960358,
+              "A3 hysteresis 2 dB, time-to-trigger 160 ms": 0.3566053807735443,
+              "A3 hysteresis 3 dB, time-to-trigger 256 ms": 0.21994620561599731,
+              "A3 hysteresis 6 dB, time-to-trigger 320 ms": 0.09315605461597443
+            },
+            "probs_list": [
+              0.12184463441371918,
+              0.20844770967960358,
+              0.3566053807735443,
+              0.21994620561599731,
+              0.09315605461597443
+            ]
+          },
+          "inference_ms": 176.21050006709993,
+          "context_tokens": 83
+        }
+      ],
+      "qwen_generation": [
+        {
+          "id": "test_7_1_patrol",
+          "variant": "fewshot",
+          "order": 0,
+          "input": "What future movement does the currently active AGV dispatch order describe?\nRead the ACTIVE order, not a cancelled or negated one.\n0: One-way transit: continue across the cell boundary toward the destination without returning.\n1: Local patrol: repeatedly move back and forth near the cell boundary, reversing direction.\nState: {\"initial_x_m\": -6, \"initial_velocity_mps\": 6, \"cell_spacing_m\": 250, \"initial_serving_cell\": \"west\", \"packet_interval_ms\": 1, \"packet_bytes\": 1200, \"deadline_ms\": 20, \"session_duration_s\": 24, \"dispatch_text\": \"Drive east through the handoff area and continue to the far loading dock.\"}\nAnswer: 0\nState: {\"initial_x_m\": -6, \"initial_velocity_mps\": 6, \"cell_spacing_m\": 250, \"initial_serving_cell\": \"west\", \"packet_interval_ms\": 1, \"packet_bytes\": 1200, \"deadline_ms\": 20, \"session_duration_s\": 24, \"dispatch_text\": \"Patrol the handoff area: drive east, reverse, drive west, and repeat.\"}\nAnswer: 1\nState: {\"initial_x_m\": -6, \"initial_velocity_mps\": 6, \"cell_spacing_m\": 250, \"initial_serving_cell\": \"west\", \"packet_interval_ms\": 1, \"packet_bytes\": 1200, \"deadline_ms\": 20, \"session_duration_s\": 24, \"dispatch_text\": \"Deliver the crate to the warehouse beyond the boundary. Do not come back during this job.\"}\nAnswer: 0\nState: {\"initial_x_m\": -6, \"initial_velocity_mps\": 6, \"cell_spacing_m\": 250, \"initial_serving_cell\": \"west\", \"packet_interval_ms\": 1, \"packet_bytes\": 1200, \"deadline_ms\": 20, \"session_duration_s\": 24, \"dispatch_text\": \"Inspect the local boundary segment by shuttling between its two ends.\"}\nAnswer: 1\nState: {\"initial_x_m\": -8, \"initial_velocity_mps\": 8, \"cell_spacing_m\": 300, \"initial_serving_cell\": \"west\", \"packet_interval_ms\": 1, \"packet_bytes\": 1200, \"deadline_ms\": 20, \"session_duration_s\": 24, \"dispatch_text\": \"Oscillate between the near-side and far-side markers; neither endpoint is a final destination.\"}\nAnswer: ",
+          "raw": "1\n",
+          "prediction": "patrol",
+          "inference_ms": 1117.1134999021888,
+          "output_tokens": 2,
+          "input_tokens": 574
+        },
+        {
+          "id": "test_7_1_patrol",
+          "variant": "matched",
+          "order": 0,
+          "input": "Context:\n{\"initial_x_m\":-8,\"initial_velocity_mps\":8,\"cell_spacing_m\":300,\"initial_serving_cell\":\"west\",\"packet_interval_ms\":1,\"packet_bytes\":1200,\"deadline_ms\":20,\"session_duration_s\":24,\"dispatch_text\":\"Oscillate between the near-side and far-side markers; neither endpoint is a final destination.\"}\n\nQuestion: What future movement does the currently active AGV dispatch order describe?\nOptions:\n(A) One-way transit: continue across the cell boundary toward the destination without returning.\n(B) Local patrol: repeatedly move back and forth near the cell boundary, reversing direction.\nAnswer: (",
+          "raw": "B) Local patrol",
+          "prediction": null,
+          "inference_ms": 1179.0054999291897,
+          "output_tokens": 4,
+          "input_tokens": 143
+        }
+      ],
+      "qwen_onepass": [
+        {
+          "id": "test_7_1_patrol",
+          "suite": "pilot",
+          "order": 0,
+          "model": "models\\qwen3.5-2b-base",
+          "input": "{\"initial_x_m\":-8,\"initial_velocity_mps\":8,\"cell_spacing_m\":300,\"initial_serving_cell\":\"west\",\"packet_interval_ms\":1,\"packet_bytes\":1200,\"deadline_ms\":20,\"session_duration_s\":24,\"dispatch_text\":\"Oscillate between the near-side and far-side markers; neither endpoint is a final destination.\"}",
+          "question": "What future movement does the currently active AGV dispatch order describe?",
+          "options": [
+            [
+              "cross",
+              "One-way transit: continue across the cell boundary toward the destination without returning."
+            ],
+            [
+              "patrol",
+              "Local patrol: repeatedly move back and forth near the cell boundary, reversing direction."
+            ]
+          ],
+          "prediction": "patrol",
+          "answer": {
+            "choice": "Local patrol: repeatedly move back and forth near the cell boundary, reversing direction.",
+            "confidence": 0.957912266254425,
+            "probs": {
+              "One-way transit: continue across the cell boundary toward the destination without returning.": 0.042087726294994354,
+              "Local patrol: repeatedly move back and forth near the cell boundary, reversing direction.": 0.957912266254425
+            },
+            "probs_list": [
+              0.042087726294994354,
+              0.957912266254425
+            ]
+          },
+          "inference_ms": 179.27680001594126,
+          "prompt_tokens": 143
+        }
+      ]
+    }
+  }
+}

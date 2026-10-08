@@ -2,7 +2,9 @@
 
 用 [Mapika/Decider](https://github.com/Mapika/decider) 的真实 2B 权重实现类型化 RRC 参数选择，接入 [EEzim/RRC](https://huggingface.co/datasets/EEzim/RRC) 与 [nrRRC_Simulator](https://github.com/EE-zim/nrRRC_Simulator) 的协议解析，并进行可复现的紧时延业务对照实验。
 
-**当前结论：技术链路已跑通，领域微调改善了 Decider 原始选择，但仍未证明优于强传统基线。** 原 DRX 业务效果来自明确假设下的合成分组队列，不是真实无线网络测量，也不是闭源 Jev 的测试结果。
+**当前结论：直接数值配置尚未优于强传统规则；业务语义到校准策略的新用例获得受限增益。** 在合成 AGV 调度确认集，Decider 流水线的超时/丢包比例为 0.0610%，同文本 TF-IDF 为 0.2391%；已有正确结构化意图的传统控制器为 0.0500%。原 DRX 结果来自合成分组队列，新结果来自 LTE A3 软件系统仿真，均不是真实无线网络测量或闭源 Jev 的测试。
+
+📄 **[新增：没有增益的原因与语义驱动 RRC 用例验证](docs/rrc_cause_semantic_uc.md)**。含输入/知识/选项顺序消融、210 次新 ns-3 仿真、独立语义确认集、Qwen 同提示生成与同选项头对照、完整反事实样例及证据边界。
 
 📄 **[新增系统验证：ns-3 LTE/EPC 的 RRC A3 切换配置与逐包指标](docs/ns3_lte_system_validation.md)**。共 1415 次完整协议栈仿真，含新几何外推、Qwen 对照和 A3 专用 LoRA；已测场景中传统规则优于原版及适配版 Decider。A3 切换与下方 DRX 优化是两个不同问题，结果不可混用。
 
