@@ -6,6 +6,8 @@
 
 📄 **[新增：没有增益的原因与语义驱动 RRC 用例验证](docs/rrc_cause_semantic_uc.md)**。含输入/知识/选项顺序消融、210 次新 ns-3 仿真、独立语义确认集、Qwen 同提示生成与同选项头对照、完整反事实样例及证据边界。
 
+📊 **[技术汇报 PPT：业务语义辅助 RRC 配置优化](docs/slides/README.md)**（2026-10-09，16 页）。包含背景、实现、仿真配置、配对样例、增益归因、Qwen 对照与后续验证方案，提供可编辑 PPTX 和 PDF 预览。
+
 📄 **[新增系统验证：ns-3 LTE/EPC 的 RRC A3 切换配置与逐包指标](docs/ns3_lte_system_validation.md)**。共 1415 次完整协议栈仿真，含新几何外推、Qwen 对照和 A3 专用 LoRA；已测场景中传统规则优于原版及适配版 Decider。A3 切换与下方 DRX 优化是两个不同问题，结果不可混用。
 
 📄 **[新版中文报告：Qwen 对照、温度和微调](docs/report_v2.md)** · [完整样例](docs/example_v2.md) · [逐条推理和仿真时间](artifacts/temperature/per_scenario_timing.csv) · [第一版报告](docs/report.md) · [复现步骤](docs/reproduce.md)

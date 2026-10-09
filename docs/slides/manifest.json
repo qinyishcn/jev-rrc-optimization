@@ -1,0 +1,34 @@
+{
+  "created_date": "2026-10-09",
+  "evidence_commit": "2d82463f8fa5b988bb3f16aaed3a25ecf1d3cb7d",
+  "slide_count": 16,
+  "deliverables": {
+    "README.md": {
+      "bytes": 3835,
+      "sha256": "0edecf6e8a590e42734437406aecb823ca21aacab659e7e7b7a2f9aac8e53149"
+    },
+    "build_semantic_uc.mjs": {
+      "bytes": 26367,
+      "sha256": "d883ba11a8740cbdc2b14761201af396da4258129d541735438937d01cb1fad8"
+    },
+    "semantic_rrc_uc_20261009_release.pptx": {
+      "bytes": 80626,
+      "sha256": "1544ba2522ec2cbb9125491ea8975143c27dde7bee3221af7eb865de05063b02"
+    },
+    "semantic_rrc_uc_20261009_release.pdf": {
+      "bytes": 466112,
+      "sha256": "a5e89144f6f167f55db293bfbdd46eebd9fe1bc43adc57a1d7a1441db91bcae3"
+    },
+    "semantic_uc_preview.png": {
+      "bytes": 800670,
+      "sha256": "2f1dc4086de1dd6afffb2dccc05995a609932061f69876d3e9c03e77bfb570da"
+    }
+  },
+  "evidence_sha256": {
+    "artifacts/semantic_uc/summary.json": "fb251b903e45544e9e73d4aa1df3d76b798a05bf6455d886bca53bf79d4be696",
+    "artifacts/semantic_uc/example.json": "557a743d598b9025004f8a26a442179225008d8d9cb7e533f270e0793333db15",
+    "artifacts/semantic_uc/provenance.json": "ceb6db2e2a257302b5c1be81694f2611a8c375ce3161f57d35cbfbb6ef1d12f9",
+    "docs/rrc_cause_semantic_uc.md": "e0741b62d40b2e52d7dd0ba25e8d3f09826c8af064a978ab784091d9dbf7c50e"
+  },
+  "scope": "Presentation of existing semantic-to-policy LTE A3 results; no new model or radio experiments."
+}
